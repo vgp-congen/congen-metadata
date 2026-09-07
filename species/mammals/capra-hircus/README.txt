@@ -1,0 +1,20 @@
+Species: Capra_hircus
+Accession number: GCA_041735815.1
+
+Samples included in this dataset come from the following NCBI bioproject(s).
+Please cite them when using this dataset:
+PRJEB31857
+PRJEB37122
+PRJEB37208
+PRJEB50463
+PRJEB86514
+PRJNA1062089
+PRJNA1063878
+PRJNA1077730
+PRJNA310684
+PRJNA504493
+PRJNA611688
+PRJNA671542
+PRJNA699447
+PRJNA801057
+PRJNA941958
