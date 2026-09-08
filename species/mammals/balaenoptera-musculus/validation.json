@@ -1,0 +1,110 @@
+{
+  "subject": "mammals/balaenoptera-musculus",
+  "state": "PASS",
+  "validated_at": "2026-09-08T23:49:25Z",
+  "tool_version": "0.1.0",
+  "catalog": "sha256:805c480a4f457eea22a64bce4125fc59118e04ece82c32f1e033c73c70eb8649",
+  "checks_run": [
+    "E001",
+    "E002",
+    "E003",
+    "F001",
+    "F002",
+    "F003",
+    "F004",
+    "F005",
+    "F006",
+    "F007",
+    "F008",
+    "F009",
+    "F010",
+    "F011",
+    "F020",
+    "F021",
+    "F022",
+    "F023",
+    "F024",
+    "G001",
+    "G010",
+    "G011",
+    "G012",
+    "G013",
+    "G014",
+    "P001",
+    "P002",
+    "P003",
+    "P010",
+    "R001",
+    "R002",
+    "R003",
+    "R010",
+    "R013",
+    "R015",
+    "R016",
+    "R017",
+    "R020",
+    "S001",
+    "S002",
+    "S003",
+    "S004",
+    "S005",
+    "S006",
+    "S007"
+  ],
+  "checks_available": 45,
+  "inputs": {
+    "config.yaml": "sha256:109d6c1819c3f9a5cb949875e90bc3d9e633303aa175d11f9fea68409f77bbc0",
+    "sample_sheet.csv": "sha256:da25c9978fc1742532a241fdd83b3758dd0c4512ec68f721d95a5a2eb10a63f7",
+    "README.txt": "sha256:d396ebce4e1e8e96b33022cf4ef797b8f68c7f4bf393f223729a6807007a4723"
+  },
+  "data": {
+    "published": true,
+    "accession": "GCA_009873245.3",
+    "objects": {
+      "raw.vcf.gz": "etag:39b7c311fa62053506023a89083b33e1-679",
+      "raw.vcf.gz.tbi": "etag:4e8bd8c7c8a95194d9c2ae04088cfad5",
+      "filtered.vcf.gz": "etag:a649831ee1c44a9c703f123895ee9510-914",
+      "sample_sheet.csv": "etag:9191c47df97829e9c1050b0c787def4d"
+    },
+    "bams": {
+      "count": 22,
+      "digest": "sha256:cde369c4f7134cee16cd614f73058d9c9a37576bd58d8eb7d46bc403251a8f43"
+    }
+  },
+  "findings": [
+    {
+      "id": "P010",
+      "severity": "info",
+      "subject": "mammals/balaenoptera-musculus",
+      "message": "pipeline versions: bcftools 1.23.1, gatk 4.6.2.0",
+      "detail": null,
+      "path": null,
+      "line": null
+    }
+  ],
+  "status": {
+    "subject": "mammals/balaenoptera-musculus",
+    "state": "complete",
+    "accession": "GCA_009873245.3",
+    "declared_accession": "GCA_009873245.3",
+    "accession_differs": false,
+    "present": [
+      "bams",
+      "callable_sites",
+      "filtered_vcf",
+      "published_readme",
+      "qc",
+      "raw_vcf",
+      "raw_vcf_index",
+      "repo_readme"
+    ],
+    "missing": [],
+    "counts": {
+      "sheet_samples": 22,
+      "bams": 22,
+      "vcf_samples": 22
+    }
+  },
+  "superseded": null,
+  "stale_reason": null
+}

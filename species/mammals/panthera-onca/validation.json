@@ -1,0 +1,264 @@
+{
+  "subject": "mammals/panthera-onca",
+  "state": "PENDING",
+  "validated_at": "2026-09-08T23:49:25Z",
+  "tool_version": "0.1.0",
+  "catalog": "sha256:805c480a4f457eea22a64bce4125fc59118e04ece82c32f1e033c73c70eb8649",
+  "checks_run": [
+    "E001",
+    "E002",
+    "E003",
+    "F001",
+    "F002",
+    "F003",
+    "F004",
+    "F005",
+    "F006",
+    "F007",
+    "F008",
+    "F009",
+    "F010",
+    "F011",
+    "F020",
+    "F021",
+    "F022",
+    "F023",
+    "F024",
+    "G001",
+    "G010",
+    "G011",
+    "G012",
+    "G013",
+    "G014",
+    "P001",
+    "P002",
+    "P003",
+    "P010",
+    "R001",
+    "R002",
+    "R003",
+    "R010",
+    "R013",
+    "R015",
+    "R016",
+    "R017",
+    "R020",
+    "S001",
+    "S002",
+    "S003",
+    "S004",
+    "S005",
+    "S006",
+    "S007"
+  ],
+  "checks_available": 45,
+  "inputs": {
+    "config.yaml": "sha256:37f5c3c7329d473cc8ceb6751c75577c3551e84733645f7bb8f15dd555b25121",
+    "sample_sheet.csv": "sha256:8fd8fccbe9ac9e285da41fada67544c27069e458eabea2beb6eabc8a9c9d2bff"
+  },
+  "data": {
+    "published": true,
+    "accession": "GCA_046562875.2",
+    "objects": {},
+    "bams": {
+      "count": 35,
+      "digest": "sha256:ca222b49901af78cbb913585d7943f957d40cae62d1697bc650db68afeb1c739"
+    }
+  },
+  "findings": [
+    {
+      "id": "G010",
+      "severity": "warn",
+      "subject": "mammals/panthera-onca",
+      "message": "no vcfs/raw.vcf.gz",
+      "detail": "35 BAM(s) present, no VCF",
+      "path": null,
+      "line": null
+    },
+    {
+      "id": "E002",
+      "severity": "skipped",
+      "subject": "mammals/panthera-onca",
+      "message": "skipped: every run's bioproject is listed in README.txt",
+      "detail": "needs readme",
+      "path": null,
+      "line": null
+    },
+    {
+      "id": "E003",
+      "severity": "skipped",
+      "subject": "mammals/panthera-onca",
+      "message": "skipped: every README.txt bioproject contributes runs",
+      "detail": "needs readme",
+      "path": null,
+      "line": null
+    },
+    {
+      "id": "F001",
+      "severity": "skipped",
+      "subject": "mammals/panthera-onca",
+      "message": "skipped: every VCF contig exists in the declared assembly",
+      "detail": "needs vcf_header",
+      "path": null,
+      "line": null
+    },
+    {
+      "id": "F002",
+      "severity": "skipped",
+      "subject": "mammals/panthera-onca",
+      "message": "skipped: VCF contig lengths match the assembly",
+      "detail": "needs vcf_header",
+      "path": null,
+      "line": null
+    },
+    {
+      "id": "F003",
+      "severity": "skipped",
+      "subject": "mammals/panthera-onca",
+      "message": "skipped: contig names use one consistent naming scheme",
+      "detail": "needs vcf_header",
+      "path": null,
+      "line": null
+    },
+    {
+      "id": "F004",
+      "severity": "skipped",
+      "subject": "mammals/panthera-onca",
+      "message": "skipped: BAM @SQ matches the VCF contigs",
+      "detail": "needs vcf_header",
+      "path": null,
+      "line": null
+    },
+    {
+      "id": "F008",
+      "severity": "skipped",
+      "subject": "mammals/panthera-onca",
+      "message": "skipped: qc/contig_map.tsv agrees with the VCF contigs",
+      "detail": "needs contig_map, vcf_header",
+      "path": null,
+      "line": null
+    },
+    {
+      "id": "F009",
+      "severity": "skipped",
+      "subject": "mammals/panthera-onca",
+      "message": "skipped: assembly sequences absent from the VCF",
+      "detail": "needs vcf_header",
+      "path": null,
+      "line": null
+    },
+    {
+      "id": "F011",
+      "severity": "skipped",
+      "subject": "mammals/panthera-onca",
+      "message": "skipped: no whole assembled molecule is absent from the VCF",
+      "detail": "needs vcf_header",
+      "path": null,
+      "line": null
+    },
+    {
+      "id": "P001",
+      "severity": "skipped",
+      "subject": "mammals/panthera-onca",
+      "message": "skipped: variant_calling.ploidy matches the recorded --sample-ploidy",
+      "detail": "needs vcf_header",
+      "path": null,
+      "line": null
+    },
+    {
+      "id": "P002",
+      "severity": "skipped",
+      "subject": "mammals/panthera-onca",
+      "message": "skipped: gatk.het_prior matches the recorded --heterozygosity",
+      "detail": "needs vcf_header",
+      "path": null,
+      "line": null
+    },
+    {
+      "id": "P003",
+      "severity": "skipped",
+      "subject": "mammals/panthera-onca",
+      "message": "skipped: variant_calling.tool matches the caller recorded in the VCF",
+      "detail": "needs vcf_header",
+      "path": null,
+      "line": null
+    },
+    {
+      "id": "P010",
+      "severity": "skipped",
+      "subject": "mammals/panthera-onca",
+      "message": "skipped: records the pipeline versions the VCF header stamps",
+      "detail": "needs vcf_header",
+      "path": null,
+      "line": null
+    },
+    {
+      "id": "R020",
+      "severity": "skipped",
+      "subject": "mammals/panthera-onca",
+      "message": "skipped: README.txt accession matches the config",
+      "detail": "needs readme",
+      "path": null,
+      "line": null
+    },
+    {
+      "id": "S001",
+      "severity": "skipped",
+      "subject": "mammals/panthera-onca",
+      "message": "skipped: sheet samples == VCF samples",
+      "detail": "needs vcf_header",
+      "path": null,
+      "line": null
+    },
+    {
+      "id": "S003",
+      "severity": "skipped",
+      "subject": "mammals/panthera-onca",
+      "message": "skipped: VCF samples == published BAMs",
+      "detail": "needs vcf_header",
+      "path": null,
+      "line": null
+    },
+    {
+      "id": "S005",
+      "severity": "skipped",
+      "subject": "mammals/panthera-onca",
+      "message": "skipped: qc/individuals.samps.txt agrees with the VCF",
+      "detail": "needs qc_samples, vcf_header",
+      "path": null,
+      "line": null
+    },
+    {
+      "id": "S006",
+      "severity": "skipped",
+      "subject": "mammals/panthera-onca",
+      "message": "skipped: the published sample sheet matches the repo copy",
+      "detail": "needs s3_sheet",
+      "path": null,
+      "line": null
+    }
+  ],
+  "status": {
+    "subject": "mammals/panthera-onca",
+    "state": "partial",
+    "accession": "GCA_046562875.2",
+    "declared_accession": "GCA_046562875.2",
+    "accession_differs": false,
+    "present": [
+      "bams"
+    ],
+    "missing": [
+      "raw_vcf",
+      "raw_vcf_index",
+      "qc",
+      "callable_sites"
+    ],
+    "counts": {
+      "sheet_samples": 35,
+      "bams": 35,
+      "vcf_samples": null
+    }
+  },
+  "superseded": null,
+  "stale_reason": null
+}

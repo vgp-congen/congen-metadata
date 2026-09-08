@@ -1,0 +1,108 @@
+{
+  "subject": "birds/zosterops-lateralis",
+  "state": "PASS",
+  "validated_at": "2026-09-08T23:49:24Z",
+  "tool_version": "0.1.0",
+  "catalog": "sha256:805c480a4f457eea22a64bce4125fc59118e04ece82c32f1e033c73c70eb8649",
+  "checks_run": [
+    "E001",
+    "E002",
+    "E003",
+    "F001",
+    "F002",
+    "F003",
+    "F004",
+    "F005",
+    "F006",
+    "F007",
+    "F008",
+    "F009",
+    "F010",
+    "F011",
+    "F020",
+    "F021",
+    "F022",
+    "F023",
+    "F024",
+    "G001",
+    "G010",
+    "G011",
+    "G012",
+    "G013",
+    "G014",
+    "P001",
+    "P002",
+    "P003",
+    "P010",
+    "R001",
+    "R002",
+    "R003",
+    "R010",
+    "R013",
+    "R015",
+    "R016",
+    "R017",
+    "R020",
+    "S001",
+    "S002",
+    "S003",
+    "S004",
+    "S005",
+    "S006",
+    "S007"
+  ],
+  "checks_available": 45,
+  "inputs": {
+    "config.yaml": "sha256:ba218c1427a2bf4ce2969e0a01119ef72c8808dd621d1aeda074b9837aecb90b",
+    "sample_sheet.csv": "sha256:f5acd6242f404a41b2cde9fc60b1fb40c20ebdc36f8318badd002c1242f70569",
+    "README.txt": "sha256:99998136a375569eb58e8a9aa9b9aabec30facce3babc488a8bff554d59f2ff6"
+  },
+  "data": {
+    "published": true,
+    "accession": "GCA_965231275.1",
+    "objects": {
+      "raw.vcf.gz": "etag:df9226ede8e41ea1248399ab3ef83792-471",
+      "raw.vcf.gz.tbi": "etag:26d9002f296f34dfa71e95b0b42b667e",
+      "sample_sheet.csv": "etag:16e5853238f191c38b5337c541724533"
+    },
+    "bams": {
+      "count": 12,
+      "digest": "sha256:882f6490fc704d9ed414d98e7bf07430168e82940cc8e3414cb272f4bd173731"
+    }
+  },
+  "findings": [
+    {
+      "id": "P010",
+      "severity": "info",
+      "subject": "birds/zosterops-lateralis",
+      "message": "pipeline versions: bcftools 1.23.1, gatk 4.6.2.0",
+      "detail": null,
+      "path": null,
+      "line": null
+    }
+  ],
+  "status": {
+    "subject": "birds/zosterops-lateralis",
+    "state": "complete",
+    "accession": "GCA_965231275.1",
+    "declared_accession": "GCA_965231275.1",
+    "accession_differs": false,
+    "present": [
+      "bams",
+      "callable_sites",
+      "published_readme",
+      "qc",
+      "raw_vcf",
+      "raw_vcf_index",
+      "repo_readme"
+    ],
+    "missing": [],
+    "counts": {
+      "sheet_samples": 12,
+      "bams": 12,
+      "vcf_samples": 12
+    }
+  },
+  "superseded": null,
+  "stale_reason": null
+}

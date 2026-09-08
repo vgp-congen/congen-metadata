@@ -1,0 +1,144 @@
+{
+  "subject": "birds/anser-albifrons",
+  "state": "FAIL",
+  "validated_at": "2026-09-08T23:49:24Z",
+  "tool_version": "0.1.0",
+  "catalog": "sha256:805c480a4f457eea22a64bce4125fc59118e04ece82c32f1e033c73c70eb8649",
+  "checks_run": [
+    "E001",
+    "E002",
+    "E003",
+    "F001",
+    "F002",
+    "F003",
+    "F004",
+    "F005",
+    "F006",
+    "F007",
+    "F008",
+    "F009",
+    "F010",
+    "F011",
+    "F020",
+    "F021",
+    "F022",
+    "F023",
+    "F024",
+    "G001",
+    "G010",
+    "G011",
+    "G012",
+    "G013",
+    "G014",
+    "P001",
+    "P002",
+    "P003",
+    "P010",
+    "R001",
+    "R002",
+    "R003",
+    "R010",
+    "R013",
+    "R015",
+    "R016",
+    "R017",
+    "R020",
+    "S001",
+    "S002",
+    "S003",
+    "S004",
+    "S005",
+    "S006",
+    "S007"
+  ],
+  "checks_available": 45,
+  "inputs": {
+    "config.yaml": "sha256:d8421e436e76a0b4d885dcd09aedc31a9fcc5fceecbb360e3c467e5aca974b83",
+    "sample_sheet.csv": "sha256:dcaf995d019b5abb320cb7bfb3ecb27731a03de56602d23cb86f29a597c1fb43",
+    "README.txt": "sha256:1e8ceefcd744776e8b82564e39ca87bfdac1f0fb9a622684396d48b3ab567eb6"
+  },
+  "data": {
+    "published": true,
+    "accession": "GCA_976913865.1",
+    "objects": {
+      "raw.vcf.gz": "etag:584b41c91d9bb74e96b1b8ebcaad62ee-452",
+      "raw.vcf.gz.tbi": "etag:787f48afab2251d5ca8dee0b65895f60",
+      "sample_sheet.csv": "etag:064f3ee18a084e839b8824ff64369259"
+    },
+    "bams": {
+      "count": 11,
+      "digest": "sha256:7956cfa69e5a6d94492e829dbbcdc225709686a40bbcceabd9932b4ce73a6b81"
+    }
+  },
+  "findings": [
+    {
+      "id": "S001",
+      "severity": "error",
+      "subject": "birds/anser-albifrons",
+      "message": "sample_sheet.csv (10) and raw.vcf.gz (11) describe different samples",
+      "detail": "only in raw.vcf.gz: SAMEA112262514 \u2014 needs human review; either side may be the stale one",
+      "path": "species/birds/anser-albifrons/sample_sheet.csv",
+      "line": null
+    },
+    {
+      "id": "S002",
+      "severity": "error",
+      "subject": "birds/anser-albifrons",
+      "message": "sample_sheet.csv (10) and bams/ (11) describe different samples",
+      "detail": "only in bams/: SAMEA112262514 \u2014 needs human review; either side may be the stale one",
+      "path": "species/birds/anser-albifrons/sample_sheet.csv",
+      "line": null
+    },
+    {
+      "id": "P010",
+      "severity": "info",
+      "subject": "birds/anser-albifrons",
+      "message": "pipeline versions: bcftools 1.23.1, gatk 4.6.2.0",
+      "detail": null,
+      "path": null,
+      "line": null
+    },
+    {
+      "id": "R010",
+      "severity": "info",
+      "subject": "birds/anser-albifrons",
+      "message": "blank row skipped",
+      "detail": "blank_row",
+      "path": "species/birds/anser-albifrons/sample_sheet.csv",
+      "line": 14
+    },
+    {
+      "id": "F008",
+      "severity": "skipped",
+      "subject": "birds/anser-albifrons",
+      "message": "skipped: qc/contig_map.tsv agrees with the VCF contigs",
+      "detail": "needs contig_map",
+      "path": null,
+      "line": null
+    }
+  ],
+  "status": {
+    "subject": "birds/anser-albifrons",
+    "state": "complete",
+    "accession": "GCA_976913865.1",
+    "declared_accession": "GCA_976913865.1",
+    "accession_differs": false,
+    "present": [
+      "bams",
+      "callable_sites",
+      "published_readme",
+      "qc",
+      "raw_vcf",
+      "raw_vcf_index",
+      "repo_readme"
+    ],
+    "missing": [],
+    "counts": {
+      "sheet_samples": 10,
+      "bams": 11,
+      "vcf_samples": 11
+    }
+  },
+  "superseded": null,
+  "stale_reason": null
+}

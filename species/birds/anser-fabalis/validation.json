@@ -1,0 +1,108 @@
+{
+  "subject": "birds/anser-fabalis",
+  "state": "PASS",
+  "validated_at": "2026-09-08T23:49:24Z",
+  "tool_version": "0.1.0",
+  "catalog": "sha256:805c480a4f457eea22a64bce4125fc59118e04ece82c32f1e033c73c70eb8649",
+  "checks_run": [
+    "E001",
+    "E002",
+    "E003",
+    "F001",
+    "F002",
+    "F003",
+    "F004",
+    "F005",
+    "F006",
+    "F007",
+    "F008",
+    "F009",
+    "F010",
+    "F011",
+    "F020",
+    "F021",
+    "F022",
+    "F023",
+    "F024",
+    "G001",
+    "G010",
+    "G011",
+    "G012",
+    "G013",
+    "G014",
+    "P001",
+    "P002",
+    "P003",
+    "P010",
+    "R001",
+    "R002",
+    "R003",
+    "R010",
+    "R013",
+    "R015",
+    "R016",
+    "R017",
+    "R020",
+    "S001",
+    "S002",
+    "S003",
+    "S004",
+    "S005",
+    "S006",
+    "S007"
+  ],
+  "checks_available": 45,
+  "inputs": {
+    "config.yaml": "sha256:fb6b524f2a6802be72a1c306d5c501a146c12c5064006e3344f12b7788bafad1",
+    "sample_sheet.csv": "sha256:ae3f0f8ea773ac1101a90155835395cd9b940dccac1073d6399fa295fa1a9594",
+    "README.txt": "sha256:cc440775f5dd68a7b36ca7562e4a2a9864e18b9975598c3fd7e95849c1ac3999"
+  },
+  "data": {
+    "published": true,
+    "accession": "GCA_965250395.1",
+    "objects": {
+      "raw.vcf.gz": "etag:e040d2192effeac88bb2ad89362d4948-349",
+      "raw.vcf.gz.tbi": "etag:120315f73b59bcb56bfce7041dc061ea",
+      "sample_sheet.csv": "etag:1a3de0d7bc0f5611ee229b4438e4e660"
+    },
+    "bams": {
+      "count": 10,
+      "digest": "sha256:0fc56306c2c841f0e740b3afb3e38f4c42dee2a548d8b7c093557a9643c7baf5"
+    }
+  },
+  "findings": [
+    {
+      "id": "P010",
+      "severity": "info",
+      "subject": "birds/anser-fabalis",
+      "message": "pipeline versions: bcftools 1.23.1, gatk 4.6.2.0",
+      "detail": null,
+      "path": null,
+      "line": null
+    }
+  ],
+  "status": {
+    "subject": "birds/anser-fabalis",
+    "state": "complete",
+    "accession": "GCA_965250395.1",
+    "declared_accession": "GCA_965250395.1",
+    "accession_differs": false,
+    "present": [
+      "bams",
+      "callable_sites",
+      "published_readme",
+      "qc",
+      "raw_vcf",
+      "raw_vcf_index",
+      "repo_readme"
+    ],
+    "missing": [],
+    "counts": {
+      "sheet_samples": 10,
+      "bams": 10,
+      "vcf_samples": 10
+    }
+  },
+  "superseded": null,
+  "stale_reason": null
+}

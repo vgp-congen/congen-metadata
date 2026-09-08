@@ -1,0 +1,108 @@
+{
+  "subject": "mammals/pan-troglodytes",
+  "state": "PASS",
+  "validated_at": "2026-09-08T23:49:25Z",
+  "tool_version": "0.1.0",
+  "catalog": "sha256:805c480a4f457eea22a64bce4125fc59118e04ece82c32f1e033c73c70eb8649",
+  "checks_run": [
+    "E001",
+    "E002",
+    "E003",
+    "F001",
+    "F002",
+    "F003",
+    "F004",
+    "F005",
+    "F006",
+    "F007",
+    "F008",
+    "F009",
+    "F010",
+    "F011",
+    "F020",
+    "F021",
+    "F022",
+    "F023",
+    "F024",
+    "G001",
+    "G010",
+    "G011",
+    "G012",
+    "G013",
+    "G014",
+    "P001",
+    "P002",
+    "P003",
+    "P010",
+    "R001",
+    "R002",
+    "R003",
+    "R010",
+    "R013",
+    "R015",
+    "R016",
+    "R017",
+    "R020",
+    "S001",
+    "S002",
+    "S003",
+    "S004",
+    "S005",
+    "S006",
+    "S007"
+  ],
+  "checks_available": 45,
+  "inputs": {
+    "config.yaml": "sha256:2497a0f7c5dbf71a47389ccff1ac8bd1d00808e94ee3bfded1daeb3aa0ecb3f1",
+    "sample_sheet.csv": "sha256:34c7aa1455817f5aedcd9ec5c2d28aacfa39aed0c4e61180563b668d913a0baf",
+    "README.txt": "sha256:56183c58fdd5e04560cfc5e1ca7d394d8d781b9f809da3d8c6a691bf49b3c7e7"
+  },
+  "data": {
+    "published": true,
+    "accession": "GCA_028858775.3",
+    "objects": {
+      "raw.vcf.gz": "etag:9ea06fc91864ba3fc398dbcb5469080a-301",
+      "raw.vcf.gz.tbi": "etag:34d346ba81760df430afbf1815d4d1ee",
+      "sample_sheet.csv": "etag:59d6635bb38f4a261e9629c709cd2775"
+    },
+    "bams": {
+      "count": 10,
+      "digest": "sha256:f21e7e4771e4a8e9e3cd561976aaa55a1a6d823e8b2d9a887d826b7a6ff483a5"
+    }
+  },
+  "findings": [
+    {
+      "id": "P010",
+      "severity": "info",
+      "subject": "mammals/pan-troglodytes",
+      "message": "pipeline versions: bcftools 1.23.1, gatk 4.6.2.0",
+      "detail": null,
+      "path": null,
+      "line": null
+    }
+  ],
+  "status": {
+    "subject": "mammals/pan-troglodytes",
+    "state": "complete",
+    "accession": "GCA_028858775.3",
+    "declared_accession": "GCA_028858775.3",
+    "accession_differs": false,
+    "present": [
+      "bams",
+      "callable_sites",
+      "published_readme",
+      "qc",
+      "raw_vcf",
+      "raw_vcf_index",
+      "repo_readme"
+    ],
+    "missing": [],
+    "counts": {
+      "sheet_samples": 10,
+      "bams": 10,
+      "vcf_samples": 10
+    }
+  },
+  "superseded": null,
+  "stale_reason": null
+}

@@ -1,0 +1,110 @@
+{
+  "subject": "fishes/lateolabrax-maculatus",
+  "state": "PASS",
+  "validated_at": "2026-09-08T23:49:25Z",
+  "tool_version": "0.1.0",
+  "catalog": "sha256:805c480a4f457eea22a64bce4125fc59118e04ece82c32f1e033c73c70eb8649",
+  "checks_run": [
+    "E001",
+    "E002",
+    "E003",
+    "F001",
+    "F002",
+    "F003",
+    "F004",
+    "F005",
+    "F006",
+    "F007",
+    "F008",
+    "F009",
+    "F010",
+    "F011",
+    "F020",
+    "F021",
+    "F022",
+    "F023",
+    "F024",
+    "G001",
+    "G010",
+    "G011",
+    "G012",
+    "G013",
+    "G014",
+    "P001",
+    "P002",
+    "P003",
+    "P010",
+    "R001",
+    "R002",
+    "R003",
+    "R010",
+    "R013",
+    "R015",
+    "R016",
+    "R017",
+    "R020",
+    "S001",
+    "S002",
+    "S003",
+    "S004",
+    "S005",
+    "S006",
+    "S007"
+  ],
+  "checks_available": 45,
+  "inputs": {
+    "config.yaml": "sha256:43831ffcbe00004c88d11cbc681e4b184ce1442af1476f7d0000273eba930df0",
+    "sample_sheet.csv": "sha256:71404d6c6da8cb31fccbfb425087051df0268596a2237729b626cae9f5c2098a",
+    "README.txt": "sha256:6be24e232341ac9d25b140b4a6095a274b48f97070812e458769432a9054fe79"
+  },
+  "data": {
+    "published": true,
+    "accession": "GCA_031216445.1",
+    "objects": {
+      "raw.vcf.gz": "etag:b817220314e1e629651f1881ada812b9-2081",
+      "raw.vcf.gz.tbi": "etag:5894ccefe9ee6df52d77ef278c317d6e",
+      "filtered.vcf.gz": "etag:756ba50e386faa67f9f7f459914ec399-2979",
+      "sample_sheet.csv": "etag:225364d2272be7417e94e0d76f751b7c"
+    },
+    "bams": {
+      "count": 105,
+      "digest": "sha256:0b05b0fa0327f07c81328cde52df1dea5a698de5f4d48a8565a2d4baf6c3e136"
+    }
+  },
+  "findings": [
+    {
+      "id": "P010",
+      "severity": "info",
+      "subject": "fishes/lateolabrax-maculatus",
+      "message": "pipeline versions: bcftools 1.23.1, gatk 4.6.2.0",
+      "detail": null,
+      "path": null,
+      "line": null
+    }
+  ],
+  "status": {
+    "subject": "fishes/lateolabrax-maculatus",
+    "state": "complete",
+    "accession": "GCA_031216445.1",
+    "declared_accession": "GCA_031216445.1",
+    "accession_differs": false,
+    "present": [
+      "bams",
+      "callable_sites",
+      "filtered_vcf",
+      "published_readme",
+      "qc",
+      "raw_vcf",
+      "raw_vcf_index",
+      "repo_readme"
+    ],
+    "missing": [],
+    "counts": {
+      "sheet_samples": 105,
+      "bams": 105,
+      "vcf_samples": 105
+    }
+  },
+  "superseded": null,
+  "stale_reason": null
+}

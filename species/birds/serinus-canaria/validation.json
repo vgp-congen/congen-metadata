@@ -1,0 +1,108 @@
+{
+  "subject": "birds/serinus-canaria",
+  "state": "PASS",
+  "validated_at": "2026-09-08T23:49:24Z",
+  "tool_version": "0.1.0",
+  "catalog": "sha256:805c480a4f457eea22a64bce4125fc59118e04ece82c32f1e033c73c70eb8649",
+  "checks_run": [
+    "E001",
+    "E002",
+    "E003",
+    "F001",
+    "F002",
+    "F003",
+    "F004",
+    "F005",
+    "F006",
+    "F007",
+    "F008",
+    "F009",
+    "F010",
+    "F011",
+    "F020",
+    "F021",
+    "F022",
+    "F023",
+    "F024",
+    "G001",
+    "G010",
+    "G011",
+    "G012",
+    "G013",
+    "G014",
+    "P001",
+    "P002",
+    "P003",
+    "P010",
+    "R001",
+    "R002",
+    "R003",
+    "R010",
+    "R013",
+    "R015",
+    "R016",
+    "R017",
+    "R020",
+    "S001",
+    "S002",
+    "S003",
+    "S004",
+    "S005",
+    "S006",
+    "S007"
+  ],
+  "checks_available": 45,
+  "inputs": {
+    "config.yaml": "sha256:50edb86cb43660b11088cb6c15e44bbba14ef9d071779d0b29ec3db80b5364bb",
+    "sample_sheet.csv": "sha256:b3c5fd172b75927ec6c90e02d19b840137c9f8b44159aa918da75c8f7bc0591b",
+    "README.txt": "sha256:c0c1c33714bb4baebfd4fc0d7218fd732c6a50b826d4d4f73e2ed7d9008d1a31"
+  },
+  "data": {
+    "published": true,
+    "accession": "GCA_055764355.1",
+    "objects": {
+      "raw.vcf.gz": "etag:541731cd3fcf50b942f2c9e480b95569-278",
+      "raw.vcf.gz.tbi": "etag:ebf0ccbefe96d4d86e5f7e1bc504cee4",
+      "sample_sheet.csv": "etag:51ba63a22411e8d26c1991c1ae16e5ac"
+    },
+    "bams": {
+      "count": 15,
+      "digest": "sha256:5c054b0a355c236f3a33a9567234ad18d9653e081b8d1e3bcc1cb867f76c4ef6"
+    }
+  },
+  "findings": [
+    {
+      "id": "P010",
+      "severity": "info",
+      "subject": "birds/serinus-canaria",
+      "message": "pipeline versions: bcftools 1.23.1, gatk 4.6.2.0",
+      "detail": null,
+      "path": null,
+      "line": null
+    }
+  ],
+  "status": {
+    "subject": "birds/serinus-canaria",
+    "state": "complete",
+    "accession": "GCA_055764355.1",
+    "declared_accession": "GCA_055764355.1",
+    "accession_differs": false,
+    "present": [
+      "bams",
+      "callable_sites",
+      "published_readme",
+      "qc",
+      "raw_vcf",
+      "raw_vcf_index",
+      "repo_readme"
+    ],
+    "missing": [],
+    "counts": {
+      "sheet_samples": 15,
+      "bams": 15,
+      "vcf_samples": 15
+    }
+  },
+  "superseded": null,
+  "stale_reason": null
+}

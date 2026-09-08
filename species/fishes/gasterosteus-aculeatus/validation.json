@@ -1,0 +1,108 @@
+{
+  "subject": "fishes/gasterosteus-aculeatus",
+  "state": "PASS",
+  "validated_at": "2026-09-08T23:49:25Z",
+  "tool_version": "0.1.0",
+  "catalog": "sha256:805c480a4f457eea22a64bce4125fc59118e04ece82c32f1e033c73c70eb8649",
+  "checks_run": [
+    "E001",
+    "E002",
+    "E003",
+    "F001",
+    "F002",
+    "F003",
+    "F004",
+    "F005",
+    "F006",
+    "F007",
+    "F008",
+    "F009",
+    "F010",
+    "F011",
+    "F020",
+    "F021",
+    "F022",
+    "F023",
+    "F024",
+    "G001",
+    "G010",
+    "G011",
+    "G012",
+    "G013",
+    "G014",
+    "P001",
+    "P002",
+    "P003",
+    "P010",
+    "R001",
+    "R002",
+    "R003",
+    "R010",
+    "R013",
+    "R015",
+    "R016",
+    "R017",
+    "R020",
+    "S001",
+    "S002",
+    "S003",
+    "S004",
+    "S005",
+    "S006",
+    "S007"
+  ],
+  "checks_available": 45,
+  "inputs": {
+    "config.yaml": "sha256:03b322e200e366ae9a37b49ff99b76bccca0efd106edd8010dc41c868b2d24a0",
+    "sample_sheet.csv": "sha256:f45775bea056ec73f09686c5a86de7f72b63cb93947814ce63e2a02f9e52229e",
+    "README.txt": "sha256:0a329ca6da585c35669c441583b24158e9da55db9e6792175f7c7ed0786455ea"
+  },
+  "data": {
+    "published": true,
+    "accession": "GCA_964276395.1",
+    "objects": {
+      "raw.vcf.gz": "etag:3ce9186aadd7faf320e0b3b6cd4bb23f-478",
+      "raw.vcf.gz.tbi": "etag:22d5b5c9c931012cdc3a09e845f54f5d",
+      "sample_sheet.csv": "etag:dfa9b5f8f9147db326b2282a67d1b459"
+    },
+    "bams": {
+      "count": 31,
+      "digest": "sha256:29c1fccb7ad07f1b37e721f0ada99512b4bfeca1ff2234b49cc870827a9852fd"
+    }
+  },
+  "findings": [
+    {
+      "id": "P010",
+      "severity": "info",
+      "subject": "fishes/gasterosteus-aculeatus",
+      "message": "pipeline versions: bcftools 1.23.1, gatk 4.6.2.0",
+      "detail": null,
+      "path": null,
+      "line": null
+    }
+  ],
+  "status": {
+    "subject": "fishes/gasterosteus-aculeatus",
+    "state": "complete",
+    "accession": "GCA_964276395.1",
+    "declared_accession": "GCA_964276395.1",
+    "accession_differs": false,
+    "present": [
+      "bams",
+      "callable_sites",
+      "published_readme",
+      "qc",
+      "raw_vcf",
+      "raw_vcf_index",
+      "repo_readme"
+    ],
+    "missing": [],
+    "counts": {
+      "sheet_samples": 31,
+      "bams": 31,
+      "vcf_samples": 31
+    }
+  },
+  "superseded": null,
+  "stale_reason": null
+}

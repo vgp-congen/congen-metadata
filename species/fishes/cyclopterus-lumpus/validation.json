@@ -1,0 +1,126 @@
+{
+  "subject": "fishes/cyclopterus-lumpus",
+  "state": "PASS WITH WARNINGS",
+  "validated_at": "2026-09-08T23:49:24Z",
+  "tool_version": "0.1.0",
+  "catalog": "sha256:805c480a4f457eea22a64bce4125fc59118e04ece82c32f1e033c73c70eb8649",
+  "checks_run": [
+    "E001",
+    "E002",
+    "E003",
+    "F001",
+    "F002",
+    "F003",
+    "F004",
+    "F005",
+    "F006",
+    "F007",
+    "F008",
+    "F009",
+    "F010",
+    "F011",
+    "F020",
+    "F021",
+    "F022",
+    "F023",
+    "F024",
+    "G001",
+    "G010",
+    "G011",
+    "G012",
+    "G013",
+    "G014",
+    "P001",
+    "P002",
+    "P003",
+    "P010",
+    "R001",
+    "R002",
+    "R003",
+    "R010",
+    "R013",
+    "R015",
+    "R016",
+    "R017",
+    "R020",
+    "S001",
+    "S002",
+    "S003",
+    "S004",
+    "S005",
+    "S006",
+    "S007"
+  ],
+  "checks_available": 45,
+  "inputs": {
+    "config.yaml": "sha256:78c4bda38d3ce10b2c3ef5664e9988a2c950f37460b47223d476466a6e8618c6",
+    "sample_sheet.csv": "sha256:f8a50f741acffa2deec5ce6a1c967eb87b91aa584c3fb36da4543288ea42630c",
+    "README.txt": "sha256:3007e2efac3bf56dbd5356001c4032bc81ceab8a45fbefeca15bc076878b0a70"
+  },
+  "data": {
+    "published": true,
+    "accession": "GCA_009769545.1",
+    "objects": {
+      "raw.vcf.gz": "etag:738af1aa53f8747a523c59a32fd5b3f3-560",
+      "raw.vcf.gz.tbi": "etag:e1baeecc14e1f6c9390ae650721a2ec0",
+      "sample_sheet.csv": "etag:3277cee5cb595ea1436aa2d70850e42b"
+    },
+    "bams": {
+      "count": 66,
+      "digest": "sha256:62064da3b90e4a89323b2e8b535f2c154dd9b90f80c04689830935baa4e4cc8e"
+    }
+  },
+  "findings": [
+    {
+      "id": "E002",
+      "severity": "warn",
+      "subject": "fishes/cyclopterus-lumpus",
+      "message": "1 bioproject(s) contribute runs but are not in README.txt",
+      "detail": "PRJNA1462766; README lists PRJNA1218516, PRJNA562003, PRJNA781657",
+      "path": "species/fishes/cyclopterus-lumpus/README.txt",
+      "line": null
+    },
+    {
+      "id": "E003",
+      "severity": "warn",
+      "subject": "fishes/cyclopterus-lumpus",
+      "message": "README.txt cites 1 bioproject(s) that contribute no runs to the sheet",
+      "detail": "PRJNA562003",
+      "path": "species/fishes/cyclopterus-lumpus/README.txt",
+      "line": null
+    },
+    {
+      "id": "P010",
+      "severity": "info",
+      "subject": "fishes/cyclopterus-lumpus",
+      "message": "pipeline versions: bcftools 1.23.1, gatk 4.6.2.0",
+      "detail": null,
+      "path": null,
+      "line": null
+    }
+  ],
+  "status": {
+    "subject": "fishes/cyclopterus-lumpus",
+    "state": "complete",
+    "accession": "GCA_009769545.1",
+    "declared_accession": "GCA_009769545.1",
+    "accession_differs": false,
+    "present": [
+      "bams",
+      "callable_sites",
+      "published_readme",
+      "qc",
+      "raw_vcf",
+      "raw_vcf_index",
+      "repo_readme"
+    ],
+    "missing": [],
+    "counts": {
+      "sheet_samples": 66,
+      "bams": 66,
+      "vcf_samples": 66
+    }
+  },
+  "superseded": null,
+  "stale_reason": null
+}

@@ -1,0 +1,274 @@
+{
+  "subject": "birds/grus-americana",
+  "state": "FAIL",
+  "validated_at": "2026-09-08T23:49:24Z",
+  "tool_version": "0.1.0",
+  "catalog": "sha256:805c480a4f457eea22a64bce4125fc59118e04ece82c32f1e033c73c70eb8649",
+  "checks_run": [
+    "E001",
+    "E002",
+    "E003",
+    "F001",
+    "F002",
+    "F003",
+    "F004",
+    "F005",
+    "F006",
+    "F007",
+    "F008",
+    "F009",
+    "F010",
+    "F011",
+    "F020",
+    "F021",
+    "F022",
+    "F023",
+    "F024",
+    "G001",
+    "G010",
+    "G011",
+    "G012",
+    "G013",
+    "G014",
+    "P001",
+    "P002",
+    "P003",
+    "P010",
+    "R001",
+    "R002",
+    "R003",
+    "R010",
+    "R013",
+    "R015",
+    "R016",
+    "R017",
+    "R020",
+    "S001",
+    "S002",
+    "S003",
+    "S004",
+    "S005",
+    "S006",
+    "S007"
+  ],
+  "checks_available": 45,
+  "inputs": {
+    "config.yaml": "sha256:a173d205f5104fe41a4504a90cce86e44f4e4b38182a286c78586bb2f9ca95e6",
+    "sample_sheet.csv": "sha256:ccb5d4cd495dd18e385c08341178709392ae63dd13e2ec6d7956d963cd916076"
+  },
+  "data": {
+    "published": true,
+    "accession": "GCA_028858705.1",
+    "objects": {},
+    "bams": {
+      "count": 42,
+      "digest": "sha256:e8f3bbbc7b886bb77ff5afab5e6875ee7f83c045b389ae2ba65812d40c7f185e"
+    }
+  },
+  "findings": [
+    {
+      "id": "F021",
+      "severity": "error",
+      "subject": "birds/grus-americana",
+      "message": "config declares GCF_028858705.1; the VGP accession is GCA_028858705.1",
+      "detail": "same assembly, non-canonical accession namespace; confirmed by NCBI paired_assembly",
+      "path": "species/birds/grus-americana/config.yaml",
+      "line": null
+    },
+    {
+      "id": "G010",
+      "severity": "warn",
+      "subject": "birds/grus-americana",
+      "message": "no vcfs/raw.vcf.gz",
+      "detail": "42 BAM(s) present, no VCF",
+      "path": null,
+      "line": null
+    },
+    {
+      "id": "E002",
+      "severity": "skipped",
+      "subject": "birds/grus-americana",
+      "message": "skipped: every run's bioproject is listed in README.txt",
+      "detail": "needs readme",
+      "path": null,
+      "line": null
+    },
+    {
+      "id": "E003",
+      "severity": "skipped",
+      "subject": "birds/grus-americana",
+      "message": "skipped: every README.txt bioproject contributes runs",
+      "detail": "needs readme",
+      "path": null,
+      "line": null
+    },
+    {
+      "id": "F001",
+      "severity": "skipped",
+      "subject": "birds/grus-americana",
+      "message": "skipped: every VCF contig exists in the declared assembly",
+      "detail": "needs vcf_header",
+      "path": null,
+      "line": null
+    },
+    {
+      "id": "F002",
+      "severity": "skipped",
+      "subject": "birds/grus-americana",
+      "message": "skipped: VCF contig lengths match the assembly",
+      "detail": "needs vcf_header",
+      "path": null,
+      "line": null
+    },
+    {
+      "id": "F003",
+      "severity": "skipped",
+      "subject": "birds/grus-americana",
+      "message": "skipped: contig names use one consistent naming scheme",
+      "detail": "needs vcf_header",
+      "path": null,
+      "line": null
+    },
+    {
+      "id": "F004",
+      "severity": "skipped",
+      "subject": "birds/grus-americana",
+      "message": "skipped: BAM @SQ matches the VCF contigs",
+      "detail": "needs vcf_header",
+      "path": null,
+      "line": null
+    },
+    {
+      "id": "F008",
+      "severity": "skipped",
+      "subject": "birds/grus-americana",
+      "message": "skipped: qc/contig_map.tsv agrees with the VCF contigs",
+      "detail": "needs contig_map, vcf_header",
+      "path": null,
+      "line": null
+    },
+    {
+      "id": "F009",
+      "severity": "skipped",
+      "subject": "birds/grus-americana",
+      "message": "skipped: assembly sequences absent from the VCF",
+      "detail": "needs vcf_header",
+      "path": null,
+      "line": null
+    },
+    {
+      "id": "F011",
+      "severity": "skipped",
+      "subject": "birds/grus-americana",
+      "message": "skipped: no whole assembled molecule is absent from the VCF",
+      "detail": "needs vcf_header",
+      "path": null,
+      "line": null
+    },
+    {
+      "id": "P001",
+      "severity": "skipped",
+      "subject": "birds/grus-americana",
+      "message": "skipped: variant_calling.ploidy matches the recorded --sample-ploidy",
+      "detail": "needs vcf_header",
+      "path": null,
+      "line": null
+    },
+    {
+      "id": "P002",
+      "severity": "skipped",
+      "subject": "birds/grus-americana",
+      "message": "skipped: gatk.het_prior matches the recorded --heterozygosity",
+      "detail": "needs vcf_header",
+      "path": null,
+      "line": null
+    },
+    {
+      "id": "P003",
+      "severity": "skipped",
+      "subject": "birds/grus-americana",
+      "message": "skipped: variant_calling.tool matches the caller recorded in the VCF",
+      "detail": "needs vcf_header",
+      "path": null,
+      "line": null
+    },
+    {
+      "id": "P010",
+      "severity": "skipped",
+      "subject": "birds/grus-americana",
+      "message": "skipped: records the pipeline versions the VCF header stamps",
+      "detail": "needs vcf_header",
+      "path": null,
+      "line": null
+    },
+    {
+      "id": "R020",
+      "severity": "skipped",
+      "subject": "birds/grus-americana",
+      "message": "skipped: README.txt accession matches the config",
+      "detail": "needs readme",
+      "path": null,
+      "line": null
+    },
+    {
+      "id": "S001",
+      "severity": "skipped",
+      "subject": "birds/grus-americana",
+      "message": "skipped: sheet samples == VCF samples",
+      "detail": "needs vcf_header",
+      "path": null,
+      "line": null
+    },
+    {
+      "id": "S003",
+      "severity": "skipped",
+      "subject": "birds/grus-americana",
+      "message": "skipped: VCF samples == published BAMs",
+      "detail": "needs vcf_header",
+      "path": null,
+      "line": null
+    },
+    {
+      "id": "S005",
+      "severity": "skipped",
+      "subject": "birds/grus-americana",
+      "message": "skipped: qc/individuals.samps.txt agrees with the VCF",
+      "detail": "needs qc_samples, vcf_header",
+      "path": null,
+      "line": null
+    },
+    {
+      "id": "S006",
+      "severity": "skipped",
+      "subject": "birds/grus-americana",
+      "message": "skipped: the published sample sheet matches the repo copy",
+      "detail": "needs s3_sheet",
+      "path": null,
+      "line": null
+    }
+  ],
+  "status": {
+    "subject": "birds/grus-americana",
+    "state": "partial",
+    "accession": "GCA_028858705.1",
+    "declared_accession": "GCF_028858705.1",
+    "accession_differs": true,
+    "present": [
+      "bams",
+      "published_readme"
+    ],
+    "missing": [
+      "raw_vcf",
+      "raw_vcf_index",
+      "qc",
+      "callable_sites"
+    ],
+    "counts": {
+      "sheet_samples": 57,
+      "bams": 42,
+      "vcf_samples": null
+    }
+  },
+  "superseded": null,
+  "stale_reason": null
+}

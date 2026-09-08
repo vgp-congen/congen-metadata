@@ -1,0 +1,110 @@
+{
+  "subject": "fishes/labrus-bergylta",
+  "state": "PASS",
+  "validated_at": "2026-09-08T23:49:25Z",
+  "tool_version": "0.1.0",
+  "catalog": "sha256:805c480a4f457eea22a64bce4125fc59118e04ece82c32f1e033c73c70eb8649",
+  "checks_run": [
+    "E001",
+    "E002",
+    "E003",
+    "F001",
+    "F002",
+    "F003",
+    "F004",
+    "F005",
+    "F006",
+    "F007",
+    "F008",
+    "F009",
+    "F010",
+    "F011",
+    "F020",
+    "F021",
+    "F022",
+    "F023",
+    "F024",
+    "G001",
+    "G010",
+    "G011",
+    "G012",
+    "G013",
+    "G014",
+    "P001",
+    "P002",
+    "P003",
+    "P010",
+    "R001",
+    "R002",
+    "R003",
+    "R010",
+    "R013",
+    "R015",
+    "R016",
+    "R017",
+    "R020",
+    "S001",
+    "S002",
+    "S003",
+    "S004",
+    "S005",
+    "S006",
+    "S007"
+  ],
+  "checks_available": 45,
+  "inputs": {
+    "config.yaml": "sha256:7aa5fe491345e8cd467b52d01928ed064c335dd43f6018f498e166a32a5d98c8",
+    "sample_sheet.csv": "sha256:f3d2bc8b51cdda3c25899a220e40cf1289b553374daf90657265c39901403426",
+    "README.txt": "sha256:1af0db54261779bed488b0d9a94c698c32211e7d08abea5eff5d9aa3b0963516"
+  },
+  "data": {
+    "published": true,
+    "accession": "GCA_963930695.1",
+    "objects": {
+      "raw.vcf.gz": "etag:23cd5828029680fbe92794ffae400a9c-2404",
+      "raw.vcf.gz.tbi": "etag:4a6cb3e497d343b9e84a9d73746812a5",
+      "filtered.vcf.gz": "etag:613c0be409e03eb5470f170edfd2a6ee-3529",
+      "sample_sheet.csv": "etag:cd7f0f4332a2ef3ff9f2cede24e00a16"
+    },
+    "bams": {
+      "count": 131,
+      "digest": "sha256:ee2cdbee2db07a87ec78736c67d1e43ad3eac8a73c1d2a19eb8101bd6b1aaeb5"
+    }
+  },
+  "findings": [
+    {
+      "id": "P010",
+      "severity": "info",
+      "subject": "fishes/labrus-bergylta",
+      "message": "pipeline versions: bcftools 1.23.1, gatk 4.6.2.0",
+      "detail": null,
+      "path": null,
+      "line": null
+    }
+  ],
+  "status": {
+    "subject": "fishes/labrus-bergylta",
+    "state": "complete",
+    "accession": "GCA_963930695.1",
+    "declared_accession": "GCA_963930695.1",
+    "accession_differs": false,
+    "present": [
+      "bams",
+      "callable_sites",
+      "filtered_vcf",
+      "published_readme",
+      "qc",
+      "raw_vcf",
+      "raw_vcf_index",
+      "repo_readme"
+    ],
+    "missing": [],
+    "counts": {
+      "sheet_samples": 131,
+      "bams": 131,
+      "vcf_samples": 131
+    }
+  },
+  "superseded": null,
+  "stale_reason": null
+}

@@ -1,0 +1,133 @@
+{
+  "subject": "birds/catharus-ustulatus",
+  "state": "PASS",
+  "validated_at": "2026-09-08T23:49:24Z",
+  "tool_version": "0.1.0",
+  "catalog": "sha256:805c480a4f457eea22a64bce4125fc59118e04ece82c32f1e033c73c70eb8649",
+  "checks_run": [
+    "E001",
+    "E002",
+    "E003",
+    "F001",
+    "F002",
+    "F003",
+    "F004",
+    "F005",
+    "F006",
+    "F007",
+    "F008",
+    "F009",
+    "F010",
+    "F011",
+    "F020",
+    "F021",
+    "F022",
+    "F023",
+    "F024",
+    "G001",
+    "G010",
+    "G011",
+    "G012",
+    "G013",
+    "G014",
+    "P001",
+    "P002",
+    "P003",
+    "P010",
+    "R001",
+    "R002",
+    "R003",
+    "R010",
+    "R013",
+    "R015",
+    "R016",
+    "R017",
+    "R020",
+    "S001",
+    "S002",
+    "S003",
+    "S004",
+    "S005",
+    "S006",
+    "S007"
+  ],
+  "checks_available": 45,
+  "inputs": {
+    "config.yaml": "sha256:e174f8723bc5a8cfb16434ec600b77b01b7a9586d33d40b9f014f8c334e1cffa",
+    "sample_sheet.csv": "sha256:3864e5436fe67c3effcee6027bbffddd0baca884e181de14bad3070be8667452"
+  },
+  "data": {
+    "published": true,
+    "accession": "GCA_009819885.2",
+    "objects": {
+      "raw.vcf.gz": "etag:a536a85c4aaaa27856289263bf025c8d-2683",
+      "raw.vcf.gz.tbi": "etag:3d7cf5dfc5cd8fbfbc41438e9e08f226",
+      "sample_sheet.csv": "etag:f878333ad9b97061d495049d3292b8d3"
+    },
+    "bams": {
+      "count": 50,
+      "digest": "sha256:f3eea174004bb4378862ba8c2cfa22279eafd3595c1d2e0fab5692aa367c6cec"
+    }
+  },
+  "findings": [
+    {
+      "id": "P010",
+      "severity": "info",
+      "subject": "birds/catharus-ustulatus",
+      "message": "pipeline versions: bcftools 1.23.1, gatk 4.6.2.0",
+      "detail": null,
+      "path": null,
+      "line": null
+    },
+    {
+      "id": "E002",
+      "severity": "skipped",
+      "subject": "birds/catharus-ustulatus",
+      "message": "skipped: every run's bioproject is listed in README.txt",
+      "detail": "needs readme",
+      "path": null,
+      "line": null
+    },
+    {
+      "id": "E003",
+      "severity": "skipped",
+      "subject": "birds/catharus-ustulatus",
+      "message": "skipped: every README.txt bioproject contributes runs",
+      "detail": "needs readme",
+      "path": null,
+      "line": null
+    },
+    {
+      "id": "R020",
+      "severity": "skipped",
+      "subject": "birds/catharus-ustulatus",
+      "message": "skipped: README.txt accession matches the config",
+      "detail": "needs readme",
+      "path": null,
+      "line": null
+    }
+  ],
+  "status": {
+    "subject": "birds/catharus-ustulatus",
+    "state": "complete",
+    "accession": "GCA_009819885.2",
+    "declared_accession": "GCA_009819885.2",
+    "accession_differs": false,
+    "present": [
+      "bams",
+      "callable_sites",
+      "published_readme",
+      "qc",
+      "raw_vcf",
+      "raw_vcf_index"
+    ],
+    "missing": [],
+    "counts": {
+      "sheet_samples": 50,
+      "bams": 50,
+      "vcf_samples": 50
+    }
+  },
+  "superseded": null,
+  "stale_reason": null
+}

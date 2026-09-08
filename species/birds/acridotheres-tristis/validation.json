@@ -1,0 +1,135 @@
+{
+  "subject": "birds/acridotheres-tristis",
+  "state": "PASS",
+  "validated_at": "2026-09-08T23:49:24Z",
+  "tool_version": "0.1.0",
+  "catalog": "sha256:805c480a4f457eea22a64bce4125fc59118e04ece82c32f1e033c73c70eb8649",
+  "checks_run": [
+    "E001",
+    "E002",
+    "E003",
+    "F001",
+    "F002",
+    "F003",
+    "F004",
+    "F005",
+    "F006",
+    "F007",
+    "F008",
+    "F009",
+    "F010",
+    "F011",
+    "F020",
+    "F021",
+    "F022",
+    "F023",
+    "F024",
+    "G001",
+    "G010",
+    "G011",
+    "G012",
+    "G013",
+    "G014",
+    "P001",
+    "P002",
+    "P003",
+    "P010",
+    "R001",
+    "R002",
+    "R003",
+    "R010",
+    "R013",
+    "R015",
+    "R016",
+    "R017",
+    "R020",
+    "S001",
+    "S002",
+    "S003",
+    "S004",
+    "S005",
+    "S006",
+    "S007"
+  ],
+  "checks_available": 45,
+  "inputs": {
+    "config.yaml": "sha256:377ef37f86e888fbd3a0d01f6b6270a8d33c788c695ac3cc2b72bb2276c5c442",
+    "sample_sheet.csv": "sha256:4053e1dac5bd3b9ec9d828df3a90c41322ad9b0fc85c0527edef77866c1b360d"
+  },
+  "data": {
+    "published": true,
+    "accession": "GCA_027559615.1",
+    "objects": {
+      "raw.vcf.gz": "etag:905e54cf1e1542e04c9dabbda3492866-2779",
+      "raw.vcf.gz.tbi": "etag:7304ce5d72db7407d0a37b44925c69d5",
+      "filtered.vcf.gz": "etag:9357658f6902e42d5c92f931fdd48c84-4025",
+      "sample_sheet.csv": "etag:d7cee298d5f58ad03b5439fe7b6e5dd2"
+    },
+    "bams": {
+      "count": 84,
+      "digest": "sha256:4e140c4dceacb6bd4be2d123a2f7e6002a3d03196f26f4d62db945237d7e2002"
+    }
+  },
+  "findings": [
+    {
+      "id": "P010",
+      "severity": "info",
+      "subject": "birds/acridotheres-tristis",
+      "message": "pipeline versions: bcftools 1.23.1, gatk 4.6.2.0",
+      "detail": null,
+      "path": null,
+      "line": null
+    },
+    {
+      "id": "E002",
+      "severity": "skipped",
+      "subject": "birds/acridotheres-tristis",
+      "message": "skipped: every run's bioproject is listed in README.txt",
+      "detail": "needs readme",
+      "path": null,
+      "line": null
+    },
+    {
+      "id": "E003",
+      "severity": "skipped",
+      "subject": "birds/acridotheres-tristis",
+      "message": "skipped: every README.txt bioproject contributes runs",
+      "detail": "needs readme",
+      "path": null,
+      "line": null
+    },
+    {
+      "id": "R020",
+      "severity": "skipped",
+      "subject": "birds/acridotheres-tristis",
+      "message": "skipped: README.txt accession matches the config",
+      "detail": "needs readme",
+      "path": null,
+      "line": null
+    }
+  ],
+  "status": {
+    "subject": "birds/acridotheres-tristis",
+    "state": "complete",
+    "accession": "GCA_027559615.1",
+    "declared_accession": "GCA_027559615.1",
+    "accession_differs": false,
+    "present": [
+      "bams",
+      "callable_sites",
+      "filtered_vcf",
+      "published_readme",
+      "qc",
+      "raw_vcf",
+      "raw_vcf_index"
+    ],
+    "missing": [],
+    "counts": {
+      "sheet_samples": 84,
+      "bams": 84,
+      "vcf_samples": 84
+    }
+  },
+  "superseded": null,
+  "stale_reason": null
+}

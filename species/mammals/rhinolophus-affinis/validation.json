@@ -1,0 +1,108 @@
+{
+  "subject": "mammals/rhinolophus-affinis",
+  "state": "PASS",
+  "validated_at": "2026-09-08T23:49:25Z",
+  "tool_version": "0.1.0",
+  "catalog": "sha256:805c480a4f457eea22a64bce4125fc59118e04ece82c32f1e033c73c70eb8649",
+  "checks_run": [
+    "E001",
+    "E002",
+    "E003",
+    "F001",
+    "F002",
+    "F003",
+    "F004",
+    "F005",
+    "F006",
+    "F007",
+    "F008",
+    "F009",
+    "F010",
+    "F011",
+    "F020",
+    "F021",
+    "F022",
+    "F023",
+    "F024",
+    "G001",
+    "G010",
+    "G011",
+    "G012",
+    "G013",
+    "G014",
+    "P001",
+    "P002",
+    "P003",
+    "P010",
+    "R001",
+    "R002",
+    "R003",
+    "R010",
+    "R013",
+    "R015",
+    "R016",
+    "R017",
+    "R020",
+    "S001",
+    "S002",
+    "S003",
+    "S004",
+    "S005",
+    "S006",
+    "S007"
+  ],
+  "checks_available": 45,
+  "inputs": {
+    "config.yaml": "sha256:deaa49b568bb28ac7043b1f7a76f3422b966a8b79e0e22ab2b81d04c4a7b4179",
+    "sample_sheet.csv": "sha256:099ad3766d5c8326b95b660d8e5fd6ba839ae7d50d212f72a6942a3b7856eb8a",
+    "README.txt": "sha256:0ac42f0661af981017cef719ce12901d0a6421514dbe6102b4bfaccc4f079b2c"
+  },
+  "data": {
+    "published": true,
+    "accession": "GCA_043728065.1",
+    "objects": {
+      "raw.vcf.gz": "etag:c13d9c4162514fe8b71996c712824e51-1894",
+      "raw.vcf.gz.tbi": "etag:ac58dc0ab0842f6afa9e5006e2ff9726",
+      "sample_sheet.csv": "etag:372618614a5c3b038c3ccba8c8b41d46"
+    },
+    "bams": {
+      "count": 24,
+      "digest": "sha256:731b4bbaeeb20101bb637b7633ecdc53e8f244b91948881ac77757369ef55e39"
+    }
+  },
+  "findings": [
+    {
+      "id": "P010",
+      "severity": "info",
+      "subject": "mammals/rhinolophus-affinis",
+      "message": "pipeline versions: bcftools 1.23.1, gatk 4.6.2.0",
+      "detail": null,
+      "path": null,
+      "line": null
+    }
+  ],
+  "status": {
+    "subject": "mammals/rhinolophus-affinis",
+    "state": "complete",
+    "accession": "GCA_043728065.1",
+    "declared_accession": "GCA_043728065.1",
+    "accession_differs": false,
+    "present": [
+      "bams",
+      "callable_sites",
+      "published_readme",
+      "qc",
+      "raw_vcf",
+      "raw_vcf_index",
+      "repo_readme"
+    ],
+    "missing": [],
+    "counts": {
+      "sheet_samples": 24,
+      "bams": 24,
+      "vcf_samples": 24
+    }
+  },
+  "superseded": null,
+  "stale_reason": null
+}

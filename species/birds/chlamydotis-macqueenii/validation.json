@@ -1,0 +1,108 @@
+{
+  "subject": "birds/chlamydotis-macqueenii",
+  "state": "PASS",
+  "validated_at": "2026-09-08T23:49:24Z",
+  "tool_version": "0.1.0",
+  "catalog": "sha256:805c480a4f457eea22a64bce4125fc59118e04ece82c32f1e033c73c70eb8649",
+  "checks_run": [
+    "E001",
+    "E002",
+    "E003",
+    "F001",
+    "F002",
+    "F003",
+    "F004",
+    "F005",
+    "F006",
+    "F007",
+    "F008",
+    "F009",
+    "F010",
+    "F011",
+    "F020",
+    "F021",
+    "F022",
+    "F023",
+    "F024",
+    "G001",
+    "G010",
+    "G011",
+    "G012",
+    "G013",
+    "G014",
+    "P001",
+    "P002",
+    "P003",
+    "P010",
+    "R001",
+    "R002",
+    "R003",
+    "R010",
+    "R013",
+    "R015",
+    "R016",
+    "R017",
+    "R020",
+    "S001",
+    "S002",
+    "S003",
+    "S004",
+    "S005",
+    "S006",
+    "S007"
+  ],
+  "checks_available": 45,
+  "inputs": {
+    "config.yaml": "sha256:c567a1e8c8a91ba7188414490aa2a7b0e6680e509ef41df2b49fd51e16bc8803",
+    "sample_sheet.csv": "sha256:56a9b99eaa22e3f36d1c15e1f0565431e7d6262586484077d0ee2457ff5cd973",
+    "README.txt": "sha256:58c96ee70dd82c2bc82fee6b35a64bfd4fe4876f488a92188400e9920f5bae73"
+  },
+  "data": {
+    "published": true,
+    "accession": "GCA_036417535.1",
+    "objects": {
+      "raw.vcf.gz": "etag:dfdaf29b9e5aa385874bde48738881a0-770",
+      "raw.vcf.gz.tbi": "etag:ac35cc6d95c4a710c57df47a7fafd7d5",
+      "sample_sheet.csv": "etag:5848b46d2d6a45b92509081ecff31ad4"
+    },
+    "bams": {
+      "count": 33,
+      "digest": "sha256:632dd23e1169a66b9b69835369b0f955af8fb3ccb9a183168de415a80bf5c875"
+    }
+  },
+  "findings": [
+    {
+      "id": "P010",
+      "severity": "info",
+      "subject": "birds/chlamydotis-macqueenii",
+      "message": "pipeline versions: bcftools 1.23.1, gatk 4.6.2.0",
+      "detail": null,
+      "path": null,
+      "line": null
+    }
+  ],
+  "status": {
+    "subject": "birds/chlamydotis-macqueenii",
+    "state": "complete",
+    "accession": "GCA_036417535.1",
+    "declared_accession": "GCA_036417535.1",
+    "accession_differs": false,
+    "present": [
+      "bams",
+      "callable_sites",
+      "published_readme",
+      "qc",
+      "raw_vcf",
+      "raw_vcf_index",
+      "repo_readme"
+    ],
+    "missing": [],
+    "counts": {
+      "sheet_samples": 33,
+      "bams": 33,
+      "vcf_samples": 33
+    }
+  },
+  "superseded": null,
+  "stale_reason": null
+}

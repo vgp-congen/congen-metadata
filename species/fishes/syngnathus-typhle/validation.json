@@ -1,0 +1,108 @@
+{
+  "subject": "fishes/syngnathus-typhle",
+  "state": "PASS",
+  "validated_at": "2026-09-08T23:49:25Z",
+  "tool_version": "0.1.0",
+  "catalog": "sha256:805c480a4f457eea22a64bce4125fc59118e04ece82c32f1e033c73c70eb8649",
+  "checks_run": [
+    "E001",
+    "E002",
+    "E003",
+    "F001",
+    "F002",
+    "F003",
+    "F004",
+    "F005",
+    "F006",
+    "F007",
+    "F008",
+    "F009",
+    "F010",
+    "F011",
+    "F020",
+    "F021",
+    "F022",
+    "F023",
+    "F024",
+    "G001",
+    "G010",
+    "G011",
+    "G012",
+    "G013",
+    "G014",
+    "P001",
+    "P002",
+    "P003",
+    "P010",
+    "R001",
+    "R002",
+    "R003",
+    "R010",
+    "R013",
+    "R015",
+    "R016",
+    "R017",
+    "R020",
+    "S001",
+    "S002",
+    "S003",
+    "S004",
+    "S005",
+    "S006",
+    "S007"
+  ],
+  "checks_available": 45,
+  "inputs": {
+    "config.yaml": "sha256:f395e83e31118c8819f40168af7abacef97449844ebd1160092f664e62c276f2",
+    "sample_sheet.csv": "sha256:2d0382cfa2c81535e79ca27b349e7d1820a419e0a06738d0d4d9807986ef5f7f",
+    "README.txt": "sha256:34ef13b142023e7eff453c036414f31d604d4addd2bc1b3c71a2f45e08023390"
+  },
+  "data": {
+    "published": true,
+    "accession": "GCA_048301445.1",
+    "objects": {
+      "raw.vcf.gz": "etag:7df1bc1b3bd44da1b25ed56bcdb10c8e-147",
+      "raw.vcf.gz.tbi": "etag:db864d1d6549df2470f3b108b5d2bef1",
+      "sample_sheet.csv": "etag:ac10dae87eaea911d75ac81bb71f70dd"
+    },
+    "bams": {
+      "count": 26,
+      "digest": "sha256:46bfa00240dda5f26b4d31144d7863711dee987f1b256011d59d94b6c496f0e9"
+    }
+  },
+  "findings": [
+    {
+      "id": "P010",
+      "severity": "info",
+      "subject": "fishes/syngnathus-typhle",
+      "message": "pipeline versions: bcftools 1.23.1, gatk 4.6.2.0",
+      "detail": null,
+      "path": null,
+      "line": null
+    }
+  ],
+  "status": {
+    "subject": "fishes/syngnathus-typhle",
+    "state": "complete",
+    "accession": "GCA_048301445.1",
+    "declared_accession": "GCA_048301445.1",
+    "accession_differs": false,
+    "present": [
+      "bams",
+      "callable_sites",
+      "published_readme",
+      "qc",
+      "raw_vcf",
+      "raw_vcf_index",
+      "repo_readme"
+    ],
+    "missing": [],
+    "counts": {
+      "sheet_samples": 26,
+      "bams": 26,
+      "vcf_samples": 26
+    }
+  },
+  "superseded": null,
+  "stale_reason": null
+}

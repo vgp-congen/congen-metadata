@@ -1,0 +1,108 @@
+{
+  "subject": "fishes/pungitius-pungitius",
+  "state": "PASS",
+  "validated_at": "2026-09-08T23:49:25Z",
+  "tool_version": "0.1.0",
+  "catalog": "sha256:805c480a4f457eea22a64bce4125fc59118e04ece82c32f1e033c73c70eb8649",
+  "checks_run": [
+    "E001",
+    "E002",
+    "E003",
+    "F001",
+    "F002",
+    "F003",
+    "F004",
+    "F005",
+    "F006",
+    "F007",
+    "F008",
+    "F009",
+    "F010",
+    "F011",
+    "F020",
+    "F021",
+    "F022",
+    "F023",
+    "F024",
+    "G001",
+    "G010",
+    "G011",
+    "G012",
+    "G013",
+    "G014",
+    "P001",
+    "P002",
+    "P003",
+    "P010",
+    "R001",
+    "R002",
+    "R003",
+    "R010",
+    "R013",
+    "R015",
+    "R016",
+    "R017",
+    "R020",
+    "S001",
+    "S002",
+    "S003",
+    "S004",
+    "S005",
+    "S006",
+    "S007"
+  ],
+  "checks_available": 45,
+  "inputs": {
+    "config.yaml": "sha256:c07ae739828d75612c5303100f0a1c6e612f6a9fae9f9042a96ad3acd35cdea4",
+    "sample_sheet.csv": "sha256:9c3976024aac54dfee8ac19808c96e6d3b96f0c1fd7863bde74125472e30f0f2",
+    "README.txt": "sha256:ed581b564414fef1fc7df4a19a1be760c45af45e9d8292deb6c861619fe379eb"
+  },
+  "data": {
+    "published": true,
+    "accession": "GCA_949316345.1",
+    "objects": {
+      "raw.vcf.gz": "etag:c0f23e0c49c7406d228f164bb3b8e655-3018",
+      "raw.vcf.gz.tbi": "etag:b64698f06ec0f23ffc7ba9b2508590ff",
+      "sample_sheet.csv": "etag:bfbc069114d2e9618130b73613290dcd"
+    },
+    "bams": {
+      "count": 150,
+      "digest": "sha256:bc1dd6c80f7ce8d4fd52d381161141de2d35d65021358c66d8140c48784dfa96"
+    }
+  },
+  "findings": [
+    {
+      "id": "P010",
+      "severity": "info",
+      "subject": "fishes/pungitius-pungitius",
+      "message": "pipeline versions: bcftools 1.23.1, gatk 4.6.2.0",
+      "detail": null,
+      "path": null,
+      "line": null
+    }
+  ],
+  "status": {
+    "subject": "fishes/pungitius-pungitius",
+    "state": "complete",
+    "accession": "GCA_949316345.1",
+    "declared_accession": "GCA_949316345.1",
+    "accession_differs": false,
+    "present": [
+      "bams",
+      "callable_sites",
+      "published_readme",
+      "qc",
+      "raw_vcf",
+      "raw_vcf_index",
+      "repo_readme"
+    ],
+    "missing": [],
+    "counts": {
+      "sheet_samples": 150,
+      "bams": 150,
+      "vcf_samples": 150
+    }
+  },
+  "superseded": null,
+  "stale_reason": null
+}

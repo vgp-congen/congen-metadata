@@ -1,0 +1,108 @@
+{
+  "subject": "birds/pogoniulus-pusillus",
+  "state": "PASS",
+  "validated_at": "2026-09-08T23:49:24Z",
+  "tool_version": "0.1.0",
+  "catalog": "sha256:805c480a4f457eea22a64bce4125fc59118e04ece82c32f1e033c73c70eb8649",
+  "checks_run": [
+    "E001",
+    "E002",
+    "E003",
+    "F001",
+    "F002",
+    "F003",
+    "F004",
+    "F005",
+    "F006",
+    "F007",
+    "F008",
+    "F009",
+    "F010",
+    "F011",
+    "F020",
+    "F021",
+    "F022",
+    "F023",
+    "F024",
+    "G001",
+    "G010",
+    "G011",
+    "G012",
+    "G013",
+    "G014",
+    "P001",
+    "P002",
+    "P003",
+    "P010",
+    "R001",
+    "R002",
+    "R003",
+    "R010",
+    "R013",
+    "R015",
+    "R016",
+    "R017",
+    "R020",
+    "S001",
+    "S002",
+    "S003",
+    "S004",
+    "S005",
+    "S006",
+    "S007"
+  ],
+  "checks_available": 45,
+  "inputs": {
+    "config.yaml": "sha256:cc85c626d0ab2b48e03823a0fe6389d5c253b7cc7f5bd6b1e0e5e043610ec9db",
+    "sample_sheet.csv": "sha256:952c6ef3a6de1eb4fd7e88719e1a8f74d5e4a15ad06848a9f55b9a6cd92857ce",
+    "README.txt": "sha256:abeb244926308edb2cb27324bce3f853f477d9dd6d19953691d324b694dc36de"
+  },
+  "data": {
+    "published": true,
+    "accession": "GCA_015220805.1",
+    "objects": {
+      "raw.vcf.gz": "etag:5640298413bce6b887d5f62f8c92399c-1182",
+      "raw.vcf.gz.tbi": "etag:179487b5bd37d01b5384ddbd058f1b0e",
+      "sample_sheet.csv": "etag:1223b4895cb55ccc4f24ad31be124357"
+    },
+    "bams": {
+      "count": 21,
+      "digest": "sha256:9e526b14c51b391f31d10b10f343aa085a8b5ee0a1c5a22b7ca2a6e53422f8c6"
+    }
+  },
+  "findings": [
+    {
+      "id": "P010",
+      "severity": "info",
+      "subject": "birds/pogoniulus-pusillus",
+      "message": "pipeline versions: bcftools 1.23.1, gatk 4.6.2.0",
+      "detail": null,
+      "path": null,
+      "line": null
+    }
+  ],
+  "status": {
+    "subject": "birds/pogoniulus-pusillus",
+    "state": "complete",
+    "accession": "GCA_015220805.1",
+    "declared_accession": "GCA_015220805.1",
+    "accession_differs": false,
+    "present": [
+      "bams",
+      "callable_sites",
+      "published_readme",
+      "qc",
+      "raw_vcf",
+      "raw_vcf_index",
+      "repo_readme"
+    ],
+    "missing": [],
+    "counts": {
+      "sheet_samples": 21,
+      "bams": 21,
+      "vcf_samples": 21
+    }
+  },
+  "superseded": null,
+  "stale_reason": null
+}

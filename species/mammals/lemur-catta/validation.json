@@ -1,0 +1,135 @@
+{
+  "subject": "mammals/lemur-catta",
+  "state": "PASS",
+  "validated_at": "2026-09-08T23:49:25Z",
+  "tool_version": "0.1.0",
+  "catalog": "sha256:805c480a4f457eea22a64bce4125fc59118e04ece82c32f1e033c73c70eb8649",
+  "checks_run": [
+    "E001",
+    "E002",
+    "E003",
+    "F001",
+    "F002",
+    "F003",
+    "F004",
+    "F005",
+    "F006",
+    "F007",
+    "F008",
+    "F009",
+    "F010",
+    "F011",
+    "F020",
+    "F021",
+    "F022",
+    "F023",
+    "F024",
+    "G001",
+    "G010",
+    "G011",
+    "G012",
+    "G013",
+    "G014",
+    "P001",
+    "P002",
+    "P003",
+    "P010",
+    "R001",
+    "R002",
+    "R003",
+    "R010",
+    "R013",
+    "R015",
+    "R016",
+    "R017",
+    "R020",
+    "S001",
+    "S002",
+    "S003",
+    "S004",
+    "S005",
+    "S006",
+    "S007"
+  ],
+  "checks_available": 45,
+  "inputs": {
+    "config.yaml": "sha256:ae979d28a67bac7c3076588b016bf567ae30d4306a6fde4ca53a3048999901a3",
+    "sample_sheet.csv": "sha256:dd5640b0a59a4381a74f4fc5214f053f992b3d47ceb16695179ece4550d833b8"
+  },
+  "data": {
+    "published": true,
+    "accession": "GCA_020740605.1",
+    "objects": {
+      "raw.vcf.gz": "etag:17068ae5bd0812b8cec21bbd809a49c2-340",
+      "raw.vcf.gz.tbi": "etag:9c098c79f3c9af0b276064ab709202a9",
+      "filtered.vcf.gz": "etag:69e3785c5b89ac2b2c75c38022d87bba-432",
+      "sample_sheet.csv": "etag:f28b61ee804952518e0e3d22e7ccfdec"
+    },
+    "bams": {
+      "count": 12,
+      "digest": "sha256:0271022955194320008d7a7744e98717d65b593e62b4bf77340b05f04b898128"
+    }
+  },
+  "findings": [
+    {
+      "id": "P010",
+      "severity": "info",
+      "subject": "mammals/lemur-catta",
+      "message": "pipeline versions: bcftools 1.23.1, gatk 4.6.2.0",
+      "detail": null,
+      "path": null,
+      "line": null
+    },
+    {
+      "id": "E002",
+      "severity": "skipped",
+      "subject": "mammals/lemur-catta",
+      "message": "skipped: every run's bioproject is listed in README.txt",
+      "detail": "needs readme",
+      "path": null,
+      "line": null
+    },
+    {
+      "id": "E003",
+      "severity": "skipped",
+      "subject": "mammals/lemur-catta",
+      "message": "skipped: every README.txt bioproject contributes runs",
+      "detail": "needs readme",
+      "path": null,
+      "line": null
+    },
+    {
+      "id": "R020",
+      "severity": "skipped",
+      "subject": "mammals/lemur-catta",
+      "message": "skipped: README.txt accession matches the config",
+      "detail": "needs readme",
+      "path": null,
+      "line": null
+    }
+  ],
+  "status": {
+    "subject": "mammals/lemur-catta",
+    "state": "complete",
+    "accession": "GCA_020740605.1",
+    "declared_accession": "GCA_020740605.1",
+    "accession_differs": false,
+    "present": [
+      "bams",
+      "callable_sites",
+      "filtered_vcf",
+      "published_readme",
+      "qc",
+      "raw_vcf",
+      "raw_vcf_index"
+    ],
+    "missing": [],
+    "counts": {
+      "sheet_samples": 12,
+      "bams": 12,
+      "vcf_samples": 12
+    }
+  },
+  "superseded": null,
+  "stale_reason": null
+}

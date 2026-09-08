@@ -1,0 +1,108 @@
+{
+  "subject": "birds/passer-domesticus",
+  "state": "PASS",
+  "validated_at": "2026-09-08T23:49:24Z",
+  "tool_version": "0.1.0",
+  "catalog": "sha256:805c480a4f457eea22a64bce4125fc59118e04ece82c32f1e033c73c70eb8649",
+  "checks_run": [
+    "E001",
+    "E002",
+    "E003",
+    "F001",
+    "F002",
+    "F003",
+    "F004",
+    "F005",
+    "F006",
+    "F007",
+    "F008",
+    "F009",
+    "F010",
+    "F011",
+    "F020",
+    "F021",
+    "F022",
+    "F023",
+    "F024",
+    "G001",
+    "G010",
+    "G011",
+    "G012",
+    "G013",
+    "G014",
+    "P001",
+    "P002",
+    "P003",
+    "P010",
+    "R001",
+    "R002",
+    "R003",
+    "R010",
+    "R013",
+    "R015",
+    "R016",
+    "R017",
+    "R020",
+    "S001",
+    "S002",
+    "S003",
+    "S004",
+    "S005",
+    "S006",
+    "S007"
+  ],
+  "checks_available": 45,
+  "inputs": {
+    "config.yaml": "sha256:0253956a891b253d644aa82245de226aacbc6e7c4188d77f1ade00f240d797cc",
+    "sample_sheet.csv": "sha256:388da8c561356b37d07ccfea185b4beb2ec46d53e7f43ec75d3ff101f6bdb503",
+    "README.txt": "sha256:687b1116cb7ac1cf87d313f80f26e7f52b177adf03973ceec62e555f8ba865bb"
+  },
+  "data": {
+    "published": true,
+    "accession": "GCA_036417665.1",
+    "objects": {
+      "raw.vcf.gz": "etag:abeff3e82d2d3d0ceaeae8d7c329932f-1307",
+      "raw.vcf.gz.tbi": "etag:29a8ea197f63c985367d8954243d93f6",
+      "sample_sheet.csv": "etag:71ecbb7ec031b4bd4949f11df3589ab3"
+    },
+    "bams": {
+      "count": 27,
+      "digest": "sha256:d56414038f2899bd8b7fae252641c91d56a9c79fe4ec98c46ee9fb9496405456"
+    }
+  },
+  "findings": [
+    {
+      "id": "P010",
+      "severity": "info",
+      "subject": "birds/passer-domesticus",
+      "message": "pipeline versions: bcftools 1.23.1, gatk 4.6.2.0",
+      "detail": null,
+      "path": null,
+      "line": null
+    }
+  ],
+  "status": {
+    "subject": "birds/passer-domesticus",
+    "state": "complete",
+    "accession": "GCA_036417665.1",
+    "declared_accession": "GCA_036417665.1",
+    "accession_differs": false,
+    "present": [
+      "bams",
+      "callable_sites",
+      "published_readme",
+      "qc",
+      "raw_vcf",
+      "raw_vcf_index",
+      "repo_readme"
+    ],
+    "missing": [],
+    "counts": {
+      "sheet_samples": 27,
+      "bams": 27,
+      "vcf_samples": 27
+    }
+  },
+  "superseded": null,
+  "stale_reason": null
+}

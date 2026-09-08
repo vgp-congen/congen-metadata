@@ -1,0 +1,108 @@
+{
+  "subject": "mammals/balaenoptera-acutorostrata",
+  "state": "PASS",
+  "validated_at": "2026-09-08T23:49:25Z",
+  "tool_version": "0.1.0",
+  "catalog": "sha256:805c480a4f457eea22a64bce4125fc59118e04ece82c32f1e033c73c70eb8649",
+  "checks_run": [
+    "E001",
+    "E002",
+    "E003",
+    "F001",
+    "F002",
+    "F003",
+    "F004",
+    "F005",
+    "F006",
+    "F007",
+    "F008",
+    "F009",
+    "F010",
+    "F011",
+    "F020",
+    "F021",
+    "F022",
+    "F023",
+    "F024",
+    "G001",
+    "G010",
+    "G011",
+    "G012",
+    "G013",
+    "G014",
+    "P001",
+    "P002",
+    "P003",
+    "P010",
+    "R001",
+    "R002",
+    "R003",
+    "R010",
+    "R013",
+    "R015",
+    "R016",
+    "R017",
+    "R020",
+    "S001",
+    "S002",
+    "S003",
+    "S004",
+    "S005",
+    "S006",
+    "S007"
+  ],
+  "checks_available": 45,
+  "inputs": {
+    "config.yaml": "sha256:6b4274f77d2677d2acd7c0284c2b7e7ab6084c248027c123f34a3a1cf5334d89",
+    "sample_sheet.csv": "sha256:477dd80e50b8ac46c5b19bf3d17358da6bd0ceb56162f9a3e5ea36370c5002d7",
+    "README.txt": "sha256:f88d14b6dfc7cff9516b5cd0a85fab95b60313b14cd47c1f35725ff2c88c03a6"
+  },
+  "data": {
+    "published": true,
+    "accession": "GCA_949987535.1",
+    "objects": {
+      "raw.vcf.gz": "etag:82d52411da7e01495856ddfa40a290bd-173",
+      "raw.vcf.gz.tbi": "etag:60c61211be2a79b12f5049fa17a0dfe0",
+      "sample_sheet.csv": "etag:10d7399b428ee9a35f720e580edbfdce"
+    },
+    "bams": {
+      "count": 10,
+      "digest": "sha256:9f69f86e57c54b555e11f9ee981adae7f8ace4c212021440344eb0ff7fa33e5f"
+    }
+  },
+  "findings": [
+    {
+      "id": "P010",
+      "severity": "info",
+      "subject": "mammals/balaenoptera-acutorostrata",
+      "message": "pipeline versions: bcftools 1.23.1, gatk 4.6.2.0",
+      "detail": null,
+      "path": null,
+      "line": null
+    }
+  ],
+  "status": {
+    "subject": "mammals/balaenoptera-acutorostrata",
+    "state": "complete",
+    "accession": "GCA_949987535.1",
+    "declared_accession": "GCA_949987535.1",
+    "accession_differs": false,
+    "present": [
+      "bams",
+      "callable_sites",
+      "published_readme",
+      "qc",
+      "raw_vcf",
+      "raw_vcf_index",
+      "repo_readme"
+    ],
+    "missing": [],
+    "counts": {
+      "sheet_samples": 10,
+      "bams": 10,
+      "vcf_samples": 10
+    }
+  },
+  "superseded": null,
+  "stale_reason": null
+}

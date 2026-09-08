@@ -1,0 +1,108 @@
+{
+  "subject": "birds/fringilla-coelebs",
+  "state": "PASS",
+  "validated_at": "2026-09-08T23:49:24Z",
+  "tool_version": "0.1.0",
+  "catalog": "sha256:805c480a4f457eea22a64bce4125fc59118e04ece82c32f1e033c73c70eb8649",
+  "checks_run": [
+    "E001",
+    "E002",
+    "E003",
+    "F001",
+    "F002",
+    "F003",
+    "F004",
+    "F005",
+    "F006",
+    "F007",
+    "F008",
+    "F009",
+    "F010",
+    "F011",
+    "F020",
+    "F021",
+    "F022",
+    "F023",
+    "F024",
+    "G001",
+    "G010",
+    "G011",
+    "G012",
+    "G013",
+    "G014",
+    "P001",
+    "P002",
+    "P003",
+    "P010",
+    "R001",
+    "R002",
+    "R003",
+    "R010",
+    "R013",
+    "R015",
+    "R016",
+    "R017",
+    "R020",
+    "S001",
+    "S002",
+    "S003",
+    "S004",
+    "S005",
+    "S006",
+    "S007"
+  ],
+  "checks_available": 45,
+  "inputs": {
+    "config.yaml": "sha256:e25757f4b0baec890827ec0931672adfda1533784ec6ce5f5a81595da8af6b86",
+    "sample_sheet.csv": "sha256:e89c1885c44fba93f03671044ea070ffb2e17e6ce7e57e68d0f7fb6ed17aeab7",
+    "README.txt": "sha256:a0b3ef79f4118b287455ddbcca9287bb22f00ad30496fe4b69bde704c238486b"
+  },
+  "data": {
+    "published": true,
+    "accession": "GCA_963513975.1",
+    "objects": {
+      "raw.vcf.gz": "etag:7ed2a3f58060323ab6f8929a672b4d49-1442",
+      "raw.vcf.gz.tbi": "etag:c05ba3a31ba50c052ec3e5715568c0fb",
+      "sample_sheet.csv": "etag:9a7b978aa53e267d16fb4fde99afaac5"
+    },
+    "bams": {
+      "count": 25,
+      "digest": "sha256:cea652d6050d213070d2454d16fe690f03bb5331c3f2e7b2748b8066a0af3896"
+    }
+  },
+  "findings": [
+    {
+      "id": "P010",
+      "severity": "info",
+      "subject": "birds/fringilla-coelebs",
+      "message": "pipeline versions: bcftools 1.23.1, gatk 4.6.2.0",
+      "detail": null,
+      "path": null,
+      "line": null
+    }
+  ],
+  "status": {
+    "subject": "birds/fringilla-coelebs",
+    "state": "complete",
+    "accession": "GCA_963513975.1",
+    "declared_accession": "GCA_963513975.1",
+    "accession_differs": false,
+    "present": [
+      "bams",
+      "callable_sites",
+      "published_readme",
+      "qc",
+      "raw_vcf",
+      "raw_vcf_index",
+      "repo_readme"
+    ],
+    "missing": [],
+    "counts": {
+      "sheet_samples": 25,
+      "bams": 25,
+      "vcf_samples": 25
+    }
+  },
+  "superseded": null,
+  "stale_reason": null
+}

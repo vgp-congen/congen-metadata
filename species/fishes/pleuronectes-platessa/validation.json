@@ -1,0 +1,108 @@
+{
+  "subject": "fishes/pleuronectes-platessa",
+  "state": "PASS",
+  "validated_at": "2026-09-08T23:49:25Z",
+  "tool_version": "0.1.0",
+  "catalog": "sha256:805c480a4f457eea22a64bce4125fc59118e04ece82c32f1e033c73c70eb8649",
+  "checks_run": [
+    "E001",
+    "E002",
+    "E003",
+    "F001",
+    "F002",
+    "F003",
+    "F004",
+    "F005",
+    "F006",
+    "F007",
+    "F008",
+    "F009",
+    "F010",
+    "F011",
+    "F020",
+    "F021",
+    "F022",
+    "F023",
+    "F024",
+    "G001",
+    "G010",
+    "G011",
+    "G012",
+    "G013",
+    "G014",
+    "P001",
+    "P002",
+    "P003",
+    "P010",
+    "R001",
+    "R002",
+    "R003",
+    "R010",
+    "R013",
+    "R015",
+    "R016",
+    "R017",
+    "R020",
+    "S001",
+    "S002",
+    "S003",
+    "S004",
+    "S005",
+    "S006",
+    "S007"
+  ],
+  "checks_available": 45,
+  "inputs": {
+    "config.yaml": "sha256:828f9bd72205405b558d7936d2d600dfb078839b1fd9b72747bc644519caf4b5",
+    "sample_sheet.csv": "sha256:6149a9d9d47c299fdc3e1b30b27eb14e0446b998e00b76b504c0d17db43fcbab",
+    "README.txt": "sha256:9c228dc05e6a5dd2b55f7172c76afe4d6dd29fc7b77711995a472ac6ac1e761c"
+  },
+  "data": {
+    "published": true,
+    "accession": "GCA_947347685.1",
+    "objects": {
+      "raw.vcf.gz": "etag:7190ffda9fe48ad2b77eecd900d02e5e-616",
+      "raw.vcf.gz.tbi": "etag:2e446bb291f5a717f0821c6a9bd4a2f7",
+      "sample_sheet.csv": "etag:343572404fec2a1637e08a8e51d2a23e"
+    },
+    "bams": {
+      "count": 22,
+      "digest": "sha256:17dd7e75af25305f10b91323c6be7fde43f643b60e412866c6eb50d752f4933e"
+    }
+  },
+  "findings": [
+    {
+      "id": "P010",
+      "severity": "info",
+      "subject": "fishes/pleuronectes-platessa",
+      "message": "pipeline versions: bcftools 1.23.1, gatk 4.6.2.0",
+      "detail": null,
+      "path": null,
+      "line": null
+    }
+  ],
+  "status": {
+    "subject": "fishes/pleuronectes-platessa",
+    "state": "complete",
+    "accession": "GCA_947347685.1",
+    "declared_accession": "GCA_947347685.1",
+    "accession_differs": false,
+    "present": [
+      "bams",
+      "callable_sites",
+      "published_readme",
+      "qc",
+      "raw_vcf",
+      "raw_vcf_index",
+      "repo_readme"
+    ],
+    "missing": [],
+    "counts": {
+      "sheet_samples": 22,
+      "bams": 22,
+      "vcf_samples": 22
+    }
+  },
+  "superseded": null,
+  "stale_reason": null
+}

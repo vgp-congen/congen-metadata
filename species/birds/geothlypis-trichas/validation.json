@@ -1,0 +1,108 @@
+{
+  "subject": "birds/geothlypis-trichas",
+  "state": "PASS",
+  "validated_at": "2026-09-08T23:49:24Z",
+  "tool_version": "0.1.0",
+  "catalog": "sha256:805c480a4f457eea22a64bce4125fc59118e04ece82c32f1e033c73c70eb8649",
+  "checks_run": [
+    "E001",
+    "E002",
+    "E003",
+    "F001",
+    "F002",
+    "F003",
+    "F004",
+    "F005",
+    "F006",
+    "F007",
+    "F008",
+    "F009",
+    "F010",
+    "F011",
+    "F020",
+    "F021",
+    "F022",
+    "F023",
+    "F024",
+    "G001",
+    "G010",
+    "G011",
+    "G012",
+    "G013",
+    "G014",
+    "P001",
+    "P002",
+    "P003",
+    "P010",
+    "R001",
+    "R002",
+    "R003",
+    "R010",
+    "R013",
+    "R015",
+    "R016",
+    "R017",
+    "R020",
+    "S001",
+    "S002",
+    "S003",
+    "S004",
+    "S005",
+    "S006",
+    "S007"
+  ],
+  "checks_available": 45,
+  "inputs": {
+    "config.yaml": "sha256:d4f6d4eb681755a4bcf147899d59a7b985d826ee375af9a045bbce3a0f33fa85",
+    "sample_sheet.csv": "sha256:037beadb10e758e2137d59b93106698057fecd3bc037c0bd0624e388ee9aeb62",
+    "README.txt": "sha256:5fcbf4e9ce32a11e492464627d632c8ecddffe1e50fe2dc618e0acfc0ba58498"
+  },
+  "data": {
+    "published": true,
+    "accession": "GCA_009764595.1",
+    "objects": {
+      "raw.vcf.gz": "etag:52dfb84daf27c4a05eb4ac7d67fa8e78-1769",
+      "raw.vcf.gz.tbi": "etag:927af3bd92e79365c4c16eb3f6e7a7d5",
+      "sample_sheet.csv": "etag:f5c7c6f393d7e02e949f9c79838068b2"
+    },
+    "bams": {
+      "count": 25,
+      "digest": "sha256:1fde28d9eb9280ebbad98131db79bbe3398eb948b4f0639cfa6348ef14edb9e9"
+    }
+  },
+  "findings": [
+    {
+      "id": "P010",
+      "severity": "info",
+      "subject": "birds/geothlypis-trichas",
+      "message": "pipeline versions: bcftools 1.23.1, gatk 4.6.2.0",
+      "detail": null,
+      "path": null,
+      "line": null
+    }
+  ],
+  "status": {
+    "subject": "birds/geothlypis-trichas",
+    "state": "complete",
+    "accession": "GCA_009764595.1",
+    "declared_accession": "GCA_009764595.1",
+    "accession_differs": false,
+    "present": [
+      "bams",
+      "callable_sites",
+      "published_readme",
+      "qc",
+      "raw_vcf",
+      "raw_vcf_index",
+      "repo_readme"
+    ],
+    "missing": [],
+    "counts": {
+      "sheet_samples": 25,
+      "bams": 25,
+      "vcf_samples": 25
+    }
+  },
+  "superseded": null,
+  "stale_reason": null
+}

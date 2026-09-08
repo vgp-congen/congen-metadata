@@ -1,0 +1,135 @@
+{
+  "subject": "mammals/eubalaena-glacialis",
+  "state": "PASS",
+  "validated_at": "2026-09-08T23:49:25Z",
+  "tool_version": "0.1.0",
+  "catalog": "sha256:805c480a4f457eea22a64bce4125fc59118e04ece82c32f1e033c73c70eb8649",
+  "checks_run": [
+    "E001",
+    "E002",
+    "E003",
+    "F001",
+    "F002",
+    "F003",
+    "F004",
+    "F005",
+    "F006",
+    "F007",
+    "F008",
+    "F009",
+    "F010",
+    "F011",
+    "F020",
+    "F021",
+    "F022",
+    "F023",
+    "F024",
+    "G001",
+    "G010",
+    "G011",
+    "G012",
+    "G013",
+    "G014",
+    "P001",
+    "P002",
+    "P003",
+    "P010",
+    "R001",
+    "R002",
+    "R003",
+    "R010",
+    "R013",
+    "R015",
+    "R016",
+    "R017",
+    "R020",
+    "S001",
+    "S002",
+    "S003",
+    "S004",
+    "S005",
+    "S006",
+    "S007"
+  ],
+  "checks_available": 45,
+  "inputs": {
+    "config.yaml": "sha256:26ed9ecd457e0626f93b967b3f4a38b6ea1e69cb370884b288b3ac473bb3e0b9",
+    "sample_sheet.csv": "sha256:0a74c7541263a43c3096966075f1e37f3e19a647350ba5361c263092a3d36371"
+  },
+  "data": {
+    "published": true,
+    "accession": "GCA_028564815.2",
+    "objects": {
+      "raw.vcf.gz": "etag:b71652b3e1ce881d2ded815bfbaa38a6-202",
+      "raw.vcf.gz.tbi": "etag:159e9ab3ab9604fc282266fcff5e486c",
+      "filtered.vcf.gz": "etag:7e2be4a2848e1dac968a5f515f93b3df-273",
+      "sample_sheet.csv": "etag:3388fe252b3bd43ebb28889648343bac"
+    },
+    "bams": {
+      "count": 15,
+      "digest": "sha256:21e4c85b7bdbd57a3e7a6aed390b9f6d376f65828b4518113b6e1d7b3e8929a2"
+    }
+  },
+  "findings": [
+    {
+      "id": "P010",
+      "severity": "info",
+      "subject": "mammals/eubalaena-glacialis",
+      "message": "pipeline versions: bcftools 1.23.1, gatk 4.6.2.0",
+      "detail": null,
+      "path": null,
+      "line": null
+    },
+    {
+      "id": "E002",
+      "severity": "skipped",
+      "subject": "mammals/eubalaena-glacialis",
+      "message": "skipped: every run's bioproject is listed in README.txt",
+      "detail": "needs readme",
+      "path": null,
+      "line": null
+    },
+    {
+      "id": "E003",
+      "severity": "skipped",
+      "subject": "mammals/eubalaena-glacialis",
+      "message": "skipped: every README.txt bioproject contributes runs",
+      "detail": "needs readme",
+      "path": null,
+      "line": null
+    },
+    {
+      "id": "R020",
+      "severity": "skipped",
+      "subject": "mammals/eubalaena-glacialis",
+      "message": "skipped: README.txt accession matches the config",
+      "detail": "needs readme",
+      "path": null,
+      "line": null
+    }
+  ],
+  "status": {
+    "subject": "mammals/eubalaena-glacialis",
+    "state": "complete",
+    "accession": "GCA_028564815.2",
+    "declared_accession": "GCA_028564815.2",
+    "accession_differs": false,
+    "present": [
+      "bams",
+      "callable_sites",
+      "filtered_vcf",
+      "published_readme",
+      "qc",
+      "raw_vcf",
+      "raw_vcf_index"
+    ],
+    "missing": [],
+    "counts": {
+      "sheet_samples": 15,
+      "bams": 15,
+      "vcf_samples": 15
+    }
+  },
+  "superseded": null,
+  "stale_reason": null
+}

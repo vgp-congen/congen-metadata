@@ -1,0 +1,126 @@
+{
+  "subject": "birds/dryobates-pubescens",
+  "state": "PASS WITH WARNINGS",
+  "validated_at": "2026-09-08T23:49:24Z",
+  "tool_version": "0.1.0",
+  "catalog": "sha256:805c480a4f457eea22a64bce4125fc59118e04ece82c32f1e033c73c70eb8649",
+  "checks_run": [
+    "E001",
+    "E002",
+    "E003",
+    "F001",
+    "F002",
+    "F003",
+    "F004",
+    "F005",
+    "F006",
+    "F007",
+    "F008",
+    "F009",
+    "F010",
+    "F011",
+    "F020",
+    "F021",
+    "F022",
+    "F023",
+    "F024",
+    "G001",
+    "G010",
+    "G011",
+    "G012",
+    "G013",
+    "G014",
+    "P001",
+    "P002",
+    "P003",
+    "P010",
+    "R001",
+    "R002",
+    "R003",
+    "R010",
+    "R013",
+    "R015",
+    "R016",
+    "R017",
+    "R020",
+    "S001",
+    "S002",
+    "S003",
+    "S004",
+    "S005",
+    "S006",
+    "S007"
+  ],
+  "checks_available": 45,
+  "inputs": {
+    "config.yaml": "sha256:8b0d945f6ac2a8f1ec09f3f5d16c8b7057e0c08a05e603201a84cc11f68eed11",
+    "sample_sheet.csv": "sha256:945659da877838dfc138cd7667951ff3a0088713ba2f7662a8f99306dbb44dfc",
+    "README.txt": "sha256:8d555e611438deeeb6fe01938389698c8fbe21b6a598ab833df80c5d76031109"
+  },
+  "data": {
+    "published": true,
+    "accession": "GCA_014839835.1",
+    "objects": {
+      "raw.vcf.gz": "etag:9e55710bdd11b4e93f4cece8c597fc39-856",
+      "raw.vcf.gz.tbi": "etag:7eda939b449a996368749a974c1df1e1",
+      "sample_sheet.csv": "etag:316cfe39a60ce6bd9d0b7f6b8e175a07"
+    },
+    "bams": {
+      "count": 21,
+      "digest": "sha256:a5f42dd9059c09111a2e6d801f420d9aac54e14ae4a8887b03c86ef3c5c118d4"
+    }
+  },
+  "findings": [
+    {
+      "id": "E002",
+      "severity": "warn",
+      "subject": "birds/dryobates-pubescens",
+      "message": "1 bioproject(s) contribute runs but are not in README.txt",
+      "detail": "PRJNA1462765; README lists PRJNA1264660, PRJNA212874, PRJNA464344, PRJNA561991, PRJNA917637",
+      "path": "species/birds/dryobates-pubescens/README.txt",
+      "line": null
+    },
+    {
+      "id": "E003",
+      "severity": "warn",
+      "subject": "birds/dryobates-pubescens",
+      "message": "README.txt cites 1 bioproject(s) that contribute no runs to the sheet",
+      "detail": "PRJNA561991",
+      "path": "species/birds/dryobates-pubescens/README.txt",
+      "line": null
+    },
+    {
+      "id": "P010",
+      "severity": "info",
+      "subject": "birds/dryobates-pubescens",
+      "message": "pipeline versions: bcftools 1.23.1, gatk 4.6.2.0",
+      "detail": null,
+      "path": null,
+      "line": null
+    }
+  ],
+  "status": {
+    "subject": "birds/dryobates-pubescens",
+    "state": "complete",
+    "accession": "GCA_014839835.1",
+    "declared_accession": "GCA_014839835.1",
+    "accession_differs": false,
+    "present": [
+      "bams",
+      "callable_sites",
+      "published_readme",
+      "qc",
+      "raw_vcf",
+      "raw_vcf_index",
+      "repo_readme"
+    ],
+    "missing": [],
+    "counts": {
+      "sheet_samples": 21,
+      "bams": 21,
+      "vcf_samples": 21
+    }
+  },
+  "superseded": null,
+  "stale_reason": null
+}

@@ -1,0 +1,108 @@
+{
+  "subject": "fishes/rhamphochromis-sp",
+  "state": "PASS",
+  "validated_at": "2026-09-08T23:49:25Z",
+  "tool_version": "0.1.0",
+  "catalog": "sha256:805c480a4f457eea22a64bce4125fc59118e04ece82c32f1e033c73c70eb8649",
+  "checks_run": [
+    "E001",
+    "E002",
+    "E003",
+    "F001",
+    "F002",
+    "F003",
+    "F004",
+    "F005",
+    "F006",
+    "F007",
+    "F008",
+    "F009",
+    "F010",
+    "F011",
+    "F020",
+    "F021",
+    "F022",
+    "F023",
+    "F024",
+    "G001",
+    "G010",
+    "G011",
+    "G012",
+    "G013",
+    "G014",
+    "P001",
+    "P002",
+    "P003",
+    "P010",
+    "R001",
+    "R002",
+    "R003",
+    "R010",
+    "R013",
+    "R015",
+    "R016",
+    "R017",
+    "R020",
+    "S001",
+    "S002",
+    "S003",
+    "S004",
+    "S005",
+    "S006",
+    "S007"
+  ],
+  "checks_available": 45,
+  "inputs": {
+    "config.yaml": "sha256:bc22d38253c7c039c821e991dfb6b0a49930f5ea34b455d6eb425ae449f16987",
+    "sample_sheet.csv": "sha256:c89b1d780292d3be86a8fb7e9d9a20fd37a2e3734b483b1f0d5212d999cb0370",
+    "README.txt": "sha256:7dbb3ab70b18de49c2613f782af64e563086e44f02d4a7f9c4bcc5cc3bfe3958"
+  },
+  "data": {
+    "published": true,
+    "accession": "GCA_963969265.1",
+    "objects": {
+      "raw.vcf.gz": "etag:1a576afb0223bb4d3194564f2fea299a-104",
+      "raw.vcf.gz.tbi": "etag:887d09bcda4c5553faa30ddfcffab3f1",
+      "sample_sheet.csv": "etag:354454bac155494f5a5c9b5c217bb3b3"
+    },
+    "bams": {
+      "count": 11,
+      "digest": "sha256:83576ec057f60c78be12f834d41d813691a44eacc2b4a2a37ce3847a1fbe4ea8"
+    }
+  },
+  "findings": [
+    {
+      "id": "P010",
+      "severity": "info",
+      "subject": "fishes/rhamphochromis-sp",
+      "message": "pipeline versions: bcftools 1.23.1, gatk 4.6.2.0",
+      "detail": null,
+      "path": null,
+      "line": null
+    }
+  ],
+  "status": {
+    "subject": "fishes/rhamphochromis-sp",
+    "state": "complete",
+    "accession": "GCA_963969265.1",
+    "declared_accession": "GCA_963969265.1",
+    "accession_differs": false,
+    "present": [
+      "bams",
+      "callable_sites",
+      "published_readme",
+      "qc",
+      "raw_vcf",
+      "raw_vcf_index",
+      "repo_readme"
+    ],
+    "missing": [],
+    "counts": {
+      "sheet_samples": 11,
+      "bams": 11,
+      "vcf_samples": 11
+    }
+  },
+  "superseded": null,
+  "stale_reason": null
+}

@@ -1,0 +1,108 @@
+{
+  "subject": "fishes/platichthys-flesus",
+  "state": "PASS",
+  "validated_at": "2026-09-08T23:49:25Z",
+  "tool_version": "0.1.0",
+  "catalog": "sha256:805c480a4f457eea22a64bce4125fc59118e04ece82c32f1e033c73c70eb8649",
+  "checks_run": [
+    "E001",
+    "E002",
+    "E003",
+    "F001",
+    "F002",
+    "F003",
+    "F004",
+    "F005",
+    "F006",
+    "F007",
+    "F008",
+    "F009",
+    "F010",
+    "F011",
+    "F020",
+    "F021",
+    "F022",
+    "F023",
+    "F024",
+    "G001",
+    "G010",
+    "G011",
+    "G012",
+    "G013",
+    "G014",
+    "P001",
+    "P002",
+    "P003",
+    "P010",
+    "R001",
+    "R002",
+    "R003",
+    "R010",
+    "R013",
+    "R015",
+    "R016",
+    "R017",
+    "R020",
+    "S001",
+    "S002",
+    "S003",
+    "S004",
+    "S005",
+    "S006",
+    "S007"
+  ],
+  "checks_available": 45,
+  "inputs": {
+    "config.yaml": "sha256:ead2100665d64168a2a0ebcec66e8c8992ff152a6afe1bde4c6294114c07e45c",
+    "sample_sheet.csv": "sha256:a1feefd490c64e774149db825fe41eccaac90430ec411ceb442f681ec8c34abd",
+    "README.txt": "sha256:94452796f56285156fda948186755538e6e835491ad49459169fed9dc3f685f5"
+  },
+  "data": {
+    "published": true,
+    "accession": "GCA_949316205.1",
+    "objects": {
+      "raw.vcf.gz": "etag:0c1ddf331e07fc1b0804d35e173c051f-1059",
+      "raw.vcf.gz.tbi": "etag:f69c41d1f4a71528471d1587ea17fded",
+      "sample_sheet.csv": "etag:141f0c83e7a36148041a0bcc9755aa24"
+    },
+    "bams": {
+      "count": 53,
+      "digest": "sha256:22e1b2d2a8bff7e3029f71d2b91e78ce449c4c7377ab5441c4f14eec45627684"
+    }
+  },
+  "findings": [
+    {
+      "id": "P010",
+      "severity": "info",
+      "subject": "fishes/platichthys-flesus",
+      "message": "pipeline versions: bcftools 1.23.1, gatk 4.6.2.0",
+      "detail": null,
+      "path": null,
+      "line": null
+    }
+  ],
+  "status": {
+    "subject": "fishes/platichthys-flesus",
+    "state": "complete",
+    "accession": "GCA_949316205.1",
+    "declared_accession": "GCA_949316205.1",
+    "accession_differs": false,
+    "present": [
+      "bams",
+      "callable_sites",
+      "published_readme",
+      "qc",
+      "raw_vcf",
+      "raw_vcf_index",
+      "repo_readme"
+    ],
+    "missing": [],
+    "counts": {
+      "sheet_samples": 53,
+      "bams": 53,
+      "vcf_samples": 53
+    }
+  },
+  "superseded": null,
+  "stale_reason": null
+}

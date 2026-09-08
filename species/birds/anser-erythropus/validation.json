@@ -1,0 +1,108 @@
+{
+  "subject": "birds/anser-erythropus",
+  "state": "PASS",
+  "validated_at": "2026-09-08T23:49:24Z",
+  "tool_version": "0.1.0",
+  "catalog": "sha256:805c480a4f457eea22a64bce4125fc59118e04ece82c32f1e033c73c70eb8649",
+  "checks_run": [
+    "E001",
+    "E002",
+    "E003",
+    "F001",
+    "F002",
+    "F003",
+    "F004",
+    "F005",
+    "F006",
+    "F007",
+    "F008",
+    "F009",
+    "F010",
+    "F011",
+    "F020",
+    "F021",
+    "F022",
+    "F023",
+    "F024",
+    "G001",
+    "G010",
+    "G011",
+    "G012",
+    "G013",
+    "G014",
+    "P001",
+    "P002",
+    "P003",
+    "P010",
+    "R001",
+    "R002",
+    "R003",
+    "R010",
+    "R013",
+    "R015",
+    "R016",
+    "R017",
+    "R020",
+    "S001",
+    "S002",
+    "S003",
+    "S004",
+    "S005",
+    "S006",
+    "S007"
+  ],
+  "checks_available": 45,
+  "inputs": {
+    "config.yaml": "sha256:62a9672406d67c1347d79e0470633c5feaaccfc2cfe9c056d520af9499c549ef",
+    "sample_sheet.csv": "sha256:cb16fa3566e7a17f71da118669a4070fcfb246ec14973495ca956416623a8c9a",
+    "README.txt": "sha256:1ac55c93661bba5afb6d76bfc8b6712a94ed7c779a2fb189765c2d222a9bca2a"
+  },
+  "data": {
+    "published": true,
+    "accession": "GCA_965277985.1",
+    "objects": {
+      "raw.vcf.gz": "etag:5fdfe4e9a92a0f066934d0f825e66331-734",
+      "raw.vcf.gz.tbi": "etag:6be88bc99e1883a7b972f99c1282e7dc",
+      "sample_sheet.csv": "etag:6700aa8d4d062a84c828452f98917ac2"
+    },
+    "bams": {
+      "count": 24,
+      "digest": "sha256:6fe05098fcc18feecf0485a946570a43a43da59eeb2cf5e564282c64cb1d9598"
+    }
+  },
+  "findings": [
+    {
+      "id": "P010",
+      "severity": "info",
+      "subject": "birds/anser-erythropus",
+      "message": "pipeline versions: bcftools 1.23.1, gatk 4.6.2.0",
+      "detail": null,
+      "path": null,
+      "line": null
+    }
+  ],
+  "status": {
+    "subject": "birds/anser-erythropus",
+    "state": "complete",
+    "accession": "GCA_965277985.1",
+    "declared_accession": "GCA_965277985.1",
+    "accession_differs": false,
+    "present": [
+      "bams",
+      "callable_sites",
+      "published_readme",
+      "qc",
+      "raw_vcf",
+      "raw_vcf_index",
+      "repo_readme"
+    ],
+    "missing": [],
+    "counts": {
+      "sheet_samples": 24,
+      "bams": 24,
+      "vcf_samples": 24
+    }
+  },
+  "superseded": null,
+  "stale_reason": null
+}

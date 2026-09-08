@@ -1,0 +1,108 @@
+{
+  "subject": "fishes/thunnus-albacares",
+  "state": "PASS",
+  "validated_at": "2026-09-08T23:49:25Z",
+  "tool_version": "0.1.0",
+  "catalog": "sha256:805c480a4f457eea22a64bce4125fc59118e04ece82c32f1e033c73c70eb8649",
+  "checks_run": [
+    "E001",
+    "E002",
+    "E003",
+    "F001",
+    "F002",
+    "F003",
+    "F004",
+    "F005",
+    "F006",
+    "F007",
+    "F008",
+    "F009",
+    "F010",
+    "F011",
+    "F020",
+    "F021",
+    "F022",
+    "F023",
+    "F024",
+    "G001",
+    "G010",
+    "G011",
+    "G012",
+    "G013",
+    "G014",
+    "P001",
+    "P002",
+    "P003",
+    "P010",
+    "R001",
+    "R002",
+    "R003",
+    "R010",
+    "R013",
+    "R015",
+    "R016",
+    "R017",
+    "R020",
+    "S001",
+    "S002",
+    "S003",
+    "S004",
+    "S005",
+    "S006",
+    "S007"
+  ],
+  "checks_available": 45,
+  "inputs": {
+    "config.yaml": "sha256:09d716c12d4e403cba731bc709044554363ec914e6cb7910a078c5ea1fe77464",
+    "sample_sheet.csv": "sha256:cfae248402c80a7f8519063df1f69ca3a8616f1d81acd8def760afe900213499",
+    "README.txt": "sha256:c1d1e1751c837b64384ced2bca79b5e05f1dd3e58112cdf40144e83bc5df1963"
+  },
+  "data": {
+    "published": true,
+    "accession": "GCA_914725855.1",
+    "objects": {
+      "raw.vcf.gz": "etag:0a07137afb105b669f7bd21ed791cb34-369",
+      "raw.vcf.gz.tbi": "etag:4af84a0d2a987b85bb1185b7c8b5f7dd",
+      "sample_sheet.csv": "etag:6d26e1d14b13110c011c697420766af5"
+    },
+    "bams": {
+      "count": 11,
+      "digest": "sha256:acaed4d03fbe9f5f449ec238d68a6d0bd126e0cb31662c58c57cdfc2e66934e9"
+    }
+  },
+  "findings": [
+    {
+      "id": "P010",
+      "severity": "info",
+      "subject": "fishes/thunnus-albacares",
+      "message": "pipeline versions: bcftools 1.23.1, gatk 4.6.2.0",
+      "detail": null,
+      "path": null,
+      "line": null
+    }
+  ],
+  "status": {
+    "subject": "fishes/thunnus-albacares",
+    "state": "complete",
+    "accession": "GCA_914725855.1",
+    "declared_accession": "GCA_914725855.1",
+    "accession_differs": false,
+    "present": [
+      "bams",
+      "callable_sites",
+      "published_readme",
+      "qc",
+      "raw_vcf",
+      "raw_vcf_index",
+      "repo_readme"
+    ],
+    "missing": [],
+    "counts": {
+      "sheet_samples": 11,
+      "bams": 11,
+      "vcf_samples": 11
+    }
+  },
+  "superseded": null,
+  "stale_reason": null
+}

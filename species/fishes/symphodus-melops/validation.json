@@ -1,0 +1,108 @@
+{
+  "subject": "fishes/symphodus-melops",
+  "state": "PASS",
+  "validated_at": "2026-09-08T23:49:25Z",
+  "tool_version": "0.1.0",
+  "catalog": "sha256:805c480a4f457eea22a64bce4125fc59118e04ece82c32f1e033c73c70eb8649",
+  "checks_run": [
+    "E001",
+    "E002",
+    "E003",
+    "F001",
+    "F002",
+    "F003",
+    "F004",
+    "F005",
+    "F006",
+    "F007",
+    "F008",
+    "F009",
+    "F010",
+    "F011",
+    "F020",
+    "F021",
+    "F022",
+    "F023",
+    "F024",
+    "G001",
+    "G010",
+    "G011",
+    "G012",
+    "G013",
+    "G014",
+    "P001",
+    "P002",
+    "P003",
+    "P010",
+    "R001",
+    "R002",
+    "R003",
+    "R010",
+    "R013",
+    "R015",
+    "R016",
+    "R017",
+    "R020",
+    "S001",
+    "S002",
+    "S003",
+    "S004",
+    "S005",
+    "S006",
+    "S007"
+  ],
+  "checks_available": 45,
+  "inputs": {
+    "config.yaml": "sha256:be2b7a873e233aa327a690891ad551a0198ab62ffbe53faad428f416bba944dd",
+    "sample_sheet.csv": "sha256:8ad9d484ccc52c7b72d7e5fd6d2b9858be43ff64120958dfbf53fa8945c38af1",
+    "README.txt": "sha256:f9fb8d4efbbc22331b629d99b6a47317fe560f1d002745c6926ad56bdcc93b14"
+  },
+  "data": {
+    "published": true,
+    "accession": "GCA_947650265.1",
+    "objects": {
+      "raw.vcf.gz": "etag:d5920db931052581fdb7ffae20054f3e-126",
+      "raw.vcf.gz.tbi": "etag:f9415ef336d06f541dd5ed648d2a6c80",
+      "sample_sheet.csv": "etag:9a9292a3a1651894940139153bb4738a"
+    },
+    "bams": {
+      "count": 15,
+      "digest": "sha256:15050dfee4edff7ad7d5df2f681d07b8117c1cdef2af4e671328ba818f6e710b"
+    }
+  },
+  "findings": [
+    {
+      "id": "P010",
+      "severity": "info",
+      "subject": "fishes/symphodus-melops",
+      "message": "pipeline versions: bcftools 1.23.1, gatk 4.6.2.0",
+      "detail": null,
+      "path": null,
+      "line": null
+    }
+  ],
+  "status": {
+    "subject": "fishes/symphodus-melops",
+    "state": "complete",
+    "accession": "GCA_947650265.1",
+    "declared_accession": "GCA_947650265.1",
+    "accession_differs": false,
+    "present": [
+      "bams",
+      "callable_sites",
+      "published_readme",
+      "qc",
+      "raw_vcf",
+      "raw_vcf_index",
+      "repo_readme"
+    ],
+    "missing": [],
+    "counts": {
+      "sheet_samples": 15,
+      "bams": 15,
+      "vcf_samples": 15
+    }
+  },
+  "superseded": null,
+  "stale_reason": null
+}

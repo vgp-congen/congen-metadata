@@ -1,0 +1,108 @@
+{
+  "subject": "fishes/takifugu-rubripes",
+  "state": "PASS",
+  "validated_at": "2026-09-08T23:49:25Z",
+  "tool_version": "0.1.0",
+  "catalog": "sha256:805c480a4f457eea22a64bce4125fc59118e04ece82c32f1e033c73c70eb8649",
+  "checks_run": [
+    "E001",
+    "E002",
+    "E003",
+    "F001",
+    "F002",
+    "F003",
+    "F004",
+    "F005",
+    "F006",
+    "F007",
+    "F008",
+    "F009",
+    "F010",
+    "F011",
+    "F020",
+    "F021",
+    "F022",
+    "F023",
+    "F024",
+    "G001",
+    "G010",
+    "G011",
+    "G012",
+    "G013",
+    "G014",
+    "P001",
+    "P002",
+    "P003",
+    "P010",
+    "R001",
+    "R002",
+    "R003",
+    "R010",
+    "R013",
+    "R015",
+    "R016",
+    "R017",
+    "R020",
+    "S001",
+    "S002",
+    "S003",
+    "S004",
+    "S005",
+    "S006",
+    "S007"
+  ],
+  "checks_available": 45,
+  "inputs": {
+    "config.yaml": "sha256:df64c6a76bef73a52791c0f34a0a7d144ce5e937257eb7285de13e19ea904a4b",
+    "sample_sheet.csv": "sha256:89d4883a766af7901a6e804fc007dc8320f14c01f5a31c83e0c93e75ecdddce8",
+    "README.txt": "sha256:d3197b2bf719dc0bf63d50847caba0a4a3f17fadd160d6db8886558bc8060a0a"
+  },
+  "data": {
+    "published": true,
+    "accession": "GCA_901000725.3",
+    "objects": {
+      "raw.vcf.gz": "etag:a8d4efa10dce7fbbc34f65b41abe3f0d-416",
+      "raw.vcf.gz.tbi": "etag:ae8cbbe9cda580ed05e369f1ca1be6b1",
+      "sample_sheet.csv": "etag:d15489e97f45caf469bf728b18afce12"
+    },
+    "bams": {
+      "count": 62,
+      "digest": "sha256:6b9355fdefafe5ef36a81a200735685d88a781c5b1551f03254fbcb9fe0c360a"
+    }
+  },
+  "findings": [
+    {
+      "id": "P010",
+      "severity": "info",
+      "subject": "fishes/takifugu-rubripes",
+      "message": "pipeline versions: bcftools 1.23.1, gatk 4.6.2.0",
+      "detail": null,
+      "path": null,
+      "line": null
+    }
+  ],
+  "status": {
+    "subject": "fishes/takifugu-rubripes",
+    "state": "complete",
+    "accession": "GCA_901000725.3",
+    "declared_accession": "GCA_901000725.3",
+    "accession_differs": false,
+    "present": [
+      "bams",
+      "callable_sites",
+      "published_readme",
+      "qc",
+      "raw_vcf",
+      "raw_vcf_index",
+      "repo_readme"
+    ],
+    "missing": [],
+    "counts": {
+      "sheet_samples": 62,
+      "bams": 62,
+      "vcf_samples": 62
+    }
+  },
+  "superseded": null,
+  "stale_reason": null
+}

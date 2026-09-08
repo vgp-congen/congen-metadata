@@ -1,0 +1,135 @@
+{
+  "subject": "birds/falco-peregrinus",
+  "state": "PASS",
+  "validated_at": "2026-09-08T23:49:24Z",
+  "tool_version": "0.1.0",
+  "catalog": "sha256:805c480a4f457eea22a64bce4125fc59118e04ece82c32f1e033c73c70eb8649",
+  "checks_run": [
+    "E001",
+    "E002",
+    "E003",
+    "F001",
+    "F002",
+    "F003",
+    "F004",
+    "F005",
+    "F006",
+    "F007",
+    "F008",
+    "F009",
+    "F010",
+    "F011",
+    "F020",
+    "F021",
+    "F022",
+    "F023",
+    "F024",
+    "G001",
+    "G010",
+    "G011",
+    "G012",
+    "G013",
+    "G014",
+    "P001",
+    "P002",
+    "P003",
+    "P010",
+    "R001",
+    "R002",
+    "R003",
+    "R010",
+    "R013",
+    "R015",
+    "R016",
+    "R017",
+    "R020",
+    "S001",
+    "S002",
+    "S003",
+    "S004",
+    "S005",
+    "S006",
+    "S007"
+  ],
+  "checks_available": 45,
+  "inputs": {
+    "config.yaml": "sha256:904f6df6c5b3890f1ee92175d9181fe611c68549af24fd7b1f89fb7068f6218a",
+    "sample_sheet.csv": "sha256:52f1e9a9cff25bf3188f8d8b30af2b6f1a6ff7d33917f8599c7f38da68a56f86"
+  },
+  "data": {
+    "published": true,
+    "accession": "GCA_023634155.1",
+    "objects": {
+      "raw.vcf.gz": "etag:385e4489ab1eabcc6a5ddeb903a40062-1493",
+      "raw.vcf.gz.tbi": "etag:0dbb9d850c264a7532fbb432a7587132",
+      "filtered.vcf.gz": "etag:62f6e86763a102c5ae81fcb6b268c470-2108",
+      "sample_sheet.csv": "etag:3169b547e107f9000c7d2fcbcb4c793d"
+    },
+    "bams": {
+      "count": 91,
+      "digest": "sha256:2c0eebef3dd38743c28b22939bacbdb35311a996247fea6d67cdc3c79947dfba"
+    }
+  },
+  "findings": [
+    {
+      "id": "P010",
+      "severity": "info",
+      "subject": "birds/falco-peregrinus",
+      "message": "pipeline versions: bcftools 1.23.1, gatk 4.6.2.0",
+      "detail": null,
+      "path": null,
+      "line": null
+    },
+    {
+      "id": "E002",
+      "severity": "skipped",
+      "subject": "birds/falco-peregrinus",
+      "message": "skipped: every run's bioproject is listed in README.txt",
+      "detail": "needs readme",
+      "path": null,
+      "line": null
+    },
+    {
+      "id": "E003",
+      "severity": "skipped",
+      "subject": "birds/falco-peregrinus",
+      "message": "skipped: every README.txt bioproject contributes runs",
+      "detail": "needs readme",
+      "path": null,
+      "line": null
+    },
+    {
+      "id": "R020",
+      "severity": "skipped",
+      "subject": "birds/falco-peregrinus",
+      "message": "skipped: README.txt accession matches the config",
+      "detail": "needs readme",
+      "path": null,
+      "line": null
+    }
+  ],
+  "status": {
+    "subject": "birds/falco-peregrinus",
+    "state": "complete",
+    "accession": "GCA_023634155.1",
+    "declared_accession": "GCA_023634155.1",
+    "accession_differs": false,
+    "present": [
+      "bams",
+      "callable_sites",
+      "filtered_vcf",
+      "published_readme",
+      "qc",
+      "raw_vcf",
+      "raw_vcf_index"
+    ],
+    "missing": [],
+    "counts": {
+      "sheet_samples": 91,
+      "bams": 91,
+      "vcf_samples": 91
+    }
+  },
+  "superseded": null,
+  "stale_reason": null
+}

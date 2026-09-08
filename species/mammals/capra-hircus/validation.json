@@ -1,0 +1,108 @@
+{
+  "subject": "mammals/capra-hircus",
+  "state": "PASS",
+  "validated_at": "2026-09-08T23:49:25Z",
+  "tool_version": "0.1.0",
+  "catalog": "sha256:805c480a4f457eea22a64bce4125fc59118e04ece82c32f1e033c73c70eb8649",
+  "checks_run": [
+    "E001",
+    "E002",
+    "E003",
+    "F001",
+    "F002",
+    "F003",
+    "F004",
+    "F005",
+    "F006",
+    "F007",
+    "F008",
+    "F009",
+    "F010",
+    "F011",
+    "F020",
+    "F021",
+    "F022",
+    "F023",
+    "F024",
+    "G001",
+    "G010",
+    "G011",
+    "G012",
+    "G013",
+    "G014",
+    "P001",
+    "P002",
+    "P003",
+    "P010",
+    "R001",
+    "R002",
+    "R003",
+    "R010",
+    "R013",
+    "R015",
+    "R016",
+    "R017",
+    "R020",
+    "S001",
+    "S002",
+    "S003",
+    "S004",
+    "S005",
+    "S006",
+    "S007"
+  ],
+  "checks_available": 45,
+  "inputs": {
+    "config.yaml": "sha256:0679fbba4e4f08d370db598cff08934c99cccd7ab0ca345a5cdbda9c837f7c02",
+    "sample_sheet.csv": "sha256:a16f3aeed3fd45ae875c04321e3fd42452d96d091af3b9a83d96c8b1fb5f5ff6",
+    "README.txt": "sha256:3749cac7696a447690dea5e17a44fb9dfebc3c18eb7d799bb7e2a442bbb34d8b"
+  },
+  "data": {
+    "published": true,
+    "accession": "GCA_041735815.1",
+    "objects": {
+      "raw.vcf.gz": "etag:8cbd0b35c0240a79b3aca61cca413b36-653",
+      "raw.vcf.gz.tbi": "etag:cb023929beccb49a9b0d2c4dcb5824df",
+      "sample_sheet.csv": "etag:4ecaef2b553aa0aa59adb87d27bc47df"
+    },
+    "bams": {
+      "count": 17,
+      "digest": "sha256:8e7025c0cefec07207e3a37b6dafb95a7e98b97e1c714d6d8f873aa197ba00e6"
+    }
+  },
+  "findings": [
+    {
+      "id": "P010",
+      "severity": "info",
+      "subject": "mammals/capra-hircus",
+      "message": "pipeline versions: bcftools 1.23.1, gatk 4.6.2.0",
+      "detail": null,
+      "path": null,
+      "line": null
+    }
+  ],
+  "status": {
+    "subject": "mammals/capra-hircus",
+    "state": "complete",
+    "accession": "GCA_041735815.1",
+    "declared_accession": "GCA_041735815.1",
+    "accession_differs": false,
+    "present": [
+      "bams",
+      "callable_sites",
+      "published_readme",
+      "qc",
+      "raw_vcf",
+      "raw_vcf_index",
+      "repo_readme"
+    ],
+    "missing": [],
+    "counts": {
+      "sheet_samples": 17,
+      "bams": 17,
+      "vcf_samples": 17
+    }
+  },
+  "superseded": null,
+  "stale_reason": null
+}

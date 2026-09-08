@@ -1,0 +1,108 @@
+{
+  "subject": "mammals/mustela-erminea",
+  "state": "PASS",
+  "validated_at": "2026-09-08T23:49:25Z",
+  "tool_version": "0.1.0",
+  "catalog": "sha256:805c480a4f457eea22a64bce4125fc59118e04ece82c32f1e033c73c70eb8649",
+  "checks_run": [
+    "E001",
+    "E002",
+    "E003",
+    "F001",
+    "F002",
+    "F003",
+    "F004",
+    "F005",
+    "F006",
+    "F007",
+    "F008",
+    "F009",
+    "F010",
+    "F011",
+    "F020",
+    "F021",
+    "F022",
+    "F023",
+    "F024",
+    "G001",
+    "G010",
+    "G011",
+    "G012",
+    "G013",
+    "G014",
+    "P001",
+    "P002",
+    "P003",
+    "P010",
+    "R001",
+    "R002",
+    "R003",
+    "R010",
+    "R013",
+    "R015",
+    "R016",
+    "R017",
+    "R020",
+    "S001",
+    "S002",
+    "S003",
+    "S004",
+    "S005",
+    "S006",
+    "S007"
+  ],
+  "checks_available": 45,
+  "inputs": {
+    "config.yaml": "sha256:1ad72c7d33083beb8b2b2c7641868e44a3ef97975ec39d85405105f1c8148fec",
+    "sample_sheet.csv": "sha256:63e35dfd92abf6095f9cecf08e346845599e49545c070726e1f096ef9e38eb7b",
+    "README.txt": "sha256:79cbff2683d27b66c5d421abc0885c23582764ef0a9a0de0ea5131b05198a7c9"
+  },
+  "data": {
+    "published": true,
+    "accession": "GCA_009829155.1",
+    "objects": {
+      "raw.vcf.gz": "etag:622d9dcca7109bb4437b6a8fe039df44-908",
+      "raw.vcf.gz.tbi": "etag:ee6b065fb28eeddc3cba9046a279480d",
+      "sample_sheet.csv": "etag:b8d0ea4c7f43eb0f5478de5ff8d8902a"
+    },
+    "bams": {
+      "count": 13,
+      "digest": "sha256:692e2526a525e3e62db34a046f4b9a9e889c2e3525bd63b5310adc10886c3ec9"
+    }
+  },
+  "findings": [
+    {
+      "id": "P010",
+      "severity": "info",
+      "subject": "mammals/mustela-erminea",
+      "message": "pipeline versions: bcftools 1.23.1, gatk 4.6.2.0",
+      "detail": null,
+      "path": null,
+      "line": null
+    }
+  ],
+  "status": {
+    "subject": "mammals/mustela-erminea",
+    "state": "complete",
+    "accession": "GCA_009829155.1",
+    "declared_accession": "GCA_009829155.1",
+    "accession_differs": false,
+    "present": [
+      "bams",
+      "callable_sites",
+      "published_readme",
+      "qc",
+      "raw_vcf",
+      "raw_vcf_index",
+      "repo_readme"
+    ],
+    "missing": [],
+    "counts": {
+      "sheet_samples": 13,
+      "bams": 13,
+      "vcf_samples": 13
+    }
+  },
+  "superseded": null,
+  "stale_reason": null
+}

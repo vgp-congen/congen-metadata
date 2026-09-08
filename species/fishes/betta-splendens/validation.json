@@ -1,0 +1,108 @@
+{
+  "subject": "fishes/betta-splendens",
+  "state": "PASS",
+  "validated_at": "2026-09-08T23:49:24Z",
+  "tool_version": "0.1.0",
+  "catalog": "sha256:805c480a4f457eea22a64bce4125fc59118e04ece82c32f1e033c73c70eb8649",
+  "checks_run": [
+    "E001",
+    "E002",
+    "E003",
+    "F001",
+    "F002",
+    "F003",
+    "F004",
+    "F005",
+    "F006",
+    "F007",
+    "F008",
+    "F009",
+    "F010",
+    "F011",
+    "F020",
+    "F021",
+    "F022",
+    "F023",
+    "F024",
+    "G001",
+    "G010",
+    "G011",
+    "G012",
+    "G013",
+    "G014",
+    "P001",
+    "P002",
+    "P003",
+    "P010",
+    "R001",
+    "R002",
+    "R003",
+    "R010",
+    "R013",
+    "R015",
+    "R016",
+    "R017",
+    "R020",
+    "S001",
+    "S002",
+    "S003",
+    "S004",
+    "S005",
+    "S006",
+    "S007"
+  ],
+  "checks_available": 45,
+  "inputs": {
+    "config.yaml": "sha256:0617e126b7d0881e723172c9cbf74a5212323746697deb54cf3f3abd17997184",
+    "sample_sheet.csv": "sha256:42d511b7c1b8af1bd603be9f264287ee72a261862d95cdcb9b3e459e472c3903",
+    "README.txt": "sha256:08ec4725e8b587b514a1b2b2d7590e1b0c0e546bc1efb894bf336174cca6a81c"
+  },
+  "data": {
+    "published": true,
+    "accession": "GCA_900634795.4",
+    "objects": {
+      "raw.vcf.gz": "etag:6d1c5d563a193321c56ac3c131dc1002-4724",
+      "raw.vcf.gz.tbi": "etag:0462d6daef3c143f94429fd38bc1d085",
+      "sample_sheet.csv": "etag:e614c213ea9c4db0031f8392578c29fd"
+    },
+    "bams": {
+      "count": 150,
+      "digest": "sha256:de028773168833f0a305f791c0a50780bfaa82047d5769741e425acde6db933f"
+    }
+  },
+  "findings": [
+    {
+      "id": "P010",
+      "severity": "info",
+      "subject": "fishes/betta-splendens",
+      "message": "pipeline versions: bcftools 1.23.1, gatk 4.6.2.0",
+      "detail": null,
+      "path": null,
+      "line": null
+    }
+  ],
+  "status": {
+    "subject": "fishes/betta-splendens",
+    "state": "complete",
+    "accession": "GCA_900634795.4",
+    "declared_accession": "GCA_900634795.4",
+    "accession_differs": false,
+    "present": [
+      "bams",
+      "callable_sites",
+      "published_readme",
+      "qc",
+      "raw_vcf",
+      "raw_vcf_index",
+      "repo_readme"
+    ],
+    "missing": [],
+    "counts": {
+      "sheet_samples": 150,
+      "bams": 150,
+      "vcf_samples": 150
+    }
+  },
+  "superseded": null,
+  "stale_reason": null
+}

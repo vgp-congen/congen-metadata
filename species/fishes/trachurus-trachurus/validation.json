@@ -1,0 +1,108 @@
+{
+  "subject": "fishes/trachurus-trachurus",
+  "state": "PASS",
+  "validated_at": "2026-09-08T23:49:25Z",
+  "tool_version": "0.1.0",
+  "catalog": "sha256:805c480a4f457eea22a64bce4125fc59118e04ece82c32f1e033c73c70eb8649",
+  "checks_run": [
+    "E001",
+    "E002",
+    "E003",
+    "F001",
+    "F002",
+    "F003",
+    "F004",
+    "F005",
+    "F006",
+    "F007",
+    "F008",
+    "F009",
+    "F010",
+    "F011",
+    "F020",
+    "F021",
+    "F022",
+    "F023",
+    "F024",
+    "G001",
+    "G010",
+    "G011",
+    "G012",
+    "G013",
+    "G014",
+    "P001",
+    "P002",
+    "P003",
+    "P010",
+    "R001",
+    "R002",
+    "R003",
+    "R010",
+    "R013",
+    "R015",
+    "R016",
+    "R017",
+    "R020",
+    "S001",
+    "S002",
+    "S003",
+    "S004",
+    "S005",
+    "S006",
+    "S007"
+  ],
+  "checks_available": 45,
+  "inputs": {
+    "config.yaml": "sha256:5611b2960631e26f7b1b349d82574a9d269cc750061e7066f3b4a58c04b4775f",
+    "sample_sheet.csv": "sha256:bd32b6cfaf221054eb71b24db315773ba6f40e6acc3f3e53fd705303b580499f",
+    "README.txt": "sha256:17d5b418a8011cb931bc0e1a5bb9e792c292322ccf0c25b18f2c56ee68d2696b"
+  },
+  "data": {
+    "published": true,
+    "accession": "GCA_905171665.2",
+    "objects": {
+      "raw.vcf.gz": "etag:d80ad9816d2e2fdecfd77da906fd6fb3-851",
+      "raw.vcf.gz.tbi": "etag:9555eb29936d5fc17d535132bbb8cb0d",
+      "sample_sheet.csv": "etag:19a25b1dc07860266424073f64102dd3"
+    },
+    "bams": {
+      "count": 12,
+      "digest": "sha256:70cdf65805dcdc1793a8d15bc85cc9594fd8414a53594c719c6d95cfed608af7"
+    }
+  },
+  "findings": [
+    {
+      "id": "P010",
+      "severity": "info",
+      "subject": "fishes/trachurus-trachurus",
+      "message": "pipeline versions: bcftools 1.23.1, gatk 4.6.2.0",
+      "detail": null,
+      "path": null,
+      "line": null
+    }
+  ],
+  "status": {
+    "subject": "fishes/trachurus-trachurus",
+    "state": "complete",
+    "accession": "GCA_905171665.2",
+    "declared_accession": "GCA_905171665.2",
+    "accession_differs": false,
+    "present": [
+      "bams",
+      "callable_sites",
+      "published_readme",
+      "qc",
+      "raw_vcf",
+      "raw_vcf_index",
+      "repo_readme"
+    ],
+    "missing": [],
+    "counts": {
+      "sheet_samples": 12,
+      "bams": 12,
+      "vcf_samples": 12
+    }
+  },
+  "superseded": null,
+  "stale_reason": null
+}

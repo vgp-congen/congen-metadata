@@ -1,0 +1,117 @@
+{
+  "subject": "mammals/sus-scrofa-domesticus",
+  "state": "PASS WITH WARNINGS",
+  "validated_at": "2026-09-08T23:49:25Z",
+  "tool_version": "0.1.0",
+  "catalog": "sha256:805c480a4f457eea22a64bce4125fc59118e04ece82c32f1e033c73c70eb8649",
+  "checks_run": [
+    "E001",
+    "E002",
+    "E003",
+    "F001",
+    "F002",
+    "F003",
+    "F004",
+    "F005",
+    "F006",
+    "F007",
+    "F008",
+    "F009",
+    "F010",
+    "F011",
+    "F020",
+    "F021",
+    "F022",
+    "F023",
+    "F024",
+    "G001",
+    "G010",
+    "G011",
+    "G012",
+    "G013",
+    "G014",
+    "P001",
+    "P002",
+    "P003",
+    "P010",
+    "R001",
+    "R002",
+    "R003",
+    "R010",
+    "R013",
+    "R015",
+    "R016",
+    "R017",
+    "R020",
+    "S001",
+    "S002",
+    "S003",
+    "S004",
+    "S005",
+    "S006",
+    "S007"
+  ],
+  "checks_available": 45,
+  "inputs": {
+    "config.yaml": "sha256:9277ea56a814c7e55388e9aed08575ffd2a90b17bf24dcf2ff3efcc102356fed",
+    "sample_sheet.csv": "sha256:03aa1abc88b45a066d1f3f8358f1a2fd920ce5f74d94ee352668fc4c18c4355c",
+    "README.txt": "sha256:ab6b454298c33c8e47b9085ee8259fb9a2c0546fab4b7c766d396e0aa3c2e620"
+  },
+  "data": {
+    "published": true,
+    "accession": "GCA_048338725.1",
+    "objects": {
+      "raw.vcf.gz": "etag:44640e41d472e9e41908a35fabb21be2-855",
+      "raw.vcf.gz.tbi": "etag:8e1f76561968a019d50ec20fcd63aac2",
+      "sample_sheet.csv": "etag:5a7658a8f116192801560cca391a7ba8"
+    },
+    "bams": {
+      "count": 14,
+      "digest": "sha256:e8c3ae95be88a7235711c0d0aaf5ca9486d66fedf818d5d2b5b67e232b073dfa"
+    }
+  },
+  "findings": [
+    {
+      "id": "E002",
+      "severity": "warn",
+      "subject": "mammals/sus-scrofa-domesticus",
+      "message": "1 bioproject(s) contribute runs but are not in README.txt",
+      "detail": "PRJEB71922; README lists PRJEB39374, PRJEB51909, PRJNA1147173, PRJNA238851, PRJNA418771 (+3 more)",
+      "path": "species/mammals/sus-scrofa-domesticus/README.txt",
+      "line": null
+    },
+    {
+      "id": "P010",
+      "severity": "info",
+      "subject": "mammals/sus-scrofa-domesticus",
+      "message": "pipeline versions: bcftools 1.23.1, gatk 4.6.2.0",
+      "detail": null,
+      "path": null,
+      "line": null
+    }
+  ],
+  "status": {
+    "subject": "mammals/sus-scrofa-domesticus",
+    "state": "complete",
+    "accession": "GCA_048338725.1",
+    "declared_accession": "GCA_048338725.1",
+    "accession_differs": false,
+    "present": [
+      "bams",
+      "callable_sites",
+      "published_readme",
+      "qc",
+      "raw_vcf",
+      "raw_vcf_index",
+      "repo_readme"
+    ],
+    "missing": [],
+    "counts": {
+      "sheet_samples": 14,
+      "bams": 14,
+      "vcf_samples": 14
+    }
+  },
+  "superseded": null,
+  "stale_reason": null
+}

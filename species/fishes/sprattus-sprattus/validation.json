@@ -1,0 +1,108 @@
+{
+  "subject": "fishes/sprattus-sprattus",
+  "state": "PASS",
+  "validated_at": "2026-09-08T23:49:25Z",
+  "tool_version": "0.1.0",
+  "catalog": "sha256:805c480a4f457eea22a64bce4125fc59118e04ece82c32f1e033c73c70eb8649",
+  "checks_run": [
+    "E001",
+    "E002",
+    "E003",
+    "F001",
+    "F002",
+    "F003",
+    "F004",
+    "F005",
+    "F006",
+    "F007",
+    "F008",
+    "F009",
+    "F010",
+    "F011",
+    "F020",
+    "F021",
+    "F022",
+    "F023",
+    "F024",
+    "G001",
+    "G010",
+    "G011",
+    "G012",
+    "G013",
+    "G014",
+    "P001",
+    "P002",
+    "P003",
+    "P010",
+    "R001",
+    "R002",
+    "R003",
+    "R010",
+    "R013",
+    "R015",
+    "R016",
+    "R017",
+    "R020",
+    "S001",
+    "S002",
+    "S003",
+    "S004",
+    "S005",
+    "S006",
+    "S007"
+  ],
+  "checks_available": 45,
+  "inputs": {
+    "config.yaml": "sha256:c599b080c5d9cfb3dae1afe8aa654d2cc9ac9a7d083e40dc4dd5bf30fc37171f",
+    "sample_sheet.csv": "sha256:d3306b20d2ccd7ba96bcb4a2252fba32f60cd3e3ebb2d31c10a245462fd4e3ba",
+    "README.txt": "sha256:145f8841c8ca74a0debea98d72d8aa63ffdb0c8be3580fc07dccb55dfe0b3bbd"
+  },
+  "data": {
+    "published": true,
+    "accession": "GCA_963457725.1",
+    "objects": {
+      "raw.vcf.gz": "etag:7f01e84f1af2a389034f6b90cea12c9c-1117",
+      "raw.vcf.gz.tbi": "etag:9cfd3a41c4d02e8b8dfe7d1da9af2b81",
+      "sample_sheet.csv": "etag:d29313d65777e82a5eba69c2b2546d46"
+    },
+    "bams": {
+      "count": 19,
+      "digest": "sha256:cc7b9ae484be70f93c7526832a804e599e232c2a85ca98c2be2d154c8865acb9"
+    }
+  },
+  "findings": [
+    {
+      "id": "P010",
+      "severity": "info",
+      "subject": "fishes/sprattus-sprattus",
+      "message": "pipeline versions: bcftools 1.23.1, gatk 4.6.2.0",
+      "detail": null,
+      "path": null,
+      "line": null
+    }
+  ],
+  "status": {
+    "subject": "fishes/sprattus-sprattus",
+    "state": "complete",
+    "accession": "GCA_963457725.1",
+    "declared_accession": "GCA_963457725.1",
+    "accession_differs": false,
+    "present": [
+      "bams",
+      "callable_sites",
+      "published_readme",
+      "qc",
+      "raw_vcf",
+      "raw_vcf_index",
+      "repo_readme"
+    ],
+    "missing": [],
+    "counts": {
+      "sheet_samples": 19,
+      "bams": 19,
+      "vcf_samples": 19
+    }
+  },
+  "superseded": null,
+  "stale_reason": null
+}

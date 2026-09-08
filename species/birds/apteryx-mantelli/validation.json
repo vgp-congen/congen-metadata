@@ -1,0 +1,108 @@
+{
+  "subject": "birds/apteryx-mantelli",
+  "state": "PASS",
+  "validated_at": "2026-09-08T23:49:24Z",
+  "tool_version": "0.1.0",
+  "catalog": "sha256:805c480a4f457eea22a64bce4125fc59118e04ece82c32f1e033c73c70eb8649",
+  "checks_run": [
+    "E001",
+    "E002",
+    "E003",
+    "F001",
+    "F002",
+    "F003",
+    "F004",
+    "F005",
+    "F006",
+    "F007",
+    "F008",
+    "F009",
+    "F010",
+    "F011",
+    "F020",
+    "F021",
+    "F022",
+    "F023",
+    "F024",
+    "G001",
+    "G010",
+    "G011",
+    "G012",
+    "G013",
+    "G014",
+    "P001",
+    "P002",
+    "P003",
+    "P010",
+    "R001",
+    "R002",
+    "R003",
+    "R010",
+    "R013",
+    "R015",
+    "R016",
+    "R017",
+    "R020",
+    "S001",
+    "S002",
+    "S003",
+    "S004",
+    "S005",
+    "S006",
+    "S007"
+  ],
+  "checks_available": 45,
+  "inputs": {
+    "config.yaml": "sha256:f640e96b9beb4b04bf8d6aba66ebccad27767feac6dde5401d80ed06cd127a19",
+    "sample_sheet.csv": "sha256:d39ace24d04ae66baea00d9ca47b3c0de9f8aa33bdd06c66f5fd2ee9777a93f6",
+    "README.txt": "sha256:ad1f56f9eb4baef78f56f120408fca5d54c84cd11423b901609743699272170f"
+  },
+  "data": {
+    "published": true,
+    "accession": "GCA_036417845.1",
+    "objects": {
+      "raw.vcf.gz": "etag:da43dc38631e537a89fc28a2313f0174-507",
+      "raw.vcf.gz.tbi": "etag:3afaeca138603d3e020b26a86b7892c8",
+      "sample_sheet.csv": "etag:83bdc76de90de53c244af5a8a0e885dd"
+    },
+    "bams": {
+      "count": 19,
+      "digest": "sha256:f56aea56e3b33f16fba4cc4c0c47ee01a69ad3bc76479d4cb450bb44a72bdf63"
+    }
+  },
+  "findings": [
+    {
+      "id": "P010",
+      "severity": "info",
+      "subject": "birds/apteryx-mantelli",
+      "message": "pipeline versions: bcftools 1.23.1, gatk 4.6.2.0",
+      "detail": null,
+      "path": null,
+      "line": null
+    }
+  ],
+  "status": {
+    "subject": "birds/apteryx-mantelli",
+    "state": "complete",
+    "accession": "GCA_036417845.1",
+    "declared_accession": "GCA_036417845.1",
+    "accession_differs": false,
+    "present": [
+      "bams",
+      "callable_sites",
+      "published_readme",
+      "qc",
+      "raw_vcf",
+      "raw_vcf_index",
+      "repo_readme"
+    ],
+    "missing": [],
+    "counts": {
+      "sheet_samples": 19,
+      "bams": 19,
+      "vcf_samples": 19
+    }
+  },
+  "superseded": null,
+  "stale_reason": null
+}

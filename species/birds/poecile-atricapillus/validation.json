@@ -1,0 +1,108 @@
+{
+  "subject": "birds/poecile-atricapillus",
+  "state": "PASS",
+  "validated_at": "2026-09-08T23:49:24Z",
+  "tool_version": "0.1.0",
+  "catalog": "sha256:805c480a4f457eea22a64bce4125fc59118e04ece82c32f1e033c73c70eb8649",
+  "checks_run": [
+    "E001",
+    "E002",
+    "E003",
+    "F001",
+    "F002",
+    "F003",
+    "F004",
+    "F005",
+    "F006",
+    "F007",
+    "F008",
+    "F009",
+    "F010",
+    "F011",
+    "F020",
+    "F021",
+    "F022",
+    "F023",
+    "F024",
+    "G001",
+    "G010",
+    "G011",
+    "G012",
+    "G013",
+    "G014",
+    "P001",
+    "P002",
+    "P003",
+    "P010",
+    "R001",
+    "R002",
+    "R003",
+    "R010",
+    "R013",
+    "R015",
+    "R016",
+    "R017",
+    "R020",
+    "S001",
+    "S002",
+    "S003",
+    "S004",
+    "S005",
+    "S006",
+    "S007"
+  ],
+  "checks_available": 45,
+  "inputs": {
+    "config.yaml": "sha256:f908aef75d9d5f53ac7437465df175cb7dd7c57c41aced61df7d9658ba80e300",
+    "sample_sheet.csv": "sha256:b850eb537404c9068332acb6e09b6a7e97949752c23c6e02eb9f36c84a670d5d",
+    "README.txt": "sha256:f2c1641348feca9655c1552f273affd165a94862d9afb92edb72d625210f9ecc"
+  },
+  "data": {
+    "published": true,
+    "accession": "GCA_030490865.1",
+    "objects": {
+      "raw.vcf.gz": "etag:4dd16b04f49f0e6a898e159fe3083e2e-1172",
+      "raw.vcf.gz.tbi": "etag:35d824d9cbe5471b430f767d1f3c9807",
+      "sample_sheet.csv": "etag:ee6aa911fae61043e7c0d8a05955cbf3"
+    },
+    "bams": {
+      "count": 35,
+      "digest": "sha256:7d30ccc5d6c69069811a3c1c7cf93a62853d3f3fb5391bcb814e35d509e731eb"
+    }
+  },
+  "findings": [
+    {
+      "id": "P010",
+      "severity": "info",
+      "subject": "birds/poecile-atricapillus",
+      "message": "pipeline versions: bcftools 1.23.1, gatk 4.6.2.0",
+      "detail": null,
+      "path": null,
+      "line": null
+    }
+  ],
+  "status": {
+    "subject": "birds/poecile-atricapillus",
+    "state": "complete",
+    "accession": "GCA_030490865.1",
+    "declared_accession": "GCA_030490865.1",
+    "accession_differs": false,
+    "present": [
+      "bams",
+      "callable_sites",
+      "published_readme",
+      "qc",
+      "raw_vcf",
+      "raw_vcf_index",
+      "repo_readme"
+    ],
+    "missing": [],
+    "counts": {
+      "sheet_samples": 35,
+      "bams": 35,
+      "vcf_samples": 35
+    }
+  },
+  "superseded": null,
+  "stale_reason": null
+}

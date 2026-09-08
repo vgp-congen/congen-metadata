@@ -1,0 +1,108 @@
+{
+  "subject": "mammals/myotis-myotis",
+  "state": "PASS",
+  "validated_at": "2026-09-08T23:49:25Z",
+  "tool_version": "0.1.0",
+  "catalog": "sha256:805c480a4f457eea22a64bce4125fc59118e04ece82c32f1e033c73c70eb8649",
+  "checks_run": [
+    "E001",
+    "E002",
+    "E003",
+    "F001",
+    "F002",
+    "F003",
+    "F004",
+    "F005",
+    "F006",
+    "F007",
+    "F008",
+    "F009",
+    "F010",
+    "F011",
+    "F020",
+    "F021",
+    "F022",
+    "F023",
+    "F024",
+    "G001",
+    "G010",
+    "G011",
+    "G012",
+    "G013",
+    "G014",
+    "P001",
+    "P002",
+    "P003",
+    "P010",
+    "R001",
+    "R002",
+    "R003",
+    "R010",
+    "R013",
+    "R015",
+    "R016",
+    "R017",
+    "R020",
+    "S001",
+    "S002",
+    "S003",
+    "S004",
+    "S005",
+    "S006",
+    "S007"
+  ],
+  "checks_available": 45,
+  "inputs": {
+    "config.yaml": "sha256:eb2890c8ab5448a034cdb5ed5b0d1e0e04e37b883a9b07a3f9f5580bcb1e0244",
+    "sample_sheet.csv": "sha256:2956f860c6939cf5ea984152ee60c9c06360fcbd61d6a427c8e7f2372dc2c577",
+    "README.txt": "sha256:898a5924c2fd2865fe9a991580dc985221a55df30a6edc2039bba001f6134d36"
+  },
+  "data": {
+    "published": true,
+    "accession": "GCA_014108235.2",
+    "objects": {
+      "raw.vcf.gz": "etag:5a06354430d4fe2eac359044b2b0034a-579",
+      "raw.vcf.gz.tbi": "etag:169737ff0e47b13b7fce9f6600fd00dc",
+      "sample_sheet.csv": "etag:c322e65cd653f5a16c63838be68eb55b"
+    },
+    "bams": {
+      "count": 11,
+      "digest": "sha256:238222cb9fc0e3fef2d5561b978a2713cc62659f204257aabeeb0abaa0ff1cb3"
+    }
+  },
+  "findings": [
+    {
+      "id": "P010",
+      "severity": "info",
+      "subject": "mammals/myotis-myotis",
+      "message": "pipeline versions: bcftools 1.23.1, gatk 4.6.2.0",
+      "detail": null,
+      "path": null,
+      "line": null
+    }
+  ],
+  "status": {
+    "subject": "mammals/myotis-myotis",
+    "state": "complete",
+    "accession": "GCA_014108235.2",
+    "declared_accession": "GCA_014108235.2",
+    "accession_differs": false,
+    "present": [
+      "bams",
+      "callable_sites",
+      "published_readme",
+      "qc",
+      "raw_vcf",
+      "raw_vcf_index",
+      "repo_readme"
+    ],
+    "missing": [],
+    "counts": {
+      "sheet_samples": 11,
+      "bams": 11,
+      "vcf_samples": 11
+    }
+  },
+  "superseded": null,
+  "stale_reason": null
+}
