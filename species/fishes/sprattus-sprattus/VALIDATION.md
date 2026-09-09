@@ -1,22 +1,24 @@
 # Validation — Sprattus sprattus
 
-**PASS** · 2026-09-08 · GCA_963457725.1
+**PASS** · 2026-09-09 · GCA_963457725.1
 
 Metadata agrees with the data published on GenomeArk.
 
 19 samples in the sheet · 19 BAMs · 19 samples in the VCF
 
-## Notes
+## Optional files not present
 
-- **[P010](../../../CHECKS.md#p010)** pipeline versions: bcftools 1.23.1, gatk 4.6.2.0
+These do not affect the verdict, but each one can be supplied.
+
+- `filtered_vcf`
 
 ## What was checked
 
-- 45 of 45 checks
+- 42 of 42 checks
 
 ## Provenance
 
-- validated `2026-09-08T23:49:25Z` by congen-metadata-tools 0.1.0
+- validated `2026-09-09T00:02:49Z` by congen-metadata-tools 0.1.0
 - data: `GCA_963457725.1`
 - `README.txt` `sha256:145f8841c8ca74a0debea98d72d8aa63ffdb0c8be3580fc07dccb55dfe0b3bbd`
 - `config.yaml` `sha256:c599b080c5d9cfb3dae1afe8aa654d2cc9ac9a7d083e40dc4dd5bf30fc37171f`

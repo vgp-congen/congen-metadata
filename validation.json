@@ -1,10 +1,10 @@
 {
-  "validated_at": "2026-09-08T23:49:26Z",
+  "validated_at": "2026-09-09T00:02:50Z",
   "tool_version": "0.1.0",
   "counts": {
     "PASS": 62,
-    "FAIL": 3,
     "PENDING": 10,
+    "FAIL": 3,
     "PASS WITH WARNINGS": 4
   },
   "corpus_findings": [

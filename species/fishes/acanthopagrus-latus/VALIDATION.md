@@ -1,22 +1,24 @@
 # Validation — Acanthopagrus latus
 
-**PASS** · 2026-09-08 · GCA_904848185.1
+**PASS** · 2026-09-09 · GCA_904848185.1
 
 Metadata agrees with the data published on GenomeArk.
 
 142 samples in the sheet · 142 BAMs · 142 samples in the VCF
 
-## Notes
+## Optional files not present
 
-- **[P010](../../../CHECKS.md#p010)** pipeline versions: bcftools 1.23.1, gatk 4.6.2.0
+These do not affect the verdict, but each one can be supplied.
+
+- `filtered_vcf`
 
 ## What was checked
 
-- 45 of 45 checks
+- 42 of 42 checks
 
 ## Provenance
 
-- validated `2026-09-08T23:49:24Z` by congen-metadata-tools 0.1.0
+- validated `2026-09-09T00:02:48Z` by congen-metadata-tools 0.1.0
 - data: `GCA_904848185.1`
 - `README.txt` `sha256:97253aac8f245b4c0dc53acde3d06d410c049fd93cda218c6f4479b77eae26d6`
 - `config.yaml` `sha256:3b287d0a059d6874ef46c8d2248bc94a2297d52dbe833413a9823a169fd338dc`

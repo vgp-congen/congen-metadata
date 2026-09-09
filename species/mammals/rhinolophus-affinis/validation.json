@@ -1,9 +1,9 @@
 {
   "subject": "mammals/rhinolophus-affinis",
   "state": "PASS",
-  "validated_at": "2026-09-08T23:49:25Z",
+  "validated_at": "2026-09-09T00:02:49Z",
   "tool_version": "0.1.0",
-  "catalog": "sha256:805c480a4f457eea22a64bce4125fc59118e04ece82c32f1e033c73c70eb8649",
+  "catalog": "sha256:d53b63397e4d12c783b4ef2061253eff04ed9be7b13e774f96a132f0f649e5dd",
   "checks_run": [
     "E001",
     "E002",
@@ -14,10 +14,8 @@
     "F004",
     "F005",
     "F006",
-    "F007",
     "F008",
     "F009",
-    "F010",
     "F011",
     "F020",
     "F021",
@@ -33,7 +31,6 @@
     "P001",
     "P002",
     "P003",
-    "P010",
     "R001",
     "R002",
     "R003",
@@ -51,7 +48,7 @@
     "S006",
     "S007"
   ],
-  "checks_available": 45,
+  "checks_available": 42,
   "inputs": {
     "config.yaml": "sha256:deaa49b568bb28ac7043b1f7a76f3422b966a8b79e0e22ab2b81d04c4a7b4179",
     "sample_sheet.csv": "sha256:099ad3766d5c8326b95b660d8e5fd6ba839ae7d50d212f72a6942a3b7856eb8a",
@@ -70,17 +67,7 @@
       "digest": "sha256:731b4bbaeeb20101bb637b7633ecdc53e8f244b91948881ac77757369ef55e39"
     }
   },
-  "findings": [
-    {
-      "id": "P010",
-      "severity": "info",
-      "subject": "mammals/rhinolophus-affinis",
-      "message": "pipeline versions: bcftools 1.23.1, gatk 4.6.2.0",
-      "detail": null,
-      "path": null,
-      "line": null
-    }
-  ],
+  "findings": [],
   "status": {
     "subject": "mammals/rhinolophus-affinis",
     "state": "complete",
@@ -97,6 +84,9 @@
       "repo_readme"
     ],
     "missing": [],
+    "missing_optional": [
+      "filtered_vcf"
+    ],
     "counts": {
       "sheet_samples": 24,
       "bams": 24,

@@ -1,6 +1,6 @@
 # Validation — Anser albifrons
 
-**FAIL** · 2026-09-08 · GCA_976913865.1
+**FAIL** · 2026-09-09 · GCA_976913865.1
 
 Problems were found. See below before relying on this metadata.
 
@@ -15,21 +15,20 @@ Problems were found. See below before relying on this metadata.
   - only in bams/: SAMEA112262514 — needs human review; either side may be the stale one
   - at `species/birds/anser-albifrons/sample_sheet.csv`
 
-## Notes
+## Optional files not present
 
-- **[P010](../../../CHECKS.md#p010)** pipeline versions: bcftools 1.23.1, gatk 4.6.2.0
-- **[R010](../../../CHECKS.md#r010)** blank row skipped
-  - blank_row
-  - at `species/birds/anser-albifrons/sample_sheet.csv:14`
+These do not affect the verdict, but each one can be supplied.
+
+- `filtered_vcf`
 
 ## What was checked
 
-- 45 of 45 checks
+- 42 of 42 checks
 - 1 skipped: needs contig_map
 
 ## Provenance
 
-- validated `2026-09-08T23:49:24Z` by congen-metadata-tools 0.1.0
+- validated `2026-09-09T00:02:48Z` by congen-metadata-tools 0.1.0
 - data: `GCA_976913865.1`
 - `README.txt` `sha256:1e8ceefcd744776e8b82564e39ca87bfdac1f0fb9a622684396d48b3ab567eb6`
 - `config.yaml` `sha256:d8421e436e76a0b4d885dcd09aedc31a9fcc5fceecbb360e3c467e5aca974b83`

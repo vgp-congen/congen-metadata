@@ -1,9 +1,9 @@
 {
   "subject": "birds/anser-fabalis",
   "state": "PASS",
-  "validated_at": "2026-09-08T23:49:24Z",
+  "validated_at": "2026-09-09T00:02:48Z",
   "tool_version": "0.1.0",
-  "catalog": "sha256:805c480a4f457eea22a64bce4125fc59118e04ece82c32f1e033c73c70eb8649",
+  "catalog": "sha256:d53b63397e4d12c783b4ef2061253eff04ed9be7b13e774f96a132f0f649e5dd",
   "checks_run": [
     "E001",
     "E002",
@@ -14,10 +14,8 @@
     "F004",
     "F005",
     "F006",
-    "F007",
     "F008",
     "F009",
-    "F010",
     "F011",
     "F020",
     "F021",
@@ -33,7 +31,6 @@
     "P001",
     "P002",
     "P003",
-    "P010",
     "R001",
     "R002",
     "R003",
@@ -51,7 +48,7 @@
     "S006",
     "S007"
   ],
-  "checks_available": 45,
+  "checks_available": 42,
   "inputs": {
     "config.yaml": "sha256:fb6b524f2a6802be72a1c306d5c501a146c12c5064006e3344f12b7788bafad1",
     "sample_sheet.csv": "sha256:ae3f0f8ea773ac1101a90155835395cd9b940dccac1073d6399fa295fa1a9594",
@@ -70,17 +67,7 @@
       "digest": "sha256:0fc56306c2c841f0e740b3afb3e38f4c42dee2a548d8b7c093557a9643c7baf5"
     }
   },
-  "findings": [
-    {
-      "id": "P010",
-      "severity": "info",
-      "subject": "birds/anser-fabalis",
-      "message": "pipeline versions: bcftools 1.23.1, gatk 4.6.2.0",
-      "detail": null,
-      "path": null,
-      "line": null
-    }
-  ],
+  "findings": [],
   "status": {
     "subject": "birds/anser-fabalis",
     "state": "complete",
@@ -97,6 +84,9 @@
       "repo_readme"
     ],
     "missing": [],
+    "missing_optional": [
+      "filtered_vcf"
+    ],
     "counts": {
       "sheet_samples": 10,
       "bams": 10,

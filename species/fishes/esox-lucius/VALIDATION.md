@@ -1,23 +1,25 @@
 # Validation — Esox lucius
 
-**PASS** · 2026-09-08 · GCA_011004845.1
+**PASS** · 2026-09-09 · GCA_011004845.1
 
 Metadata agrees with the data published on GenomeArk.
 
 65 samples in the sheet · 65 BAMs · 65 samples in the VCF
 
-## Notes
+## Optional files not present
 
-- **[P010](../../../CHECKS.md#p010)** pipeline versions: bcftools 1.23.1, gatk 4.6.2.0
+These do not affect the verdict, but each one can be supplied.
+
+- `repo_readme`
 
 ## What was checked
 
-- 45 of 45 checks
+- 42 of 42 checks
 - 3 skipped: needs readme
 
 ## Provenance
 
-- validated `2026-09-08T23:49:24Z` by congen-metadata-tools 0.1.0
+- validated `2026-09-09T00:02:49Z` by congen-metadata-tools 0.1.0
 - data: `GCA_011004845.1`
 - `config.yaml` `sha256:2ec5e7dfa5b5876d4cd4f1a5a4500088f1e9f7a486cf5a125c3b2ead4f9266dc`
 - `sample_sheet.csv` `sha256:7b924cdf1dc044c664a84be5d4fa30962f27f8a00992a2a2b3056eef274fdd00`

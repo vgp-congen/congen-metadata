@@ -1,22 +1,18 @@
 # Validation — Ovis aries
 
-**PASS** · 2026-09-08 · GCA_040805955.1
+**PASS** · 2026-09-09 · GCA_040805955.1
 
 Metadata agrees with the data published on GenomeArk.
 
 26 samples in the sheet · 26 BAMs · 26 samples in the VCF
 
-## Notes
-
-- **[P010](../../../CHECKS.md#p010)** pipeline versions: bcftools 1.23.1, gatk 4.6.2.0
-
 ## What was checked
 
-- 45 of 45 checks
+- 42 of 42 checks
 
 ## Provenance
 
-- validated `2026-09-08T23:49:25Z` by congen-metadata-tools 0.1.0
+- validated `2026-09-09T00:02:49Z` by congen-metadata-tools 0.1.0
 - data: `GCA_040805955.1`
 - `README.txt` `sha256:7250a0d6a76fe59e2830cfb3a61b8a7ebfaecbfffb527af669b6456dfcef683d`
 - `config.yaml` `sha256:23b7c3ddb5f38040a1005611835198cd88ddb547a330c6002b785547c10ce427`

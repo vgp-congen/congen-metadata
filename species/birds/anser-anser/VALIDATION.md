@@ -1,6 +1,6 @@
 # Validation — Anser anser
 
-**PASS** · 2026-09-08 · GCA_964211835.1
+**PASS** · 2026-09-09 · GCA_964211835.1
 
 Metadata agrees with the data published on GenomeArk.
 
@@ -8,18 +8,23 @@ Metadata agrees with the data published on GenomeArk.
 
 ## Notes
 
-- **[P010](../../../CHECKS.md#p010)** pipeline versions: bcftools 1.23.1, gatk 4.6.2.0
 - **[R017](../../../CHECKS.md#r017)** 42 input(s) name an SRA experiment rather than a run, each containing exactly one run
   - ERX10935436, ERX10935437, ERX10935438, ERX10935439, ERX10935440 (+37 more)
   - at `species/birds/anser-anser/sample_sheet.csv`
 
+## Optional files not present
+
+These do not affect the verdict, but each one can be supplied.
+
+- `filtered_vcf`
+
 ## What was checked
 
-- 45 of 45 checks
+- 42 of 42 checks
 
 ## Provenance
 
-- validated `2026-09-08T23:49:24Z` by congen-metadata-tools 0.1.0
+- validated `2026-09-09T00:02:48Z` by congen-metadata-tools 0.1.0
 - data: `GCA_964211835.1`
 - `README.txt` `sha256:b335c3a64f34dbbb22989d3bdcf2e2b671cd6edc7a3a23d74430b0fb775982a0`
 - `config.yaml` `sha256:c51f85be40afa3a8e7d5f4637163c73e59baa15eccd318c5bfb7355b27ee4668`

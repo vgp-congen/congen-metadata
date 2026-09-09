@@ -1,9 +1,9 @@
 {
   "subject": "mammals/pan-troglodytes",
   "state": "PASS",
-  "validated_at": "2026-09-08T23:49:25Z",
+  "validated_at": "2026-09-09T00:02:49Z",
   "tool_version": "0.1.0",
-  "catalog": "sha256:805c480a4f457eea22a64bce4125fc59118e04ece82c32f1e033c73c70eb8649",
+  "catalog": "sha256:d53b63397e4d12c783b4ef2061253eff04ed9be7b13e774f96a132f0f649e5dd",
   "checks_run": [
     "E001",
     "E002",
@@ -14,10 +14,8 @@
     "F004",
     "F005",
     "F006",
-    "F007",
     "F008",
     "F009",
-    "F010",
     "F011",
     "F020",
     "F021",
@@ -33,7 +31,6 @@
     "P001",
     "P002",
     "P003",
-    "P010",
     "R001",
     "R002",
     "R003",
@@ -51,7 +48,7 @@
     "S006",
     "S007"
   ],
-  "checks_available": 45,
+  "checks_available": 42,
   "inputs": {
     "config.yaml": "sha256:2497a0f7c5dbf71a47389ccff1ac8bd1d00808e94ee3bfded1daeb3aa0ecb3f1",
     "sample_sheet.csv": "sha256:34c7aa1455817f5aedcd9ec5c2d28aacfa39aed0c4e61180563b668d913a0baf",
@@ -70,17 +67,7 @@
       "digest": "sha256:f21e7e4771e4a8e9e3cd561976aaa55a1a6d823e8b2d9a887d826b7a6ff483a5"
     }
   },
-  "findings": [
-    {
-      "id": "P010",
-      "severity": "info",
-      "subject": "mammals/pan-troglodytes",
-      "message": "pipeline versions: bcftools 1.23.1, gatk 4.6.2.0",
-      "detail": null,
-      "path": null,
-      "line": null
-    }
-  ],
+  "findings": [],
   "status": {
     "subject": "mammals/pan-troglodytes",
     "state": "complete",
@@ -97,6 +84,9 @@
       "repo_readme"
     ],
     "missing": [],
+    "missing_optional": [
+      "filtered_vcf"
+    ],
     "counts": {
       "sheet_samples": 10,
       "bams": 10,

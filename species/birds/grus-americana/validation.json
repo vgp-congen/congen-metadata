@@ -1,9 +1,9 @@
 {
   "subject": "birds/grus-americana",
   "state": "FAIL",
-  "validated_at": "2026-09-08T23:49:24Z",
+  "validated_at": "2026-09-09T00:02:48Z",
   "tool_version": "0.1.0",
-  "catalog": "sha256:805c480a4f457eea22a64bce4125fc59118e04ece82c32f1e033c73c70eb8649",
+  "catalog": "sha256:d53b63397e4d12c783b4ef2061253eff04ed9be7b13e774f96a132f0f649e5dd",
   "checks_run": [
     "E001",
     "E002",
@@ -14,10 +14,8 @@
     "F004",
     "F005",
     "F006",
-    "F007",
     "F008",
     "F009",
-    "F010",
     "F011",
     "F020",
     "F021",
@@ -33,7 +31,6 @@
     "P001",
     "P002",
     "P003",
-    "P010",
     "R001",
     "R002",
     "R003",
@@ -51,7 +48,7 @@
     "S006",
     "S007"
   ],
-  "checks_available": 45,
+  "checks_available": 42,
   "inputs": {
     "config.yaml": "sha256:a173d205f5104fe41a4504a90cce86e44f4e4b38182a286c78586bb2f9ca95e6",
     "sample_sheet.csv": "sha256:ccb5d4cd495dd18e385c08341178709392ae63dd13e2ec6d7956d963cd916076"
@@ -193,15 +190,6 @@
       "line": null
     },
     {
-      "id": "P010",
-      "severity": "skipped",
-      "subject": "birds/grus-americana",
-      "message": "skipped: records the pipeline versions the VCF header stamps",
-      "detail": "needs vcf_header",
-      "path": null,
-      "line": null
-    },
-    {
       "id": "R020",
       "severity": "skipped",
       "subject": "birds/grus-americana",
@@ -262,6 +250,10 @@
       "raw_vcf_index",
       "qc",
       "callable_sites"
+    ],
+    "missing_optional": [
+      "filtered_vcf",
+      "repo_readme"
     ],
     "counts": {
       "sheet_samples": 57,

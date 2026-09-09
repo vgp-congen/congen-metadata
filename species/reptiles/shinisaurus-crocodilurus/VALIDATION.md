@@ -1,6 +1,6 @@
 # Validation — Shinisaurus crocodilurus
 
-**PASS WITH WARNINGS** · 2026-09-08 · GCA_021292165.1
+**PASS WITH WARNINGS** · 2026-09-09 · GCA_021292165.1
 
 Metadata agrees with the data published on GenomeArk, with points to note.
 
@@ -15,17 +15,19 @@ Metadata agrees with the data published on GenomeArk, with points to note.
   - same samples, different rows (run-level differences only)
   - at `species/reptiles/shinisaurus-crocodilurus/sample_sheet.csv`
 
-## Notes
+## Optional files not present
 
-- **[P010](../../../CHECKS.md#p010)** pipeline versions: bcftools 1.23.1, gatk 4.6.2.0
+These do not affect the verdict, but each one can be supplied.
+
+- `filtered_vcf`
 
 ## What was checked
 
-- 45 of 45 checks
+- 42 of 42 checks
 
 ## Provenance
 
-- validated `2026-09-08T23:49:25Z` by congen-metadata-tools 0.1.0
+- validated `2026-09-09T00:02:50Z` by congen-metadata-tools 0.1.0
 - data: `GCA_021292165.1`
 - `README.txt` `sha256:c4d1c8567f1362a8668906d8ba54574d3124ad95813f60e1c9af0c870d5d33dd`
 - `config.yaml` `sha256:69465cb4b4cfb5a817eeb036405360beaf30567a093209f7b5e99df8b5e0816c`

@@ -1,9 +1,9 @@
 {
   "subject": "fishes/scophthalmus-maximus",
   "state": "PASS",
-  "validated_at": "2026-09-08T23:49:25Z",
+  "validated_at": "2026-09-09T00:02:49Z",
   "tool_version": "0.1.0",
-  "catalog": "sha256:805c480a4f457eea22a64bce4125fc59118e04ece82c32f1e033c73c70eb8649",
+  "catalog": "sha256:d53b63397e4d12c783b4ef2061253eff04ed9be7b13e774f96a132f0f649e5dd",
   "checks_run": [
     "E001",
     "E002",
@@ -14,10 +14,8 @@
     "F004",
     "F005",
     "F006",
-    "F007",
     "F008",
     "F009",
-    "F010",
     "F011",
     "F020",
     "F021",
@@ -33,7 +31,6 @@
     "P001",
     "P002",
     "P003",
-    "P010",
     "R001",
     "R002",
     "R003",
@@ -51,7 +48,7 @@
     "S006",
     "S007"
   ],
-  "checks_available": 45,
+  "checks_available": 42,
   "inputs": {
     "config.yaml": "sha256:8aef94cdc8dc422997eb52596ecbc1ba043cec7d7dafcac1c817c540a9f31554",
     "sample_sheet.csv": "sha256:313c9ed32003d82127a885c32112ffbd2d7751c216272f95d618089221218bbb",
@@ -70,17 +67,7 @@
       "digest": "sha256:b1b54780eaf63d45b9989ceedc0f0c014801d3c203841ff6811a1424e687c39d"
     }
   },
-  "findings": [
-    {
-      "id": "P010",
-      "severity": "info",
-      "subject": "fishes/scophthalmus-maximus",
-      "message": "pipeline versions: bcftools 1.23.1, gatk 4.6.2.0",
-      "detail": null,
-      "path": null,
-      "line": null
-    }
-  ],
+  "findings": [],
   "status": {
     "subject": "fishes/scophthalmus-maximus",
     "state": "complete",
@@ -97,6 +84,9 @@
       "repo_readme"
     ],
     "missing": [],
+    "missing_optional": [
+      "filtered_vcf"
+    ],
     "counts": {
       "sheet_samples": 15,
       "bams": 15,

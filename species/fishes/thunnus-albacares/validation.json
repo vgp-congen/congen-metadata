@@ -1,9 +1,9 @@
 {
   "subject": "fishes/thunnus-albacares",
   "state": "PASS",
-  "validated_at": "2026-09-08T23:49:25Z",
+  "validated_at": "2026-09-09T00:02:49Z",
   "tool_version": "0.1.0",
-  "catalog": "sha256:805c480a4f457eea22a64bce4125fc59118e04ece82c32f1e033c73c70eb8649",
+  "catalog": "sha256:d53b63397e4d12c783b4ef2061253eff04ed9be7b13e774f96a132f0f649e5dd",
   "checks_run": [
     "E001",
     "E002",
@@ -14,10 +14,8 @@
     "F004",
     "F005",
     "F006",
-    "F007",
     "F008",
     "F009",
-    "F010",
     "F011",
     "F020",
     "F021",
@@ -33,7 +31,6 @@
     "P001",
     "P002",
     "P003",
-    "P010",
     "R001",
     "R002",
     "R003",
@@ -51,7 +48,7 @@
     "S006",
     "S007"
   ],
-  "checks_available": 45,
+  "checks_available": 42,
   "inputs": {
     "config.yaml": "sha256:09d716c12d4e403cba731bc709044554363ec914e6cb7910a078c5ea1fe77464",
     "sample_sheet.csv": "sha256:cfae248402c80a7f8519063df1f69ca3a8616f1d81acd8def760afe900213499",
@@ -70,17 +67,7 @@
       "digest": "sha256:acaed4d03fbe9f5f449ec238d68a6d0bd126e0cb31662c58c57cdfc2e66934e9"
     }
   },
-  "findings": [
-    {
-      "id": "P010",
-      "severity": "info",
-      "subject": "fishes/thunnus-albacares",
-      "message": "pipeline versions: bcftools 1.23.1, gatk 4.6.2.0",
-      "detail": null,
-      "path": null,
-      "line": null
-    }
-  ],
+  "findings": [],
   "status": {
     "subject": "fishes/thunnus-albacares",
     "state": "complete",
@@ -97,6 +84,9 @@
       "repo_readme"
     ],
     "missing": [],
+    "missing_optional": [
+      "filtered_vcf"
+    ],
     "counts": {
       "sheet_samples": 11,
       "bams": 11,

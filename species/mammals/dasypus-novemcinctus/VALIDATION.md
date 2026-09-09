@@ -1,22 +1,24 @@
 # Validation — Dasypus novemcinctus
 
-**PASS** · 2026-09-08 · GCA_030445035.2
+**PASS** · 2026-09-09 · GCA_030445035.2
 
 Metadata agrees with the data published on GenomeArk.
 
 11 samples in the sheet · 11 BAMs · 11 samples in the VCF
 
-## Notes
+## Optional files not present
 
-- **[P010](../../../CHECKS.md#p010)** pipeline versions: bcftools 1.23.1, gatk 4.6.2.0
+These do not affect the verdict, but each one can be supplied.
+
+- `filtered_vcf`
 
 ## What was checked
 
-- 45 of 45 checks
+- 42 of 42 checks
 
 ## Provenance
 
-- validated `2026-09-08T23:49:25Z` by congen-metadata-tools 0.1.0
+- validated `2026-09-09T00:02:49Z` by congen-metadata-tools 0.1.0
 - data: `GCA_030445035.2`
 - `README.txt` `sha256:5a2c05727b530aa19bb59bab54509239b6abcfa458ee2727978d42caca8cb9b7`
 - `config.yaml` `sha256:77bf15cdbcca13ea6abeac13a8975a821689bc2026ff6822d2a5f29d34ae1d51`

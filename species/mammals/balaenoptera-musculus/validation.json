@@ -1,9 +1,9 @@
 {
   "subject": "mammals/balaenoptera-musculus",
   "state": "PASS",
-  "validated_at": "2026-09-08T23:49:25Z",
+  "validated_at": "2026-09-09T00:02:49Z",
   "tool_version": "0.1.0",
-  "catalog": "sha256:805c480a4f457eea22a64bce4125fc59118e04ece82c32f1e033c73c70eb8649",
+  "catalog": "sha256:d53b63397e4d12c783b4ef2061253eff04ed9be7b13e774f96a132f0f649e5dd",
   "checks_run": [
     "E001",
     "E002",
@@ -14,10 +14,8 @@
     "F004",
     "F005",
     "F006",
-    "F007",
     "F008",
     "F009",
-    "F010",
     "F011",
     "F020",
     "F021",
@@ -33,7 +31,6 @@
     "P001",
     "P002",
     "P003",
-    "P010",
     "R001",
     "R002",
     "R003",
@@ -51,7 +48,7 @@
     "S006",
     "S007"
   ],
-  "checks_available": 45,
+  "checks_available": 42,
   "inputs": {
     "config.yaml": "sha256:109d6c1819c3f9a5cb949875e90bc3d9e633303aa175d11f9fea68409f77bbc0",
     "sample_sheet.csv": "sha256:da25c9978fc1742532a241fdd83b3758dd0c4512ec68f721d95a5a2eb10a63f7",
@@ -71,17 +68,7 @@
       "digest": "sha256:cde369c4f7134cee16cd614f73058d9c9a37576bd58d8eb7d46bc403251a8f43"
     }
   },
-  "findings": [
-    {
-      "id": "P010",
-      "severity": "info",
-      "subject": "mammals/balaenoptera-musculus",
-      "message": "pipeline versions: bcftools 1.23.1, gatk 4.6.2.0",
-      "detail": null,
-      "path": null,
-      "line": null
-    }
-  ],
+  "findings": [],
   "status": {
     "subject": "mammals/balaenoptera-musculus",
     "state": "complete",
@@ -99,6 +86,7 @@
       "repo_readme"
     ],
     "missing": [],
+    "missing_optional": [],
     "counts": {
       "sheet_samples": 22,
       "bams": 22,

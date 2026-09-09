@@ -1,22 +1,24 @@
 # Validation — Rhinolophus affinis
 
-**PASS** · 2026-09-08 · GCA_043728065.1
+**PASS** · 2026-09-09 · GCA_043728065.1
 
 Metadata agrees with the data published on GenomeArk.
 
 24 samples in the sheet · 24 BAMs · 24 samples in the VCF
 
-## Notes
+## Optional files not present
 
-- **[P010](../../../CHECKS.md#p010)** pipeline versions: bcftools 1.23.1, gatk 4.6.2.0
+These do not affect the verdict, but each one can be supplied.
+
+- `filtered_vcf`
 
 ## What was checked
 
-- 45 of 45 checks
+- 42 of 42 checks
 
 ## Provenance
 
-- validated `2026-09-08T23:49:25Z` by congen-metadata-tools 0.1.0
+- validated `2026-09-09T00:02:49Z` by congen-metadata-tools 0.1.0
 - data: `GCA_043728065.1`
 - `README.txt` `sha256:0ac42f0661af981017cef719ce12901d0a6421514dbe6102b4bfaccc4f079b2c`
 - `config.yaml` `sha256:deaa49b568bb28ac7043b1f7a76f3422b966a8b79e0e22ab2b81d04c4a7b4179`

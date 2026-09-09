@@ -1,6 +1,6 @@
 # Validation — Coregonus lavaretus
 
-**PENDING** · 2026-09-08 · GCA_964263955.1
+**PENDING** · 2026-09-09 · GCA_964263955.1
 
 Not yet validated against published data. This is an expected state: metadata is often committed before a run is published.
 
@@ -8,8 +8,8 @@ Not yet validated against published data. This is an expected state: metadata is
 
 ## What was checked
 
-- 45 of 45 checks
-- 10 skipped: needs vcf_header
+- 42 of 42 checks
+- 9 skipped: needs vcf_header
 - 6 skipped: needs s3
 - 4 skipped: needs bam_headers
 - 3 skipped: needs readme
@@ -21,7 +21,7 @@ Not yet validated against published data. This is an expected state: metadata is
 
 ## Provenance
 
-- validated `2026-09-08T23:49:24Z` by congen-metadata-tools 0.1.0
+- validated `2026-09-09T00:02:49Z` by congen-metadata-tools 0.1.0
 - data: `GCA_964263955.1` (not published)
 - `config.yaml` `sha256:80443940242913e9804113111d1332ac0d7ec473e18ff75b54ba187f22617858`
 - `sample_sheet.csv` `sha256:383eca52dbf6a75c950ad0bb50e44fabe1ade9d6cf3803032afb074342c12a71`

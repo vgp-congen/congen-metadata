@@ -1,23 +1,26 @@
 # Validation — Catharus ustulatus
 
-**PASS** · 2026-09-08 · GCA_009819885.2
+**PASS** · 2026-09-09 · GCA_009819885.2
 
 Metadata agrees with the data published on GenomeArk.
 
 50 samples in the sheet · 50 BAMs · 50 samples in the VCF
 
-## Notes
+## Optional files not present
 
-- **[P010](../../../CHECKS.md#p010)** pipeline versions: bcftools 1.23.1, gatk 4.6.2.0
+These do not affect the verdict, but each one can be supplied.
+
+- `filtered_vcf`
+- `repo_readme`
 
 ## What was checked
 
-- 45 of 45 checks
+- 42 of 42 checks
 - 3 skipped: needs readme
 
 ## Provenance
 
-- validated `2026-09-08T23:49:24Z` by congen-metadata-tools 0.1.0
+- validated `2026-09-09T00:02:48Z` by congen-metadata-tools 0.1.0
 - data: `GCA_009819885.2`
 - `config.yaml` `sha256:e174f8723bc5a8cfb16434ec600b77b01b7a9586d33d40b9f014f8c334e1cffa`
 - `sample_sheet.csv` `sha256:3864e5436fe67c3effcee6027bbffddd0baca884e181de14bad3070be8667452`

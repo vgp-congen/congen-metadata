@@ -1,9 +1,9 @@
 {
   "subject": "birds/haemorhous-mexicanus",
   "state": "PASS",
-  "validated_at": "2026-09-08T23:49:24Z",
+  "validated_at": "2026-09-09T00:02:48Z",
   "tool_version": "0.1.0",
-  "catalog": "sha256:805c480a4f457eea22a64bce4125fc59118e04ece82c32f1e033c73c70eb8649",
+  "catalog": "sha256:d53b63397e4d12c783b4ef2061253eff04ed9be7b13e774f96a132f0f649e5dd",
   "checks_run": [
     "E001",
     "E002",
@@ -14,10 +14,8 @@
     "F004",
     "F005",
     "F006",
-    "F007",
     "F008",
     "F009",
-    "F010",
     "F011",
     "F020",
     "F021",
@@ -33,7 +31,6 @@
     "P001",
     "P002",
     "P003",
-    "P010",
     "R001",
     "R002",
     "R003",
@@ -51,7 +48,7 @@
     "S006",
     "S007"
   ],
-  "checks_available": 45,
+  "checks_available": 42,
   "inputs": {
     "config.yaml": "sha256:e2ced87ff7b3207d768bd4dc2d04146d8eee96fe417ec6034df38ef9b5b36fca",
     "sample_sheet.csv": "sha256:9ca183f304afdf57acbc3a90512c411e74351a5482352e1baea061514517e58b",
@@ -70,17 +67,7 @@
       "digest": "sha256:487546043a25a64a733dc95625d1e88811e0af2850f3e236816f40b5e643c5cf"
     }
   },
-  "findings": [
-    {
-      "id": "P010",
-      "severity": "info",
-      "subject": "birds/haemorhous-mexicanus",
-      "message": "pipeline versions: bcftools 1.23.1, gatk 4.6.2.0",
-      "detail": null,
-      "path": null,
-      "line": null
-    }
-  ],
+  "findings": [],
   "status": {
     "subject": "birds/haemorhous-mexicanus",
     "state": "complete",
@@ -97,6 +84,9 @@
       "repo_readme"
     ],
     "missing": [],
+    "missing_optional": [
+      "filtered_vcf"
+    ],
     "counts": {
       "sheet_samples": 32,
       "bams": 32,

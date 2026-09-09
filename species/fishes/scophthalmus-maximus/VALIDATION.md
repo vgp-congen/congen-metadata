@@ -1,22 +1,24 @@
 # Validation — Scophthalmus maximus
 
-**PASS** · 2026-09-08 · GCA_963854745.1
+**PASS** · 2026-09-09 · GCA_963854745.1
 
 Metadata agrees with the data published on GenomeArk.
 
 15 samples in the sheet · 15 BAMs · 15 samples in the VCF
 
-## Notes
+## Optional files not present
 
-- **[P010](../../../CHECKS.md#p010)** pipeline versions: bcftools 1.23.1, gatk 4.6.2.0
+These do not affect the verdict, but each one can be supplied.
+
+- `filtered_vcf`
 
 ## What was checked
 
-- 45 of 45 checks
+- 42 of 42 checks
 
 ## Provenance
 
-- validated `2026-09-08T23:49:25Z` by congen-metadata-tools 0.1.0
+- validated `2026-09-09T00:02:49Z` by congen-metadata-tools 0.1.0
 - data: `GCA_963854745.1`
 - `README.txt` `sha256:29ac9827b0bb1e9ecc38eac41e26ba13177776b7ae8d62c25b52e568a9ba8360`
 - `config.yaml` `sha256:8aef94cdc8dc422997eb52596ecbc1ba043cec7d7dafcac1c817c540a9f31554`

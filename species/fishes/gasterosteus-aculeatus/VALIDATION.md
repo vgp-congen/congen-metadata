@@ -1,22 +1,24 @@
 # Validation — Gasterosteus aculeatus
 
-**PASS** · 2026-09-08 · GCA_964276395.1
+**PASS** · 2026-09-09 · GCA_964276395.1
 
 Metadata agrees with the data published on GenomeArk.
 
 31 samples in the sheet · 31 BAMs · 31 samples in the VCF
 
-## Notes
+## Optional files not present
 
-- **[P010](../../../CHECKS.md#p010)** pipeline versions: bcftools 1.23.1, gatk 4.6.2.0
+These do not affect the verdict, but each one can be supplied.
+
+- `filtered_vcf`
 
 ## What was checked
 
-- 45 of 45 checks
+- 42 of 42 checks
 
 ## Provenance
 
-- validated `2026-09-08T23:49:25Z` by congen-metadata-tools 0.1.0
+- validated `2026-09-09T00:02:49Z` by congen-metadata-tools 0.1.0
 - data: `GCA_964276395.1`
 - `README.txt` `sha256:0a329ca6da585c35669c441583b24158e9da55db9e6792175f7c7ed0786455ea`
 - `config.yaml` `sha256:03b322e200e366ae9a37b49ff99b76bccca0efd106edd8010dc41c868b2d24a0`

@@ -1,22 +1,24 @@
 # Validation — Syngnathus typhle
 
-**PASS** · 2026-09-08 · GCA_048301445.1
+**PASS** · 2026-09-09 · GCA_048301445.1
 
 Metadata agrees with the data published on GenomeArk.
 
 26 samples in the sheet · 26 BAMs · 26 samples in the VCF
 
-## Notes
+## Optional files not present
 
-- **[P010](../../../CHECKS.md#p010)** pipeline versions: bcftools 1.23.1, gatk 4.6.2.0
+These do not affect the verdict, but each one can be supplied.
+
+- `filtered_vcf`
 
 ## What was checked
 
-- 45 of 45 checks
+- 42 of 42 checks
 
 ## Provenance
 
-- validated `2026-09-08T23:49:25Z` by congen-metadata-tools 0.1.0
+- validated `2026-09-09T00:02:49Z` by congen-metadata-tools 0.1.0
 - data: `GCA_048301445.1`
 - `README.txt` `sha256:34ef13b142023e7eff453c036414f31d604d4addd2bc1b3c71a2f45e08023390`
 - `config.yaml` `sha256:f395e83e31118c8819f40168af7abacef97449844ebd1160092f664e62c276f2`

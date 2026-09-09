@@ -1,22 +1,24 @@
 # Validation — Ovis canadensis
 
-**PASS** · 2026-09-08 · GCA_042477335.2
+**PASS** · 2026-09-09 · GCA_042477335.2
 
 Metadata agrees with the data published on GenomeArk.
 
 17 samples in the sheet · 17 BAMs · 17 samples in the VCF
 
-## Notes
+## Optional files not present
 
-- **[P010](../../../CHECKS.md#p010)** pipeline versions: bcftools 1.23.1, gatk 4.6.2.0
+These do not affect the verdict, but each one can be supplied.
+
+- `filtered_vcf`
 
 ## What was checked
 
-- 45 of 45 checks
+- 42 of 42 checks
 
 ## Provenance
 
-- validated `2026-09-08T23:49:25Z` by congen-metadata-tools 0.1.0
+- validated `2026-09-09T00:02:49Z` by congen-metadata-tools 0.1.0
 - data: `GCA_042477335.2`
 - `README.txt` `sha256:d2935d5c02a711fbd61111105d6cb4fa54d5918e18d94e798343c3e58600d73d`
 - `config.yaml` `sha256:dbae40301d40eed35fd9aaec78a5ec194460365842a99401544b9c9ef3d48d64`

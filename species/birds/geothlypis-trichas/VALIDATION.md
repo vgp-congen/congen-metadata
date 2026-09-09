@@ -1,22 +1,24 @@
 # Validation — Geothlypis trichas
 
-**PASS** · 2026-09-08 · GCA_009764595.1
+**PASS** · 2026-09-09 · GCA_009764595.1
 
 Metadata agrees with the data published on GenomeArk.
 
 25 samples in the sheet · 25 BAMs · 25 samples in the VCF
 
-## Notes
+## Optional files not present
 
-- **[P010](../../../CHECKS.md#p010)** pipeline versions: bcftools 1.23.1, gatk 4.6.2.0
+These do not affect the verdict, but each one can be supplied.
+
+- `filtered_vcf`
 
 ## What was checked
 
-- 45 of 45 checks
+- 42 of 42 checks
 
 ## Provenance
 
-- validated `2026-09-08T23:49:24Z` by congen-metadata-tools 0.1.0
+- validated `2026-09-09T00:02:48Z` by congen-metadata-tools 0.1.0
 - data: `GCA_009764595.1`
 - `README.txt` `sha256:5fcbf4e9ce32a11e492464627d632c8ecddffe1e50fe2dc618e0acfc0ba58498`
 - `config.yaml` `sha256:d4f6d4eb681755a4bcf147899d59a7b985d826ee375af9a045bbce3a0f33fa85`

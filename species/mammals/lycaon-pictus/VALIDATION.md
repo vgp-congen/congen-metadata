@@ -1,22 +1,24 @@
 # Validation — Lycaon pictus
 
-**PASS** · 2026-09-08 · GCA_040955705.1
+**PASS** · 2026-09-09 · GCA_040955705.1
 
 Metadata agrees with the data published on GenomeArk.
 
 28 samples in the sheet · 28 BAMs · 28 samples in the VCF
 
-## Notes
+## Optional files not present
 
-- **[P010](../../../CHECKS.md#p010)** pipeline versions: bcftools 1.23.1, gatk 4.6.2.0
+These do not affect the verdict, but each one can be supplied.
+
+- `filtered_vcf`
 
 ## What was checked
 
-- 45 of 45 checks
+- 42 of 42 checks
 
 ## Provenance
 
-- validated `2026-09-08T23:49:25Z` by congen-metadata-tools 0.1.0
+- validated `2026-09-09T00:02:49Z` by congen-metadata-tools 0.1.0
 - data: `GCA_040955705.1`
 - `README.txt` `sha256:6d6b0c89127b7e82a227dc27989eb6b745c6a110ce2fcdf3707e36a53c9e3f90`
 - `config.yaml` `sha256:897597bdfb6a393ea34e1d2f4e8c2dfe09c5257e28fa6f7c3e4cb39daaa9672c`

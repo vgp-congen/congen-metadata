@@ -1,22 +1,24 @@
 # Validation — Symphodus melops
 
-**PASS** · 2026-09-08 · GCA_947650265.1
+**PASS** · 2026-09-09 · GCA_947650265.1
 
 Metadata agrees with the data published on GenomeArk.
 
 15 samples in the sheet · 15 BAMs · 15 samples in the VCF
 
-## Notes
+## Optional files not present
 
-- **[P010](../../../CHECKS.md#p010)** pipeline versions: bcftools 1.23.1, gatk 4.6.2.0
+These do not affect the verdict, but each one can be supplied.
+
+- `filtered_vcf`
 
 ## What was checked
 
-- 45 of 45 checks
+- 42 of 42 checks
 
 ## Provenance
 
-- validated `2026-09-08T23:49:25Z` by congen-metadata-tools 0.1.0
+- validated `2026-09-09T00:02:49Z` by congen-metadata-tools 0.1.0
 - data: `GCA_947650265.1`
 - `README.txt` `sha256:f9fb8d4efbbc22331b629d99b6a47317fe560f1d002745c6926ad56bdcc93b14`
 - `config.yaml` `sha256:be2b7a873e233aa327a690891ad551a0198ab62ffbe53faad428f416bba944dd`

@@ -1,22 +1,24 @@
 # Validation — Thunnus albacares
 
-**PASS** · 2026-09-08 · GCA_914725855.1
+**PASS** · 2026-09-09 · GCA_914725855.1
 
 Metadata agrees with the data published on GenomeArk.
 
 11 samples in the sheet · 11 BAMs · 11 samples in the VCF
 
-## Notes
+## Optional files not present
 
-- **[P010](../../../CHECKS.md#p010)** pipeline versions: bcftools 1.23.1, gatk 4.6.2.0
+These do not affect the verdict, but each one can be supplied.
+
+- `filtered_vcf`
 
 ## What was checked
 
-- 45 of 45 checks
+- 42 of 42 checks
 
 ## Provenance
 
-- validated `2026-09-08T23:49:25Z` by congen-metadata-tools 0.1.0
+- validated `2026-09-09T00:02:49Z` by congen-metadata-tools 0.1.0
 - data: `GCA_914725855.1`
 - `README.txt` `sha256:c1d1e1751c837b64384ced2bca79b5e05f1dd3e58112cdf40144e83bc5df1963`
 - `config.yaml` `sha256:09d716c12d4e403cba731bc709044554363ec914e6cb7910a078c5ea1fe77464`

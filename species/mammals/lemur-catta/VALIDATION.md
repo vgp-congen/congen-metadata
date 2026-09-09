@@ -1,23 +1,25 @@
 # Validation — Lemur catta
 
-**PASS** · 2026-09-08 · GCA_020740605.1
+**PASS** · 2026-09-09 · GCA_020740605.1
 
 Metadata agrees with the data published on GenomeArk.
 
 12 samples in the sheet · 12 BAMs · 12 samples in the VCF
 
-## Notes
+## Optional files not present
 
-- **[P010](../../../CHECKS.md#p010)** pipeline versions: bcftools 1.23.1, gatk 4.6.2.0
+These do not affect the verdict, but each one can be supplied.
+
+- `repo_readme`
 
 ## What was checked
 
-- 45 of 45 checks
+- 42 of 42 checks
 - 3 skipped: needs readme
 
 ## Provenance
 
-- validated `2026-09-08T23:49:25Z` by congen-metadata-tools 0.1.0
+- validated `2026-09-09T00:02:49Z` by congen-metadata-tools 0.1.0
 - data: `GCA_020740605.1`
 - `config.yaml` `sha256:ae979d28a67bac7c3076588b016bf567ae30d4306a6fde4ca53a3048999901a3`
 - `sample_sheet.csv` `sha256:dd5640b0a59a4381a74f4fc5214f053f992b3d47ceb16695179ece4550d833b8`

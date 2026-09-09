@@ -2,7 +2,7 @@
 
 Every finding in a `VALIDATION.md` carries an ID. This is what they mean.
 
-Generated from congen-metadata-tools 0.1.0; 45 checks.
+Generated from congen-metadata-tools 0.1.0; 42 checks.
 
 Severities:
 
@@ -174,14 +174,6 @@ A clean result therefore means "the BAMs examined agree", which the finding says
 
 **warn** — the BAM's bwa command line names reference.name
 
-### F007
-
-**warn** — the assembly's NCBI organism matches the species directory
-
-The species-name check of last resort.
-
-When a VGP entry exists, `F023` compares against the list and `F024` compares taxonomy IDs, which together cover this. This fires only where there is no VGP entry, so the two do not report the same problem twice.
-
 ### F008
 
 **warn** — qc/contig_map.tsv agrees with the VCF contigs
@@ -193,14 +185,6 @@ When a VGP entry exists, `F023` compares against the list and `F024` compares ta
 The permissive direction of the name comparison.
 
 Warns above the threshold, informs below it, so the ordinary case of a few dropped short scaffolds stays quiet without hiding a reference that is missing a real fraction of the genome.
-
-### F010
-
-**warn** — reference.source resolves to an NCBI accession
-
-Without an accession, reference identity is only self-consistency.
-
-Fires on nothing today — all 79 configs name an accession — but a URL or local path is explicitly allowed by the config format, and a reader should know the guarantee weakened.
 
 ### F011
 
@@ -261,14 +245,6 @@ The VGP list's `QID` column holds NCBI taxonomy IDs, not Wikidata QIDs.
 Only reports when a *different* caller is positively identified.
 
 Absence of evidence is not evidence: a header this code does not recognize produces nothing rather than a guess. Note also that every GATK-called VCF here carries `##bcftools_concatCommand`, because snpArcher merges its per-interval VCFs with bcftools — which is why caller detection looks for `bcftools_call` specifically and not for bcftools in general.
-
-### P010
-
-**info** — records the pipeline versions the VCF header stamps
-
-Inventory, not judgement.
-
-There is nothing in `config.yaml` to compare a tool version against, but the corpus being on one GATK version is worth being able to see — and it is the first thing to look at when results shift between runs.
 
 ## External accessions (NCBI SRA)
 

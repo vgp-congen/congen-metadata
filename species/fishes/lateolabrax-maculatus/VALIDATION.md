@@ -1,22 +1,18 @@
 # Validation — Lateolabrax maculatus
 
-**PASS** · 2026-09-08 · GCA_031216445.1
+**PASS** · 2026-09-09 · GCA_031216445.1
 
 Metadata agrees with the data published on GenomeArk.
 
 105 samples in the sheet · 105 BAMs · 105 samples in the VCF
 
-## Notes
-
-- **[P010](../../../CHECKS.md#p010)** pipeline versions: bcftools 1.23.1, gatk 4.6.2.0
-
 ## What was checked
 
-- 45 of 45 checks
+- 42 of 42 checks
 
 ## Provenance
 
-- validated `2026-09-08T23:49:25Z` by congen-metadata-tools 0.1.0
+- validated `2026-09-09T00:02:49Z` by congen-metadata-tools 0.1.0
 - data: `GCA_031216445.1`
 - `README.txt` `sha256:6be24e232341ac9d25b140b4a6095a274b48f97070812e458769432a9054fe79`
 - `config.yaml` `sha256:43831ffcbe00004c88d11cbc681e4b184ce1442af1476f7d0000273eba930df0`

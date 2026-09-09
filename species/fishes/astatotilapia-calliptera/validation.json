@@ -1,9 +1,9 @@
 {
   "subject": "fishes/astatotilapia-calliptera",
   "state": "PENDING",
-  "validated_at": "2026-09-08T23:49:24Z",
+  "validated_at": "2026-09-09T00:02:49Z",
   "tool_version": "0.1.0",
-  "catalog": "sha256:805c480a4f457eea22a64bce4125fc59118e04ece82c32f1e033c73c70eb8649",
+  "catalog": "sha256:d53b63397e4d12c783b4ef2061253eff04ed9be7b13e774f96a132f0f649e5dd",
   "checks_run": [
     "E001",
     "E002",
@@ -14,10 +14,8 @@
     "F004",
     "F005",
     "F006",
-    "F007",
     "F008",
     "F009",
-    "F010",
     "F011",
     "F020",
     "F021",
@@ -33,7 +31,6 @@
     "P001",
     "P002",
     "P003",
-    "P010",
     "R001",
     "R002",
     "R003",
@@ -51,7 +48,7 @@
     "S006",
     "S007"
   ],
-  "checks_available": 45,
+  "checks_available": 42,
   "inputs": {
     "config.yaml": "sha256:375c0b0d48b44830da467d13ce8af2c5b9d5ad344ac951d0f3bc52174d9f572a",
     "sample_sheet.csv": "sha256:8e709536b4d67c07c02dca6ff6646a570e30eb7eb589b529aabda13122f136d9"
@@ -233,15 +230,6 @@
       "line": null
     },
     {
-      "id": "P010",
-      "severity": "skipped",
-      "subject": "fishes/astatotilapia-calliptera",
-      "message": "skipped: records the pipeline versions the VCF header stamps",
-      "detail": "needs vcf_header",
-      "path": null,
-      "line": null
-    },
-    {
       "id": "R020",
       "severity": "skipped",
       "subject": "fishes/astatotilapia-calliptera",
@@ -328,6 +316,7 @@
       "qc",
       "callable_sites"
     ],
+    "missing_optional": [],
     "counts": {
       "sheet_samples": 149,
       "bams": 0,

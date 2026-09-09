@@ -1,22 +1,24 @@
 # Validation — Scatophagus argus
 
-**PASS** · 2026-09-08 · GCA_020382885.1
+**PASS** · 2026-09-09 · GCA_020382885.1
 
 Metadata agrees with the data published on GenomeArk.
 
 12 samples in the sheet · 12 BAMs · 12 samples in the VCF
 
-## Notes
+## Optional files not present
 
-- **[P010](../../../CHECKS.md#p010)** pipeline versions: bcftools 1.23.1, gatk 4.6.2.0
+These do not affect the verdict, but each one can be supplied.
+
+- `filtered_vcf`
 
 ## What was checked
 
-- 45 of 45 checks
+- 42 of 42 checks
 
 ## Provenance
 
-- validated `2026-09-08T23:49:25Z` by congen-metadata-tools 0.1.0
+- validated `2026-09-09T00:02:49Z` by congen-metadata-tools 0.1.0
 - data: `GCA_020382885.1`
 - `README.txt` `sha256:1b3b589e53be24165d315d11807b5ab85eee393c36b2b8d741427bd238a2345d`
 - `config.yaml` `sha256:15e4b614177d7e25aa1ab2b4a2863d06c9cbc12dcce9b5700dc6f0dd133261d5`

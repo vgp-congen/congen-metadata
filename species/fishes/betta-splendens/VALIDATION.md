@@ -1,22 +1,24 @@
 # Validation — Betta splendens
 
-**PASS** · 2026-09-08 · GCA_900634795.4
+**PASS** · 2026-09-09 · GCA_900634795.4
 
 Metadata agrees with the data published on GenomeArk.
 
 150 samples in the sheet · 150 BAMs · 150 samples in the VCF
 
-## Notes
+## Optional files not present
 
-- **[P010](../../../CHECKS.md#p010)** pipeline versions: bcftools 1.23.1, gatk 4.6.2.0
+These do not affect the verdict, but each one can be supplied.
+
+- `filtered_vcf`
 
 ## What was checked
 
-- 45 of 45 checks
+- 42 of 42 checks
 
 ## Provenance
 
-- validated `2026-09-08T23:49:24Z` by congen-metadata-tools 0.1.0
+- validated `2026-09-09T00:02:49Z` by congen-metadata-tools 0.1.0
 - data: `GCA_900634795.4`
 - `README.txt` `sha256:08ec4725e8b587b514a1b2b2d7590e1b0c0e546bc1efb894bf336174cca6a81c`
 - `config.yaml` `sha256:0617e126b7d0881e723172c9cbf74a5212323746697deb54cf3f3abd17997184`

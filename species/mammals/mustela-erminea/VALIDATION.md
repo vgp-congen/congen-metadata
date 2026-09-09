@@ -1,22 +1,24 @@
 # Validation — Mustela erminea
 
-**PASS** · 2026-09-08 · GCA_009829155.1
+**PASS** · 2026-09-09 · GCA_009829155.1
 
 Metadata agrees with the data published on GenomeArk.
 
 13 samples in the sheet · 13 BAMs · 13 samples in the VCF
 
-## Notes
+## Optional files not present
 
-- **[P010](../../../CHECKS.md#p010)** pipeline versions: bcftools 1.23.1, gatk 4.6.2.0
+These do not affect the verdict, but each one can be supplied.
+
+- `filtered_vcf`
 
 ## What was checked
 
-- 45 of 45 checks
+- 42 of 42 checks
 
 ## Provenance
 
-- validated `2026-09-08T23:49:25Z` by congen-metadata-tools 0.1.0
+- validated `2026-09-09T00:02:49Z` by congen-metadata-tools 0.1.0
 - data: `GCA_009829155.1`
 - `README.txt` `sha256:79cbff2683d27b66c5d421abc0885c23582764ef0a9a0de0ea5131b05198a7c9`
 - `config.yaml` `sha256:1ad72c7d33083beb8b2b2c7641868e44a3ef97975ec39d85405105f1c8148fec`

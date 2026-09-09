@@ -1,6 +1,6 @@
 # Validation — Grus americana
 
-**FAIL** · 2026-09-08 · GCA_028858705.1
+**FAIL** · 2026-09-09 · GCA_028858705.1
 
 Problems were found. See below before relying on this metadata.
 
@@ -17,10 +17,17 @@ Problems were found. See below before relying on this metadata.
 - **[G010](../../../CHECKS.md#g010)** no vcfs/raw.vcf.gz
   - 42 BAM(s) present, no VCF
 
+## Optional files not present
+
+These do not affect the verdict, but each one can be supplied.
+
+- `filtered_vcf`
+- `repo_readme`
+
 ## What was checked
 
-- 45 of 45 checks
-- 12 skipped: needs vcf_header
+- 42 of 42 checks
+- 11 skipped: needs vcf_header
 - 3 skipped: needs readme
 - 1 skipped: needs contig_map, vcf_header
 - 1 skipped: needs qc_samples, vcf_header
@@ -28,7 +35,7 @@ Problems were found. See below before relying on this metadata.
 
 ## Provenance
 
-- validated `2026-09-08T23:49:24Z` by congen-metadata-tools 0.1.0
+- validated `2026-09-09T00:02:48Z` by congen-metadata-tools 0.1.0
 - data: `GCA_028858705.1`
 - `config.yaml` `sha256:a173d205f5104fe41a4504a90cce86e44f4e4b38182a286c78586bb2f9ca95e6`
 - `sample_sheet.csv` `sha256:ccb5d4cd495dd18e385c08341178709392ae63dd13e2ec6d7956d963cd916076`

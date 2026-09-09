@@ -1,23 +1,25 @@
 # Validation — Phocoena sinus
 
-**PASS** · 2026-09-08 · GCA_008692025.1
+**PASS** · 2026-09-09 · GCA_008692025.1
 
 Metadata agrees with the data published on GenomeArk.
 
 20 samples in the sheet · 20 BAMs · 20 samples in the VCF
 
-## Notes
+## Optional files not present
 
-- **[P010](../../../CHECKS.md#p010)** pipeline versions: bcftools 1.23.1, gatk 4.6.2.0
+These do not affect the verdict, but each one can be supplied.
+
+- `repo_readme`
 
 ## What was checked
 
-- 45 of 45 checks
+- 42 of 42 checks
 - 3 skipped: needs readme
 
 ## Provenance
 
-- validated `2026-09-08T23:49:25Z` by congen-metadata-tools 0.1.0
+- validated `2026-09-09T00:02:49Z` by congen-metadata-tools 0.1.0
 - data: `GCA_008692025.1`
 - `config.yaml` `sha256:05f5291c04cf35199243d7b292ae940efa9f3e1662896b51cfd3703dd24aa195`
 - `sample_sheet.csv` `sha256:5301d9924f2d9084524b4164d02b67e2ba50df5979d9805cec78003ac7a3ee54`

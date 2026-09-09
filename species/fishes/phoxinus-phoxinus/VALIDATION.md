@@ -1,22 +1,24 @@
 # Validation — Phoxinus phoxinus
 
-**PASS** · 2026-09-08 · GCA_949152265.1
+**PASS** · 2026-09-09 · GCA_949152265.1
 
 Metadata agrees with the data published on GenomeArk.
 
 54 samples in the sheet · 54 BAMs · 54 samples in the VCF
 
-## Notes
+## Optional files not present
 
-- **[P010](../../../CHECKS.md#p010)** pipeline versions: bcftools 1.23.1, gatk 4.6.2.0
+These do not affect the verdict, but each one can be supplied.
+
+- `filtered_vcf`
 
 ## What was checked
 
-- 45 of 45 checks
+- 42 of 42 checks
 
 ## Provenance
 
-- validated `2026-09-08T23:49:25Z` by congen-metadata-tools 0.1.0
+- validated `2026-09-09T00:02:49Z` by congen-metadata-tools 0.1.0
 - data: `GCA_949152265.1`
 - `README.txt` `sha256:91c13f482005bacccd4afa1f0c02537d3226bd30ad99749bbae542ada0dd51c3`
 - `config.yaml` `sha256:61049a9bd392bf522fc2a7077ad3f40625b1a797a36c81a9019448adafbcc196`

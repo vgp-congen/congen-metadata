@@ -1,6 +1,6 @@
 # Validation — Panthera onca
 
-**PENDING** · 2026-09-08 · GCA_046562875.2
+**PENDING** · 2026-09-09 · GCA_046562875.2
 
 Not yet validated against published data. This is an expected state: metadata is often committed before a run is published.
 
@@ -11,10 +11,18 @@ Not yet validated against published data. This is an expected state: metadata is
 - **[G010](../../../CHECKS.md#g010)** no vcfs/raw.vcf.gz
   - 35 BAM(s) present, no VCF
 
+## Optional files not present
+
+These do not affect the verdict, but each one can be supplied.
+
+- `filtered_vcf`
+- `published_readme`
+- `repo_readme`
+
 ## What was checked
 
-- 45 of 45 checks
-- 12 skipped: needs vcf_header
+- 42 of 42 checks
+- 11 skipped: needs vcf_header
 - 3 skipped: needs readme
 - 1 skipped: needs contig_map, vcf_header
 - 1 skipped: needs qc_samples, vcf_header
@@ -22,7 +30,7 @@ Not yet validated against published data. This is an expected state: metadata is
 
 ## Provenance
 
-- validated `2026-09-08T23:49:25Z` by congen-metadata-tools 0.1.0
+- validated `2026-09-09T00:02:49Z` by congen-metadata-tools 0.1.0
 - data: `GCA_046562875.2`
 - `config.yaml` `sha256:37f5c3c7329d473cc8ceb6751c75577c3551e84733645f7bb8f15dd555b25121`
 - `sample_sheet.csv` `sha256:8fd8fccbe9ac9e285da41fada67544c27069e458eabea2beb6eabc8a9c9d2bff`

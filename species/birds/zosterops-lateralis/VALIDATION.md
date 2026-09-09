@@ -1,22 +1,24 @@
 # Validation — Zosterops lateralis
 
-**PASS** · 2026-09-08 · GCA_965231275.1
+**PASS** · 2026-09-09 · GCA_965231275.1
 
 Metadata agrees with the data published on GenomeArk.
 
 12 samples in the sheet · 12 BAMs · 12 samples in the VCF
 
-## Notes
+## Optional files not present
 
-- **[P010](../../../CHECKS.md#p010)** pipeline versions: bcftools 1.23.1, gatk 4.6.2.0
+These do not affect the verdict, but each one can be supplied.
+
+- `filtered_vcf`
 
 ## What was checked
 
-- 45 of 45 checks
+- 42 of 42 checks
 
 ## Provenance
 
-- validated `2026-09-08T23:49:24Z` by congen-metadata-tools 0.1.0
+- validated `2026-09-09T00:02:48Z` by congen-metadata-tools 0.1.0
 - data: `GCA_965231275.1`
 - `README.txt` `sha256:99998136a375569eb58e8a9aa9b9aabec30facce3babc488a8bff554d59f2ff6`
 - `config.yaml` `sha256:ba218c1427a2bf4ce2969e0a01119ef72c8808dd621d1aeda074b9837aecb90b`

@@ -1,22 +1,24 @@
 # Validation — Haemorhous mexicanus
 
-**PASS** · 2026-09-08 · GCA_027477595.1
+**PASS** · 2026-09-09 · GCA_027477595.1
 
 Metadata agrees with the data published on GenomeArk.
 
 32 samples in the sheet · 32 BAMs · 32 samples in the VCF
 
-## Notes
+## Optional files not present
 
-- **[P010](../../../CHECKS.md#p010)** pipeline versions: bcftools 1.23.1, gatk 4.6.2.0
+These do not affect the verdict, but each one can be supplied.
+
+- `filtered_vcf`
 
 ## What was checked
 
-- 45 of 45 checks
+- 42 of 42 checks
 
 ## Provenance
 
-- validated `2026-09-08T23:49:24Z` by congen-metadata-tools 0.1.0
+- validated `2026-09-09T00:02:48Z` by congen-metadata-tools 0.1.0
 - data: `GCA_027477595.1`
 - `README.txt` `sha256:b93bb18370c8768faade0424ddbbb39341e785485e83b919a5a53d81ccb36105`
 - `config.yaml` `sha256:e2ced87ff7b3207d768bd4dc2d04146d8eee96fe417ec6034df38ef9b5b36fca`

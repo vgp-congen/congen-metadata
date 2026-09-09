@@ -1,22 +1,24 @@
 # Validation — Balaenoptera acutorostrata scammoni
 
-**PASS** · 2026-09-08 · GCA_949987535.1
+**PASS** · 2026-09-09 · GCA_949987535.1
 
 Metadata agrees with the data published on GenomeArk.
 
 10 samples in the sheet · 10 BAMs · 10 samples in the VCF
 
-## Notes
+## Optional files not present
 
-- **[P010](../../../CHECKS.md#p010)** pipeline versions: bcftools 1.23.1, gatk 4.6.2.0
+These do not affect the verdict, but each one can be supplied.
+
+- `filtered_vcf`
 
 ## What was checked
 
-- 45 of 45 checks
+- 42 of 42 checks
 
 ## Provenance
 
-- validated `2026-09-08T23:49:25Z` by congen-metadata-tools 0.1.0
+- validated `2026-09-09T00:02:49Z` by congen-metadata-tools 0.1.0
 - data: `GCA_949987535.1`
 - `README.txt` `sha256:f88d14b6dfc7cff9516b5cd0a85fab95b60313b14cd47c1f35725ff2c88c03a6`
 - `config.yaml` `sha256:6b4274f77d2677d2acd7c0284c2b7e7ab6084c248027c123f34a3a1cf5334d89`

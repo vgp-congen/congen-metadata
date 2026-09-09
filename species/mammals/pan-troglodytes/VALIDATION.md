@@ -1,22 +1,24 @@
 # Validation — Pan troglodytes
 
-**PASS** · 2026-09-08 · GCA_028858775.3
+**PASS** · 2026-09-09 · GCA_028858775.3
 
 Metadata agrees with the data published on GenomeArk.
 
 10 samples in the sheet · 10 BAMs · 10 samples in the VCF
 
-## Notes
+## Optional files not present
 
-- **[P010](../../../CHECKS.md#p010)** pipeline versions: bcftools 1.23.1, gatk 4.6.2.0
+These do not affect the verdict, but each one can be supplied.
+
+- `filtered_vcf`
 
 ## What was checked
 
-- 45 of 45 checks
+- 42 of 42 checks
 
 ## Provenance
 
-- validated `2026-09-08T23:49:25Z` by congen-metadata-tools 0.1.0
+- validated `2026-09-09T00:02:49Z` by congen-metadata-tools 0.1.0
 - data: `GCA_028858775.3`
 - `README.txt` `sha256:56183c58fdd5e04560cfc5e1ca7d394d8d781b9f809da3d8c6a691bf49b3c7e7`
 - `config.yaml` `sha256:2497a0f7c5dbf71a47389ccff1ac8bd1d00808e94ee3bfded1daeb3aa0ecb3f1`

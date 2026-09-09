@@ -1,22 +1,24 @@
 # Validation — Pogoniulus pusillus
 
-**PASS** · 2026-09-08 · GCA_015220805.1
+**PASS** · 2026-09-09 · GCA_015220805.1
 
 Metadata agrees with the data published on GenomeArk.
 
 21 samples in the sheet · 21 BAMs · 21 samples in the VCF
 
-## Notes
+## Optional files not present
 
-- **[P010](../../../CHECKS.md#p010)** pipeline versions: bcftools 1.23.1, gatk 4.6.2.0
+These do not affect the verdict, but each one can be supplied.
+
+- `filtered_vcf`
 
 ## What was checked
 
-- 45 of 45 checks
+- 42 of 42 checks
 
 ## Provenance
 
-- validated `2026-09-08T23:49:24Z` by congen-metadata-tools 0.1.0
+- validated `2026-09-09T00:02:48Z` by congen-metadata-tools 0.1.0
 - data: `GCA_015220805.1`
 - `README.txt` `sha256:abeb244926308edb2cb27324bce3f853f477d9dd6d19953691d324b694dc36de`
 - `config.yaml` `sha256:cc85c626d0ab2b48e03823a0fe6389d5c253b7cc7f5bd6b1e0e5e043610ec9db`

@@ -1,22 +1,24 @@
 # Validation — Passer domesticus
 
-**PASS** · 2026-09-08 · GCA_036417665.1
+**PASS** · 2026-09-09 · GCA_036417665.1
 
 Metadata agrees with the data published on GenomeArk.
 
 27 samples in the sheet · 27 BAMs · 27 samples in the VCF
 
-## Notes
+## Optional files not present
 
-- **[P010](../../../CHECKS.md#p010)** pipeline versions: bcftools 1.23.1, gatk 4.6.2.0
+These do not affect the verdict, but each one can be supplied.
+
+- `filtered_vcf`
 
 ## What was checked
 
-- 45 of 45 checks
+- 42 of 42 checks
 
 ## Provenance
 
-- validated `2026-09-08T23:49:24Z` by congen-metadata-tools 0.1.0
+- validated `2026-09-09T00:02:48Z` by congen-metadata-tools 0.1.0
 - data: `GCA_036417665.1`
 - `README.txt` `sha256:687b1116cb7ac1cf87d313f80f26e7f52b177adf03973ceec62e555f8ba865bb`
 - `config.yaml` `sha256:0253956a891b253d644aa82245de226aacbc6e7c4188d77f1ade00f240d797cc`

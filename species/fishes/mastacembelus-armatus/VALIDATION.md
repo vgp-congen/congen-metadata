@@ -1,22 +1,24 @@
 # Validation — Mastacembelus armatus
 
-**PASS** · 2026-09-08 · GCA_900324485.3
+**PASS** · 2026-09-09 · GCA_900324485.3
 
 Metadata agrees with the data published on GenomeArk.
 
 28 samples in the sheet · 28 BAMs · 28 samples in the VCF
 
-## Notes
+## Optional files not present
 
-- **[P010](../../../CHECKS.md#p010)** pipeline versions: bcftools 1.23.1, gatk 4.6.2.0
+These do not affect the verdict, but each one can be supplied.
+
+- `filtered_vcf`
 
 ## What was checked
 
-- 45 of 45 checks
+- 42 of 42 checks
 
 ## Provenance
 
-- validated `2026-09-08T23:49:25Z` by congen-metadata-tools 0.1.0
+- validated `2026-09-09T00:02:49Z` by congen-metadata-tools 0.1.0
 - data: `GCA_900324485.3`
 - `README.txt` `sha256:03a1c928bd37d187846f54cfefdcc6203e97333f97f70b715cb3bba7e7974ff8`
 - `config.yaml` `sha256:1b8ccf5bca84e7847ef75a50f391480bca64f8b51f1eacc74b16905814ceb483`

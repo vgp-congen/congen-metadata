@@ -1,6 +1,6 @@
 # Validation — Sus scrofa domesticus
 
-**PASS WITH WARNINGS** · 2026-09-08 · GCA_048338725.1
+**PASS WITH WARNINGS** · 2026-09-09 · GCA_048338725.1
 
 Metadata agrees with the data published on GenomeArk, with points to note.
 
@@ -12,17 +12,19 @@ Metadata agrees with the data published on GenomeArk, with points to note.
   - PRJEB71922; README lists PRJEB39374, PRJEB51909, PRJNA1147173, PRJNA238851, PRJNA418771 (+3 more)
   - at `species/mammals/sus-scrofa-domesticus/README.txt`
 
-## Notes
+## Optional files not present
 
-- **[P010](../../../CHECKS.md#p010)** pipeline versions: bcftools 1.23.1, gatk 4.6.2.0
+These do not affect the verdict, but each one can be supplied.
+
+- `filtered_vcf`
 
 ## What was checked
 
-- 45 of 45 checks
+- 42 of 42 checks
 
 ## Provenance
 
-- validated `2026-09-08T23:49:25Z` by congen-metadata-tools 0.1.0
+- validated `2026-09-09T00:02:50Z` by congen-metadata-tools 0.1.0
 - data: `GCA_048338725.1`
 - `README.txt` `sha256:ab6b454298c33c8e47b9085ee8259fb9a2c0546fab4b7c766d396e0aa3c2e620`
 - `config.yaml` `sha256:9277ea56a814c7e55388e9aed08575ffd2a90b17bf24dcf2ff3efcc102356fed`

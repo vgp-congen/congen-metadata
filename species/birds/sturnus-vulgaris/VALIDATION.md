@@ -1,6 +1,6 @@
 # Validation — Sturnus Vulgaris
 
-**FAIL** · 2026-09-08 · GCF_001447265.1
+**FAIL** · 2026-09-09 · GCF_001447265.1
 
 Problems were found. See below before relying on this metadata.
 
@@ -20,8 +20,8 @@ Problems were found. See below before relying on this metadata.
 
 ## What was checked
 
-- 45 of 45 checks
-- 10 skipped: needs vcf_header
+- 42 of 42 checks
+- 9 skipped: needs vcf_header
 - 6 skipped: needs s3
 - 4 skipped: needs bam_headers
 - 3 skipped: needs readme
@@ -33,7 +33,7 @@ Problems were found. See below before relying on this metadata.
 
 ## Provenance
 
-- validated `2026-09-08T23:49:24Z` by congen-metadata-tools 0.1.0
+- validated `2026-09-09T00:02:48Z` by congen-metadata-tools 0.1.0
 - data: `GCF_001447265.1` (not published)
 - `config.yaml` `sha256:12a60afd6191adc6ecf57772b41afe0dd8a947abe343a4c1115dea6774a1647f`
 - `sample_sheet.csv` `sha256:4930e7d25eb1e16ed763a04a0770ef85f3f694f22319a97bdc677b7308b84420`

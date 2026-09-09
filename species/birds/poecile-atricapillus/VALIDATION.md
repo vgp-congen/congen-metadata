@@ -1,22 +1,24 @@
 # Validation — Poecile atricapillus
 
-**PASS** · 2026-09-08 · GCA_030490865.1
+**PASS** · 2026-09-09 · GCA_030490865.1
 
 Metadata agrees with the data published on GenomeArk.
 
 35 samples in the sheet · 35 BAMs · 35 samples in the VCF
 
-## Notes
+## Optional files not present
 
-- **[P010](../../../CHECKS.md#p010)** pipeline versions: bcftools 1.23.1, gatk 4.6.2.0
+These do not affect the verdict, but each one can be supplied.
+
+- `filtered_vcf`
 
 ## What was checked
 
-- 45 of 45 checks
+- 42 of 42 checks
 
 ## Provenance
 
-- validated `2026-09-08T23:49:24Z` by congen-metadata-tools 0.1.0
+- validated `2026-09-09T00:02:48Z` by congen-metadata-tools 0.1.0
 - data: `GCA_030490865.1`
 - `README.txt` `sha256:f2c1641348feca9655c1552f273affd165a94862d9afb92edb72d625210f9ecc`
 - `config.yaml` `sha256:f908aef75d9d5f53ac7437465df175cb7dd7c57c41aced61df7d9658ba80e300`
