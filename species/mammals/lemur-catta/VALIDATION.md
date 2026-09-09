@@ -1,25 +1,24 @@
 # Validation — Lemur catta
 
-**PASS** · 2026-09-09 · GCA_020740605.1
+**PASS WITH WARNINGS** · 2026-09-09 · GCA_020740605.1
 
-Metadata agrees with the data published on GenomeArk.
+Metadata agrees with the data published on GenomeArk, with points to note.
 
 12 samples in the sheet · 12 BAMs · 12 samples in the VCF
 
-## Optional files not present
+## Warnings
 
-These do not affect the verdict, but each one can be supplied.
-
-- `repo_readme`
+- **[G017](../../../CHECKS.md#g017)** GenomeArk publishes a README.txt that is not in the repo
+  - copy it into the species directory
 
 ## What was checked
 
-- 42 of 42 checks
+- 44 of 44 checks
 - 3 skipped: needs readme
 
 ## Provenance
 
-- validated `2026-09-09T00:02:49Z` by congen-metadata-tools 0.1.0
+- validated `2026-09-09T00:18:16Z` by congen-metadata-tools 0.1.0
 - data: `GCA_020740605.1`
 - `config.yaml` `sha256:ae979d28a67bac7c3076588b016bf567ae30d4306a6fde4ca53a3048999901a3`
 - `sample_sheet.csv` `sha256:dd5640b0a59a4381a74f4fc5214f053f992b3d47ceb16695179ece4550d833b8`

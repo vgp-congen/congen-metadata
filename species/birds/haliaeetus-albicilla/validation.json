@@ -1,9 +1,9 @@
 {
   "subject": "birds/haliaeetus-albicilla",
   "state": "PENDING",
-  "validated_at": "2026-09-09T00:02:48Z",
+  "validated_at": "2026-09-09T00:18:15Z",
   "tool_version": "0.1.0",
-  "catalog": "sha256:d53b63397e4d12c783b4ef2061253eff04ed9be7b13e774f96a132f0f649e5dd",
+  "catalog": "sha256:44f7010fb4de2e48c91122dfd97086699b1036f7038eda45349f6a6db2e58514",
   "checks_run": [
     "E001",
     "E002",
@@ -28,6 +28,8 @@
     "G012",
     "G013",
     "G014",
+    "G017",
+    "G018",
     "P001",
     "P002",
     "P003",
@@ -48,7 +50,7 @@
     "S006",
     "S007"
   ],
-  "checks_available": 42,
+  "checks_available": 44,
   "inputs": {
     "config.yaml": "sha256:2b704bdf5419a2593060c344b5c97a644c0644630194efe82e1e1f17ca47be72",
     "sample_sheet.csv": "sha256:1b8a0827bf93a05af7f7bd4ac037acc45454aeeaf80df06f2a9c3dc49732c66a"
@@ -58,6 +60,15 @@
     "accession": "GCA_947461875.1"
   },
   "findings": [
+    {
+      "id": "G018",
+      "severity": "warn",
+      "subject": "birds/haliaeetus-albicilla",
+      "message": "no README.txt in the repo or on GenomeArk",
+      "detail": "nothing records which bioprojects this dataset draws on",
+      "path": null,
+      "line": null
+    },
     {
       "id": "E002",
       "severity": "skipped",
@@ -198,6 +209,15 @@
       "severity": "skipped",
       "subject": "birds/haliaeetus-albicilla",
       "message": "skipped: no zero-byte data objects",
+      "detail": "needs s3",
+      "path": null,
+      "line": null
+    },
+    {
+      "id": "G017",
+      "severity": "skipped",
+      "subject": "birds/haliaeetus-albicilla",
+      "message": "skipped: the repo and GenomeArk READMEs agree",
       "detail": "needs s3",
       "path": null,
       "line": null

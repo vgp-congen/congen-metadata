@@ -1,25 +1,24 @@
 # Validation — Eublepharis macularius
 
-**PASS** · 2026-09-09 · GCA_028583425.1
+**PASS WITH WARNINGS** · 2026-09-09 · GCA_028583425.1
 
-Metadata agrees with the data published on GenomeArk.
+Metadata agrees with the data published on GenomeArk, with points to note.
 
 26 samples in the sheet · 26 BAMs · 26 samples in the VCF
 
-## Optional files not present
+## Warnings
 
-These do not affect the verdict, but each one can be supplied.
-
-- `repo_readme`
+- **[G017](../../../CHECKS.md#g017)** GenomeArk publishes a README.txt that is not in the repo
+  - copy it into the species directory
 
 ## What was checked
 
-- 42 of 42 checks
+- 44 of 44 checks
 - 3 skipped: needs readme
 
 ## Provenance
 
-- validated `2026-09-09T00:02:50Z` by congen-metadata-tools 0.1.0
+- validated `2026-09-09T00:18:16Z` by congen-metadata-tools 0.1.0
 - data: `GCA_028583425.1`
 - `config.yaml` `sha256:d3c36b003c29871fb52c9127ab433faaa7aa98e9c6886bb69069c4f9cd75a316`
 - `sample_sheet.csv` `sha256:8b59897e212fb17704a2f32d27232792788c1caa85864d673c9fd620884c4422`

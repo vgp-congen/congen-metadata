@@ -1,9 +1,9 @@
 {
   "subject": "mammals/balaenoptera-musculus",
   "state": "PASS",
-  "validated_at": "2026-09-09T00:02:49Z",
+  "validated_at": "2026-09-09T00:18:16Z",
   "tool_version": "0.1.0",
-  "catalog": "sha256:d53b63397e4d12c783b4ef2061253eff04ed9be7b13e774f96a132f0f649e5dd",
+  "catalog": "sha256:44f7010fb4de2e48c91122dfd97086699b1036f7038eda45349f6a6db2e58514",
   "checks_run": [
     "E001",
     "E002",
@@ -28,6 +28,8 @@
     "G012",
     "G013",
     "G014",
+    "G017",
+    "G018",
     "P001",
     "P002",
     "P003",
@@ -48,7 +50,7 @@
     "S006",
     "S007"
   ],
-  "checks_available": 42,
+  "checks_available": 44,
   "inputs": {
     "config.yaml": "sha256:109d6c1819c3f9a5cb949875e90bc3d9e633303aa175d11f9fea68409f77bbc0",
     "sample_sheet.csv": "sha256:da25c9978fc1742532a241fdd83b3758dd0c4512ec68f721d95a5a2eb10a63f7",

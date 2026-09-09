@@ -1,9 +1,9 @@
 {
   "subject": "fishes/takifugu-rubripes",
   "state": "PASS",
-  "validated_at": "2026-09-09T00:02:49Z",
+  "validated_at": "2026-09-09T00:18:16Z",
   "tool_version": "0.1.0",
-  "catalog": "sha256:d53b63397e4d12c783b4ef2061253eff04ed9be7b13e774f96a132f0f649e5dd",
+  "catalog": "sha256:44f7010fb4de2e48c91122dfd97086699b1036f7038eda45349f6a6db2e58514",
   "checks_run": [
     "E001",
     "E002",
@@ -28,6 +28,8 @@
     "G012",
     "G013",
     "G014",
+    "G017",
+    "G018",
     "P001",
     "P002",
     "P003",
@@ -48,7 +50,7 @@
     "S006",
     "S007"
   ],
-  "checks_available": 42,
+  "checks_available": 44,
   "inputs": {
     "config.yaml": "sha256:df64c6a76bef73a52791c0f34a0a7d144ce5e937257eb7285de13e19ea904a4b",
     "sample_sheet.csv": "sha256:89d4883a766af7901a6e804fc007dc8320f14c01f5a31c83e0c93e75ecdddce8",

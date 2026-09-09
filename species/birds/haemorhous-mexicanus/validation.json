@@ -1,9 +1,9 @@
 {
   "subject": "birds/haemorhous-mexicanus",
   "state": "PASS",
-  "validated_at": "2026-09-09T00:02:48Z",
+  "validated_at": "2026-09-09T00:18:15Z",
   "tool_version": "0.1.0",
-  "catalog": "sha256:d53b63397e4d12c783b4ef2061253eff04ed9be7b13e774f96a132f0f649e5dd",
+  "catalog": "sha256:44f7010fb4de2e48c91122dfd97086699b1036f7038eda45349f6a6db2e58514",
   "checks_run": [
     "E001",
     "E002",
@@ -28,6 +28,8 @@
     "G012",
     "G013",
     "G014",
+    "G017",
+    "G018",
     "P001",
     "P002",
     "P003",
@@ -48,7 +50,7 @@
     "S006",
     "S007"
   ],
-  "checks_available": 42,
+  "checks_available": 44,
   "inputs": {
     "config.yaml": "sha256:e2ced87ff7b3207d768bd4dc2d04146d8eee96fe417ec6034df38ef9b5b36fca",
     "sample_sheet.csv": "sha256:9ca183f304afdf57acbc3a90512c411e74351a5482352e1baea061514517e58b",

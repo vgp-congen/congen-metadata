@@ -1,9 +1,9 @@
 {
   "subject": "birds/catharus-ustulatus",
-  "state": "PASS",
-  "validated_at": "2026-09-09T00:02:48Z",
+  "state": "PASS WITH WARNINGS",
+  "validated_at": "2026-09-09T00:18:15Z",
   "tool_version": "0.1.0",
-  "catalog": "sha256:d53b63397e4d12c783b4ef2061253eff04ed9be7b13e774f96a132f0f649e5dd",
+  "catalog": "sha256:44f7010fb4de2e48c91122dfd97086699b1036f7038eda45349f6a6db2e58514",
   "checks_run": [
     "E001",
     "E002",
@@ -28,6 +28,8 @@
     "G012",
     "G013",
     "G014",
+    "G017",
+    "G018",
     "P001",
     "P002",
     "P003",
@@ -48,7 +50,7 @@
     "S006",
     "S007"
   ],
-  "checks_available": 42,
+  "checks_available": 44,
   "inputs": {
     "config.yaml": "sha256:e174f8723bc5a8cfb16434ec600b77b01b7a9586d33d40b9f014f8c334e1cffa",
     "sample_sheet.csv": "sha256:3864e5436fe67c3effcee6027bbffddd0baca884e181de14bad3070be8667452"
@@ -67,6 +69,15 @@
     }
   },
   "findings": [
+    {
+      "id": "G017",
+      "severity": "warn",
+      "subject": "birds/catharus-ustulatus",
+      "message": "GenomeArk publishes a README.txt that is not in the repo",
+      "detail": "copy it into the species directory",
+      "path": null,
+      "line": null
+    },
     {
       "id": "E002",
       "severity": "skipped",
@@ -111,8 +122,7 @@
     ],
     "missing": [],
     "missing_optional": [
-      "filtered_vcf",
-      "repo_readme"
+      "filtered_vcf"
     ],
     "counts": {
       "sheet_samples": 50,

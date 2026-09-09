@@ -1,9 +1,9 @@
 {
   "subject": "birds/taeniopygia-guttata",
   "state": "PENDING",
-  "validated_at": "2026-09-09T00:02:48Z",
+  "validated_at": "2026-09-09T00:18:15Z",
   "tool_version": "0.1.0",
-  "catalog": "sha256:d53b63397e4d12c783b4ef2061253eff04ed9be7b13e774f96a132f0f649e5dd",
+  "catalog": "sha256:44f7010fb4de2e48c91122dfd97086699b1036f7038eda45349f6a6db2e58514",
   "checks_run": [
     "E001",
     "E002",
@@ -28,6 +28,8 @@
     "G012",
     "G013",
     "G014",
+    "G017",
+    "G018",
     "P001",
     "P002",
     "P003",
@@ -48,7 +50,7 @@
     "S006",
     "S007"
   ],
-  "checks_available": 42,
+  "checks_available": 44,
   "inputs": {
     "config.yaml": "sha256:38bba2624839509280f1d20bcbeb03d218f7f2c838648a3cf43ad8b16cf2419f",
     "sample_sheet.csv": "sha256:f86ee2b42714facc03d269b9c9db7e36601a9a0fc6db4b857e6e577a3dac5dbb"
@@ -58,6 +60,15 @@
     "accession": "GCA_048771995.1"
   },
   "findings": [
+    {
+      "id": "G018",
+      "severity": "warn",
+      "subject": "birds/taeniopygia-guttata",
+      "message": "no README.txt in the repo or on GenomeArk",
+      "detail": "nothing records which bioprojects this dataset draws on",
+      "path": null,
+      "line": null
+    },
     {
       "id": "E002",
       "severity": "skipped",
@@ -198,6 +209,15 @@
       "severity": "skipped",
       "subject": "birds/taeniopygia-guttata",
       "message": "skipped: no zero-byte data objects",
+      "detail": "needs s3",
+      "path": null,
+      "line": null
+    },
+    {
+      "id": "G017",
+      "severity": "skipped",
+      "subject": "birds/taeniopygia-guttata",
+      "message": "skipped: the repo and GenomeArk READMEs agree",
       "detail": "needs s3",
       "path": null,
       "line": null

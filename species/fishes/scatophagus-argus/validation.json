@@ -1,9 +1,9 @@
 {
   "subject": "fishes/scatophagus-argus",
   "state": "PASS",
-  "validated_at": "2026-09-09T00:02:49Z",
+  "validated_at": "2026-09-09T00:18:16Z",
   "tool_version": "0.1.0",
-  "catalog": "sha256:d53b63397e4d12c783b4ef2061253eff04ed9be7b13e774f96a132f0f649e5dd",
+  "catalog": "sha256:44f7010fb4de2e48c91122dfd97086699b1036f7038eda45349f6a6db2e58514",
   "checks_run": [
     "E001",
     "E002",
@@ -28,6 +28,8 @@
     "G012",
     "G013",
     "G014",
+    "G017",
+    "G018",
     "P001",
     "P002",
     "P003",
@@ -48,7 +50,7 @@
     "S006",
     "S007"
   ],
-  "checks_available": 42,
+  "checks_available": 44,
   "inputs": {
     "config.yaml": "sha256:15e4b614177d7e25aa1ab2b4a2863d06c9cbc12dcce9b5700dc6f0dd133261d5",
     "sample_sheet.csv": "sha256:5f9fbc22c4d77d9bace27d40f3d92683a61d3c9befda58f460b5949991c2db43",

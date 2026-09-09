@@ -10,18 +10,18 @@ Not yet validated against published data. This is an expected state: metadata is
 
 - **[G010](../../../CHECKS.md#g010)** no vcfs/raw.vcf.gz
   - 35 BAM(s) present, no VCF
+- **[G018](../../../CHECKS.md#g018)** no README.txt in the repo or on GenomeArk
+  - nothing records which bioprojects this dataset draws on
 
 ## Optional files not present
 
-These do not affect the verdict, but each one can be supplied.
+Recorded for information. Supplying these needs a pipeline run rather than a metadata edit, so they are not findings.
 
 - `filtered_vcf`
-- `published_readme`
-- `repo_readme`
 
 ## What was checked
 
-- 42 of 42 checks
+- 44 of 44 checks
 - 11 skipped: needs vcf_header
 - 3 skipped: needs readme
 - 1 skipped: needs contig_map, vcf_header
@@ -30,7 +30,7 @@ These do not affect the verdict, but each one can be supplied.
 
 ## Provenance
 
-- validated `2026-09-09T00:02:49Z` by congen-metadata-tools 0.1.0
+- validated `2026-09-09T00:18:16Z` by congen-metadata-tools 0.1.0
 - data: `GCA_046562875.2`
 - `config.yaml` `sha256:37f5c3c7329d473cc8ceb6751c75577c3551e84733645f7bb8f15dd555b25121`
 - `sample_sheet.csv` `sha256:8fd8fccbe9ac9e285da41fada67544c27069e458eabea2beb6eabc8a9c9d2bff`

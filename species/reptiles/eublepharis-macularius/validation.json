@@ -1,9 +1,9 @@
 {
   "subject": "reptiles/eublepharis-macularius",
-  "state": "PASS",
-  "validated_at": "2026-09-09T00:02:50Z",
+  "state": "PASS WITH WARNINGS",
+  "validated_at": "2026-09-09T00:18:16Z",
   "tool_version": "0.1.0",
-  "catalog": "sha256:d53b63397e4d12c783b4ef2061253eff04ed9be7b13e774f96a132f0f649e5dd",
+  "catalog": "sha256:44f7010fb4de2e48c91122dfd97086699b1036f7038eda45349f6a6db2e58514",
   "checks_run": [
     "E001",
     "E002",
@@ -28,6 +28,8 @@
     "G012",
     "G013",
     "G014",
+    "G017",
+    "G018",
     "P001",
     "P002",
     "P003",
@@ -48,7 +50,7 @@
     "S006",
     "S007"
   ],
-  "checks_available": 42,
+  "checks_available": 44,
   "inputs": {
     "config.yaml": "sha256:d3c36b003c29871fb52c9127ab433faaa7aa98e9c6886bb69069c4f9cd75a316",
     "sample_sheet.csv": "sha256:8b59897e212fb17704a2f32d27232792788c1caa85864d673c9fd620884c4422"
@@ -68,6 +70,15 @@
     }
   },
   "findings": [
+    {
+      "id": "G017",
+      "severity": "warn",
+      "subject": "reptiles/eublepharis-macularius",
+      "message": "GenomeArk publishes a README.txt that is not in the repo",
+      "detail": "copy it into the species directory",
+      "path": null,
+      "line": null
+    },
     {
       "id": "E002",
       "severity": "skipped",
@@ -112,9 +123,7 @@
       "raw_vcf_index"
     ],
     "missing": [],
-    "missing_optional": [
-      "repo_readme"
-    ],
+    "missing_optional": [],
     "counts": {
       "sheet_samples": 26,
       "bams": 26,

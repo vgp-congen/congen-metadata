@@ -14,15 +14,17 @@ Problems were found. See below before relying on this metadata.
 
 ## Warnings
 
+- **[G018](../../../CHECKS.md#g018)** no README.txt in the repo or on GenomeArk
+  - nothing records which bioprojects this dataset draws on
 - **[R003](../../../CHECKS.md#r003)** reference.name is an accession (GCF_001447265.1), not a species name
   - snpArcher stages the reference as results/reference/<name>.fa.gz
   - at `species/birds/sturnus-vulgaris/config.yaml`
 
 ## What was checked
 
-- 42 of 42 checks
+- 44 of 44 checks
 - 9 skipped: needs vcf_header
-- 6 skipped: needs s3
+- 7 skipped: needs s3
 - 4 skipped: needs bam_headers
 - 3 skipped: needs readme
 - 1 skipped: needs vcf_header, bam_headers
@@ -33,7 +35,7 @@ Problems were found. See below before relying on this metadata.
 
 ## Provenance
 
-- validated `2026-09-09T00:02:48Z` by congen-metadata-tools 0.1.0
+- validated `2026-09-09T00:18:15Z` by congen-metadata-tools 0.1.0
 - data: `GCF_001447265.1` (not published)
 - `config.yaml` `sha256:12a60afd6191adc6ecf57772b41afe0dd8a947abe343a4c1115dea6774a1647f`
 - `sample_sheet.csv` `sha256:4930e7d25eb1e16ed763a04a0770ef85f3f694f22319a97bdc677b7308b84420`

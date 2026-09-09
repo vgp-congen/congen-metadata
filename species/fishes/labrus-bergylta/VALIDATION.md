@@ -8,11 +8,11 @@ Metadata agrees with the data published on GenomeArk.
 
 ## What was checked
 
-- 42 of 42 checks
+- 44 of 44 checks
 
 ## Provenance
 
-- validated `2026-09-09T00:02:49Z` by congen-metadata-tools 0.1.0
+- validated `2026-09-09T00:18:16Z` by congen-metadata-tools 0.1.0
 - data: `GCA_963930695.1`
 - `README.txt` `sha256:1af0db54261779bed488b0d9a94c698c32211e7d08abea5eff5d9aa3b0963516`
 - `config.yaml` `sha256:7aa5fe491345e8cd467b52d01928ed064c335dd43f6018f498e166a32a5d98c8`

@@ -6,11 +6,16 @@ Not yet validated against published data. This is an expected state: metadata is
 
 96 samples in the sheet · publication absent
 
+## Warnings
+
+- **[G018](../../../CHECKS.md#g018)** no README.txt in the repo or on GenomeArk
+  - nothing records which bioprojects this dataset draws on
+
 ## What was checked
 
-- 42 of 42 checks
+- 44 of 44 checks
 - 9 skipped: needs vcf_header
-- 6 skipped: needs s3
+- 7 skipped: needs s3
 - 4 skipped: needs bam_headers
 - 3 skipped: needs readme
 - 1 skipped: needs vcf_header, bam_headers
@@ -21,7 +26,7 @@ Not yet validated against published data. This is an expected state: metadata is
 
 ## Provenance
 
-- validated `2026-09-09T00:02:48Z` by congen-metadata-tools 0.1.0
+- validated `2026-09-09T00:18:15Z` by congen-metadata-tools 0.1.0
 - data: `GCA_947461875.1` (not published)
 - `config.yaml` `sha256:2b704bdf5419a2593060c344b5c97a644c0644630194efe82e1e1f17ca47be72`
 - `sample_sheet.csv` `sha256:1b8a0827bf93a05af7f7bd4ac037acc45454aeeaf80df06f2a9c3dc49732c66a`

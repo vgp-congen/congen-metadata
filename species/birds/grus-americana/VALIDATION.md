@@ -16,17 +16,18 @@ Problems were found. See below before relying on this metadata.
 
 - **[G010](../../../CHECKS.md#g010)** no vcfs/raw.vcf.gz
   - 42 BAM(s) present, no VCF
+- **[G017](../../../CHECKS.md#g017)** GenomeArk publishes a README.txt that is not in the repo
+  - copy it into the species directory
 
 ## Optional files not present
 
-These do not affect the verdict, but each one can be supplied.
+Recorded for information. Supplying these needs a pipeline run rather than a metadata edit, so they are not findings.
 
 - `filtered_vcf`
-- `repo_readme`
 
 ## What was checked
 
-- 42 of 42 checks
+- 44 of 44 checks
 - 11 skipped: needs vcf_header
 - 3 skipped: needs readme
 - 1 skipped: needs contig_map, vcf_header
@@ -35,7 +36,7 @@ These do not affect the verdict, but each one can be supplied.
 
 ## Provenance
 
-- validated `2026-09-09T00:02:48Z` by congen-metadata-tools 0.1.0
+- validated `2026-09-09T00:18:15Z` by congen-metadata-tools 0.1.0
 - data: `GCA_028858705.1`
 - `config.yaml` `sha256:a173d205f5104fe41a4504a90cce86e44f4e4b38182a286c78586bb2f9ca95e6`
 - `sample_sheet.csv` `sha256:ccb5d4cd495dd18e385c08341178709392ae63dd13e2ec6d7956d963cd916076`

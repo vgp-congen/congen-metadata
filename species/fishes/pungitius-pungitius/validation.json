@@ -1,9 +1,9 @@
 {
   "subject": "fishes/pungitius-pungitius",
   "state": "PASS",
-  "validated_at": "2026-09-09T00:02:49Z",
+  "validated_at": "2026-09-09T00:18:16Z",
   "tool_version": "0.1.0",
-  "catalog": "sha256:d53b63397e4d12c783b4ef2061253eff04ed9be7b13e774f96a132f0f649e5dd",
+  "catalog": "sha256:44f7010fb4de2e48c91122dfd97086699b1036f7038eda45349f6a6db2e58514",
   "checks_run": [
     "E001",
     "E002",
@@ -28,6 +28,8 @@
     "G012",
     "G013",
     "G014",
+    "G017",
+    "G018",
     "P001",
     "P002",
     "P003",
@@ -48,7 +50,7 @@
     "S006",
     "S007"
   ],
-  "checks_available": 42,
+  "checks_available": 44,
   "inputs": {
     "config.yaml": "sha256:c07ae739828d75612c5303100f0a1c6e612f6a9fae9f9042a96ad3acd35cdea4",
     "sample_sheet.csv": "sha256:9c3976024aac54dfee8ac19808c96e6d3b96f0c1fd7863bde74125472e30f0f2",

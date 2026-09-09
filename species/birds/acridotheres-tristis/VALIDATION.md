@@ -1,25 +1,24 @@
 # Validation — Acridotheres tristis
 
-**PASS** · 2026-09-09 · GCA_027559615.1
+**PASS WITH WARNINGS** · 2026-09-09 · GCA_027559615.1
 
-Metadata agrees with the data published on GenomeArk.
+Metadata agrees with the data published on GenomeArk, with points to note.
 
 84 samples in the sheet · 84 BAMs · 84 samples in the VCF
 
-## Optional files not present
+## Warnings
 
-These do not affect the verdict, but each one can be supplied.
-
-- `repo_readme`
+- **[G017](../../../CHECKS.md#g017)** GenomeArk publishes a README.txt that is not in the repo
+  - copy it into the species directory
 
 ## What was checked
 
-- 42 of 42 checks
+- 44 of 44 checks
 - 3 skipped: needs readme
 
 ## Provenance
 
-- validated `2026-09-09T00:02:48Z` by congen-metadata-tools 0.1.0
+- validated `2026-09-09T00:18:15Z` by congen-metadata-tools 0.1.0
 - data: `GCA_027559615.1`
 - `config.yaml` `sha256:377ef37f86e888fbd3a0d01f6b6270a8d33c788c695ac3cc2b72bb2276c5c442`
 - `sample_sheet.csv` `sha256:4053e1dac5bd3b9ec9d828df3a90c41322ad9b0fc85c0527edef77866c1b360d`

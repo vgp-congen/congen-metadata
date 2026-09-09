@@ -1,9 +1,9 @@
 {
   "subject": "birds/dryobates-pubescens",
   "state": "PASS WITH WARNINGS",
-  "validated_at": "2026-09-09T00:02:48Z",
+  "validated_at": "2026-09-09T00:18:15Z",
   "tool_version": "0.1.0",
-  "catalog": "sha256:d53b63397e4d12c783b4ef2061253eff04ed9be7b13e774f96a132f0f649e5dd",
+  "catalog": "sha256:44f7010fb4de2e48c91122dfd97086699b1036f7038eda45349f6a6db2e58514",
   "checks_run": [
     "E001",
     "E002",
@@ -28,6 +28,8 @@
     "G012",
     "G013",
     "G014",
+    "G017",
+    "G018",
     "P001",
     "P002",
     "P003",
@@ -48,7 +50,7 @@
     "S006",
     "S007"
   ],
-  "checks_available": 42,
+  "checks_available": 44,
   "inputs": {
     "config.yaml": "sha256:8b0d945f6ac2a8f1ec09f3f5d16c8b7057e0c08a05e603201a84cc11f68eed11",
     "sample_sheet.csv": "sha256:945659da877838dfc138cd7667951ff3a0088713ba2f7662a8f99306dbb44dfc",

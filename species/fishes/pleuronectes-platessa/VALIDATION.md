@@ -8,17 +8,17 @@ Metadata agrees with the data published on GenomeArk.
 
 ## Optional files not present
 
-These do not affect the verdict, but each one can be supplied.
+Recorded for information. Supplying these needs a pipeline run rather than a metadata edit, so they are not findings.
 
 - `filtered_vcf`
 
 ## What was checked
 
-- 42 of 42 checks
+- 44 of 44 checks
 
 ## Provenance
 
-- validated `2026-09-09T00:02:49Z` by congen-metadata-tools 0.1.0
+- validated `2026-09-09T00:18:16Z` by congen-metadata-tools 0.1.0
 - data: `GCA_947347685.1`
 - `README.txt` `sha256:9c228dc05e6a5dd2b55f7172c76afe4d6dd29fc7b77711995a472ac6ac1e761c`
 - `config.yaml` `sha256:828f9bd72205405b558d7936d2d600dfb078839b1fd9b72747bc644519caf4b5`

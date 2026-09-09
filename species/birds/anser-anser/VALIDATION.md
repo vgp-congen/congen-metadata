@@ -1,8 +1,8 @@
 # Validation — Anser anser
 
-**PASS** · 2026-09-09 · GCA_964211835.1
+**PASS WITH NOTES** · 2026-09-09 · GCA_964211835.1
 
-Metadata agrees with the data published on GenomeArk.
+Metadata agrees with the data published on GenomeArk. There is some tidying to do, but nothing that affects whether it can be relied on.
 
 40 samples in the sheet · 40 BAMs · 40 samples in the VCF
 
@@ -14,17 +14,17 @@ Metadata agrees with the data published on GenomeArk.
 
 ## Optional files not present
 
-These do not affect the verdict, but each one can be supplied.
+Recorded for information. Supplying these needs a pipeline run rather than a metadata edit, so they are not findings.
 
 - `filtered_vcf`
 
 ## What was checked
 
-- 42 of 42 checks
+- 44 of 44 checks
 
 ## Provenance
 
-- validated `2026-09-09T00:02:48Z` by congen-metadata-tools 0.1.0
+- validated `2026-09-09T00:18:15Z` by congen-metadata-tools 0.1.0
 - data: `GCA_964211835.1`
 - `README.txt` `sha256:b335c3a64f34dbbb22989d3bdcf2e2b671cd6edc7a3a23d74430b0fb775982a0`
 - `config.yaml` `sha256:c51f85be40afa3a8e7d5f4637163c73e59baa15eccd318c5bfb7355b27ee4668`

@@ -1,9 +1,9 @@
 {
   "subject": "birds/sturnus-vulgaris",
   "state": "FAIL",
-  "validated_at": "2026-09-09T00:02:48Z",
+  "validated_at": "2026-09-09T00:18:15Z",
   "tool_version": "0.1.0",
-  "catalog": "sha256:d53b63397e4d12c783b4ef2061253eff04ed9be7b13e774f96a132f0f649e5dd",
+  "catalog": "sha256:44f7010fb4de2e48c91122dfd97086699b1036f7038eda45349f6a6db2e58514",
   "checks_run": [
     "E001",
     "E002",
@@ -28,6 +28,8 @@
     "G012",
     "G013",
     "G014",
+    "G017",
+    "G018",
     "P001",
     "P002",
     "P003",
@@ -48,7 +50,7 @@
     "S006",
     "S007"
   ],
-  "checks_available": 42,
+  "checks_available": 44,
   "inputs": {
     "config.yaml": "sha256:12a60afd6191adc6ecf57772b41afe0dd8a947abe343a4c1115dea6774a1647f",
     "sample_sheet.csv": "sha256:4930e7d25eb1e16ed763a04a0770ef85f3f694f22319a97bdc677b7308b84420"
@@ -65,6 +67,15 @@
       "message": "config declares GCF_001447265.1 (Sturnus_vulgaris-1.0, Scaffold), but the VGP assembly for Sturnus vulgaris is GCA_052056855.1",
       "detail": "a different assembly, not an accession-namespace variant",
       "path": "species/birds/sturnus-vulgaris/config.yaml",
+      "line": null
+    },
+    {
+      "id": "G018",
+      "severity": "warn",
+      "subject": "birds/sturnus-vulgaris",
+      "message": "no README.txt in the repo or on GenomeArk",
+      "detail": "nothing records which bioprojects this dataset draws on",
+      "path": null,
       "line": null
     },
     {
@@ -216,6 +227,15 @@
       "severity": "skipped",
       "subject": "birds/sturnus-vulgaris",
       "message": "skipped: no zero-byte data objects",
+      "detail": "needs s3",
+      "path": null,
+      "line": null
+    },
+    {
+      "id": "G017",
+      "severity": "skipped",
+      "subject": "birds/sturnus-vulgaris",
+      "message": "skipped: the repo and GenomeArk READMEs agree",
       "detail": "needs s3",
       "path": null,
       "line": null

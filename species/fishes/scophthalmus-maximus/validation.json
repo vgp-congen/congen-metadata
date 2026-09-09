@@ -1,9 +1,9 @@
 {
   "subject": "fishes/scophthalmus-maximus",
   "state": "PASS",
-  "validated_at": "2026-09-09T00:02:49Z",
+  "validated_at": "2026-09-09T00:18:16Z",
   "tool_version": "0.1.0",
-  "catalog": "sha256:d53b63397e4d12c783b4ef2061253eff04ed9be7b13e774f96a132f0f649e5dd",
+  "catalog": "sha256:44f7010fb4de2e48c91122dfd97086699b1036f7038eda45349f6a6db2e58514",
   "checks_run": [
     "E001",
     "E002",
@@ -28,6 +28,8 @@
     "G012",
     "G013",
     "G014",
+    "G017",
+    "G018",
     "P001",
     "P002",
     "P003",
@@ -48,7 +50,7 @@
     "S006",
     "S007"
   ],
-  "checks_available": 42,
+  "checks_available": 44,
   "inputs": {
     "config.yaml": "sha256:8aef94cdc8dc422997eb52596ecbc1ba043cec7d7dafcac1c817c540a9f31554",
     "sample_sheet.csv": "sha256:313c9ed32003d82127a885c32112ffbd2d7751c216272f95d618089221218bbb",

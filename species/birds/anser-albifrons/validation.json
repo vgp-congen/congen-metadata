@@ -1,9 +1,9 @@
 {
   "subject": "birds/anser-albifrons",
   "state": "FAIL",
-  "validated_at": "2026-09-09T00:02:48Z",
+  "validated_at": "2026-09-09T00:18:15Z",
   "tool_version": "0.1.0",
-  "catalog": "sha256:d53b63397e4d12c783b4ef2061253eff04ed9be7b13e774f96a132f0f649e5dd",
+  "catalog": "sha256:44f7010fb4de2e48c91122dfd97086699b1036f7038eda45349f6a6db2e58514",
   "checks_run": [
     "E001",
     "E002",
@@ -28,6 +28,8 @@
     "G012",
     "G013",
     "G014",
+    "G017",
+    "G018",
     "P001",
     "P002",
     "P003",
@@ -48,7 +50,7 @@
     "S006",
     "S007"
   ],
-  "checks_available": 42,
+  "checks_available": 44,
   "inputs": {
     "config.yaml": "sha256:d8421e436e76a0b4d885dcd09aedc31a9fcc5fceecbb360e3c467e5aca974b83",
     "sample_sheet.csv": "sha256:dcaf995d019b5abb320cb7bfb3ecb27731a03de56602d23cb86f29a597c1fb43",

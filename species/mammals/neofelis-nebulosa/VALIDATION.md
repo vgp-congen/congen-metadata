@@ -1,25 +1,24 @@
 # Validation — Neofelis nebulosa
 
-**PASS** · 2026-09-09 · GCA_028018385.1
+**PASS WITH WARNINGS** · 2026-09-09 · GCA_028018385.1
 
-Metadata agrees with the data published on GenomeArk.
+Metadata agrees with the data published on GenomeArk, with points to note.
 
 31 samples in the sheet · 31 BAMs · 31 samples in the VCF
 
-## Optional files not present
+## Warnings
 
-These do not affect the verdict, but each one can be supplied.
-
-- `repo_readme`
+- **[G017](../../../CHECKS.md#g017)** GenomeArk publishes a README.txt that is not in the repo
+  - copy it into the species directory
 
 ## What was checked
 
-- 42 of 42 checks
+- 44 of 44 checks
 - 3 skipped: needs readme
 
 ## Provenance
 
-- validated `2026-09-09T00:02:49Z` by congen-metadata-tools 0.1.0
+- validated `2026-09-09T00:18:16Z` by congen-metadata-tools 0.1.0
 - data: `GCA_028018385.1`
 - `config.yaml` `sha256:5337a85ac67d2d5644aa0c6a644fcea084ad2e458fc2a265880f7f726a2c72e7`
 - `sample_sheet.csv` `sha256:5f53f4b4d034042956299112b886c57fd68598e0a7093bb945eeed7eaa18f45e`

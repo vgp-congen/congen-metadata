@@ -1,26 +1,30 @@
 # Validation — Hirundo rustica
 
-**PASS** · 2026-09-09 · GCA_015227805.3
+**PASS WITH WARNINGS** · 2026-09-09 · GCA_015227805.3
 
-Metadata agrees with the data published on GenomeArk.
+Metadata agrees with the data published on GenomeArk, with points to note.
 
 149 samples in the sheet · 149 BAMs · 149 samples in the VCF
 
+## Warnings
+
+- **[G017](../../../CHECKS.md#g017)** GenomeArk publishes a README.txt that is not in the repo
+  - copy it into the species directory
+
 ## Optional files not present
 
-These do not affect the verdict, but each one can be supplied.
+Recorded for information. Supplying these needs a pipeline run rather than a metadata edit, so they are not findings.
 
 - `filtered_vcf`
-- `repo_readme`
 
 ## What was checked
 
-- 42 of 42 checks
+- 44 of 44 checks
 - 3 skipped: needs readme
 
 ## Provenance
 
-- validated `2026-09-09T00:02:48Z` by congen-metadata-tools 0.1.0
+- validated `2026-09-09T00:18:15Z` by congen-metadata-tools 0.1.0
 - data: `GCA_015227805.3`
 - `config.yaml` `sha256:f5f6226e6f0675066f34c4a3f0a5f8d11e9f63130841b15fc6f713cd275db26b`
 - `sample_sheet.csv` `sha256:18157ddf981cf50ccc929efd45c37e3f006cf5c3e7e389a48ac3b95c1a468a70`

@@ -2,7 +2,7 @@
 
 Every finding in a `VALIDATION.md` carries an ID. This is what they mean.
 
-Generated from congen-metadata-tools 0.1.0; 42 checks.
+Generated from congen-metadata-tools 0.1.0; 44 checks.
 
 Severities:
 
@@ -97,6 +97,26 @@ The tool cannot know whether a publication was supposed to have finished, so cal
 ### G014
 
 **error** — no zero-byte data objects
+
+### G017
+
+**warn** — the repo and GenomeArk READMEs agree
+
+The repo copy and the published copy have drifted apart.
+
+The structural analogue of `S006` for the sample sheet: two copies of one document, and one of them is behind. Almost always a sync gap rather than a disagreement — across the corpus, eleven species have a README on GenomeArk that was never copied back, and none have differing content — so the fix is usually mechanical.
+
+Silent when neither side has one; that is `G018`.
+
+### G018
+
+**warn** — a README.txt exists somewhere
+
+Nobody has documented this dataset, on either side.
+
+The README is where the contributing bioprojects are recorded, so without one there is nothing telling a user what to cite. Distinct from `G017`: that one says the two copies disagree, this one says there is no copy to disagree with, which `G017` would read as being trivially in sync.
+
+Fires for unpublished species too. Writing a README does not need the data to exist — the bioprojects come from the sample sheet — so waiting on a run is not a reason to be undocumented.
 
 ## Sample identity
 

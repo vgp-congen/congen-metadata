@@ -1,9 +1,9 @@
 {
   "subject": "fishes/cyclopterus-lumpus",
   "state": "PASS WITH WARNINGS",
-  "validated_at": "2026-09-09T00:02:49Z",
+  "validated_at": "2026-09-09T00:18:16Z",
   "tool_version": "0.1.0",
-  "catalog": "sha256:d53b63397e4d12c783b4ef2061253eff04ed9be7b13e774f96a132f0f649e5dd",
+  "catalog": "sha256:44f7010fb4de2e48c91122dfd97086699b1036f7038eda45349f6a6db2e58514",
   "checks_run": [
     "E001",
     "E002",
@@ -28,6 +28,8 @@
     "G012",
     "G013",
     "G014",
+    "G017",
+    "G018",
     "P001",
     "P002",
     "P003",
@@ -48,7 +50,7 @@
     "S006",
     "S007"
   ],
-  "checks_available": 42,
+  "checks_available": 44,
   "inputs": {
     "config.yaml": "sha256:78c4bda38d3ce10b2c3ef5664e9988a2c950f37460b47223d476466a6e8618c6",
     "sample_sheet.csv": "sha256:f8a50f741acffa2deec5ce6a1c967eb87b91aa584c3fb36da4543288ea42630c",
