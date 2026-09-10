@@ -1,0 +1,131 @@
+<!-- congen:begin body -->
+# *Dasypus novemcinctus*
+
+Population-genomic variant calls for 11 *Dasypus novemcinctus* samples ([NCBI taxon 9361](https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=9361)), produced by snpArcher against `GCA_030445035.2` and published on GenomeArk.
+
+> [!TIP]
+> **PASS** · validated 2026-09-10 · `GCA_030445035.2`
+>
+> Metadata agrees with the data published on GenomeArk.
+>
+> Full report: [`VALIDATION.md`](VALIDATION.md) · check definitions: [`CHECKS.md`](../../../CHECKS.md) · baseline description: [`README.txt`](README.txt)
+
+## Dataset
+
+|  |  |
+|---|---|
+| Clade | mammals |
+| Reference assembly | [`GCA_030445035.2`](https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_030445035.2/) — mDasNov1.1.hap2, Chromosome |
+| Variant caller | gatk 4.6.2.0 |
+| Samples | 11, all from SRA runs |
+| Variant sites | 30,137,051 |
+
+<details>
+<summary>Assembly and pipeline detail</summary>
+
+|  |  |
+|---|---|
+| Assembly organism | Dasypus novemcinctus |
+| Paired RefSeq/GenBank accession | `GCF_030445035.2` |
+| NCBI taxon | 9361 |
+| Contigs in the VCF | 546 |
+| Ploidy / heterozygosity prior | 2 / 0.005 |
+| Other tools recorded in the VCF header | bcftools 1.23.1 |
+
+</details>
+
+## Sample QC
+
+Full plots: [the snpArcher QC dashboard][qc/qc_dashboard.html]. Per-sample values are not reproduced here; they are in [`qc_report.tsv`][qc/qc_report.tsv], [`individuals.het`][qc/individuals.het] and [`individuals.imiss`][qc/individuals.imiss].
+
+**Mean depth 27.5×** (IQR 26.8–29.6, range 16.4× `SAMN51799584` to 32.7× `SAMN13390509`), over mapped reads.
+
+| mean depth | samples |  |
+|---|---:|---|
+| 15–20× | 1 | ████ |
+| 20–30× | 7 | ██████████████████████████████ |
+| 30–40× | 3 | █████████████ |
+
+Across the cohort:
+
+|  |  |
+|---|---|
+| Cohort mean coverage | 26.1× |
+| Reads mapped | median 99.7% (range 74.8–99.8%) |
+| Duplicates | median 7.7% (range 6.2–10.8%) |
+| Properly paired | median 98.6% (range 71.0–98.8%) |
+| Missingness F_MISS | median 0.024 (range 0.022–0.051) |
+| Inbreeding coefficient F | median 0.093 (range -0.744–0.230) |
+
+The callable-sites mask was built over depths 13–53× ([`coverage_thresholds.tsv`][callable_sites/coverage_thresholds.tsv]). That is a site-level threshold for the mask, not a per-sample cutoff: samples outside it are neither excluded nor flagged here.
+
+## References
+
+*Not generated yet.* This section will list the BioProjects that contributed reads to this dataset, with a citation for each. Until then, the contributing BioProjects are recorded in [`README.txt`](README.txt) — please cite them when you use this dataset.
+
+## Getting the data
+
+Everything below is under `s3://genomeark/downstream_analyses/conservation_genomics/variant_calling/GCA_030445035.2/`. The bucket is public and needs no credentials, but the AWS CLI needs `--no-sign-request` or it will try to sign the request and fail.
+
+|  | Size |  |
+|---|---:|---|
+| [`raw.vcf.gz`][vcfs/raw.vcf.gz] | 3.2 GiB | unfiltered joint-genotyped calls |
+| [`raw.vcf.gz.tbi`][vcfs/raw.vcf.gz.tbi] | 2.7 MiB | index for the above |
+| [`callable_sites.bed`][callable_sites/callable_sites.bed] | 13.5 MiB | the callable-sites mask |
+| [`qc_dashboard.html`][qc/qc_dashboard.html] | 8.4 MiB | the snpArcher QC report — opens in a browser |
+| `bams/` | 406.7 GiB | 22 objects — alignments and indexes |
+
+This run did not produce `filtered.vcf.gz`.
+
+```bash
+# one region of the VCF, without downloading the whole thing
+bcftools view -r <chr>:<start>-<end> \
+  https://genomeark.s3.amazonaws.com/downstream_analyses/conservation_genomics/variant_calling/GCA_030445035.2/vcfs/raw.vcf.gz
+
+# the alignments — check the size above first
+aws s3 sync --no-sign-request \
+  s3://genomeark/downstream_analyses/conservation_genomics/variant_calling/GCA_030445035.2/bams/ ./bams/
+
+# the masks and QC tables, without the zarr stores
+aws s3 sync --no-sign-request --exclude '*.zarr/*' \
+  s3://genomeark/downstream_analyses/conservation_genomics/variant_calling/GCA_030445035.2/callable_sites/ ./callable_sites/
+```
+
+> [!WARNING]
+> `callable_sites/` also holds `callable_loci.zarr/`, `depths/`, `depths.zarr/` and `genmap_index/` — zarr stores of thousands of small objects each.
+>
+> Nothing here lists or sizes them, so the sizes above are a lower bound, and a recursive `sync` without the `--exclude` above will pull all of them.
+
+<details>
+<summary>The other 10 published files</summary>
+
+|  | Size |
+|---|---:|
+| [`qc/qc_report.tsv`][qc/qc_report.tsv] | 1.2 KiB |
+| [`qc/individuals.idepth`][qc/individuals.idepth] | 350 B |
+| [`qc/individuals.het`][qc/individuals.het] | 580 B |
+| [`qc/individuals.imiss`][qc/individuals.imiss] | 498 B |
+| [`qc/individuals.samps.txt`][qc/individuals.samps.txt] | 143 B |
+| [`qc/contig_map.tsv`][qc/contig_map.tsv] | 20.8 KiB |
+| [`callable_sites/coverage.bed`][callable_sites/coverage.bed] | 19.4 MiB |
+| [`callable_sites/mappability.bed`][callable_sites/mappability.bed] | 13.4 MiB |
+| [`callable_sites/mappability.bedgraph`][callable_sites/mappability.bedgraph] | 4.1 GiB |
+| [`callable_sites/coverage_thresholds.tsv`][callable_sites/coverage_thresholds.tsv] | 63 B |
+
+</details>
+
+[callable_sites/callable_sites.bed]: https://genomeark.s3.amazonaws.com/downstream_analyses/conservation_genomics/variant_calling/GCA_030445035.2/callable_sites/callable_sites.bed
+[callable_sites/coverage.bed]: https://genomeark.s3.amazonaws.com/downstream_analyses/conservation_genomics/variant_calling/GCA_030445035.2/callable_sites/coverage.bed
+[callable_sites/coverage_thresholds.tsv]: https://genomeark.s3.amazonaws.com/downstream_analyses/conservation_genomics/variant_calling/GCA_030445035.2/callable_sites/coverage_thresholds.tsv
+[callable_sites/mappability.bed]: https://genomeark.s3.amazonaws.com/downstream_analyses/conservation_genomics/variant_calling/GCA_030445035.2/callable_sites/mappability.bed
+[callable_sites/mappability.bedgraph]: https://genomeark.s3.amazonaws.com/downstream_analyses/conservation_genomics/variant_calling/GCA_030445035.2/callable_sites/mappability.bedgraph
+[qc/contig_map.tsv]: https://genomeark.s3.amazonaws.com/downstream_analyses/conservation_genomics/variant_calling/GCA_030445035.2/qc/contig_map.tsv
+[qc/individuals.het]: https://genomeark.s3.amazonaws.com/downstream_analyses/conservation_genomics/variant_calling/GCA_030445035.2/qc/individuals.het
+[qc/individuals.idepth]: https://genomeark.s3.amazonaws.com/downstream_analyses/conservation_genomics/variant_calling/GCA_030445035.2/qc/individuals.idepth
+[qc/individuals.imiss]: https://genomeark.s3.amazonaws.com/downstream_analyses/conservation_genomics/variant_calling/GCA_030445035.2/qc/individuals.imiss
+[qc/individuals.samps.txt]: https://genomeark.s3.amazonaws.com/downstream_analyses/conservation_genomics/variant_calling/GCA_030445035.2/qc/individuals.samps.txt
+[qc/qc_dashboard.html]: https://genomeark.s3.amazonaws.com/downstream_analyses/conservation_genomics/variant_calling/GCA_030445035.2/qc/qc_dashboard.html
+[qc/qc_report.tsv]: https://genomeark.s3.amazonaws.com/downstream_analyses/conservation_genomics/variant_calling/GCA_030445035.2/qc/qc_report.tsv
+[vcfs/raw.vcf.gz]: https://genomeark.s3.amazonaws.com/downstream_analyses/conservation_genomics/variant_calling/GCA_030445035.2/vcfs/raw.vcf.gz
+[vcfs/raw.vcf.gz.tbi]: https://genomeark.s3.amazonaws.com/downstream_analyses/conservation_genomics/variant_calling/GCA_030445035.2/vcfs/raw.vcf.gz.tbi
+<!-- congen:end body -->
