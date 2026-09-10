@@ -1,6 +1,6 @@
 # Validation — Geothlypis trichas
 
-**PASS** · 2026-09-09 · GCA_009764595.1
+**PASS** · 2026-09-10 · GCA_009764595.1
 
 Metadata agrees with the data published on GenomeArk.
 
@@ -18,7 +18,7 @@ Recorded for information. Supplying these needs a pipeline run rather than a met
 
 ## Provenance
 
-- validated `2026-09-09T00:18:15Z` by congen-metadata-tools 0.1.0
+- validated `2026-09-10T19:51:47Z` by congen-metadata-tools 0.1.0
 - data: `GCA_009764595.1`
 - `README.txt` `sha256:5fcbf4e9ce32a11e492464627d632c8ecddffe1e50fe2dc618e0acfc0ba58498`
 - `config.yaml` `sha256:d4f6d4eb681755a4bcf147899d59a7b985d826ee375af9a045bbce3a0f33fa85`

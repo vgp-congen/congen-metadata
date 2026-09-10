@@ -1,12 +1,12 @@
 {
-  "validated_at": "2026-09-09T00:18:17Z",
+  "validated_at": "2026-09-10T19:51:48Z",
   "tool_version": "0.1.0",
   "counts": {
+    "PENDING": 6,
     "PASS": 51,
-    "PASS WITH WARNINGS": 14,
-    "FAIL": 3,
-    "PENDING": 10,
-    "PASS WITH NOTES": 1
+    "PASS WITH NOTES": 1,
+    "PASS WITH WARNINGS": 18,
+    "FAIL": 3
   },
   "corpus_findings": [
     {
@@ -14,6 +14,15 @@
       "severity": "warn",
       "subject": "<corpus>",
       "message": "GCA_028023285.1 (Balaenoptera ricei) is published and in the VGP list, but has no species directory",
+      "detail": null,
+      "path": null,
+      "line": null
+    },
+    {
+      "id": "G020",
+      "severity": "warn",
+      "subject": "<corpus>",
+      "message": "GCA_052056855.1 (Sturnus vulgaris) is published and in the VGP list, but has no species directory",
       "detail": null,
       "path": null,
       "line": null
@@ -36,7 +45,7 @@
     "birds/geothlypis-trichas": "PASS",
     "birds/grus-americana": "FAIL",
     "birds/haemorhous-mexicanus": "PASS",
-    "birds/haliaeetus-albicilla": "PENDING",
+    "birds/haliaeetus-albicilla": "PASS WITH WARNINGS",
     "birds/hirundo-rustica": "PASS WITH WARNINGS",
     "birds/passer-domesticus": "PASS",
     "birds/poecile-atricapillus": "PASS",
@@ -48,10 +57,10 @@
     "birds/zosterops-lateralis": "PASS",
     "fishes/acanthopagrus-latus": "PASS",
     "fishes/archocentrus-centrarchus": "PASS",
-    "fishes/astatotilapia-calliptera": "PENDING",
+    "fishes/astatotilapia-calliptera": "PASS WITH WARNINGS",
     "fishes/aulonocara-stuartgranti": "PASS",
     "fishes/betta-splendens": "PASS",
-    "fishes/coregonus-lavaretus": "PENDING",
+    "fishes/coregonus-lavaretus": "PASS WITH WARNINGS",
     "fishes/cyclopterus-lumpus": "PASS WITH WARNINGS",
     "fishes/esox-lucius": "PASS WITH WARNINGS",
     "fishes/gasterosteus-aculeatus": "PASS",
@@ -92,7 +101,7 @@
     "mammals/ovis-aries": "PASS",
     "mammals/ovis-canadensis": "PASS",
     "mammals/pan-troglodytes": "PASS",
-    "mammals/panthera-onca": "PENDING",
+    "mammals/panthera-onca": "PASS WITH WARNINGS",
     "mammals/phocoena-sinus": "PASS WITH WARNINGS",
     "mammals/rhinolophus-affinis": "PASS",
     "mammals/sus-scrofa-domesticus": "PASS WITH WARNINGS",

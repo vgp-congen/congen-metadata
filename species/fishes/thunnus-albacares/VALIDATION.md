@@ -1,6 +1,6 @@
 # Validation — Thunnus albacares
 
-**PASS** · 2026-09-09 · GCA_914725855.1
+**PASS** · 2026-09-10 · GCA_914725855.1
 
 Metadata agrees with the data published on GenomeArk.
 
@@ -18,7 +18,7 @@ Recorded for information. Supplying these needs a pipeline run rather than a met
 
 ## Provenance
 
-- validated `2026-09-09T00:18:16Z` by congen-metadata-tools 0.1.0
+- validated `2026-09-10T19:51:47Z` by congen-metadata-tools 0.1.0
 - data: `GCA_914725855.1`
 - `README.txt` `sha256:c1d1e1751c837b64384ced2bca79b5e05f1dd3e58112cdf40144e83bc5df1963`
 - `config.yaml` `sha256:09d716c12d4e403cba731bc709044554363ec914e6cb7910a078c5ea1fe77464`

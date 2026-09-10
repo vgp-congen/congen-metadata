@@ -1,6 +1,6 @@
 # Validation — Notamacropus eugenii
 
-**PENDING** · 2026-09-09 · GCA_028372415.2
+**PENDING** · 2026-09-10 · GCA_028372415.2
 
 Not yet validated against published data. This is an expected state: metadata is often committed before a run is published.
 
@@ -26,7 +26,7 @@ Not yet validated against published data. This is an expected state: metadata is
 
 ## Provenance
 
-- validated `2026-09-09T00:18:16Z` by congen-metadata-tools 0.1.0
+- validated `2026-09-10T19:51:48Z` by congen-metadata-tools 0.1.0
 - data: `GCA_028372415.2` (not published)
 - `config.yaml` `sha256:de6aa30f8305330ef47f3d37facc06286690db78d14c2f7de05466bacba12f80`
 - `sample_sheet.csv` `sha256:f51a5255e1e017518980e57a19274ab3301533450e18bf5cef95f5dc09f52fc1`

@@ -1,6 +1,6 @@
 # Validation — Archocentrus centrarchus
 
-**PASS** · 2026-09-09 · GCA_007364275.2
+**PASS** · 2026-09-10 · GCA_007364275.2
 
 Metadata agrees with the data published on GenomeArk.
 
@@ -18,7 +18,7 @@ Recorded for information. Supplying these needs a pipeline run rather than a met
 
 ## Provenance
 
-- validated `2026-09-09T00:18:15Z` by congen-metadata-tools 0.1.0
+- validated `2026-09-10T19:51:47Z` by congen-metadata-tools 0.1.0
 - data: `GCA_007364275.2`
 - `README.txt` `sha256:52439dc9bfddf1ad044d7d650c9338f343945bd31aa77897b9e06f487b01dd83`
 - `config.yaml` `sha256:3d4c7aa5dd96b49dfbf3a6d7f9abdce00e84476a771ac68a176a80caa729bc87`

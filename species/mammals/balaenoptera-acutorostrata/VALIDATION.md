@@ -1,6 +1,6 @@
 # Validation — Balaenoptera acutorostrata scammoni
 
-**PASS** · 2026-09-09 · GCA_949987535.1
+**PASS** · 2026-09-10 · GCA_949987535.1
 
 Metadata agrees with the data published on GenomeArk.
 
@@ -18,7 +18,7 @@ Recorded for information. Supplying these needs a pipeline run rather than a met
 
 ## Provenance
 
-- validated `2026-09-09T00:18:16Z` by congen-metadata-tools 0.1.0
+- validated `2026-09-10T19:51:47Z` by congen-metadata-tools 0.1.0
 - data: `GCA_949987535.1`
 - `README.txt` `sha256:f88d14b6dfc7cff9516b5cd0a85fab95b60313b14cd47c1f35725ff2c88c03a6`
 - `config.yaml` `sha256:6b4274f77d2677d2acd7c0284c2b7e7ab6084c248027c123f34a3a1cf5334d89`

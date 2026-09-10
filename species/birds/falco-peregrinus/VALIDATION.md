@@ -1,6 +1,6 @@
 # Validation — Falco peregrinus
 
-**PASS WITH WARNINGS** · 2026-09-09 · GCA_023634155.1
+**PASS WITH WARNINGS** · 2026-09-10 · GCA_023634155.1
 
 Metadata agrees with the data published on GenomeArk, with points to note.
 
@@ -18,7 +18,7 @@ Metadata agrees with the data published on GenomeArk, with points to note.
 
 ## Provenance
 
-- validated `2026-09-09T00:18:15Z` by congen-metadata-tools 0.1.0
+- validated `2026-09-10T19:51:47Z` by congen-metadata-tools 0.1.0
 - data: `GCA_023634155.1`
 - `config.yaml` `sha256:904f6df6c5b3890f1ee92175d9181fe611c68549af24fd7b1f89fb7068f6218a`
 - `sample_sheet.csv` `sha256:52f1e9a9cff25bf3188f8d8b30af2b6f1a6ff7d33917f8599c7f38da68a56f86`

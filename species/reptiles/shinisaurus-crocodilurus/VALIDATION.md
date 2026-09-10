@@ -1,6 +1,6 @@
 # Validation — Shinisaurus crocodilurus
 
-**PASS WITH WARNINGS** · 2026-09-09 · GCA_021292165.1
+**PASS WITH WARNINGS** · 2026-09-10 · GCA_021292165.1
 
 Metadata agrees with the data published on GenomeArk, with points to note.
 
@@ -27,7 +27,7 @@ Recorded for information. Supplying these needs a pipeline run rather than a met
 
 ## Provenance
 
-- validated `2026-09-09T00:18:16Z` by congen-metadata-tools 0.1.0
+- validated `2026-09-10T19:51:48Z` by congen-metadata-tools 0.1.0
 - data: `GCA_021292165.1`
 - `README.txt` `sha256:c4d1c8567f1362a8668906d8ba54574d3124ad95813f60e1c9af0c870d5d33dd`
 - `config.yaml` `sha256:69465cb4b4cfb5a817eeb036405360beaf30567a093209f7b5e99df8b5e0816c`

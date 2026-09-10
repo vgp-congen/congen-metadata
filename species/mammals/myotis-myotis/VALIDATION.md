@@ -1,6 +1,6 @@
 # Validation — Myotis myotis
 
-**PASS** · 2026-09-09 · GCA_014108235.2
+**PASS** · 2026-09-10 · GCA_014108235.2
 
 Metadata agrees with the data published on GenomeArk.
 
@@ -18,7 +18,7 @@ Recorded for information. Supplying these needs a pipeline run rather than a met
 
 ## Provenance
 
-- validated `2026-09-09T00:18:16Z` by congen-metadata-tools 0.1.0
+- validated `2026-09-10T19:51:48Z` by congen-metadata-tools 0.1.0
 - data: `GCA_014108235.2`
 - `README.txt` `sha256:898a5924c2fd2865fe9a991580dc985221a55df30a6edc2039bba001f6134d36`
 - `config.yaml` `sha256:eb2890c8ab5448a034cdb5ed5b0d1e0e04e37b883a9b07a3f9f5580bcb1e0244`

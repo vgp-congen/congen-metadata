@@ -1,6 +1,6 @@
 # Validation — Catharus ustulatus
 
-**PASS WITH WARNINGS** · 2026-09-09 · GCA_009819885.2
+**PASS WITH WARNINGS** · 2026-09-10 · GCA_009819885.2
 
 Metadata agrees with the data published on GenomeArk, with points to note.
 
@@ -24,7 +24,7 @@ Recorded for information. Supplying these needs a pipeline run rather than a met
 
 ## Provenance
 
-- validated `2026-09-09T00:18:15Z` by congen-metadata-tools 0.1.0
+- validated `2026-09-10T19:51:47Z` by congen-metadata-tools 0.1.0
 - data: `GCA_009819885.2`
 - `config.yaml` `sha256:e174f8723bc5a8cfb16434ec600b77b01b7a9586d33d40b9f014f8c334e1cffa`
 - `sample_sheet.csv` `sha256:3864e5436fe67c3effcee6027bbffddd0baca884e181de14bad3070be8667452`

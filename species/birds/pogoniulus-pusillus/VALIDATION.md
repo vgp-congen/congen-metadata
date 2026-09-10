@@ -1,6 +1,6 @@
 # Validation — Pogoniulus pusillus
 
-**PASS** · 2026-09-09 · GCA_015220805.1
+**PASS** · 2026-09-10 · GCA_015220805.1
 
 Metadata agrees with the data published on GenomeArk.
 
@@ -18,7 +18,7 @@ Recorded for information. Supplying these needs a pipeline run rather than a met
 
 ## Provenance
 
-- validated `2026-09-09T00:18:15Z` by congen-metadata-tools 0.1.0
+- validated `2026-09-10T19:51:47Z` by congen-metadata-tools 0.1.0
 - data: `GCA_015220805.1`
 - `README.txt` `sha256:abeb244926308edb2cb27324bce3f853f477d9dd6d19953691d324b694dc36de`
 - `config.yaml` `sha256:cc85c626d0ab2b48e03823a0fe6389d5c253b7cc7f5bd6b1e0e5e043610ec9db`

@@ -1,6 +1,6 @@
 # Validation — Pan troglodytes
 
-**PASS** · 2026-09-09 · GCA_028858775.3
+**PASS** · 2026-09-10 · GCA_028858775.3
 
 Metadata agrees with the data published on GenomeArk.
 
@@ -18,7 +18,7 @@ Recorded for information. Supplying these needs a pipeline run rather than a met
 
 ## Provenance
 
-- validated `2026-09-09T00:18:16Z` by congen-metadata-tools 0.1.0
+- validated `2026-09-10T19:51:48Z` by congen-metadata-tools 0.1.0
 - data: `GCA_028858775.3`
 - `README.txt` `sha256:56183c58fdd5e04560cfc5e1ca7d394d8d781b9f809da3d8c6a691bf49b3c7e7`
 - `config.yaml` `sha256:2497a0f7c5dbf71a47389ccff1ac8bd1d00808e94ee3bfded1daeb3aa0ecb3f1`

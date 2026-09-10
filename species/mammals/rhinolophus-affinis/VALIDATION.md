@@ -1,6 +1,6 @@
 # Validation — Rhinolophus affinis
 
-**PASS** · 2026-09-09 · GCA_043728065.1
+**PASS** · 2026-09-10 · GCA_043728065.1
 
 Metadata agrees with the data published on GenomeArk.
 
@@ -18,7 +18,7 @@ Recorded for information. Supplying these needs a pipeline run rather than a met
 
 ## Provenance
 
-- validated `2026-09-09T00:18:16Z` by congen-metadata-tools 0.1.0
+- validated `2026-09-10T19:51:48Z` by congen-metadata-tools 0.1.0
 - data: `GCA_043728065.1`
 - `README.txt` `sha256:0ac42f0661af981017cef719ce12901d0a6421514dbe6102b4bfaccc4f079b2c`
 - `config.yaml` `sha256:deaa49b568bb28ac7043b1f7a76f3422b966a8b79e0e22ab2b81d04c4a7b4179`

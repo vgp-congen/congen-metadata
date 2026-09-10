@@ -1,7 +1,7 @@
 {
   "subject": "birds/grus-americana",
   "state": "FAIL",
-  "validated_at": "2026-09-09T00:18:15Z",
+  "validated_at": "2026-09-10T19:51:47Z",
   "tool_version": "0.1.0",
   "catalog": "sha256:44f7010fb4de2e48c91122dfd97086699b1036f7038eda45349f6a6db2e58514",
   "checks_run": [
@@ -58,10 +58,15 @@
   "data": {
     "published": true,
     "accession": "GCA_028858705.1",
-    "objects": {},
+    "objects": {
+      "raw.vcf.gz": "etag:536ca8b49db03eea9d0e8a24850aacd0-2053",
+      "raw.vcf.gz.tbi": "etag:5fdd4393e79167017e5a895bbe18e5af",
+      "filtered.vcf.gz": "etag:ad576b82233754da37a4eaa4fa7e1a4f-3107",
+      "sample_sheet.csv": "etag:601c6bb089bb1bc01286662d68f589b4"
+    },
     "bams": {
-      "count": 42,
-      "digest": "sha256:e8f3bbbc7b886bb77ff5afab5e6875ee7f83c045b389ae2ba65812d40c7f185e"
+      "count": 57,
+      "digest": "sha256:04b470fb7f082f9005d579634ac023da903313746876046fe43608a020941ca2"
     }
   },
   "findings": [
@@ -72,15 +77,6 @@
       "message": "config declares GCF_028858705.1; the VGP accession is GCA_028858705.1",
       "detail": "same assembly, non-canonical accession namespace; confirmed by NCBI paired_assembly",
       "path": "species/birds/grus-americana/config.yaml",
-      "line": null
-    },
-    {
-      "id": "G010",
-      "severity": "warn",
-      "subject": "birds/grus-americana",
-      "message": "no vcfs/raw.vcf.gz",
-      "detail": "42 BAM(s) present, no VCF",
-      "path": null,
       "line": null
     },
     {
@@ -111,96 +107,6 @@
       "line": null
     },
     {
-      "id": "F001",
-      "severity": "skipped",
-      "subject": "birds/grus-americana",
-      "message": "skipped: every VCF contig exists in the declared assembly",
-      "detail": "needs vcf_header",
-      "path": null,
-      "line": null
-    },
-    {
-      "id": "F002",
-      "severity": "skipped",
-      "subject": "birds/grus-americana",
-      "message": "skipped: VCF contig lengths match the assembly",
-      "detail": "needs vcf_header",
-      "path": null,
-      "line": null
-    },
-    {
-      "id": "F003",
-      "severity": "skipped",
-      "subject": "birds/grus-americana",
-      "message": "skipped: contig names use one consistent naming scheme",
-      "detail": "needs vcf_header",
-      "path": null,
-      "line": null
-    },
-    {
-      "id": "F004",
-      "severity": "skipped",
-      "subject": "birds/grus-americana",
-      "message": "skipped: BAM @SQ matches the VCF contigs",
-      "detail": "needs vcf_header",
-      "path": null,
-      "line": null
-    },
-    {
-      "id": "F008",
-      "severity": "skipped",
-      "subject": "birds/grus-americana",
-      "message": "skipped: qc/contig_map.tsv agrees with the VCF contigs",
-      "detail": "needs contig_map, vcf_header",
-      "path": null,
-      "line": null
-    },
-    {
-      "id": "F009",
-      "severity": "skipped",
-      "subject": "birds/grus-americana",
-      "message": "skipped: assembly sequences absent from the VCF",
-      "detail": "needs vcf_header",
-      "path": null,
-      "line": null
-    },
-    {
-      "id": "F011",
-      "severity": "skipped",
-      "subject": "birds/grus-americana",
-      "message": "skipped: no whole assembled molecule is absent from the VCF",
-      "detail": "needs vcf_header",
-      "path": null,
-      "line": null
-    },
-    {
-      "id": "P001",
-      "severity": "skipped",
-      "subject": "birds/grus-americana",
-      "message": "skipped: variant_calling.ploidy matches the recorded --sample-ploidy",
-      "detail": "needs vcf_header",
-      "path": null,
-      "line": null
-    },
-    {
-      "id": "P002",
-      "severity": "skipped",
-      "subject": "birds/grus-americana",
-      "message": "skipped: gatk.het_prior matches the recorded --heterozygosity",
-      "detail": "needs vcf_header",
-      "path": null,
-      "line": null
-    },
-    {
-      "id": "P003",
-      "severity": "skipped",
-      "subject": "birds/grus-americana",
-      "message": "skipped: variant_calling.tool matches the caller recorded in the VCF",
-      "detail": "needs vcf_header",
-      "path": null,
-      "line": null
-    },
-    {
       "id": "R020",
       "severity": "skipped",
       "subject": "birds/grus-americana",
@@ -208,67 +114,29 @@
       "detail": "needs readme",
       "path": null,
       "line": null
-    },
-    {
-      "id": "S001",
-      "severity": "skipped",
-      "subject": "birds/grus-americana",
-      "message": "skipped: sheet samples == VCF samples",
-      "detail": "needs vcf_header",
-      "path": null,
-      "line": null
-    },
-    {
-      "id": "S003",
-      "severity": "skipped",
-      "subject": "birds/grus-americana",
-      "message": "skipped: VCF samples == published BAMs",
-      "detail": "needs vcf_header",
-      "path": null,
-      "line": null
-    },
-    {
-      "id": "S005",
-      "severity": "skipped",
-      "subject": "birds/grus-americana",
-      "message": "skipped: qc/individuals.samps.txt agrees with the VCF",
-      "detail": "needs qc_samples, vcf_header",
-      "path": null,
-      "line": null
-    },
-    {
-      "id": "S006",
-      "severity": "skipped",
-      "subject": "birds/grus-americana",
-      "message": "skipped: the published sample sheet matches the repo copy",
-      "detail": "needs s3_sheet",
-      "path": null,
-      "line": null
     }
   ],
   "status": {
     "subject": "birds/grus-americana",
-    "state": "partial",
+    "state": "complete",
     "accession": "GCA_028858705.1",
     "declared_accession": "GCF_028858705.1",
     "accession_differs": true,
     "present": [
       "bams",
-      "published_readme"
-    ],
-    "missing": [
-      "raw_vcf",
-      "raw_vcf_index",
+      "callable_sites",
+      "filtered_vcf",
+      "published_readme",
       "qc",
-      "callable_sites"
+      "raw_vcf",
+      "raw_vcf_index"
     ],
-    "missing_optional": [
-      "filtered_vcf"
-    ],
+    "missing": [],
+    "missing_optional": [],
     "counts": {
       "sheet_samples": 57,
-      "bams": 42,
-      "vcf_samples": null
+      "bams": 57,
+      "vcf_samples": 57
     }
   },
   "superseded": null,

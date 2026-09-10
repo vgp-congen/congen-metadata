@@ -1,6 +1,6 @@
 # Validation — Betta splendens
 
-**PASS** · 2026-09-09 · GCA_900634795.4
+**PASS** · 2026-09-10 · GCA_900634795.4
 
 Metadata agrees with the data published on GenomeArk.
 
@@ -18,7 +18,7 @@ Recorded for information. Supplying these needs a pipeline run rather than a met
 
 ## Provenance
 
-- validated `2026-09-09T00:18:16Z` by congen-metadata-tools 0.1.0
+- validated `2026-09-10T19:51:47Z` by congen-metadata-tools 0.1.0
 - data: `GCA_900634795.4`
 - `README.txt` `sha256:08ec4725e8b587b514a1b2b2d7590e1b0c0e546bc1efb894bf336174cca6a81c`
 - `config.yaml` `sha256:0617e126b7d0881e723172c9cbf74a5212323746697deb54cf3f3abd17997184`

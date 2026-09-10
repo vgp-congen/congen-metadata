@@ -1,6 +1,6 @@
 # Validation — Poecile atricapillus
 
-**PASS** · 2026-09-09 · GCA_030490865.1
+**PASS** · 2026-09-10 · GCA_030490865.1
 
 Metadata agrees with the data published on GenomeArk.
 
@@ -18,7 +18,7 @@ Recorded for information. Supplying these needs a pipeline run rather than a met
 
 ## Provenance
 
-- validated `2026-09-09T00:18:15Z` by congen-metadata-tools 0.1.0
+- validated `2026-09-10T19:51:47Z` by congen-metadata-tools 0.1.0
 - data: `GCA_030490865.1`
 - `README.txt` `sha256:f2c1641348feca9655c1552f273affd165a94862d9afb92edb72d625210f9ecc`
 - `config.yaml` `sha256:f908aef75d9d5f53ac7437465df175cb7dd7c57c41aced61df7d9658ba80e300`

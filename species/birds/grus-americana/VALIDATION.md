@@ -1,10 +1,10 @@
 # Validation — Grus americana
 
-**FAIL** · 2026-09-09 · GCA_028858705.1
+**FAIL** · 2026-09-10 · GCA_028858705.1
 
 Problems were found. See below before relying on this metadata.
 
-57 samples in the sheet · 42 BAMs · publication partial
+57 samples in the sheet · 57 BAMs · 57 samples in the VCF
 
 ## Errors
 
@@ -14,29 +14,17 @@ Problems were found. See below before relying on this metadata.
 
 ## Warnings
 
-- **[G010](../../../CHECKS.md#g010)** no vcfs/raw.vcf.gz
-  - 42 BAM(s) present, no VCF
 - **[G017](../../../CHECKS.md#g017)** GenomeArk publishes a README.txt that is not in the repo
   - copy it into the species directory
-
-## Optional files not present
-
-Recorded for information. Supplying these needs a pipeline run rather than a metadata edit, so they are not findings.
-
-- `filtered_vcf`
 
 ## What was checked
 
 - 44 of 44 checks
-- 11 skipped: needs vcf_header
 - 3 skipped: needs readme
-- 1 skipped: needs contig_map, vcf_header
-- 1 skipped: needs qc_samples, vcf_header
-- 1 skipped: needs s3_sheet
 
 ## Provenance
 
-- validated `2026-09-09T00:18:15Z` by congen-metadata-tools 0.1.0
+- validated `2026-09-10T19:51:47Z` by congen-metadata-tools 0.1.0
 - data: `GCA_028858705.1`
 - `config.yaml` `sha256:a173d205f5104fe41a4504a90cce86e44f4e4b38182a286c78586bb2f9ca95e6`
 - `sample_sheet.csv` `sha256:ccb5d4cd495dd18e385c08341178709392ae63dd13e2ec6d7956d963cd916076`

@@ -1,6 +1,6 @@
 # Validation — Sprattus sprattus
 
-**PASS** · 2026-09-09 · GCA_963457725.1
+**PASS** · 2026-09-10 · GCA_963457725.1
 
 Metadata agrees with the data published on GenomeArk.
 
@@ -18,7 +18,7 @@ Recorded for information. Supplying these needs a pipeline run rather than a met
 
 ## Provenance
 
-- validated `2026-09-09T00:18:16Z` by congen-metadata-tools 0.1.0
+- validated `2026-09-10T19:51:47Z` by congen-metadata-tools 0.1.0
 - data: `GCA_963457725.1`
 - `README.txt` `sha256:145f8841c8ca74a0debea98d72d8aa63ffdb0c8be3580fc07dccb55dfe0b3bbd`
 - `config.yaml` `sha256:c599b080c5d9cfb3dae1afe8aa654d2cc9ac9a7d083e40dc4dd5bf30fc37171f`

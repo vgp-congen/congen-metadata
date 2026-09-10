@@ -1,6 +1,6 @@
 # Validation — Lateolabrax maculatus
 
-**PASS** · 2026-09-09 · GCA_031216445.1
+**PASS** · 2026-09-10 · GCA_031216445.1
 
 Metadata agrees with the data published on GenomeArk.
 
@@ -12,7 +12,7 @@ Metadata agrees with the data published on GenomeArk.
 
 ## Provenance
 
-- validated `2026-09-09T00:18:16Z` by congen-metadata-tools 0.1.0
+- validated `2026-09-10T19:51:47Z` by congen-metadata-tools 0.1.0
 - data: `GCA_031216445.1`
 - `README.txt` `sha256:6be24e232341ac9d25b140b4a6095a274b48f97070812e458769432a9054fe79`
 - `config.yaml` `sha256:43831ffcbe00004c88d11cbc681e4b184ce1442af1476f7d0000273eba930df0`

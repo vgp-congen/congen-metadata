@@ -1,6 +1,6 @@
 # Validation — Lemur catta
 
-**PASS WITH WARNINGS** · 2026-09-09 · GCA_020740605.1
+**PASS WITH WARNINGS** · 2026-09-10 · GCA_020740605.1
 
 Metadata agrees with the data published on GenomeArk, with points to note.
 
@@ -18,7 +18,7 @@ Metadata agrees with the data published on GenomeArk, with points to note.
 
 ## Provenance
 
-- validated `2026-09-09T00:18:16Z` by congen-metadata-tools 0.1.0
+- validated `2026-09-10T19:51:47Z` by congen-metadata-tools 0.1.0
 - data: `GCA_020740605.1`
 - `config.yaml` `sha256:ae979d28a67bac7c3076588b016bf567ae30d4306a6fde4ca53a3048999901a3`
 - `sample_sheet.csv` `sha256:dd5640b0a59a4381a74f4fc5214f053f992b3d47ceb16695179ece4550d833b8`

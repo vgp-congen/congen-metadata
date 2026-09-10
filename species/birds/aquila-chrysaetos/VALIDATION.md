@@ -1,6 +1,6 @@
 # Validation — Aquila chrysaetos
 
-**PASS** · 2026-09-09 · GCA_900496995.4
+**PASS** · 2026-09-10 · GCA_900496995.4
 
 Metadata agrees with the data published on GenomeArk.
 
@@ -18,7 +18,7 @@ Recorded for information. Supplying these needs a pipeline run rather than a met
 
 ## Provenance
 
-- validated `2026-09-09T00:18:15Z` by congen-metadata-tools 0.1.0
+- validated `2026-09-10T19:51:47Z` by congen-metadata-tools 0.1.0
 - data: `GCA_900496995.4`
 - `README.txt` `sha256:71ab0df5908eaf0669382b8ce6839c09ee8ac5b5a2d352b71df74914473fa352`
 - `config.yaml` `sha256:87e81fd650773f04c16be1f5722324490147dcff2e7c82ef5874fef798aa5fd3`

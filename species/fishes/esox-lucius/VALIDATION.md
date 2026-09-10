@@ -1,6 +1,6 @@
 # Validation — Esox lucius
 
-**PASS WITH WARNINGS** · 2026-09-09 · GCA_011004845.1
+**PASS WITH WARNINGS** · 2026-09-10 · GCA_011004845.1
 
 Metadata agrees with the data published on GenomeArk, with points to note.
 
@@ -18,7 +18,7 @@ Metadata agrees with the data published on GenomeArk, with points to note.
 
 ## Provenance
 
-- validated `2026-09-09T00:18:16Z` by congen-metadata-tools 0.1.0
+- validated `2026-09-10T19:51:47Z` by congen-metadata-tools 0.1.0
 - data: `GCA_011004845.1`
 - `config.yaml` `sha256:2ec5e7dfa5b5876d4cd4f1a5a4500088f1e9f7a486cf5a125c3b2ead4f9266dc`
 - `sample_sheet.csv` `sha256:7b924cdf1dc044c664a84be5d4fa30962f27f8a00992a2a2b3056eef274fdd00`

@@ -1,6 +1,6 @@
 # Validation — Pungitius pungitius
 
-**PASS** · 2026-09-09 · GCA_949316345.1
+**PASS** · 2026-09-10 · GCA_949316345.1
 
 Metadata agrees with the data published on GenomeArk.
 
@@ -18,7 +18,7 @@ Recorded for information. Supplying these needs a pipeline run rather than a met
 
 ## Provenance
 
-- validated `2026-09-09T00:18:16Z` by congen-metadata-tools 0.1.0
+- validated `2026-09-10T19:51:47Z` by congen-metadata-tools 0.1.0
 - data: `GCA_949316345.1`
 - `README.txt` `sha256:ed581b564414fef1fc7df4a19a1be760c45af45e9d8292deb6c861619fe379eb`
 - `config.yaml` `sha256:c07ae739828d75612c5303100f0a1c6e612f6a9fae9f9042a96ad3acd35cdea4`

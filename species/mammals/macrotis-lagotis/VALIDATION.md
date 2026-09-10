@@ -1,6 +1,6 @@
 # Validation — Macrotis lagotis
 
-**PENDING** · 2026-09-09 · GCA_037893015.1
+**PENDING** · 2026-09-10 · GCA_037893015.1
 
 Not yet validated against published data. This is an expected state: metadata is often committed before a run is published.
 
@@ -26,7 +26,7 @@ Not yet validated against published data. This is an expected state: metadata is
 
 ## Provenance
 
-- validated `2026-09-09T00:18:16Z` by congen-metadata-tools 0.1.0
+- validated `2026-09-10T19:51:48Z` by congen-metadata-tools 0.1.0
 - data: `GCA_037893015.1` (not published)
 - `config.yaml` `sha256:42ba10abb7ea7659354a6b4731dbb67d8d8c4c105ad81aef651a28ca14c344d2`
 - `sample_sheet.csv` `sha256:0e566381c460b8509fec35014cd602fdbe4eeaa80dc78b6b619faa833cce909e`

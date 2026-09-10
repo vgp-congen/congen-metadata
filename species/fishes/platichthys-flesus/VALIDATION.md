@@ -1,6 +1,6 @@
 # Validation — Platichthys flesus
 
-**PASS** · 2026-09-09 · GCA_949316205.1
+**PASS** · 2026-09-10 · GCA_949316205.1
 
 Metadata agrees with the data published on GenomeArk.
 
@@ -18,7 +18,7 @@ Recorded for information. Supplying these needs a pipeline run rather than a met
 
 ## Provenance
 
-- validated `2026-09-09T00:18:16Z` by congen-metadata-tools 0.1.0
+- validated `2026-09-10T19:51:47Z` by congen-metadata-tools 0.1.0
 - data: `GCA_949316205.1`
 - `README.txt` `sha256:94452796f56285156fda948186755538e6e835491ad49459169fed9dc3f685f5`
 - `config.yaml` `sha256:ead2100665d64168a2a0ebcec66e8c8992ff152a6afe1bde4c6294114c07e45c`

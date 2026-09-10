@@ -1,6 +1,6 @@
 # Validation — Scophthalmus maximus
 
-**PASS** · 2026-09-09 · GCA_963854745.1
+**PASS** · 2026-09-10 · GCA_963854745.1
 
 Metadata agrees with the data published on GenomeArk.
 
@@ -18,7 +18,7 @@ Recorded for information. Supplying these needs a pipeline run rather than a met
 
 ## Provenance
 
-- validated `2026-09-09T00:18:16Z` by congen-metadata-tools 0.1.0
+- validated `2026-09-10T19:51:47Z` by congen-metadata-tools 0.1.0
 - data: `GCA_963854745.1`
 - `README.txt` `sha256:29ac9827b0bb1e9ecc38eac41e26ba13177776b7ae8d62c25b52e568a9ba8360`
 - `config.yaml` `sha256:8aef94cdc8dc422997eb52596ecbc1ba043cec7d7dafcac1c817c540a9f31554`

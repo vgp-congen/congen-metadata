@@ -1,6 +1,6 @@
 # Validation — Aulonocara stuartgranti
 
-**PASS** · 2026-09-09 · GCA_965226115.1
+**PASS** · 2026-09-10 · GCA_965226115.1
 
 Metadata agrees with the data published on GenomeArk.
 
@@ -18,7 +18,7 @@ Recorded for information. Supplying these needs a pipeline run rather than a met
 
 ## Provenance
 
-- validated `2026-09-09T00:18:15Z` by congen-metadata-tools 0.1.0
+- validated `2026-09-10T19:51:47Z` by congen-metadata-tools 0.1.0
 - data: `GCA_965226115.1`
 - `README.txt` `sha256:8ad5424de8b95b855503e528f00d28c3c7e22c06030d01b0a833ad561fde38ef`
 - `config.yaml` `sha256:a0167aa3217eb5338eb78c8e0a56cdc78c65783a06ce6475e09d929c053fb57d`

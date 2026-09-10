@@ -1,6 +1,6 @@
 # Validation — Caprimulgus europaeus
 
-**PENDING** · 2026-09-09 · GCA_907165065.1
+**PENDING** · 2026-09-10 · GCA_907165065.1
 
 Not yet validated against published data. This is an expected state: metadata is often committed before a run is published.
 
@@ -26,7 +26,7 @@ Not yet validated against published data. This is an expected state: metadata is
 
 ## Provenance
 
-- validated `2026-09-09T00:18:15Z` by congen-metadata-tools 0.1.0
+- validated `2026-09-10T19:51:47Z` by congen-metadata-tools 0.1.0
 - data: `GCA_907165065.1` (not published)
 - `config.yaml` `sha256:02c43485e9dcc615ab5f2d91a7e88baaab1d42a8fd95621ef0142072bde48ca7`
 - `sample_sheet.csv` `sha256:a9fb997de1df14318683b08d10caada4f1bcbe7414b35a43fb4847cfd0f2ca19`

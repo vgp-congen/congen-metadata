@@ -1,6 +1,6 @@
 # Validation — Anser albifrons
 
-**FAIL** · 2026-09-09 · GCA_976913865.1
+**FAIL** · 2026-09-10 · GCA_976913865.1
 
 Problems were found. See below before relying on this metadata.
 
@@ -28,7 +28,7 @@ Recorded for information. Supplying these needs a pipeline run rather than a met
 
 ## Provenance
 
-- validated `2026-09-09T00:18:15Z` by congen-metadata-tools 0.1.0
+- validated `2026-09-10T19:51:47Z` by congen-metadata-tools 0.1.0
 - data: `GCA_976913865.1`
 - `README.txt` `sha256:1e8ceefcd744776e8b82564e39ca87bfdac1f0fb9a622684396d48b3ab567eb6`
 - `config.yaml` `sha256:d8421e436e76a0b4d885dcd09aedc31a9fcc5fceecbb360e3c467e5aca974b83`

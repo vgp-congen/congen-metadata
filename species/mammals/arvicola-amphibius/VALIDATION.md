@@ -1,6 +1,6 @@
 # Validation — Arvicola amphibius
 
-**PENDING** · 2026-09-09 · GCA_903992535.2
+**PENDING** · 2026-09-10 · GCA_903992535.2
 
 Not yet validated against published data. This is an expected state: metadata is often committed before a run is published.
 
@@ -26,7 +26,7 @@ Not yet validated against published data. This is an expected state: metadata is
 
 ## Provenance
 
-- validated `2026-09-09T00:18:16Z` by congen-metadata-tools 0.1.0
+- validated `2026-09-10T19:51:47Z` by congen-metadata-tools 0.1.0
 - data: `GCA_903992535.2` (not published)
 - `config.yaml` `sha256:a7ad13e0deb17540eb5d90a495a35fc6e25b90d6181e6a8339c2295d35a9024c`
 - `sample_sheet.csv` `sha256:2935eb4a875d13c2decf14722bc5ef189564d2bf8dd4a6f6715e42f7927ce463`

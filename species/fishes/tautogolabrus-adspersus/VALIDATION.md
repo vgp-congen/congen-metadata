@@ -1,6 +1,6 @@
 # Validation — Tautogolabrus adspersus
 
-**PASS** · 2026-09-09 · GCA_020745685.1
+**PASS** · 2026-09-10 · GCA_020745685.1
 
 Metadata agrees with the data published on GenomeArk.
 
@@ -18,7 +18,7 @@ Recorded for information. Supplying these needs a pipeline run rather than a met
 
 ## Provenance
 
-- validated `2026-09-09T00:18:16Z` by congen-metadata-tools 0.1.0
+- validated `2026-09-10T19:51:47Z` by congen-metadata-tools 0.1.0
 - data: `GCA_020745685.1`
 - `README.txt` `sha256:ece588398eb89e9ebeb7945ce9f32b1a474ab4155b661abf93402f823618c6ef`
 - `config.yaml` `sha256:902e4167c44ce5ae1d503901b06f18815a42496da16faa3435910d35885cd2c6`

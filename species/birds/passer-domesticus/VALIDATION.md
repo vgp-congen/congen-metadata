@@ -1,6 +1,6 @@
 # Validation — Passer domesticus
 
-**PASS** · 2026-09-09 · GCA_036417665.1
+**PASS** · 2026-09-10 · GCA_036417665.1
 
 Metadata agrees with the data published on GenomeArk.
 
@@ -18,7 +18,7 @@ Recorded for information. Supplying these needs a pipeline run rather than a met
 
 ## Provenance
 
-- validated `2026-09-09T00:18:15Z` by congen-metadata-tools 0.1.0
+- validated `2026-09-10T19:51:47Z` by congen-metadata-tools 0.1.0
 - data: `GCA_036417665.1`
 - `README.txt` `sha256:687b1116cb7ac1cf87d313f80f26e7f52b177adf03973ceec62e555f8ba865bb`
 - `config.yaml` `sha256:0253956a891b253d644aa82245de226aacbc6e7c4188d77f1ade00f240d797cc`

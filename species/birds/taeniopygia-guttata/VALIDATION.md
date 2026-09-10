@@ -1,6 +1,6 @@
 # Validation — Taeniopygia guttata
 
-**PENDING** · 2026-09-09 · GCA_048771995.1
+**PENDING** · 2026-09-10 · GCA_048771995.1
 
 Not yet validated against published data. This is an expected state: metadata is often committed before a run is published.
 
@@ -26,7 +26,7 @@ Not yet validated against published data. This is an expected state: metadata is
 
 ## Provenance
 
-- validated `2026-09-09T00:18:15Z` by congen-metadata-tools 0.1.0
+- validated `2026-09-10T19:51:47Z` by congen-metadata-tools 0.1.0
 - data: `GCA_048771995.1` (not published)
 - `config.yaml` `sha256:38bba2624839509280f1d20bcbeb03d218f7f2c838648a3cf43ad8b16cf2419f`
 - `sample_sheet.csv` `sha256:f86ee2b42714facc03d269b9c9db7e36601a9a0fc6db4b857e6e577a3dac5dbb`

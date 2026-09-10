@@ -1,6 +1,6 @@
 # Validation — Rhamphochromis sp.
 
-**PASS** · 2026-09-09 · GCA_963969265.1
+**PASS** · 2026-09-10 · GCA_963969265.1
 
 Metadata agrees with the data published on GenomeArk.
 
@@ -18,7 +18,7 @@ Recorded for information. Supplying these needs a pipeline run rather than a met
 
 ## Provenance
 
-- validated `2026-09-09T00:18:16Z` by congen-metadata-tools 0.1.0
+- validated `2026-09-10T19:51:47Z` by congen-metadata-tools 0.1.0
 - data: `GCA_963969265.1`
 - `README.txt` `sha256:7dbb3ab70b18de49c2613f782af64e563086e44f02d4a7f9c4bcc5cc3bfe3958`
 - `config.yaml` `sha256:bc22d38253c7c039c821e991dfb6b0a49930f5ea34b455d6eb425ae449f16987`

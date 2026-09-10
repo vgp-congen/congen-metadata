@@ -1,6 +1,6 @@
 # Validation — Gasterosteus aculeatus
 
-**PASS** · 2026-09-09 · GCA_964276395.1
+**PASS** · 2026-09-10 · GCA_964276395.1
 
 Metadata agrees with the data published on GenomeArk.
 
@@ -18,7 +18,7 @@ Recorded for information. Supplying these needs a pipeline run rather than a met
 
 ## Provenance
 
-- validated `2026-09-09T00:18:16Z` by congen-metadata-tools 0.1.0
+- validated `2026-09-10T19:51:47Z` by congen-metadata-tools 0.1.0
 - data: `GCA_964276395.1`
 - `README.txt` `sha256:0a329ca6da585c35669c441583b24158e9da55db9e6792175f7c7ed0786455ea`
 - `config.yaml` `sha256:03b322e200e366ae9a37b49ff99b76bccca0efd106edd8010dc41c868b2d24a0`

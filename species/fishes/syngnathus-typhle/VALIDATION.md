@@ -1,6 +1,6 @@
 # Validation — Syngnathus typhle
 
-**PASS** · 2026-09-09 · GCA_048301445.1
+**PASS** · 2026-09-10 · GCA_048301445.1
 
 Metadata agrees with the data published on GenomeArk.
 
@@ -18,7 +18,7 @@ Recorded for information. Supplying these needs a pipeline run rather than a met
 
 ## Provenance
 
-- validated `2026-09-09T00:18:16Z` by congen-metadata-tools 0.1.0
+- validated `2026-09-10T19:51:47Z` by congen-metadata-tools 0.1.0
 - data: `GCA_048301445.1`
 - `README.txt` `sha256:34ef13b142023e7eff453c036414f31d604d4addd2bc1b3c71a2f45e08023390`
 - `config.yaml` `sha256:f395e83e31118c8819f40168af7abacef97449844ebd1160092f664e62c276f2`

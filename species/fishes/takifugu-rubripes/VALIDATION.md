@@ -1,6 +1,6 @@
 # Validation — Takifugu rubripes
 
-**PASS** · 2026-09-09 · GCA_901000725.3
+**PASS** · 2026-09-10 · GCA_901000725.3
 
 Metadata agrees with the data published on GenomeArk.
 
@@ -18,7 +18,7 @@ Recorded for information. Supplying these needs a pipeline run rather than a met
 
 ## Provenance
 
-- validated `2026-09-09T00:18:16Z` by congen-metadata-tools 0.1.0
+- validated `2026-09-10T19:51:47Z` by congen-metadata-tools 0.1.0
 - data: `GCA_901000725.3`
 - `README.txt` `sha256:d3197b2bf719dc0bf63d50847caba0a4a3f17fadd160d6db8886558bc8060a0a`
 - `config.yaml` `sha256:df64c6a76bef73a52791c0f34a0a7d144ce5e937257eb7285de13e19ea904a4b`

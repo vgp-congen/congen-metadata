@@ -1,6 +1,6 @@
 # Validation — Ovis canadensis
 
-**PASS** · 2026-09-09 · GCA_042477335.2
+**PASS** · 2026-09-10 · GCA_042477335.2
 
 Metadata agrees with the data published on GenomeArk.
 
@@ -18,7 +18,7 @@ Recorded for information. Supplying these needs a pipeline run rather than a met
 
 ## Provenance
 
-- validated `2026-09-09T00:18:16Z` by congen-metadata-tools 0.1.0
+- validated `2026-09-10T19:51:48Z` by congen-metadata-tools 0.1.0
 - data: `GCA_042477335.2`
 - `README.txt` `sha256:d2935d5c02a711fbd61111105d6cb4fa54d5918e18d94e798343c3e58600d73d`
 - `config.yaml` `sha256:dbae40301d40eed35fd9aaec78a5ec194460365842a99401544b9c9ef3d48d64`

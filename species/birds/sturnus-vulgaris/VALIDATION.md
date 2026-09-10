@@ -1,6 +1,6 @@
 # Validation — Sturnus Vulgaris
 
-**FAIL** · 2026-09-09 · GCF_001447265.1
+**FAIL** · 2026-09-10 · GCF_001447265.1
 
 Problems were found. See below before relying on this metadata.
 
@@ -35,7 +35,7 @@ Problems were found. See below before relying on this metadata.
 
 ## Provenance
 
-- validated `2026-09-09T00:18:15Z` by congen-metadata-tools 0.1.0
+- validated `2026-09-10T19:51:47Z` by congen-metadata-tools 0.1.0
 - data: `GCF_001447265.1` (not published)
 - `config.yaml` `sha256:12a60afd6191adc6ecf57772b41afe0dd8a947abe343a4c1115dea6774a1647f`
 - `sample_sheet.csv` `sha256:4930e7d25eb1e16ed763a04a0770ef85f3f694f22319a97bdc677b7308b84420`

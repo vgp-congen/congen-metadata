@@ -1,7 +1,7 @@
 {
   "subject": "birds/haliaeetus-albicilla",
-  "state": "PENDING",
-  "validated_at": "2026-09-09T00:18:15Z",
+  "state": "PASS WITH WARNINGS",
+  "validated_at": "2026-09-10T19:51:47Z",
   "tool_version": "0.1.0",
   "catalog": "sha256:44f7010fb4de2e48c91122dfd97086699b1036f7038eda45349f6a6db2e58514",
   "checks_run": [
@@ -56,16 +56,25 @@
     "sample_sheet.csv": "sha256:1b8a0827bf93a05af7f7bd4ac037acc45454aeeaf80df06f2a9c3dc49732c66a"
   },
   "data": {
-    "published": false,
-    "accession": "GCA_947461875.1"
+    "published": true,
+    "accession": "GCA_947461875.1",
+    "objects": {
+      "raw.vcf.gz": "etag:913be2c27de3329468c08fc2424880e7-849",
+      "raw.vcf.gz.tbi": "etag:72ab4eea0071c12b846292935092eea0",
+      "sample_sheet.csv": "etag:b61d9b9a021844bb1d007e4d7e92be6d"
+    },
+    "bams": {
+      "count": 96,
+      "digest": "sha256:b88a503a121e744c02c78f6e9fd798cdf7d30cba22a8f8a7e81adabd6f2e90d4"
+    }
   },
   "findings": [
     {
-      "id": "G018",
+      "id": "G017",
       "severity": "warn",
       "subject": "birds/haliaeetus-albicilla",
-      "message": "no README.txt in the repo or on GenomeArk",
-      "detail": "nothing records which bioprojects this dataset draws on",
+      "message": "GenomeArk publishes a README.txt that is not in the repo",
+      "detail": "copy it into the species directory",
       "path": null,
       "line": null
     },
@@ -88,168 +97,6 @@
       "line": null
     },
     {
-      "id": "F001",
-      "severity": "skipped",
-      "subject": "birds/haliaeetus-albicilla",
-      "message": "skipped: every VCF contig exists in the declared assembly",
-      "detail": "needs vcf_header",
-      "path": null,
-      "line": null
-    },
-    {
-      "id": "F002",
-      "severity": "skipped",
-      "subject": "birds/haliaeetus-albicilla",
-      "message": "skipped: VCF contig lengths match the assembly",
-      "detail": "needs vcf_header",
-      "path": null,
-      "line": null
-    },
-    {
-      "id": "F003",
-      "severity": "skipped",
-      "subject": "birds/haliaeetus-albicilla",
-      "message": "skipped: contig names use one consistent naming scheme",
-      "detail": "needs vcf_header",
-      "path": null,
-      "line": null
-    },
-    {
-      "id": "F004",
-      "severity": "skipped",
-      "subject": "birds/haliaeetus-albicilla",
-      "message": "skipped: BAM @SQ matches the VCF contigs",
-      "detail": "needs vcf_header, bam_headers",
-      "path": null,
-      "line": null
-    },
-    {
-      "id": "F005",
-      "severity": "skipped",
-      "subject": "birds/haliaeetus-albicilla",
-      "message": "skipped: all BAMs share one @SQ list",
-      "detail": "needs bam_headers",
-      "path": null,
-      "line": null
-    },
-    {
-      "id": "F006",
-      "severity": "skipped",
-      "subject": "birds/haliaeetus-albicilla",
-      "message": "skipped: the BAM's bwa command line names reference.name",
-      "detail": "needs bam_headers",
-      "path": null,
-      "line": null
-    },
-    {
-      "id": "F008",
-      "severity": "skipped",
-      "subject": "birds/haliaeetus-albicilla",
-      "message": "skipped: qc/contig_map.tsv agrees with the VCF contigs",
-      "detail": "needs contig_map, vcf_header",
-      "path": null,
-      "line": null
-    },
-    {
-      "id": "F009",
-      "severity": "skipped",
-      "subject": "birds/haliaeetus-albicilla",
-      "message": "skipped: assembly sequences absent from the VCF",
-      "detail": "needs vcf_header",
-      "path": null,
-      "line": null
-    },
-    {
-      "id": "F011",
-      "severity": "skipped",
-      "subject": "birds/haliaeetus-albicilla",
-      "message": "skipped: no whole assembled molecule is absent from the VCF",
-      "detail": "needs vcf_header",
-      "path": null,
-      "line": null
-    },
-    {
-      "id": "G010",
-      "severity": "skipped",
-      "subject": "birds/haliaeetus-albicilla",
-      "message": "skipped: vcfs/raw.vcf.gz is present",
-      "detail": "needs s3",
-      "path": null,
-      "line": null
-    },
-    {
-      "id": "G011",
-      "severity": "skipped",
-      "subject": "birds/haliaeetus-albicilla",
-      "message": "skipped: the raw VCF has an index",
-      "detail": "needs s3",
-      "path": null,
-      "line": null
-    },
-    {
-      "id": "G012",
-      "severity": "skipped",
-      "subject": "birds/haliaeetus-albicilla",
-      "message": "skipped: bams/ is not empty",
-      "detail": "needs s3",
-      "path": null,
-      "line": null
-    },
-    {
-      "id": "G013",
-      "severity": "skipped",
-      "subject": "birds/haliaeetus-albicilla",
-      "message": "skipped: every BAM has an index",
-      "detail": "needs s3",
-      "path": null,
-      "line": null
-    },
-    {
-      "id": "G014",
-      "severity": "skipped",
-      "subject": "birds/haliaeetus-albicilla",
-      "message": "skipped: no zero-byte data objects",
-      "detail": "needs s3",
-      "path": null,
-      "line": null
-    },
-    {
-      "id": "G017",
-      "severity": "skipped",
-      "subject": "birds/haliaeetus-albicilla",
-      "message": "skipped: the repo and GenomeArk READMEs agree",
-      "detail": "needs s3",
-      "path": null,
-      "line": null
-    },
-    {
-      "id": "P001",
-      "severity": "skipped",
-      "subject": "birds/haliaeetus-albicilla",
-      "message": "skipped: variant_calling.ploidy matches the recorded --sample-ploidy",
-      "detail": "needs vcf_header",
-      "path": null,
-      "line": null
-    },
-    {
-      "id": "P002",
-      "severity": "skipped",
-      "subject": "birds/haliaeetus-albicilla",
-      "message": "skipped: gatk.het_prior matches the recorded --heterozygosity",
-      "detail": "needs vcf_header",
-      "path": null,
-      "line": null
-    },
-    {
-      "id": "P003",
-      "severity": "skipped",
-      "subject": "birds/haliaeetus-albicilla",
-      "message": "skipped: variant_calling.tool matches the caller recorded in the VCF",
-      "detail": "needs vcf_header",
-      "path": null,
-      "line": null
-    },
-    {
       "id": "R020",
       "severity": "skipped",
       "subject": "birds/haliaeetus-albicilla",
@@ -257,90 +104,30 @@
       "detail": "needs readme",
       "path": null,
       "line": null
-    },
-    {
-      "id": "S001",
-      "severity": "skipped",
-      "subject": "birds/haliaeetus-albicilla",
-      "message": "skipped: sheet samples == VCF samples",
-      "detail": "needs vcf_header",
-      "path": null,
-      "line": null
-    },
-    {
-      "id": "S002",
-      "severity": "skipped",
-      "subject": "birds/haliaeetus-albicilla",
-      "message": "skipped: sheet samples == published BAMs",
-      "detail": "needs s3",
-      "path": null,
-      "line": null
-    },
-    {
-      "id": "S003",
-      "severity": "skipped",
-      "subject": "birds/haliaeetus-albicilla",
-      "message": "skipped: VCF samples == published BAMs",
-      "detail": "needs vcf_header, s3",
-      "path": null,
-      "line": null
-    },
-    {
-      "id": "S004",
-      "severity": "skipped",
-      "subject": "birds/haliaeetus-albicilla",
-      "message": "skipped: each BAM's @RG SM matches its filename",
-      "detail": "needs bam_headers",
-      "path": null,
-      "line": null
-    },
-    {
-      "id": "S005",
-      "severity": "skipped",
-      "subject": "birds/haliaeetus-albicilla",
-      "message": "skipped: qc/individuals.samps.txt agrees with the VCF",
-      "detail": "needs qc_samples, vcf_header",
-      "path": null,
-      "line": null
-    },
-    {
-      "id": "S006",
-      "severity": "skipped",
-      "subject": "birds/haliaeetus-albicilla",
-      "message": "skipped: the published sample sheet matches the repo copy",
-      "detail": "needs s3_sheet",
-      "path": null,
-      "line": null
-    },
-    {
-      "id": "S007",
-      "severity": "skipped",
-      "subject": "birds/haliaeetus-albicilla",
-      "message": "skipped: @RG LB agrees with library_id where the sheet declares it",
-      "detail": "needs bam_headers",
-      "path": null,
-      "line": null
     }
   ],
   "status": {
     "subject": "birds/haliaeetus-albicilla",
-    "state": "absent",
-    "accession": null,
+    "state": "complete",
+    "accession": "GCA_947461875.1",
     "declared_accession": "GCA_947461875.1",
     "accession_differs": false,
-    "present": [],
-    "missing": [
-      "raw_vcf",
-      "raw_vcf_index",
+    "present": [
       "bams",
+      "callable_sites",
+      "published_readme",
       "qc",
-      "callable_sites"
+      "raw_vcf",
+      "raw_vcf_index"
     ],
-    "missing_optional": [],
+    "missing": [],
+    "missing_optional": [
+      "filtered_vcf"
+    ],
     "counts": {
       "sheet_samples": 96,
-      "bams": 0,
-      "vcf_samples": null
+      "bams": 96,
+      "vcf_samples": 96
     }
   },
   "superseded": null,

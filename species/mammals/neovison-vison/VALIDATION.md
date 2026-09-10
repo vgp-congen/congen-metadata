@@ -1,6 +1,6 @@
 # Validation — Neovison vison
 
-**PASS** · 2026-09-09 · GCA_964106545.1
+**PASS** · 2026-09-10 · GCA_964106545.1
 
 Metadata agrees with the data published on GenomeArk.
 
@@ -18,7 +18,7 @@ Recorded for information. Supplying these needs a pipeline run rather than a met
 
 ## Provenance
 
-- validated `2026-09-09T00:18:16Z` by congen-metadata-tools 0.1.0
+- validated `2026-09-10T19:51:48Z` by congen-metadata-tools 0.1.0
 - data: `GCA_964106545.1`
 - `README.txt` `sha256:1ce2786056eb376cff7526d2070faf42d078ca9246f02fdec5537ce9b2bda5a4`
 - `config.yaml` `sha256:b37bd4d698f1dd85187ef8e2b70b767363cc6f4149a25c3fab2b016842a42e95`

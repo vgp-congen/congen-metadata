@@ -1,6 +1,6 @@
 # Validation — Mustela erminea
 
-**PASS** · 2026-09-09 · GCA_009829155.1
+**PASS** · 2026-09-10 · GCA_009829155.1
 
 Metadata agrees with the data published on GenomeArk.
 
@@ -18,7 +18,7 @@ Recorded for information. Supplying these needs a pipeline run rather than a met
 
 ## Provenance
 
-- validated `2026-09-09T00:18:16Z` by congen-metadata-tools 0.1.0
+- validated `2026-09-10T19:51:48Z` by congen-metadata-tools 0.1.0
 - data: `GCA_009829155.1`
 - `README.txt` `sha256:79cbff2683d27b66c5d421abc0885c23582764ef0a9a0de0ea5131b05198a7c9`
 - `config.yaml` `sha256:1ad72c7d33083beb8b2b2c7641868e44a3ef97975ec39d85405105f1c8148fec`

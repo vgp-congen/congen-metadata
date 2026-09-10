@@ -1,6 +1,6 @@
 # Validation — Phoxinus phoxinus
 
-**PASS** · 2026-09-09 · GCA_949152265.1
+**PASS** · 2026-09-10 · GCA_949152265.1
 
 Metadata agrees with the data published on GenomeArk.
 
@@ -18,7 +18,7 @@ Recorded for information. Supplying these needs a pipeline run rather than a met
 
 ## Provenance
 
-- validated `2026-09-09T00:18:16Z` by congen-metadata-tools 0.1.0
+- validated `2026-09-10T19:51:47Z` by congen-metadata-tools 0.1.0
 - data: `GCA_949152265.1`
 - `README.txt` `sha256:91c13f482005bacccd4afa1f0c02537d3226bd30ad99749bbae542ada0dd51c3`
 - `config.yaml` `sha256:61049a9bd392bf522fc2a7077ad3f40625b1a797a36c81a9019448adafbcc196`

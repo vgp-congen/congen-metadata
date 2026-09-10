@@ -1,6 +1,6 @@
 # Validation — Micropterus salmoides
 
-**PASS** · 2026-09-09 · GCA_019677235.1
+**PASS** · 2026-09-10 · GCA_019677235.1
 
 Metadata agrees with the data published on GenomeArk.
 
@@ -18,7 +18,7 @@ Recorded for information. Supplying these needs a pipeline run rather than a met
 
 ## Provenance
 
-- validated `2026-09-09T00:18:16Z` by congen-metadata-tools 0.1.0
+- validated `2026-09-10T19:51:47Z` by congen-metadata-tools 0.1.0
 - data: `GCA_019677235.1`
 - `README.txt` `sha256:15996981b3353e922b48ea413c619e7ff0ae332b9058dfe094bc896603832da6`
 - `config.yaml` `sha256:e334b27386a8c991149cef0b2900165932f7454191cda78676d62f4093274063`

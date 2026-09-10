@@ -1,6 +1,6 @@
 # Validation — Eubalaena glacialis
 
-**PASS WITH WARNINGS** · 2026-09-09 · GCA_028564815.2
+**PASS WITH WARNINGS** · 2026-09-10 · GCA_028564815.2
 
 Metadata agrees with the data published on GenomeArk, with points to note.
 
@@ -18,7 +18,7 @@ Metadata agrees with the data published on GenomeArk, with points to note.
 
 ## Provenance
 
-- validated `2026-09-09T00:18:16Z` by congen-metadata-tools 0.1.0
+- validated `2026-09-10T19:51:47Z` by congen-metadata-tools 0.1.0
 - data: `GCA_028564815.2`
 - `config.yaml` `sha256:26ed9ecd457e0626f93b967b3f4a38b6ea1e69cb370884b288b3ac473bb3e0b9`
 - `sample_sheet.csv` `sha256:0a74c7541263a43c3096966075f1e37f3e19a647350ba5361c263092a3d36371`

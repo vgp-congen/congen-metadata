@@ -1,6 +1,6 @@
 # Validation — Symphodus melops
 
-**PASS** · 2026-09-09 · GCA_947650265.1
+**PASS** · 2026-09-10 · GCA_947650265.1
 
 Metadata agrees with the data published on GenomeArk.
 
@@ -18,7 +18,7 @@ Recorded for information. Supplying these needs a pipeline run rather than a met
 
 ## Provenance
 
-- validated `2026-09-09T00:18:16Z` by congen-metadata-tools 0.1.0
+- validated `2026-09-10T19:51:47Z` by congen-metadata-tools 0.1.0
 - data: `GCA_947650265.1`
 - `README.txt` `sha256:f9fb8d4efbbc22331b629d99b6a47317fe560f1d002745c6926ad56bdcc93b14`
 - `config.yaml` `sha256:be2b7a873e233aa327a690891ad551a0198ab62ffbe53faad428f416bba944dd`

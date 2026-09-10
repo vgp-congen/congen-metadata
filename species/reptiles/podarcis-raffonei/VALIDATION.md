@@ -1,6 +1,6 @@
 # Validation — Podarcis raffonei
 
-**PASS** · 2026-09-09 · GCA_027172205.1
+**PASS** · 2026-09-10 · GCA_027172205.1
 
 Metadata agrees with the data published on GenomeArk.
 
@@ -18,7 +18,7 @@ Recorded for information. Supplying these needs a pipeline run rather than a met
 
 ## Provenance
 
-- validated `2026-09-09T00:18:16Z` by congen-metadata-tools 0.1.0
+- validated `2026-09-10T19:51:48Z` by congen-metadata-tools 0.1.0
 - data: `GCA_027172205.1`
 - `README.txt` `sha256:0ccd6b919e00d387e03692f53c72b3cd84665e10144cef63946a6b93f02db289`
 - `config.yaml` `sha256:ff17eaada3ce82b371a83faa35fed0106c08e604725b2737b136b31de49bcc97`

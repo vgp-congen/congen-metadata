@@ -1,6 +1,6 @@
 # Validation — Dasypus novemcinctus
 
-**PASS** · 2026-09-09 · GCA_030445035.2
+**PASS** · 2026-09-10 · GCA_030445035.2
 
 Metadata agrees with the data published on GenomeArk.
 
@@ -18,7 +18,7 @@ Recorded for information. Supplying these needs a pipeline run rather than a met
 
 ## Provenance
 
-- validated `2026-09-09T00:18:16Z` by congen-metadata-tools 0.1.0
+- validated `2026-09-10T19:51:47Z` by congen-metadata-tools 0.1.0
 - data: `GCA_030445035.2`
 - `README.txt` `sha256:5a2c05727b530aa19bb59bab54509239b6abcfa458ee2727978d42caca8cb9b7`
 - `config.yaml` `sha256:77bf15cdbcca13ea6abeac13a8975a821689bc2026ff6822d2a5f29d34ae1d51`

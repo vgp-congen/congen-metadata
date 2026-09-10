@@ -1,6 +1,6 @@
 # Validation — Phocoena sinus
 
-**PASS WITH WARNINGS** · 2026-09-09 · GCA_008692025.1
+**PASS WITH WARNINGS** · 2026-09-10 · GCA_008692025.1
 
 Metadata agrees with the data published on GenomeArk, with points to note.
 
@@ -18,7 +18,7 @@ Metadata agrees with the data published on GenomeArk, with points to note.
 
 ## Provenance
 
-- validated `2026-09-09T00:18:16Z` by congen-metadata-tools 0.1.0
+- validated `2026-09-10T19:51:48Z` by congen-metadata-tools 0.1.0
 - data: `GCA_008692025.1`
 - `config.yaml` `sha256:05f5291c04cf35199243d7b292ae940efa9f3e1662896b51cfd3703dd24aa195`
 - `sample_sheet.csv` `sha256:5301d9924f2d9084524b4164d02b67e2ba50df5979d9805cec78003ac7a3ee54`

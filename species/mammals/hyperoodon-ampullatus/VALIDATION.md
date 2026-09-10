@@ -1,6 +1,6 @@
 # Validation — Hyperoodon ampullatus
 
-**PASS** · 2026-09-09 · GCA_949752795.1
+**PASS** · 2026-09-10 · GCA_949752795.1
 
 Metadata agrees with the data published on GenomeArk.
 
@@ -12,7 +12,7 @@ Metadata agrees with the data published on GenomeArk.
 
 ## Provenance
 
-- validated `2026-09-09T00:18:16Z` by congen-metadata-tools 0.1.0
+- validated `2026-09-10T19:51:47Z` by congen-metadata-tools 0.1.0
 - data: `GCA_949752795.1`
 - `README.txt` `sha256:ec8b44dc167c3694c2c5fcf4bfb9821458f5d8d6d2f2b6f2c431b3eb7e4ae08f`
 - `config.yaml` `sha256:7c2269ea210a5252248391a18dfce17856f645ff7f7bcc5614b0e4b4ede4100b`

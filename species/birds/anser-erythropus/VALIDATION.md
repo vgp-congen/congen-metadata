@@ -1,6 +1,6 @@
 # Validation — Anser erythropus
 
-**PASS** · 2026-09-09 · GCA_965277985.1
+**PASS** · 2026-09-10 · GCA_965277985.1
 
 Metadata agrees with the data published on GenomeArk.
 
@@ -18,7 +18,7 @@ Recorded for information. Supplying these needs a pipeline run rather than a met
 
 ## Provenance
 
-- validated `2026-09-09T00:18:15Z` by congen-metadata-tools 0.1.0
+- validated `2026-09-10T19:51:47Z` by congen-metadata-tools 0.1.0
 - data: `GCA_965277985.1`
 - `README.txt` `sha256:1ac55c93661bba5afb6d76bfc8b6712a94ed7c779a2fb189765c2d222a9bca2a`
 - `config.yaml` `sha256:62a9672406d67c1347d79e0470633c5feaaccfc2cfe9c056d520af9499c549ef`

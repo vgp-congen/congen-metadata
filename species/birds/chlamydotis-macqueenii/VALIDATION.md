@@ -1,6 +1,6 @@
 # Validation — Chlamydotis macqueenii
 
-**PASS** · 2026-09-09 · GCA_036417535.1
+**PASS** · 2026-09-10 · GCA_036417535.1
 
 Metadata agrees with the data published on GenomeArk.
 
@@ -18,7 +18,7 @@ Recorded for information. Supplying these needs a pipeline run rather than a met
 
 ## Provenance
 
-- validated `2026-09-09T00:18:15Z` by congen-metadata-tools 0.1.0
+- validated `2026-09-10T19:51:47Z` by congen-metadata-tools 0.1.0
 - data: `GCA_036417535.1`
 - `README.txt` `sha256:58c96ee70dd82c2bc82fee6b35a64bfd4fe4876f488a92188400e9920f5bae73`
 - `config.yaml` `sha256:c567a1e8c8a91ba7188414490aa2a7b0e6680e509ef41df2b49fd51e16bc8803`
