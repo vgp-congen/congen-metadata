@@ -1,0 +1,133 @@
+# Rebuild the generated files whenever the source data changes.
+#
+# The point of this workflow is that a collaborator who edits metadata
+# never has to install anything or run anything. Push a corrected
+# README.txt, a new species, or a reviewed citation, and the generated
+# files follow a couple of minutes later as a separate commit.
+#
+# Generated files are deliberately absent from the `paths:` filter
+# below, so the commit this workflow makes cannot trigger it again. That
+# is the loop guard: it is structural rather than a flag, and it cannot
+# be forgotten.
+name: rebuild
+
+on:
+  push:
+    paths:
+      # Source data — the files a human writes.
+      - 'species/*/*/config.yaml'
+      - 'species/*/*/sample_sheet.csv'
+      - 'species/*/*/README.txt'
+      - 'references/vgp_reference_genomes.csv'
+      - 'references/tool_citations.yaml'
+      # A citation review. This is the one source file the workflow also
+      # writes (--collect removes filed blocks), so it would retrigger
+      # once, find nothing left to file, write nothing, and stop. The
+      # actor guard below makes that explicit rather than incidental.
+      - 'references/citations-review.md'
+      - '.github/workflows/rebuild.yml'
+
+  # The push-button. Use this after an upload to GenomeArk: nothing in
+  # this repository changes when new data is published, so no push
+  # happens and nothing else would notice.
+  workflow_dispatch:
+    inputs:
+      reason:
+        description: 'Why (e.g. "new BAMs for grus-americana on GenomeArk")'
+        required: false
+        default: 'manual rebuild'
+
+# One rebuild at a time. Two concurrent runs would race to push, and the
+# loser would fail on a non-fast-forward.
+concurrency:
+  group: rebuild
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  rebuild:
+    # Never react to our own commit.
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      # Pinned, not tracked. A renderer change reshapes all 79 documents
+      # at once, and that should arrive as a deliberate bump to this line
+      # with a reviewable diff, not overnight.
+      #
+      # This works as written only while congen-metadata-tools is public.
+      # For a private tools repo, replace the URL with
+      #   git+https://x-access-token:${{ secrets.TOOLS_TOKEN }}@github.com/vgp-congen/congen-metadata-tools@v0.1.0
+      # and add a fine-grained PAT with read access to that repo as the
+      # TOOLS_TOKEN secret.
+      - name: Install congen-metadata-tools
+        run: pip install 'congen-metadata-tools @ git+https://github.com/vgp-congen/congen-metadata-tools@v0.1.0'
+
+      - name: Show why this ran
+        run: |
+          echo "event: ${{ github.event_name }}"
+          echo "reason: ${{ github.event.inputs.reason }}"
+          congen --version
+          congen list-tools
+
+      # 1. File any citation review that just landed. Offline. Must come
+      #    first: it settles decisions that the README will quote.
+      - name: File reviewed citations
+        run: congen citations --collect || true
+
+      # 2. Revalidate. --check-sra is MANDATORY, not an optimisation.
+      #    Tier 5 (E001-E003) only runs behind it, and the readme gate
+      #    requires each gating check to have *run*, not merely to have
+      #    stayed quiet. Without this flag every record is rewritten with
+      #    tier 5 skipped and all 17 citation-blocked species silently
+      #    promote to "fully cited" with unverified citations. Automation
+      #    is exactly where a missing flag is forgotten permanently.
+      - name: Validate
+        run: congen validate --all --check-sra --write-reports
+
+      # 3. Re-harvest GenomeArk, NCBI and the QC tables. Exits non-zero
+      #    if any fetch failed, and leaves the previous good records in
+      #    place — so an outage commits nothing rather than recording
+      #    that a species has no QC tables.
+      - name: Harvest
+        run: congen readme --refresh --all
+
+      # 4. Render. Offline and deterministic.
+      - name: Render
+        run: congen readme --all
+
+      # Convergence check: after a rebuild, regenerating again must be a
+      # no-op. If this fails the tools are not idempotent and the commit
+      # below would churn on every push.
+      - name: Assert the rebuild converged
+        run: |
+          congen readme --all --check
+          congen validate --check-stale
+
+      - name: Summarise
+        run: |
+          congen readme --gate-report
+          congen citations --report
+
+      - name: Commit
+        run: |
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "nothing to rebuild"
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git status --short
+          git commit -m "Rebuild generated files
+
+          Triggered by ${{ github.event_name }} ${{ github.sha }}.
+          Generated by congen-metadata-tools; see .github/workflows/rebuild.yml."
+          git push
