@@ -1,6 +1,6 @@
 # Validation status
 
-Most recent validation `2026-09-10T19:51:48Z` · congen-metadata-tools 0.3.0.
+Most recent validation `2026-09-10T19:51:48Z` · congen-metadata-tools 0.4.0.
 
 | State | Species |
 |---|---|

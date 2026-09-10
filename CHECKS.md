@@ -2,7 +2,7 @@
 
 Every finding in a `VALIDATION.md` carries an ID. This is what they mean.
 
-Generated from congen-metadata-tools 0.3.0; 44 checks.
+Generated from congen-metadata-tools 0.4.0; 44 checks.
 
 Severities:
 
