@@ -48,8 +48,7 @@ Ordered by how many samples depend on each BioProject, worst first.
 Whole genome sequencing reveals fine-scale environment associated divergence near the range limits of a temperate reef fish.
 Fisheries and Oceans Canada · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA982083)
 
-- NOT YET REVIEWED
-- NO PUBLICATION FOUND
+- 10.1111/mec.17063
 
 ## PRJNA323498 — 147 samples · birds/hirundo-rustica
 
@@ -58,12 +57,9 @@ The University of Colorado · [BioProject](https://www.ncbi.nlm.nih.gov/bioproje
 
 <!-- considered: 10.3390/ijms27167433 10.1111/mec.70074 10.1016/j.celrep.2023.111992 10.1093/molbev/msac113 -->
 
-- NOT YET REVIEWED
 - ★ [10.1111/mec.70074](https://doi.org/10.1111/mec.70074) — Schield DR et al. (2025) Recombination Rate and Recurrent Linked Selection Shape Correlated Genomic Landscapes Across a Continuum of Divergence in Swallows
-- [10.3390/ijms27167433](https://doi.org/10.3390/ijms27167433) — Lombardo G et al. (2026) Mitogenomes Reveal Novel Phylogeographic Patterns and Temporal Evolutionary History of Barn Swallows and Close Relatives
-- [10.1016/j.celrep.2023.111992](https://doi.org/10.1016/j.celrep.2023.111992) — Secomandi S et al. (2023) A chromosome-level reference genome and pangenome for barn swallow population genomics
-- [10.1093/molbev/msac113](https://doi.org/10.1093/molbev/msac113) — Lombardo G et al. (2022) The Mitogenome Relationships and Phylogeography of Barn Swallows (Hirundo rustica)
-- NO PUBLICATION FOUND
+- 10.1111/mec.15885
+- 10.1126/science.adj8766
 
 ## PRJEB39599 — 130 samples · fishes/pungitius-pungitius
 
