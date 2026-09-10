@@ -70,11 +70,32 @@ jobs:
       #
       # congen-metadata-tools is public, so no credential is needed. If it
       # ever goes private again, replace the URL with
-      #   git+https://x-access-token:${{ secrets.TOOLS_TOKEN }}@github.com/vgp-congen/congen-metadata-tools@v0.3.0
+      #   git+https://x-access-token:${{ secrets.TOOLS_TOKEN }}@github.com/vgp-congen/congen-metadata-tools@v0.4.0
       # and add a fine-grained PAT with read access to that repo as the
       # TOOLS_TOKEN secret.
       - name: Install congen-metadata-tools
-        run: pip install 'congen-metadata-tools @ git+https://github.com/vgp-congen/congen-metadata-tools@v0.3.0'
+        run: pip install 'congen-metadata-tools @ git+https://github.com/vgp-congen/congen-metadata-tools@v0.4.0'
+
+      # A stale pin fails silently by reverting: it re-renders every
+      # document with an older version and deletes whatever the newer one
+      # added. That is exactly what happened when the References block
+      # landed against a pin one version behind — 723 lines gone, minutes
+      # later, with a green tick. A warning is enough, because lagging
+      # deliberately is legitimate; being unaware of it is not.
+      - name: Check the pin is current
+        run: |
+          pinned=$(grep -om1 'congen-metadata-tools@v[0-9.]*' \
+            .github/workflows/rebuild.yml | cut -d@ -f2)
+          latest=$(git ls-remote --tags --refs \
+            https://github.com/vgp-congen/congen-metadata-tools \
+            | awk -F/ '{print $NF}' | sort -V | tail -1)
+          echo "pinned $pinned, latest $latest"
+          if [ "$pinned" != "$latest" ]; then
+            echo "::warning::rebuild.yml pins $pinned but $latest exists. Generated files will reflect $pinned, and anything newer will be reverted."
+            echo "### Stale pin" >> "$GITHUB_STEP_SUMMARY"
+            echo "Pinned \`$pinned\`; latest tag is \`$latest\`." >> "$GITHUB_STEP_SUMMARY"
+            echo "Bump the pin in \`.github/workflows/rebuild.yml\` to pick it up." >> "$GITHUB_STEP_SUMMARY"
+          fi
 
       - name: Show why this ran
         run: |
@@ -125,7 +146,22 @@ jobs:
       - name: Harvest
         run: congen readme --refresh --all
 
-      # 4. Render. Offline and deterministic.
+      # 4. Pull newly-seen BioProjects into the review queue. Must come
+      #    after the harvest, because a new species' contributing
+      #    BioProjects only become visible once dataset.json records which
+      #    runs came from where.
+      #
+      #    Nothing else adds to the queue, so without this step a new
+      #    species is counted by `--report` but never gets a block for
+      #    anyone to review. It is also what lets a BioProject filed as
+      #    NO PUBLICATION FOUND come back when a paper finally appears.
+      #
+      #    Cheap after the first run: a BioProject that is confirmed, or
+      #    already queued with candidates, is skipped entirely.
+      - name: Look up new BioProjects
+        run: congen citations --propose
+
+      # 5. Render. Offline and deterministic.
       - name: Render
         run: congen readme --all
 
