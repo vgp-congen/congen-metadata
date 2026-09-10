@@ -36,6 +36,11 @@ on:
         description: 'Why (e.g. "new BAMs for grus-americana on GenomeArk")'
         required: false
         default: 'manual rebuild'
+      fresh:
+        description: 'Ignore caches. Leave on when GenomeArk has just changed.'
+        type: boolean
+        required: false
+        default: true
 
 # One rebuild at a time. Two concurrent runs would race to push, and the
 # loser would fail on a non-fast-forward.
@@ -57,6 +62,18 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.13"
+
+      # A runner starts empty, so without this every rebuild re-asks
+      # Europe PMC about the same 115 BioProjects that have no candidate
+      # — a minute of somebody else's service, for nothing. It is also
+      # what makes the 30-day search TTL mean anything: a cache that
+      # never survives a run expires on every run.
+      - name: Restore caches
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/congen
+          key: congen-cache-${{ github.run_id }}
+          restore-keys: congen-cache-
 
       # Pinned, not tracked. A renderer change reshapes all 79 documents
       # at once, and that should arrive as a deliberate bump to this line
@@ -144,7 +161,16 @@ jobs:
       #    place — so an outage commits nothing rather than recording
       #    that a species has no QC tables.
       - name: Harvest
-        run: congen readme --refresh --all
+        # A manual run usually means "GenomeArk changed" — and the S3
+        # listing cache lives for an hour, so a warm cache could serve a
+        # listing from before the upload and miss exactly what the run
+        # was triggered for. `fresh` defaults to on for that reason.
+        run: |
+          if [ "${{ github.event.inputs.fresh }}" = "true" ]; then
+            congen readme --refresh --all --no-cache
+          else
+            congen readme --refresh --all
+          fi
 
       # 4. Pull newly-seen BioProjects into the review queue. Must come
       #    after the harvest, because a new species' contributing
