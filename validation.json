@@ -2,11 +2,11 @@
   "validated_at": "2026-09-10T19:51:48Z",
   "tool_version": "0.1.0",
   "counts": {
-    "PENDING": 6,
     "PASS": 51,
-    "PASS WITH NOTES": 1,
     "PASS WITH WARNINGS": 18,
-    "FAIL": 3
+    "PASS WITH NOTES": 1,
+    "FAIL": 3,
+    "PENDING": 6
   },
   "corpus_findings": [
     {
