@@ -15,7 +15,7 @@
     "n_sites": 9439207
   },
   "declared_accession": "GCA_027172205.1",
-  "harvested_at": "2026-09-10T19:44:54Z",
+  "harvested_at": "2026-09-10T20:34:16Z",
   "notes": [],
   "objects": {
     "README.txt": {
@@ -696,6 +696,155 @@
     }
   },
   "schema": 1,
+  "sra": {
+    "SRR14009404": [
+      {
+        "bioproject": "PRJNA715201",
+        "biosample": "SAMN18355762",
+        "run": "SRR14009404"
+      }
+    ],
+    "SRR28384826": [
+      {
+        "bioproject": "PRJNA1089471",
+        "biosample": "SAMN40540465",
+        "run": "SRR28384826"
+      }
+    ],
+    "SRR28384827": [
+      {
+        "bioproject": "PRJNA1089471",
+        "biosample": "SAMN40540464",
+        "run": "SRR28384827"
+      }
+    ],
+    "SRR28384828": [
+      {
+        "bioproject": "PRJNA1089471",
+        "biosample": "SAMN40540463",
+        "run": "SRR28384828"
+      }
+    ],
+    "SRR28384829": [
+      {
+        "bioproject": "PRJNA1089471",
+        "biosample": "SAMN40540462",
+        "run": "SRR28384829"
+      }
+    ],
+    "SRR28384830": [
+      {
+        "bioproject": "PRJNA1089471",
+        "biosample": "SAMN40540461",
+        "run": "SRR28384830"
+      }
+    ],
+    "SRR28384831": [
+      {
+        "bioproject": "PRJNA1089471",
+        "biosample": "SAMN40540460",
+        "run": "SRR28384831"
+      }
+    ],
+    "SRR28384834": [
+      {
+        "bioproject": "PRJNA1089471",
+        "biosample": "SAMN40540459",
+        "run": "SRR28384834"
+      }
+    ],
+    "SRR28384845": [
+      {
+        "bioproject": "PRJNA1089471",
+        "biosample": "SAMN40540458",
+        "run": "SRR28384845"
+      }
+    ],
+    "SRR28384846": [
+      {
+        "bioproject": "PRJNA1089471",
+        "biosample": "SAMN40540475",
+        "run": "SRR28384846"
+      }
+    ],
+    "SRR28384847": [
+      {
+        "bioproject": "PRJNA1089471",
+        "biosample": "SAMN40540474",
+        "run": "SRR28384847"
+      }
+    ],
+    "SRR28384848": [
+      {
+        "bioproject": "PRJNA1089471",
+        "biosample": "SAMN40540473",
+        "run": "SRR28384848"
+      }
+    ],
+    "SRR28384849": [
+      {
+        "bioproject": "PRJNA1089471",
+        "biosample": "SAMN40540472",
+        "run": "SRR28384849"
+      }
+    ],
+    "SRR28384850": [
+      {
+        "bioproject": "PRJNA1089471",
+        "biosample": "SAMN40540471",
+        "run": "SRR28384850"
+      }
+    ],
+    "SRR28384851": [
+      {
+        "bioproject": "PRJNA1089471",
+        "biosample": "SAMN40540470",
+        "run": "SRR28384851"
+      }
+    ],
+    "SRR28384852": [
+      {
+        "bioproject": "PRJNA1089471",
+        "biosample": "SAMN40540469",
+        "run": "SRR28384852"
+      }
+    ],
+    "SRR28384853": [
+      {
+        "bioproject": "PRJNA1089471",
+        "biosample": "SAMN40540468",
+        "run": "SRR28384853"
+      }
+    ],
+    "SRR28384854": [
+      {
+        "bioproject": "PRJNA1089471",
+        "biosample": "SAMN40540467",
+        "run": "SRR28384854"
+      }
+    ],
+    "SRR28384855": [
+      {
+        "bioproject": "PRJNA1089471",
+        "biosample": "SAMN40540466",
+        "run": "SRR28384855"
+      }
+    ],
+    "SRR28384856": [
+      {
+        "bioproject": "PRJNA1089471",
+        "biosample": "SAMN40540457",
+        "run": "SRR28384856"
+      }
+    ],
+    "SRR28384857": [
+      {
+        "bioproject": "PRJNA1089471",
+        "biosample": "SAMN40540456",
+        "run": "SRR28384857"
+      }
+    ]
+  },
   "subject": "reptiles/podarcis-raffonei",
   "tool_version": "0.1.0",
   "vcf": {

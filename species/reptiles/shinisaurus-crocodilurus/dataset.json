@@ -15,7 +15,7 @@
     "n_sites": 31999026
   },
   "declared_accession": "GCA_021292165.1",
-  "harvested_at": "2026-09-10T19:44:54Z",
+  "harvested_at": "2026-09-10T20:34:16Z",
   "notes": [],
   "objects": {
     "README.txt": {
@@ -456,6 +456,85 @@
     }
   },
   "schema": 1,
+  "sra": {
+    "SRR14583322": [
+      {
+        "bioproject": "PRJNA726336",
+        "biosample": "SAMN19090588",
+        "run": "SRR14583322"
+      }
+    ],
+    "SRR14583328": [
+      {
+        "bioproject": "PRJNA726336",
+        "biosample": "SAMN19090624",
+        "run": "SRR14583328"
+      }
+    ],
+    "SRR14583330": [
+      {
+        "bioproject": "PRJNA726336",
+        "biosample": "SAMN19090622",
+        "run": "SRR14583330"
+      }
+    ],
+    "SRR14583331": [
+      {
+        "bioproject": "PRJNA726336",
+        "biosample": "SAMN19090621",
+        "run": "SRR14583331"
+      }
+    ],
+    "SRR14583337": [
+      {
+        "bioproject": "PRJNA726336",
+        "biosample": "SAMN19090616",
+        "run": "SRR14583337"
+      }
+    ],
+    "SRR14583342": [
+      {
+        "bioproject": "PRJNA726336",
+        "biosample": "SAMN19090611",
+        "run": "SRR14583342"
+      }
+    ],
+    "SRR14583349": [
+      {
+        "bioproject": "PRJNA726336",
+        "biosample": "SAMN19090605",
+        "run": "SRR14583349"
+      }
+    ],
+    "SRR14583352": [
+      {
+        "bioproject": "PRJNA726336",
+        "biosample": "SAMN19090602",
+        "run": "SRR14583352"
+      }
+    ],
+    "SRR14583709": [
+      {
+        "bioproject": "PRJNA726336",
+        "biosample": "SAMN19072228",
+        "run": "SRR14583709"
+      }
+    ],
+    "SRR5019739": [
+      {
+        "bioproject": "PRJNA353147",
+        "biosample": "SAMN06014616",
+        "run": "SRR5019739"
+      }
+    ],
+    "SRR5019745": [
+      {
+        "bioproject": "PRJNA353147",
+        "biosample": "SAMN06014616",
+        "run": "SRR5019745"
+      }
+    ]
+  },
   "subject": "reptiles/shinisaurus-crocodilurus",
   "tool_version": "0.1.0",
   "vcf": {

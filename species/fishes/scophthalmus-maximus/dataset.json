@@ -15,7 +15,7 @@
     "n_sites": 6239765
   },
   "declared_accession": "GCA_963854745.1",
-  "harvested_at": "2026-09-10T19:44:50Z",
+  "harvested_at": "2026-09-10T20:34:04Z",
   "notes": [],
   "objects": {
     "README.txt": {
@@ -552,6 +552,169 @@
     }
   },
   "schema": 1,
+  "sra": {
+    "ERR1145051": [
+      {
+        "bioproject": "PRJEB11743",
+        "biosample": "SAMEA3673148",
+        "run": "ERR1145051"
+      }
+    ],
+    "ERR1145058": [
+      {
+        "bioproject": "PRJEB11743",
+        "biosample": "SAMEA3673148",
+        "run": "ERR1145058"
+      }
+    ],
+    "ERR1145076": [
+      {
+        "bioproject": "PRJEB11743",
+        "biosample": "SAMEA3673148",
+        "run": "ERR1145076"
+      }
+    ],
+    "ERR1145077": [
+      {
+        "bioproject": "PRJEB11743",
+        "biosample": "SAMEA3673148",
+        "run": "ERR1145077"
+      }
+    ],
+    "ERR1145081": [
+      {
+        "bioproject": "PRJEB11743",
+        "biosample": "SAMEA3673148",
+        "run": "ERR1145081"
+      }
+    ],
+    "ERR1145083": [
+      {
+        "bioproject": "PRJEB11743",
+        "biosample": "SAMEA3673148",
+        "run": "ERR1145083"
+      }
+    ],
+    "ERR1145100": [
+      {
+        "bioproject": "PRJEB11743",
+        "biosample": "SAMEA3673148",
+        "run": "ERR1145100"
+      }
+    ],
+    "SRR12344049": [
+      {
+        "bioproject": "PRJNA649485",
+        "biosample": "SAMN15667284",
+        "run": "SRR12344049"
+      }
+    ],
+    "SRR12519218": [
+      {
+        "bioproject": "PRJNA649485",
+        "biosample": "SAMN15907225",
+        "run": "SRR12519218"
+      }
+    ],
+    "SRR12519219": [
+      {
+        "bioproject": "PRJNA649485",
+        "biosample": "SAMN15907224",
+        "run": "SRR12519219"
+      }
+    ],
+    "SRR12519220": [
+      {
+        "bioproject": "PRJNA649485",
+        "biosample": "SAMN15907223",
+        "run": "SRR12519220"
+      }
+    ],
+    "SRR12519221": [
+      {
+        "bioproject": "PRJNA649485",
+        "biosample": "SAMN15907222",
+        "run": "SRR12519221"
+      }
+    ],
+    "SRR12519222": [
+      {
+        "bioproject": "PRJNA649485",
+        "biosample": "SAMN15907221",
+        "run": "SRR12519222"
+      }
+    ],
+    "SRR12519223": [
+      {
+        "bioproject": "PRJNA649485",
+        "biosample": "SAMN15907220",
+        "run": "SRR12519223"
+      }
+    ],
+    "SRR12519224": [
+      {
+        "bioproject": "PRJNA649485",
+        "biosample": "SAMN15907219",
+        "run": "SRR12519224"
+      }
+    ],
+    "SRR12519225": [
+      {
+        "bioproject": "PRJNA649485",
+        "biosample": "SAMN15907218",
+        "run": "SRR12519225"
+      }
+    ],
+    "SRR12519226": [
+      {
+        "bioproject": "PRJNA649485",
+        "biosample": "SAMN15907217",
+        "run": "SRR12519226"
+      }
+    ],
+    "SRR12519227": [
+      {
+        "bioproject": "PRJNA649485",
+        "biosample": "SAMN15907216",
+        "run": "SRR12519227"
+      }
+    ],
+    "SRR17338368": [
+      {
+        "bioproject": "PRJNA792617",
+        "biosample": "SAMN24443466",
+        "run": "SRR17338368"
+      }
+    ],
+    "SRR9039890": [
+      {
+        "bioproject": "PRJNA542243",
+        "biosample": "SAMN11618027",
+        "run": "SRR9039890"
+      }
+    ],
+    "SRR9039891": [
+      {
+        "bioproject": "PRJNA542243",
+        "biosample": "SAMN11618026",
+        "run": "SRR9039891"
+      }
+    ],
+    "SRR9039892": [
+      {
+        "bioproject": "PRJNA542243",
+        "biosample": "SAMN11618026",
+        "run": "SRR9039892"
+      }
+    ],
+    "SRR9039898": [
+      {
+        "bioproject": "PRJNA542243",
+        "biosample": "SAMN11618026",
+        "run": "SRR9039898"
+      }
+    ]
+  },
   "subject": "fishes/scophthalmus-maximus",
   "tool_version": "0.1.0",
   "vcf": {

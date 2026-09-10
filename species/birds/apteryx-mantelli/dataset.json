@@ -15,7 +15,7 @@
     "n_sites": 31253369
   },
   "declared_accession": "GCA_036417845.1",
-  "harvested_at": "2026-09-10T19:44:44Z",
+  "harvested_at": "2026-09-10T20:33:52Z",
   "notes": [],
   "objects": {
     "README.txt": {
@@ -648,6 +648,141 @@
     }
   },
   "schema": 1,
+  "sra": {
+    "ERR519283": [
+      {
+        "bioproject": "PRJEB6383",
+        "biosample": "SAMEA2554516",
+        "run": "ERR519283"
+      }
+    ],
+    "ERR519284": [
+      {
+        "bioproject": "PRJEB6383",
+        "biosample": "SAMEA2554517",
+        "run": "ERR519284"
+      }
+    ],
+    "SRR15100614": [
+      {
+        "bioproject": "PRJNA745563",
+        "biosample": "SAMN20169435",
+        "run": "SRR15100614"
+      }
+    ],
+    "SRR15100615": [
+      {
+        "bioproject": "PRJNA745563",
+        "biosample": "SAMN20169434",
+        "run": "SRR15100615"
+      }
+    ],
+    "SRR15100616": [
+      {
+        "bioproject": "PRJNA745563",
+        "biosample": "SAMN20169433",
+        "run": "SRR15100616"
+      }
+    ],
+    "SRR15100617": [
+      {
+        "bioproject": "PRJNA745563",
+        "biosample": "SAMN20169432",
+        "run": "SRR15100617"
+      }
+    ],
+    "SRR15100620": [
+      {
+        "bioproject": "PRJNA745563",
+        "biosample": "SAMN20169431",
+        "run": "SRR15100620"
+      }
+    ],
+    "SRR15100631": [
+      {
+        "bioproject": "PRJNA745563",
+        "biosample": "SAMN20169430",
+        "run": "SRR15100631"
+      }
+    ],
+    "SRR15100642": [
+      {
+        "bioproject": "PRJNA745563",
+        "biosample": "SAMN20169429",
+        "run": "SRR15100642"
+      }
+    ],
+    "SRR15100653": [
+      {
+        "bioproject": "PRJNA745563",
+        "biosample": "SAMN20169428",
+        "run": "SRR15100653"
+      }
+    ],
+    "SRR15100656": [
+      {
+        "bioproject": "PRJNA745563",
+        "biosample": "SAMN20169443",
+        "run": "SRR15100656"
+      }
+    ],
+    "SRR15100657": [
+      {
+        "bioproject": "PRJNA745563",
+        "biosample": "SAMN20169442",
+        "run": "SRR15100657"
+      }
+    ],
+    "SRR15100658": [
+      {
+        "bioproject": "PRJNA745563",
+        "biosample": "SAMN20169441",
+        "run": "SRR15100658"
+      }
+    ],
+    "SRR15100659": [
+      {
+        "bioproject": "PRJNA745563",
+        "biosample": "SAMN20169440",
+        "run": "SRR15100659"
+      }
+    ],
+    "SRR15100660": [
+      {
+        "bioproject": "PRJNA745563",
+        "biosample": "SAMN20169439",
+        "run": "SRR15100660"
+      }
+    ],
+    "SRR15100661": [
+      {
+        "bioproject": "PRJNA745563",
+        "biosample": "SAMN20169438",
+        "run": "SRR15100661"
+      }
+    ],
+    "SRR15100662": [
+      {
+        "bioproject": "PRJNA745563",
+        "biosample": "SAMN20169437",
+        "run": "SRR15100662"
+      }
+    ],
+    "SRR15100663": [
+      {
+        "bioproject": "PRJNA745563",
+        "biosample": "SAMN20169436",
+        "run": "SRR15100663"
+      }
+    ],
+    "SRR15100665": [
+      {
+        "bioproject": "PRJNA745563",
+        "biosample": "SAMN20169426",
+        "run": "SRR15100665"
+      }
+    ]
+  },
   "subject": "birds/apteryx-mantelli",
   "tool_version": "0.1.0",
   "vcf": {

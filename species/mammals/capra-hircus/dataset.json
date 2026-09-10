@@ -15,7 +15,7 @@
     "n_sites": 37066910
   },
   "declared_accession": "GCA_041735815.1",
-  "harvested_at": "2026-09-10T19:44:51Z",
+  "harvested_at": "2026-09-10T20:34:08Z",
   "notes": [],
   "objects": {
     "README.txt": {
@@ -600,6 +600,127 @@
     }
   },
   "schema": 1,
+  "sra": {
+    "ERR14709949": [
+      {
+        "bioproject": "PRJEB86514",
+        "biosample": "SAMEA117791219",
+        "run": "ERR14709949"
+      }
+    ],
+    "ERR3281399": [
+      {
+        "bioproject": "PRJEB31857",
+        "biosample": "SAMEA5555687",
+        "run": "ERR3281399"
+      }
+    ],
+    "ERR3281521": [
+      {
+        "bioproject": "PRJEB31857",
+        "biosample": "SAMEA5555809",
+        "run": "ERR3281521"
+      }
+    ],
+    "ERR3987283": [
+      {
+        "bioproject": "PRJEB37208",
+        "biosample": "SAMEA6619284",
+        "run": "ERR3987283"
+      }
+    ],
+    "ERR4133272": [
+      {
+        "bioproject": "PRJEB37122",
+        "biosample": "SAMEA6675403",
+        "run": "ERR4133272"
+      }
+    ],
+    "ERR8446365": [
+      {
+        "bioproject": "PRJEB50463",
+        "biosample": "SAMEA12598460",
+        "run": "ERR8446365"
+      }
+    ],
+    "SRR11425790": [
+      {
+        "bioproject": "PRJNA611688",
+        "biosample": "SAMN14422751",
+        "run": "SRR11425790"
+      }
+    ],
+    "SRR12959550": [
+      {
+        "bioproject": "PRJNA671542",
+        "biosample": "SAMN16533909",
+        "run": "SRR12959550"
+      }
+    ],
+    "SRR13627443": [
+      {
+        "bioproject": "PRJNA699447",
+        "biosample": "SAMN17776788",
+        "run": "SRR13627443"
+      }
+    ],
+    "SRR17775449": [
+      {
+        "bioproject": "PRJNA801057",
+        "biosample": "SAMN25290621",
+        "run": "SRR17775449"
+      }
+    ],
+    "SRR23757330": [
+      {
+        "bioproject": "PRJNA941958",
+        "biosample": "SAMN33620009",
+        "run": "SRR23757330"
+      }
+    ],
+    "SRR27547200": [
+      {
+        "bioproject": "PRJNA1063878",
+        "biosample": "SAMN39410416",
+        "run": "SRR27547200"
+      }
+    ],
+    "SRR28624334": [
+      {
+        "bioproject": "PRJNA1062089",
+        "biosample": "SAMN40876990",
+        "run": "SRR28624334"
+      }
+    ],
+    "SRR29469321": [
+      {
+        "bioproject": "PRJNA1077730",
+        "biosample": "SAMN41901033",
+        "run": "SRR29469321"
+      }
+    ],
+    "SRR8224138": [
+      {
+        "bioproject": "PRJNA504493",
+        "biosample": "SAMN10391534",
+        "run": "SRR8224138"
+      }
+    ],
+    "SRR8442886": [
+      {
+        "bioproject": "PRJNA310684",
+        "biosample": "SAMN10743927",
+        "run": "SRR8442886"
+      }
+    ],
+    "SRR8442967": [
+      {
+        "bioproject": "PRJNA310684",
+        "biosample": "SAMN10743912",
+        "run": "SRR8442967"
+      }
+    ]
+  },
   "subject": "mammals/capra-hircus",
   "tool_version": "0.1.0",
   "vcf": {

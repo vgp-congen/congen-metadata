@@ -15,7 +15,7 @@
     "n_sites": 12657686
   },
   "declared_accession": "GCA_949987535.1",
-  "harvested_at": "2026-09-10T19:44:51Z",
+  "harvested_at": "2026-09-10T20:34:07Z",
   "notes": [],
   "objects": {
     "README.txt": {
@@ -432,6 +432,99 @@
     }
   },
   "schema": 1,
+  "sra": {
+    "SRR1802582": [
+      {
+        "bioproject": "PRJNA274879",
+        "biosample": "SAMN03339797",
+        "run": "SRR1802582"
+      }
+    ],
+    "SRR1802583": [
+      {
+        "bioproject": "PRJNA274879",
+        "biosample": "SAMN03339798",
+        "run": "SRR1802583"
+      }
+    ],
+    "SRR1802584": [
+      {
+        "bioproject": "PRJNA274879",
+        "biosample": "SAMN03339799",
+        "run": "SRR1802584"
+      }
+    ],
+    "SRR1802585": [
+      {
+        "bioproject": "PRJNA274879",
+        "biosample": "SAMN03339800",
+        "run": "SRR1802585"
+      }
+    ],
+    "SRR26078637": [
+      {
+        "bioproject": "PRJNA1018098",
+        "biosample": "SAMN37420689",
+        "run": "SRR26078637"
+      }
+    ],
+    "SRR4011108": [
+      {
+        "bioproject": "PRJNA335553",
+        "biosample": "SAMN05447714",
+        "run": "SRR4011108"
+      }
+    ],
+    "SRR4011112": [
+      {
+        "bioproject": "PRJNA335553",
+        "biosample": "SAMN05447714",
+        "run": "SRR4011112"
+      }
+    ],
+    "SRR4011119": [
+      {
+        "bioproject": "PRJNA335553",
+        "biosample": "SAMN05447716",
+        "run": "SRR4011119"
+      }
+    ],
+    "SRR4011121": [
+      {
+        "bioproject": "PRJNA335553",
+        "biosample": "SAMN05447716",
+        "run": "SRR4011121"
+      }
+    ],
+    "SRR896642": [
+      {
+        "bioproject": "PRJNA72723",
+        "biosample": "SAMN02192642",
+        "run": "SRR896642"
+      }
+    ],
+    "SRR901891": [
+      {
+        "bioproject": "PRJNA72723",
+        "biosample": "SAMN02192642",
+        "run": "SRR901891"
+      }
+    ],
+    "SRR924087": [
+      {
+        "bioproject": "PRJNA72723",
+        "biosample": "SAMN02192644",
+        "run": "SRR924087"
+      }
+    ],
+    "SRR926179": [
+      {
+        "bioproject": "PRJNA72723",
+        "biosample": "SAMN02192670",
+        "run": "SRR926179"
+      }
+    ]
+  },
   "subject": "mammals/balaenoptera-acutorostrata",
   "tool_version": "0.1.0",
   "vcf": {

@@ -15,7 +15,7 @@
     "n_sites": 65302948
   },
   "declared_accession": "GCA_963513975.1",
-  "harvested_at": "2026-09-10T19:44:45Z",
+  "harvested_at": "2026-09-10T20:33:54Z",
   "notes": [],
   "objects": {
     "README.txt": {
@@ -792,6 +792,183 @@
     }
   },
   "schema": 1,
+  "sra": {
+    "SRR12816834": [
+      {
+        "bioproject": "PRJNA661201",
+        "biosample": "SAMN16094445",
+        "run": "SRR12816834"
+      }
+    ],
+    "SRR12816835": [
+      {
+        "bioproject": "PRJNA661201",
+        "biosample": "SAMN16094444",
+        "run": "SRR12816835"
+      }
+    ],
+    "SRR12816836": [
+      {
+        "bioproject": "PRJNA661201",
+        "biosample": "SAMN16094443",
+        "run": "SRR12816836"
+      }
+    ],
+    "SRR12816837": [
+      {
+        "bioproject": "PRJNA661201",
+        "biosample": "SAMN16094442",
+        "run": "SRR12816837"
+      }
+    ],
+    "SRR12816838": [
+      {
+        "bioproject": "PRJNA661201",
+        "biosample": "SAMN16094441",
+        "run": "SRR12816838"
+      }
+    ],
+    "SRR12816839": [
+      {
+        "bioproject": "PRJNA661201",
+        "biosample": "SAMN16094440",
+        "run": "SRR12816839"
+      }
+    ],
+    "SRR12816840": [
+      {
+        "bioproject": "PRJNA661201",
+        "biosample": "SAMN16094439",
+        "run": "SRR12816840"
+      }
+    ],
+    "SRR12816841": [
+      {
+        "bioproject": "PRJNA661201",
+        "biosample": "SAMN16094459",
+        "run": "SRR12816841"
+      }
+    ],
+    "SRR12816842": [
+      {
+        "bioproject": "PRJNA661201",
+        "biosample": "SAMN16094458",
+        "run": "SRR12816842"
+      }
+    ],
+    "SRR12816843": [
+      {
+        "bioproject": "PRJNA661201",
+        "biosample": "SAMN16094457",
+        "run": "SRR12816843"
+      }
+    ],
+    "SRR12816844": [
+      {
+        "bioproject": "PRJNA661201",
+        "biosample": "SAMN16094456",
+        "run": "SRR12816844"
+      }
+    ],
+    "SRR12816845": [
+      {
+        "bioproject": "PRJNA661201",
+        "biosample": "SAMN16094438",
+        "run": "SRR12816845"
+      }
+    ],
+    "SRR12816846": [
+      {
+        "bioproject": "PRJNA661201",
+        "biosample": "SAMN16094455",
+        "run": "SRR12816846"
+      }
+    ],
+    "SRR12816847": [
+      {
+        "bioproject": "PRJNA661201",
+        "biosample": "SAMN16094454",
+        "run": "SRR12816847"
+      }
+    ],
+    "SRR12816848": [
+      {
+        "bioproject": "PRJNA661201",
+        "biosample": "SAMN16094453",
+        "run": "SRR12816848"
+      }
+    ],
+    "SRR12816849": [
+      {
+        "bioproject": "PRJNA661201",
+        "biosample": "SAMN16094452",
+        "run": "SRR12816849"
+      }
+    ],
+    "SRR12816850": [
+      {
+        "bioproject": "PRJNA661201",
+        "biosample": "SAMN16094451",
+        "run": "SRR12816850"
+      }
+    ],
+    "SRR12816851": [
+      {
+        "bioproject": "PRJNA661201",
+        "biosample": "SAMN16094450",
+        "run": "SRR12816851"
+      }
+    ],
+    "SRR12816852": [
+      {
+        "bioproject": "PRJNA661201",
+        "biosample": "SAMN16094449",
+        "run": "SRR12816852"
+      }
+    ],
+    "SRR12816853": [
+      {
+        "bioproject": "PRJNA661201",
+        "biosample": "SAMN16094448",
+        "run": "SRR12816853"
+      }
+    ],
+    "SRR12816854": [
+      {
+        "bioproject": "PRJNA661201",
+        "biosample": "SAMN16094447",
+        "run": "SRR12816854"
+      }
+    ],
+    "SRR12816855": [
+      {
+        "bioproject": "PRJNA661201",
+        "biosample": "SAMN16094446",
+        "run": "SRR12816855"
+      }
+    ],
+    "SRR12816856": [
+      {
+        "bioproject": "PRJNA661201",
+        "biosample": "SAMN16094437",
+        "run": "SRR12816856"
+      }
+    ],
+    "SRR12816857": [
+      {
+        "bioproject": "PRJNA661201",
+        "biosample": "SAMN16094436",
+        "run": "SRR12816857"
+      }
+    ],
+    "SRR12998621": [
+      {
+        "bioproject": "PRJNA674347",
+        "biosample": "SAMN16636146",
+        "run": "SRR12998621"
+      }
+    ]
+  },
   "subject": "birds/fringilla-coelebs",
   "tool_version": "0.1.0",
   "vcf": {

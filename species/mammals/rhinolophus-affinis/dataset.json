@@ -15,7 +15,7 @@
     "n_sites": 89564132
   },
   "declared_accession": "GCA_043728065.1",
-  "harvested_at": "2026-09-10T19:44:53Z",
+  "harvested_at": "2026-09-10T20:34:15Z",
   "notes": [],
   "objects": {
     "README.txt": {
@@ -768,6 +768,176 @@
     }
   },
   "schema": 1,
+  "sra": {
+    "SRR14887792": [
+      {
+        "bioproject": "PRJNA740148",
+        "biosample": "SAMN19821494",
+        "run": "SRR14887792"
+      }
+    ],
+    "SRR14887793": [
+      {
+        "bioproject": "PRJNA740148",
+        "biosample": "SAMN19821493",
+        "run": "SRR14887793"
+      }
+    ],
+    "SRR28961220": [
+      {
+        "bioproject": "PRJNA993631",
+        "biosample": "SAMN36405434",
+        "run": "SRR28961220"
+      }
+    ],
+    "SRR28968964": [
+      {
+        "bioproject": "PRJNA993631",
+        "biosample": "SAMN41257761",
+        "run": "SRR28968964"
+      }
+    ],
+    "SRR28968965": [
+      {
+        "bioproject": "PRJNA993631",
+        "biosample": "SAMN41257760",
+        "run": "SRR28968965"
+      }
+    ],
+    "SRR28968966": [
+      {
+        "bioproject": "PRJNA993631",
+        "biosample": "SAMN41257759",
+        "run": "SRR28968966"
+      }
+    ],
+    "SRR28968967": [
+      {
+        "bioproject": "PRJNA993631",
+        "biosample": "SAMN41257758",
+        "run": "SRR28968967"
+      }
+    ],
+    "SRR28968968": [
+      {
+        "bioproject": "PRJNA993631",
+        "biosample": "SAMN41257757",
+        "run": "SRR28968968"
+      }
+    ],
+    "SRR28968969": [
+      {
+        "bioproject": "PRJNA993631",
+        "biosample": "SAMN41257756",
+        "run": "SRR28968969"
+      }
+    ],
+    "SRR28968970": [
+      {
+        "bioproject": "PRJNA993631",
+        "biosample": "SAMN41257755",
+        "run": "SRR28968970"
+      }
+    ],
+    "SRR28968971": [
+      {
+        "bioproject": "PRJNA993631",
+        "biosample": "SAMN41257772",
+        "run": "SRR28968971"
+      }
+    ],
+    "SRR28968972": [
+      {
+        "bioproject": "PRJNA993631",
+        "biosample": "SAMN41257754",
+        "run": "SRR28968972"
+      }
+    ],
+    "SRR28968973": [
+      {
+        "bioproject": "PRJNA993631",
+        "biosample": "SAMN41257771",
+        "run": "SRR28968973"
+      }
+    ],
+    "SRR28968974": [
+      {
+        "bioproject": "PRJNA993631",
+        "biosample": "SAMN41257770",
+        "run": "SRR28968974"
+      }
+    ],
+    "SRR28968975": [
+      {
+        "bioproject": "PRJNA993631",
+        "biosample": "SAMN41257769",
+        "run": "SRR28968975"
+      }
+    ],
+    "SRR28968976": [
+      {
+        "bioproject": "PRJNA993631",
+        "biosample": "SAMN41257768",
+        "run": "SRR28968976"
+      }
+    ],
+    "SRR28968977": [
+      {
+        "bioproject": "PRJNA993631",
+        "biosample": "SAMN41257767",
+        "run": "SRR28968977"
+      }
+    ],
+    "SRR28968978": [
+      {
+        "bioproject": "PRJNA993631",
+        "biosample": "SAMN41257766",
+        "run": "SRR28968978"
+      }
+    ],
+    "SRR28968979": [
+      {
+        "bioproject": "PRJNA993631",
+        "biosample": "SAMN41257765",
+        "run": "SRR28968979"
+      }
+    ],
+    "SRR28968980": [
+      {
+        "bioproject": "PRJNA993631",
+        "biosample": "SAMN41257764",
+        "run": "SRR28968980"
+      }
+    ],
+    "SRR28968981": [
+      {
+        "bioproject": "PRJNA993631",
+        "biosample": "SAMN41257763",
+        "run": "SRR28968981"
+      }
+    ],
+    "SRR28968982": [
+      {
+        "bioproject": "PRJNA993631",
+        "biosample": "SAMN41257762",
+        "run": "SRR28968982"
+      }
+    ],
+    "SRR28968983": [
+      {
+        "bioproject": "PRJNA993631",
+        "biosample": "SAMN41257753",
+        "run": "SRR28968983"
+      }
+    ],
+    "SRR28968984": [
+      {
+        "bioproject": "PRJNA993631",
+        "biosample": "SAMN41257752",
+        "run": "SRR28968984"
+      }
+    ]
+  },
   "subject": "mammals/rhinolophus-affinis",
   "tool_version": "0.1.0",
   "vcf": {

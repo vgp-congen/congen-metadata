@@ -15,7 +15,7 @@
     "n_sites": 47765561
   },
   "declared_accession": "GCA_014108235.2",
-  "harvested_at": "2026-09-10T19:44:52Z",
+  "harvested_at": "2026-09-10T20:34:12Z",
   "notes": [],
   "objects": {
     "README.txt": {
@@ -464,6 +464,85 @@
     }
   },
   "schema": 1,
+  "sra": {
+    "SRR11732436": [
+      {
+        "bioproject": "PRJNA628559",
+        "biosample": "SAMN14734277",
+        "run": "SRR11732436"
+      }
+    ],
+    "SRR26641648": [
+      {
+        "bioproject": "PRJNA1031993",
+        "biosample": "SAMN37977960",
+        "run": "SRR26641648"
+      }
+    ],
+    "SRR26641650": [
+      {
+        "bioproject": "PRJNA1031993",
+        "biosample": "SAMN37977959",
+        "run": "SRR26641650"
+      }
+    ],
+    "SRR27216487": [
+      {
+        "bioproject": "PRJNA1051501",
+        "biosample": "SAMN38777302",
+        "run": "SRR27216487"
+      }
+    ],
+    "SRR27216488": [
+      {
+        "bioproject": "PRJNA1051501",
+        "biosample": "SAMN38777301",
+        "run": "SRR27216488"
+      }
+    ],
+    "SRR27216489": [
+      {
+        "bioproject": "PRJNA1051501",
+        "biosample": "SAMN38777300",
+        "run": "SRR27216489"
+      }
+    ],
+    "SRR27216493": [
+      {
+        "bioproject": "PRJNA1051501",
+        "biosample": "SAMN38777296",
+        "run": "SRR27216493"
+      }
+    ],
+    "SRR27216500": [
+      {
+        "bioproject": "PRJNA1051501",
+        "biosample": "SAMN38777305",
+        "run": "SRR27216500"
+      }
+    ],
+    "SRR27216501": [
+      {
+        "bioproject": "PRJNA1051501",
+        "biosample": "SAMN38777304",
+        "run": "SRR27216501"
+      }
+    ],
+    "SRR27216502": [
+      {
+        "bioproject": "PRJNA1051501",
+        "biosample": "SAMN38777303",
+        "run": "SRR27216502"
+      }
+    ],
+    "SRR7704823": [
+      {
+        "bioproject": "PRJNA399444",
+        "biosample": "SAMN07678038",
+        "run": "SRR7704823"
+      }
+    ]
+  },
   "subject": "mammals/myotis-myotis",
   "tool_version": "0.1.0",
   "vcf": {

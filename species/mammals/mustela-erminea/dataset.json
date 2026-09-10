@@ -15,7 +15,7 @@
     "n_sites": 58586370
   },
   "declared_accession": "GCA_009829155.1",
-  "harvested_at": "2026-09-10T19:44:52Z",
+  "harvested_at": "2026-09-10T20:34:11Z",
   "notes": [],
   "objects": {
     "README.txt": {
@@ -504,6 +504,106 @@
     }
   },
   "schema": 1,
+  "sra": {
+    "SRR25745556": [
+      {
+        "bioproject": "PRJNA1008644",
+        "biosample": "SAMN12611999",
+        "run": "SRR25745556"
+      }
+    ],
+    "SRR30238150": [
+      {
+        "bioproject": "PRJNA1146985",
+        "biosample": "SAMN43185092",
+        "run": "SRR30238150"
+      }
+    ],
+    "SRR30238151": [
+      {
+        "bioproject": "PRJNA1146985",
+        "biosample": "SAMN43185091",
+        "run": "SRR30238151"
+      }
+    ],
+    "SRR6963880": [
+      {
+        "bioproject": "PRJNA448954",
+        "biosample": "SAMN08874303",
+        "run": "SRR6963880"
+      }
+    ],
+    "SRR6963881": [
+      {
+        "bioproject": "PRJNA448954",
+        "biosample": "SAMN08874302",
+        "run": "SRR6963881"
+      }
+    ],
+    "SRR6963882": [
+      {
+        "bioproject": "PRJNA448954",
+        "biosample": "SAMN08874295",
+        "run": "SRR6963882"
+      }
+    ],
+    "SRR6963883": [
+      {
+        "bioproject": "PRJNA448954",
+        "biosample": "SAMN08874294",
+        "run": "SRR6963883"
+      }
+    ],
+    "SRR6963884": [
+      {
+        "bioproject": "PRJNA448954",
+        "biosample": "SAMN08874297",
+        "run": "SRR6963884"
+      }
+    ],
+    "SRR6963885": [
+      {
+        "bioproject": "PRJNA448954",
+        "biosample": "SAMN08874296",
+        "run": "SRR6963885"
+      }
+    ],
+    "SRR6963886": [
+      {
+        "bioproject": "PRJNA448954",
+        "biosample": "SAMN08874299",
+        "run": "SRR6963886"
+      }
+    ],
+    "SRR6963887": [
+      {
+        "bioproject": "PRJNA448954",
+        "biosample": "SAMN08874298",
+        "run": "SRR6963887"
+      }
+    ],
+    "SRR6963888": [
+      {
+        "bioproject": "PRJNA448954",
+        "biosample": "SAMN08874301",
+        "run": "SRR6963888"
+      }
+    ],
+    "SRR6963889": [
+      {
+        "bioproject": "PRJNA448954",
+        "biosample": "SAMN08874300",
+        "run": "SRR6963889"
+      }
+    ],
+    "SRR6978696": [
+      {
+        "bioproject": "PRJNA448954",
+        "biosample": "SAMN08874296",
+        "run": "SRR6978696"
+      }
+    ]
+  },
   "subject": "mammals/mustela-erminea",
   "tool_version": "0.1.0",
   "vcf": {

@@ -15,7 +15,7 @@
     "n_sites": 58892278
   },
   "declared_accession": "GCA_015220805.1",
-  "harvested_at": "2026-09-10T19:44:47Z",
+  "harvested_at": "2026-09-10T20:33:57Z",
   "notes": [],
   "objects": {
     "README.txt": {
@@ -696,6 +696,155 @@
     }
   },
   "schema": 1,
+  "sra": {
+    "SRR25101129": [
+      {
+        "bioproject": "PRJNA987636",
+        "biosample": "SAMN35984736",
+        "run": "SRR25101129"
+      }
+    ],
+    "SRR25101130": [
+      {
+        "bioproject": "PRJNA987636",
+        "biosample": "SAMN35984735",
+        "run": "SRR25101130"
+      }
+    ],
+    "SRR25101177": [
+      {
+        "bioproject": "PRJNA987636",
+        "biosample": "SAMN35984648",
+        "run": "SRR25101177"
+      }
+    ],
+    "SRR25101240": [
+      {
+        "bioproject": "PRJNA987636",
+        "biosample": "SAMN35984780",
+        "run": "SRR25101240"
+      }
+    ],
+    "SRR25101242": [
+      {
+        "bioproject": "PRJNA987636",
+        "biosample": "SAMN35984779",
+        "run": "SRR25101242"
+      }
+    ],
+    "SRR25101258": [
+      {
+        "bioproject": "PRJNA987636",
+        "biosample": "SAMN35984772",
+        "run": "SRR25101258"
+      }
+    ],
+    "SRR25101262": [
+      {
+        "bioproject": "PRJNA987636",
+        "biosample": "SAMN35984770",
+        "run": "SRR25101262"
+      }
+    ],
+    "SRR25101264": [
+      {
+        "bioproject": "PRJNA987636",
+        "biosample": "SAMN35984769",
+        "run": "SRR25101264"
+      }
+    ],
+    "SRR25101266": [
+      {
+        "bioproject": "PRJNA987636",
+        "biosample": "SAMN35984768",
+        "run": "SRR25101266"
+      }
+    ],
+    "SRR25101268": [
+      {
+        "bioproject": "PRJNA987636",
+        "biosample": "SAMN35984767",
+        "run": "SRR25101268"
+      }
+    ],
+    "SRR25748939": [
+      {
+        "bioproject": "PRJNA1008668",
+        "biosample": "SAMN15098508",
+        "run": "SRR25748939"
+      }
+    ],
+    "SRR32849542": [
+      {
+        "bioproject": "PRJNA1241442",
+        "biosample": "SAMN47555422",
+        "run": "SRR32849542"
+      }
+    ],
+    "SRR32849543": [
+      {
+        "bioproject": "PRJNA1241442",
+        "biosample": "SAMN47555421",
+        "run": "SRR32849543"
+      }
+    ],
+    "SRR32849544": [
+      {
+        "bioproject": "PRJNA1241442",
+        "biosample": "SAMN47555420",
+        "run": "SRR32849544"
+      }
+    ],
+    "SRR32849549": [
+      {
+        "bioproject": "PRJNA1241442",
+        "biosample": "SAMN47555438",
+        "run": "SRR32849549"
+      }
+    ],
+    "SRR32849554": [
+      {
+        "bioproject": "PRJNA1241442",
+        "biosample": "SAMN47555433",
+        "run": "SRR32849554"
+      }
+    ],
+    "SRR32849556": [
+      {
+        "bioproject": "PRJNA1241442",
+        "biosample": "SAMN47555415",
+        "run": "SRR32849556"
+      }
+    ],
+    "SRR32849560": [
+      {
+        "bioproject": "PRJNA1241442",
+        "biosample": "SAMN47555428",
+        "run": "SRR32849560"
+      }
+    ],
+    "SRR32849562": [
+      {
+        "bioproject": "PRJNA1241442",
+        "biosample": "SAMN47555426",
+        "run": "SRR32849562"
+      }
+    ],
+    "SRR32849563": [
+      {
+        "bioproject": "PRJNA1241442",
+        "biosample": "SAMN47449872",
+        "run": "SRR32849563"
+      }
+    ],
+    "SRR32849567": [
+      {
+        "bioproject": "PRJNA1241442",
+        "biosample": "SAMN47555414",
+        "run": "SRR32849567"
+      }
+    ]
+  },
   "subject": "birds/pogoniulus-pusillus",
   "tool_version": "0.1.0",
   "vcf": {

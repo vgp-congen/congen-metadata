@@ -15,7 +15,7 @@
     "n_sites": 35717330
   },
   "declared_accession": "GCA_965231275.1",
-  "harvested_at": "2026-09-10T19:44:47Z",
+  "harvested_at": "2026-09-10T20:33:58Z",
   "notes": [],
   "objects": {
     "README.txt": {
@@ -480,6 +480,92 @@
     }
   },
   "schema": 1,
+  "sra": {
+    "SRR33727722": [
+      {
+        "bioproject": "PRJNA1264480",
+        "biosample": "SAMN48554562",
+        "run": "SRR33727722"
+      }
+    ],
+    "SRR33727723": [
+      {
+        "bioproject": "PRJNA1264480",
+        "biosample": "SAMN48554561",
+        "run": "SRR33727723"
+      }
+    ],
+    "SRR33727724": [
+      {
+        "bioproject": "PRJNA1264480",
+        "biosample": "SAMN48554560",
+        "run": "SRR33727724"
+      }
+    ],
+    "SRR33727725": [
+      {
+        "bioproject": "PRJNA1264480",
+        "biosample": "SAMN48554559",
+        "run": "SRR33727725"
+      }
+    ],
+    "SRR33727726": [
+      {
+        "bioproject": "PRJNA1264480",
+        "biosample": "SAMN48554557",
+        "run": "SRR33727726"
+      }
+    ],
+    "SRR33727727": [
+      {
+        "bioproject": "PRJNA1264480",
+        "biosample": "SAMN48554556",
+        "run": "SRR33727727"
+      }
+    ],
+    "SRR33727729": [
+      {
+        "bioproject": "PRJNA1264480",
+        "biosample": "SAMN48554555",
+        "run": "SRR33727729"
+      }
+    ],
+    "SRR33727738": [
+      {
+        "bioproject": "PRJNA1264480",
+        "biosample": "SAMN48554546",
+        "run": "SRR33727738"
+      }
+    ],
+    "SRR33727744": [
+      {
+        "bioproject": "PRJNA1264480",
+        "biosample": "SAMN48554614",
+        "run": "SRR33727744"
+      }
+    ],
+    "SRR33727745": [
+      {
+        "bioproject": "PRJNA1264480",
+        "biosample": "SAMN48554613",
+        "run": "SRR33727745"
+      }
+    ],
+    "SRR33727765": [
+      {
+        "bioproject": "PRJNA1264480",
+        "biosample": "SAMN48554544",
+        "run": "SRR33727765"
+      }
+    ],
+    "SRR33727768": [
+      {
+        "bioproject": "PRJNA1264480",
+        "biosample": "SAMN48554541",
+        "run": "SRR33727768"
+      }
+    ]
+  },
   "subject": "birds/zosterops-lateralis",
   "tool_version": "0.1.0",
   "vcf": {

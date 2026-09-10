@@ -15,7 +15,7 @@
     "n_sites": 13909137
   },
   "declared_accession": "GCA_028564815.2",
-  "harvested_at": "2026-09-10T19:44:52Z",
+  "harvested_at": "2026-09-10T20:34:10Z",
   "notes": [],
   "objects": {
     "README.txt": {
@@ -556,6 +556,134 @@
     }
   },
   "schema": 1,
+  "sra": {
+    "SRR11097130": [
+      {
+        "bioproject": "PRJNA512907",
+        "biosample": "SAMN14122067",
+        "run": "SRR11097130"
+      }
+    ],
+    "SRR22863734": [
+      {
+        "bioproject": "PRJNA914998",
+        "biosample": "SAMN32366536",
+        "run": "SRR22863734"
+      }
+    ],
+    "SRR22863735": [
+      {
+        "bioproject": "PRJNA914998",
+        "biosample": "SAMN32366535",
+        "run": "SRR22863735"
+      }
+    ],
+    "SRR22863736": [
+      {
+        "bioproject": "PRJNA914998",
+        "biosample": "SAMN32366534",
+        "run": "SRR22863736"
+      }
+    ],
+    "SRR22863737": [
+      {
+        "bioproject": "PRJNA914998",
+        "biosample": "SAMN32366533",
+        "run": "SRR22863737"
+      }
+    ],
+    "SRR22863738": [
+      {
+        "bioproject": "PRJNA914998",
+        "biosample": "SAMN32366532",
+        "run": "SRR22863738"
+      }
+    ],
+    "SRR22863739": [
+      {
+        "bioproject": "PRJNA914998",
+        "biosample": "SAMN32366531",
+        "run": "SRR22863739"
+      }
+    ],
+    "SRR22863740": [
+      {
+        "bioproject": "PRJNA914998",
+        "biosample": "SAMN32366530",
+        "run": "SRR22863740"
+      }
+    ],
+    "SRR22863743": [
+      {
+        "bioproject": "PRJNA914998",
+        "biosample": "SAMN32366529",
+        "run": "SRR22863743"
+      }
+    ],
+    "SRR22863752": [
+      {
+        "bioproject": "PRJNA914998",
+        "biosample": "SAMN32366538",
+        "run": "SRR22863752"
+      }
+    ],
+    "SRR22863753": [
+      {
+        "bioproject": "PRJNA914998",
+        "biosample": "SAMN32366537",
+        "run": "SRR22863753"
+      }
+    ],
+    "SRR22863754": [
+      {
+        "bioproject": "PRJNA914998",
+        "biosample": "SAMN32366528",
+        "run": "SRR22863754"
+      }
+    ],
+    "SRR22863755": [
+      {
+        "bioproject": "PRJNA914998",
+        "biosample": "SAMN32366527",
+        "run": "SRR22863755"
+      }
+    ],
+    "SRR26078640": [
+      {
+        "bioproject": "PRJNA1018098",
+        "biosample": "SAMN37420687",
+        "run": "SRR26078640"
+      }
+    ],
+    "SRR29386315": [
+      {
+        "bioproject": "PRJNA914998",
+        "biosample": "SAMN32366536",
+        "run": "SRR29386315"
+      }
+    ],
+    "SRR29386319": [
+      {
+        "bioproject": "PRJNA914998",
+        "biosample": "SAMN32366532",
+        "run": "SRR29386319"
+      }
+    ],
+    "SRR29386321": [
+      {
+        "bioproject": "PRJNA914998",
+        "biosample": "SAMN32366530",
+        "run": "SRR29386321"
+      }
+    ],
+    "SRR5665640": [
+      {
+        "bioproject": "PRJNA389516",
+        "biosample": "SAMN07201758",
+        "run": "SRR5665640"
+      }
+    ]
+  },
   "subject": "mammals/eubalaena-glacialis",
   "tool_version": "0.1.0",
   "vcf": {

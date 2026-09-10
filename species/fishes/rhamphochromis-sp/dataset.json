@@ -15,7 +15,7 @@
     "n_sites": 7247354
   },
   "declared_accession": "GCA_963969265.1",
-  "harvested_at": "2026-09-10T19:44:49Z",
+  "harvested_at": "2026-09-10T20:34:03Z",
   "notes": [],
   "objects": {
     "README.txt": {
@@ -456,6 +456,85 @@
     }
   },
   "schema": 1,
+  "sra": {
+    "ERR14733607": [
+      {
+        "bioproject": "PRJEB21343",
+        "biosample": "SAMEA117806291",
+        "run": "ERR14733607"
+      }
+    ],
+    "ERR14733608": [
+      {
+        "bioproject": "PRJEB21343",
+        "biosample": "SAMEA117806292",
+        "run": "ERR14733608"
+      }
+    ],
+    "ERR14733609": [
+      {
+        "bioproject": "PRJEB21343",
+        "biosample": "SAMEA117806293",
+        "run": "ERR14733609"
+      }
+    ],
+    "ERR14733610": [
+      {
+        "bioproject": "PRJEB21343",
+        "biosample": "SAMEA117806294",
+        "run": "ERR14733610"
+      }
+    ],
+    "ERR14733611": [
+      {
+        "bioproject": "PRJEB21343",
+        "biosample": "SAMEA117806295",
+        "run": "ERR14733611"
+      }
+    ],
+    "ERR14733612": [
+      {
+        "bioproject": "PRJEB21343",
+        "biosample": "SAMEA117806296",
+        "run": "ERR14733612"
+      }
+    ],
+    "ERR14733613": [
+      {
+        "bioproject": "PRJEB21343",
+        "biosample": "SAMEA117806297",
+        "run": "ERR14733613"
+      }
+    ],
+    "ERR14733718": [
+      {
+        "bioproject": "PRJEB21343",
+        "biosample": "SAMEA117806289",
+        "run": "ERR14733718"
+      }
+    ],
+    "ERR14733719": [
+      {
+        "bioproject": "PRJEB21343",
+        "biosample": "SAMEA117806290",
+        "run": "ERR14733719"
+      }
+    ],
+    "SRR32893047": [
+      {
+        "bioproject": "PRJNA1241418",
+        "biosample": "SAMN47584601",
+        "run": "SRR32893047"
+      }
+    ],
+    "SRR32893048": [
+      {
+        "bioproject": "PRJNA1241418",
+        "biosample": "SAMN47584600",
+        "run": "SRR32893048"
+      }
+    ]
+  },
   "subject": "fishes/rhamphochromis-sp",
   "tool_version": "0.1.0",
   "vcf": {

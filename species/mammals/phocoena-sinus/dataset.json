@@ -15,7 +15,7 @@
     "n_sites": 6465635
   },
   "declared_accession": "GCA_008692025.1",
-  "harvested_at": "2026-09-10T19:44:53Z",
+  "harvested_at": "2026-09-10T20:34:14Z",
   "notes": [],
   "objects": {
     "README.txt": {
@@ -676,6 +676,155 @@
     }
   },
   "schema": 1,
+  "sra": {
+    "SRR15435895": [
+      {
+        "bioproject": "PRJNA751981",
+        "biosample": "SAMN20563466",
+        "run": "SRR15435895"
+      }
+    ],
+    "SRR15435897": [
+      {
+        "bioproject": "PRJNA751981",
+        "biosample": "SAMN20563464",
+        "run": "SRR15435897"
+      }
+    ],
+    "SRR15435898": [
+      {
+        "bioproject": "PRJNA751981",
+        "biosample": "SAMN20563465",
+        "run": "SRR15435898"
+      }
+    ],
+    "SRR15435899": [
+      {
+        "bioproject": "PRJNA751981",
+        "biosample": "SAMN20563462",
+        "run": "SRR15435899"
+      }
+    ],
+    "SRR15435901": [
+      {
+        "bioproject": "PRJNA751981",
+        "biosample": "SAMN12325353",
+        "run": "SRR15435901"
+      }
+    ],
+    "SRR15435902": [
+      {
+        "bioproject": "PRJNA751981",
+        "biosample": "SAMN20563463",
+        "run": "SRR15435902"
+      }
+    ],
+    "SRR15435906": [
+      {
+        "bioproject": "PRJNA751981",
+        "biosample": "SAMN20563478",
+        "run": "SRR15435906"
+      }
+    ],
+    "SRR15435907": [
+      {
+        "bioproject": "PRJNA751981",
+        "biosample": "SAMN20563474",
+        "run": "SRR15435907"
+      }
+    ],
+    "SRR15435909": [
+      {
+        "bioproject": "PRJNA751981",
+        "biosample": "SAMN20563477",
+        "run": "SRR15435909"
+      }
+    ],
+    "SRR15435910": [
+      {
+        "bioproject": "PRJNA751981",
+        "biosample": "SAMN20563473",
+        "run": "SRR15435910"
+      }
+    ],
+    "SRR15435912": [
+      {
+        "bioproject": "PRJNA751981",
+        "biosample": "SAMN20563476",
+        "run": "SRR15435912"
+      }
+    ],
+    "SRR15435913": [
+      {
+        "bioproject": "PRJNA751981",
+        "biosample": "SAMN20563461",
+        "run": "SRR15435913"
+      }
+    ],
+    "SRR15435914": [
+      {
+        "bioproject": "PRJNA751981",
+        "biosample": "SAMN20563472",
+        "run": "SRR15435914"
+      }
+    ],
+    "SRR15435916": [
+      {
+        "bioproject": "PRJNA751981",
+        "biosample": "SAMN20563475",
+        "run": "SRR15435916"
+      }
+    ],
+    "SRR15435917": [
+      {
+        "bioproject": "PRJNA751981",
+        "biosample": "SAMN20563471",
+        "run": "SRR15435917"
+      }
+    ],
+    "SRR15435918": [
+      {
+        "bioproject": "PRJNA751981",
+        "biosample": "SAMN20563469",
+        "run": "SRR15435918"
+      }
+    ],
+    "SRR15435920": [
+      {
+        "bioproject": "PRJNA751981",
+        "biosample": "SAMN20563470",
+        "run": "SRR15435920"
+      }
+    ],
+    "SRR15435921": [
+      {
+        "bioproject": "PRJNA751981",
+        "biosample": "SAMN20563467",
+        "run": "SRR15435921"
+      }
+    ],
+    "SRR15435922": [
+      {
+        "bioproject": "PRJNA751981",
+        "biosample": "SAMN20563468",
+        "run": "SRR15435922"
+      }
+    ],
+    "SRR15435925": [
+      {
+        "bioproject": "PRJNA751981",
+        "biosample": "SAMN20563460",
+        "run": "SRR15435925"
+      }
+    ],
+    "SRR25743144": [
+      {
+        "bioproject": "PRJNA1008625",
+        "biosample": "SAMN12325353",
+        "run": "SRR25743144"
+      }
+    ]
+  },
   "subject": "mammals/phocoena-sinus",
   "tool_version": "0.1.0",
   "vcf": {

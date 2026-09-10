@@ -15,7 +15,7 @@
     "n_sites": 30137051
   },
   "declared_accession": "GCA_030445035.2",
-  "harvested_at": "2026-09-10T19:44:51Z",
+  "harvested_at": "2026-09-10T20:34:09Z",
   "notes": [],
   "objects": {
     "README.txt": {
@@ -456,6 +456,85 @@
     }
   },
   "schema": 1,
+  "sra": {
+    "SRR10533130": [
+      {
+        "bioproject": "PRJNA591897",
+        "biosample": "SAMN13390510",
+        "run": "SRR10533130"
+      }
+    ],
+    "SRR10533131": [
+      {
+        "bioproject": "PRJNA591897",
+        "biosample": "SAMN13390509",
+        "run": "SRR10533131"
+      }
+    ],
+    "SRR10533132": [
+      {
+        "bioproject": "PRJNA591897",
+        "biosample": "SAMN13390508",
+        "run": "SRR10533132"
+      }
+    ],
+    "SRR10533133": [
+      {
+        "bioproject": "PRJNA591897",
+        "biosample": "SAMN13390507",
+        "run": "SRR10533133"
+      }
+    ],
+    "SRR10533134": [
+      {
+        "bioproject": "PRJNA591897",
+        "biosample": "SAMN13390506",
+        "run": "SRR10533134"
+      }
+    ],
+    "SRR35576274": [
+      {
+        "bioproject": "PRJNA1333566",
+        "biosample": "SAMN51799589",
+        "run": "SRR35576274"
+      }
+    ],
+    "SRR35576275": [
+      {
+        "bioproject": "PRJNA1333566",
+        "biosample": "SAMN51799588",
+        "run": "SRR35576275"
+      }
+    ],
+    "SRR35576276": [
+      {
+        "bioproject": "PRJNA1333566",
+        "biosample": "SAMN51799587",
+        "run": "SRR35576276"
+      }
+    ],
+    "SRR35576277": [
+      {
+        "bioproject": "PRJNA1333566",
+        "biosample": "SAMN51799586",
+        "run": "SRR35576277"
+      }
+    ],
+    "SRR35576278": [
+      {
+        "bioproject": "PRJNA1333566",
+        "biosample": "SAMN51799585",
+        "run": "SRR35576278"
+      }
+    ],
+    "SRR35576279": [
+      {
+        "bioproject": "PRJNA1333566",
+        "biosample": "SAMN51799584",
+        "run": "SRR35576279"
+      }
+    ]
+  },
   "subject": "mammals/dasypus-novemcinctus",
   "tool_version": "0.1.0",
   "vcf": {

@@ -15,7 +15,7 @@
     "n_sites": 24443300
   },
   "declared_accession": "GCA_020382885.1",
-  "harvested_at": "2026-09-10T19:44:50Z",
+  "harvested_at": "2026-09-10T20:34:04Z",
   "notes": [],
   "objects": {
     "README.txt": {
@@ -480,6 +480,92 @@
     }
   },
   "schema": 1,
+  "sra": {
+    "SRR11943050": [
+      {
+        "bioproject": "PRJNA637812",
+        "biosample": "SAMN15158754",
+        "run": "SRR11943050"
+      }
+    ],
+    "SRR12690250": [
+      {
+        "bioproject": "PRJNA637812",
+        "biosample": "SAMN16236978",
+        "run": "SRR12690250"
+      }
+    ],
+    "SRR12695714": [
+      {
+        "bioproject": "PRJNA637812",
+        "biosample": "SAMN16242204",
+        "run": "SRR12695714"
+      }
+    ],
+    "SRR12702713": [
+      {
+        "bioproject": "PRJNA637812",
+        "biosample": "SAMN16253045",
+        "run": "SRR12702713"
+      }
+    ],
+    "SRR12717128": [
+      {
+        "bioproject": "PRJNA637812",
+        "biosample": "SAMN16268311",
+        "run": "SRR12717128"
+      }
+    ],
+    "SRR12736687": [
+      {
+        "bioproject": "PRJNA637812",
+        "biosample": "SAMN16287476",
+        "run": "SRR12736687"
+      }
+    ],
+    "SRR12768831": [
+      {
+        "bioproject": "PRJNA637812",
+        "biosample": "SAMN16361240",
+        "run": "SRR12768831"
+      }
+    ],
+    "SRR13336106": [
+      {
+        "bioproject": "PRJNA688809",
+        "biosample": "SAMN17189441",
+        "run": "SRR13336106"
+      }
+    ],
+    "SRR23524814": [
+      {
+        "bioproject": "PRJNA936574",
+        "biosample": "SAMN33355758",
+        "run": "SRR23524814"
+      }
+    ],
+    "SRR25739879": [
+      {
+        "bioproject": "PRJNA1008551",
+        "biosample": "SAMN12623616",
+        "run": "SRR25739879"
+      }
+    ],
+    "SRR9936858": [
+      {
+        "bioproject": "PRJNA559409",
+        "biosample": "SAMN12541486",
+        "run": "SRR9936858"
+      }
+    ],
+    "SRR9936859": [
+      {
+        "bioproject": "PRJNA559409",
+        "biosample": "SAMN12541485",
+        "run": "SRR9936859"
+      }
+    ]
+  },
   "subject": "fishes/scatophagus-argus",
   "tool_version": "0.1.0",
   "vcf": {

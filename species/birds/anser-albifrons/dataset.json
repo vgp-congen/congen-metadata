@@ -15,7 +15,7 @@
     "n_sites": 32832926
   },
   "declared_accession": "GCA_976913865.1",
-  "harvested_at": "2026-09-10T19:44:44Z",
+  "harvested_at": "2026-09-10T20:33:51Z",
   "notes": [],
   "objects": {
     "README.txt": {
@@ -444,6 +444,92 @@
     }
   },
   "schema": 1,
+  "sra": {
+    "ERR11530862": [
+      {
+        "bioproject": "PRJEB35788",
+        "biosample": "SAMEA112262509",
+        "run": "ERR11530862"
+      }
+    ],
+    "ERR11530863": [
+      {
+        "bioproject": "PRJEB35788",
+        "biosample": "SAMEA112262510",
+        "run": "ERR11530863"
+      }
+    ],
+    "ERR11530864": [
+      {
+        "bioproject": "PRJEB35788",
+        "biosample": "SAMEA112262511",
+        "run": "ERR11530864"
+      }
+    ],
+    "ERR11530865": [
+      {
+        "bioproject": "PRJEB35788",
+        "biosample": "SAMEA112262512",
+        "run": "ERR11530865"
+      }
+    ],
+    "ERR11530866": [
+      {
+        "bioproject": "PRJEB35788",
+        "biosample": "SAMEA112262513",
+        "run": "ERR11530866"
+      }
+    ],
+    "ERR11530868": [
+      {
+        "bioproject": "PRJEB35788",
+        "biosample": "SAMEA112262515",
+        "run": "ERR11530868"
+      }
+    ],
+    "ERR11530869": [
+      {
+        "bioproject": "PRJEB35788",
+        "biosample": "SAMEA112262516",
+        "run": "ERR11530869"
+      }
+    ],
+    "ERR11530870": [
+      {
+        "bioproject": "PRJEB35788",
+        "biosample": "SAMEA112262517",
+        "run": "ERR11530870"
+      }
+    ],
+    "ERR11530871": [
+      {
+        "bioproject": "PRJEB35788",
+        "biosample": "SAMEA112262518",
+        "run": "ERR11530871"
+      }
+    ],
+    "ERR2193519": [
+      {
+        "bioproject": "PRJEB20373",
+        "biosample": "SAMEA104378305",
+        "run": "ERR2193519"
+      }
+    ],
+    "ERR2193520": [
+      {
+        "bioproject": "PRJEB20373",
+        "biosample": "SAMEA104378305",
+        "run": "ERR2193520"
+      }
+    ],
+    "ERR2193521": [
+      {
+        "bioproject": "PRJEB20373",
+        "biosample": "SAMEA104378305",
+        "run": "ERR2193521"
+      }
+    ]
+  },
   "subject": "birds/anser-albifrons",
   "tool_version": "0.1.0",
   "vcf": {

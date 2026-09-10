@@ -15,7 +15,7 @@
     "n_sites": 49415015
   },
   "declared_accession": "GCA_048338725.1",
-  "harvested_at": "2026-09-10T19:44:53Z",
+  "harvested_at": "2026-09-10T20:34:15Z",
   "notes": [],
   "objects": {
     "README.txt": {
@@ -528,6 +528,113 @@
     }
   },
   "schema": 1,
+  "sra": {
+    "ERR15610749": [
+      {
+        "bioproject": "PRJEB71922",
+        "biosample": "SAMEA115711046",
+        "run": "ERR15610749"
+      }
+    ],
+    "ERR15610772": [
+      {
+        "bioproject": "PRJEB71922",
+        "biosample": "SAMEA115711124",
+        "run": "ERR15610772"
+      }
+    ],
+    "ERR15660467": [
+      {
+        "bioproject": "PRJEB71922",
+        "biosample": "SAMEA115710963",
+        "run": "ERR15660467"
+      }
+    ],
+    "ERR4336939": [
+      {
+        "bioproject": "PRJEB39374",
+        "biosample": "SAMEA7059338",
+        "run": "ERR4336939"
+      }
+    ],
+    "ERR9516407": [
+      {
+        "bioproject": "PRJEB51909",
+        "biosample": "SAMEA13915333",
+        "run": "ERR9516407"
+      }
+    ],
+    "SRR1216756": [
+      {
+        "bioproject": "PRJNA238851",
+        "biosample": "SAMN02646525",
+        "run": "SRR1216756"
+      }
+    ],
+    "SRR1216770": [
+      {
+        "bioproject": "PRJNA238851",
+        "biosample": "SAMN02646525",
+        "run": "SRR1216770"
+      }
+    ],
+    "SRR13786956": [
+      {
+        "bioproject": "PRJNA531381",
+        "biosample": "SAMN22234332",
+        "run": "SRR13786956"
+      }
+    ],
+    "SRR13786958": [
+      {
+        "bioproject": "PRJNA531381",
+        "biosample": "SAMN22234330",
+        "run": "SRR13786958"
+      }
+    ],
+    "SRR13786960": [
+      {
+        "bioproject": "PRJNA531381",
+        "biosample": "SAMN22234328",
+        "run": "SRR13786960"
+      }
+    ],
+    "SRR16079632": [
+      {
+        "bioproject": "PRJNA754250",
+        "biosample": "SAMN20802202",
+        "run": "SRR16079632"
+      }
+    ],
+    "SRR16079656": [
+      {
+        "bioproject": "PRJNA754250",
+        "biosample": "SAMN20802257",
+        "run": "SRR16079656"
+      }
+    ],
+    "SRR19443713": [
+      {
+        "bioproject": "PRJNA842867",
+        "biosample": "SAMN28745148",
+        "run": "SRR19443713"
+      }
+    ],
+    "SRR30246176": [
+      {
+        "bioproject": "PRJNA1147173",
+        "biosample": "SAMN43144123",
+        "run": "SRR30246176"
+      }
+    ],
+    "SRR6306121": [
+      {
+        "bioproject": "PRJNA418771",
+        "biosample": "SAMN08035066",
+        "run": "SRR6306121"
+      }
+    ]
+  },
   "subject": "mammals/sus-scrofa-domesticus",
   "tool_version": "0.1.0",
   "vcf": {

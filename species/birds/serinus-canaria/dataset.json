@@ -15,7 +15,7 @@
     "n_sites": 15964296
   },
   "declared_accession": "GCA_055764355.1",
-  "harvested_at": "2026-09-10T19:44:47Z",
+  "harvested_at": "2026-09-10T20:33:57Z",
   "notes": [],
   "objects": {
     "README.txt": {
@@ -552,6 +552,113 @@
     }
   },
   "schema": 1,
+  "sra": {
+    "SRR10526854": [
+      {
+        "bioproject": "PRJNA591356",
+        "biosample": "SAMN13380176",
+        "run": "SRR10526854"
+      }
+    ],
+    "SRR10526855": [
+      {
+        "bioproject": "PRJNA591356",
+        "biosample": "SAMN13380175",
+        "run": "SRR10526855"
+      }
+    ],
+    "SRR10959379": [
+      {
+        "bioproject": "PRJNA602931",
+        "biosample": "SAMN13911128",
+        "run": "SRR10959379"
+      }
+    ],
+    "SRR10959380": [
+      {
+        "bioproject": "PRJNA602931",
+        "biosample": "SAMN13911127",
+        "run": "SRR10959380"
+      }
+    ],
+    "SRR10959386": [
+      {
+        "bioproject": "PRJNA602931",
+        "biosample": "SAMN13911126",
+        "run": "SRR10959386"
+      }
+    ],
+    "SRR10959387": [
+      {
+        "bioproject": "PRJNA602931",
+        "biosample": "SAMN13911125",
+        "run": "SRR10959387"
+      }
+    ],
+    "SRR28388884": [
+      {
+        "bioproject": "PRJNA1089087",
+        "biosample": "SAMN40544623",
+        "run": "SRR28388884"
+      }
+    ],
+    "SRR2895768": [
+      {
+        "bioproject": "PRJNA300534",
+        "biosample": "SAMN04225734",
+        "run": "SRR2895768"
+      }
+    ],
+    "SRR2895901": [
+      {
+        "bioproject": "PRJNA300534",
+        "biosample": "SAMN04225737",
+        "run": "SRR2895901"
+      }
+    ],
+    "SRR2895902": [
+      {
+        "bioproject": "PRJNA300534",
+        "biosample": "SAMN04225733",
+        "run": "SRR2895902"
+      }
+    ],
+    "SRR2895919": [
+      {
+        "bioproject": "PRJNA300534",
+        "biosample": "SAMN04225732",
+        "run": "SRR2895919"
+      }
+    ],
+    "SRR2896023": [
+      {
+        "bioproject": "PRJNA300534",
+        "biosample": "SAMN04225736",
+        "run": "SRR2896023"
+      }
+    ],
+    "SRR37569946": [
+      {
+        "bioproject": "PRJNA1435549",
+        "biosample": "SAMN55378695",
+        "run": "SRR37569946"
+      }
+    ],
+    "SRR37570040": [
+      {
+        "bioproject": "PRJNA1435550",
+        "biosample": "SAMN55378694",
+        "run": "SRR37570040"
+      }
+    ],
+    "SRR9929983": [
+      {
+        "bioproject": "PRJNA559291",
+        "biosample": "SAMN12532845",
+        "run": "SRR9929983"
+      }
+    ]
+  },
   "subject": "birds/serinus-canaria",
   "tool_version": "0.1.0",
   "vcf": {

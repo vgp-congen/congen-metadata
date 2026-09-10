@@ -15,7 +15,7 @@
     "n_sites": 25692823
   },
   "declared_accession": "GCA_036417535.1",
-  "harvested_at": "2026-09-10T19:44:45Z",
+  "harvested_at": "2026-09-10T20:33:53Z",
   "notes": [],
   "objects": {
     "README.txt": {
@@ -984,6 +984,246 @@
     }
   },
   "schema": 1,
+  "sra": {
+    "SRR29988518": [
+      {
+        "bioproject": "PRJNA1140158",
+        "biosample": "SAMN39296385",
+        "run": "SRR29988518"
+      }
+    ],
+    "SRR29988703": [
+      {
+        "bioproject": "PRJNA1140157",
+        "biosample": "SAMN39296384",
+        "run": "SRR29988703"
+      }
+    ],
+    "SRR35788366": [
+      {
+        "bioproject": "PRJNA1338100",
+        "biosample": "SAMN52655218",
+        "run": "SRR35788366"
+      }
+    ],
+    "SRR35788367": [
+      {
+        "bioproject": "PRJNA1338100",
+        "biosample": "SAMN52655217",
+        "run": "SRR35788367"
+      }
+    ],
+    "SRR35788369": [
+      {
+        "bioproject": "PRJNA1338100",
+        "biosample": "SAMN52655216",
+        "run": "SRR35788369"
+      }
+    ],
+    "SRR35788370": [
+      {
+        "bioproject": "PRJNA1338100",
+        "biosample": "SAMN52655215",
+        "run": "SRR35788370"
+      }
+    ],
+    "SRR35788371": [
+      {
+        "bioproject": "PRJNA1338100",
+        "biosample": "SAMN52655214",
+        "run": "SRR35788371"
+      }
+    ],
+    "SRR35788372": [
+      {
+        "bioproject": "PRJNA1338100",
+        "biosample": "SAMN52655213",
+        "run": "SRR35788372"
+      }
+    ],
+    "SRR35788373": [
+      {
+        "bioproject": "PRJNA1338100",
+        "biosample": "SAMN52655212",
+        "run": "SRR35788373"
+      }
+    ],
+    "SRR35788374": [
+      {
+        "bioproject": "PRJNA1338100",
+        "biosample": "SAMN52655211",
+        "run": "SRR35788374"
+      }
+    ],
+    "SRR35788376": [
+      {
+        "bioproject": "PRJNA1338100",
+        "biosample": "SAMN52655210",
+        "run": "SRR35788376"
+      }
+    ],
+    "SRR35788377": [
+      {
+        "bioproject": "PRJNA1338100",
+        "biosample": "SAMN52655209",
+        "run": "SRR35788377"
+      }
+    ],
+    "SRR35788378": [
+      {
+        "bioproject": "PRJNA1338100",
+        "biosample": "SAMN52655208",
+        "run": "SRR35788378"
+      }
+    ],
+    "SRR35788379": [
+      {
+        "bioproject": "PRJNA1338100",
+        "biosample": "SAMN52655207",
+        "run": "SRR35788379"
+      }
+    ],
+    "SRR35788381": [
+      {
+        "bioproject": "PRJNA1338100",
+        "biosample": "SAMN52655206",
+        "run": "SRR35788381"
+      }
+    ],
+    "SRR35788388": [
+      {
+        "bioproject": "PRJNA1338100",
+        "biosample": "SAMN52655189",
+        "run": "SRR35788388"
+      }
+    ],
+    "SRR35788408": [
+      {
+        "bioproject": "PRJNA1338100",
+        "biosample": "SAMN52655205",
+        "run": "SRR35788408"
+      }
+    ],
+    "SRR35788409": [
+      {
+        "bioproject": "PRJNA1338100",
+        "biosample": "SAMN52655204",
+        "run": "SRR35788409"
+      }
+    ],
+    "SRR35788410": [
+      {
+        "bioproject": "PRJNA1338100",
+        "biosample": "SAMN52655202",
+        "run": "SRR35788410"
+      }
+    ],
+    "SRR35788411": [
+      {
+        "bioproject": "PRJNA1338100",
+        "biosample": "SAMN52655201",
+        "run": "SRR35788411"
+      }
+    ],
+    "SRR35788413": [
+      {
+        "bioproject": "PRJNA1338100",
+        "biosample": "SAMN52655203",
+        "run": "SRR35788413"
+      }
+    ],
+    "SRR35788414": [
+      {
+        "bioproject": "PRJNA1338100",
+        "biosample": "SAMN52655200",
+        "run": "SRR35788414"
+      }
+    ],
+    "SRR35788415": [
+      {
+        "bioproject": "PRJNA1338100",
+        "biosample": "SAMN52655199",
+        "run": "SRR35788415"
+      }
+    ],
+    "SRR35788416": [
+      {
+        "bioproject": "PRJNA1338100",
+        "biosample": "SAMN52655198",
+        "run": "SRR35788416"
+      }
+    ],
+    "SRR35788417": [
+      {
+        "bioproject": "PRJNA1338100",
+        "biosample": "SAMN52655197",
+        "run": "SRR35788417"
+      }
+    ],
+    "SRR35788418": [
+      {
+        "bioproject": "PRJNA1338100",
+        "biosample": "SAMN52655195",
+        "run": "SRR35788418"
+      }
+    ],
+    "SRR35788419": [
+      {
+        "bioproject": "PRJNA1338100",
+        "biosample": "SAMN52655194",
+        "run": "SRR35788419"
+      }
+    ],
+    "SRR35788420": [
+      {
+        "bioproject": "PRJNA1338100",
+        "biosample": "SAMN52655193",
+        "run": "SRR35788420"
+      }
+    ],
+    "SRR35788421": [
+      {
+        "bioproject": "PRJNA1338100",
+        "biosample": "SAMN52655196",
+        "run": "SRR35788421"
+      }
+    ],
+    "SRR35788422": [
+      {
+        "bioproject": "PRJNA1338100",
+        "biosample": "SAMN52655192",
+        "run": "SRR35788422"
+      }
+    ],
+    "SRR35788423": [
+      {
+        "bioproject": "PRJNA1338100",
+        "biosample": "SAMN52655191",
+        "run": "SRR35788423"
+      }
+    ],
+    "SRR35788425": [
+      {
+        "bioproject": "PRJNA1338100",
+        "biosample": "SAMN52655190",
+        "run": "SRR35788425"
+      }
+    ],
+    "SRR954903": [
+      {
+        "bioproject": "PRJNA212891",
+        "biosample": "SAMN02324157",
+        "run": "SRR954903"
+      }
+    ],
+    "SRR954904": [
+      {
+        "bioproject": "PRJNA212891",
+        "biosample": "SAMN02324157",
+        "run": "SRR954904"
+      }
+    ]
+  },
   "subject": "birds/chlamydotis-macqueenii",
   "tool_version": "0.1.0",
   "vcf": {

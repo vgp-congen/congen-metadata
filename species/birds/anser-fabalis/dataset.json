@@ -15,7 +15,7 @@
     "n_sites": 27098403
   },
   "declared_accession": "GCA_965250395.1",
-  "harvested_at": "2026-09-10T19:44:44Z",
+  "harvested_at": "2026-09-10T20:33:52Z",
   "notes": [],
   "objects": {
     "README.txt": {
@@ -432,6 +432,106 @@
     }
   },
   "schema": 1,
+  "sra": {
+    "ERR2193528": [
+      {
+        "bioproject": "PRJEB20373",
+        "biosample": "SAMEA104378308",
+        "run": "ERR2193528"
+      }
+    ],
+    "ERR2193529": [
+      {
+        "bioproject": "PRJEB20373",
+        "biosample": "SAMEA104378308",
+        "run": "ERR2193529"
+      }
+    ],
+    "ERR2193530": [
+      {
+        "bioproject": "PRJEB20373",
+        "biosample": "SAMEA104378308",
+        "run": "ERR2193530"
+      }
+    ],
+    "ERR2193534": [
+      {
+        "bioproject": "PRJEB20373",
+        "biosample": "SAMEA104378310",
+        "run": "ERR2193534"
+      }
+    ],
+    "ERR2193535": [
+      {
+        "bioproject": "PRJEB20373",
+        "biosample": "SAMEA104378310",
+        "run": "ERR2193535"
+      }
+    ],
+    "ERR2193536": [
+      {
+        "bioproject": "PRJEB20373",
+        "biosample": "SAMEA104378310",
+        "run": "ERR2193536"
+      }
+    ],
+    "ERR3849980": [
+      {
+        "bioproject": "PRJEB35788",
+        "biosample": "SAMEA6505024",
+        "run": "ERR3849980"
+      }
+    ],
+    "ERR3849981": [
+      {
+        "bioproject": "PRJEB35788",
+        "biosample": "SAMEA6505025",
+        "run": "ERR3849981"
+      }
+    ],
+    "ERR3849982": [
+      {
+        "bioproject": "PRJEB35788",
+        "biosample": "SAMEA6505026",
+        "run": "ERR3849982"
+      }
+    ],
+    "ERR3849983": [
+      {
+        "bioproject": "PRJEB35788",
+        "biosample": "SAMEA6505027",
+        "run": "ERR3849983"
+      }
+    ],
+    "ERR3849984": [
+      {
+        "bioproject": "PRJEB35788",
+        "biosample": "SAMEA6505028",
+        "run": "ERR3849984"
+      }
+    ],
+    "ERR3849985": [
+      {
+        "bioproject": "PRJEB35788",
+        "biosample": "SAMEA6505029",
+        "run": "ERR3849985"
+      }
+    ],
+    "ERR3849986": [
+      {
+        "bioproject": "PRJEB35788",
+        "biosample": "SAMEA6505030",
+        "run": "ERR3849986"
+      }
+    ],
+    "ERR3849987": [
+      {
+        "bioproject": "PRJEB35788",
+        "biosample": "SAMEA6505031",
+        "run": "ERR3849987"
+      }
+    ]
+  },
   "subject": "birds/anser-fabalis",
   "tool_version": "0.1.0",
   "vcf": {

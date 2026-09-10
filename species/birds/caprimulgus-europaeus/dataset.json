@@ -3,7 +3,7 @@
   "assembly": {},
   "cohort": {},
   "declared_accession": "GCA_907165065.1",
-  "harvested_at": "2026-09-10T19:44:45Z",
+  "harvested_at": "2026-09-10T20:33:53Z",
   "notes": [
     "no data published on GenomeArk under GCA_907165065.1"
   ],
@@ -13,6 +13,169 @@
   "published": false,
   "samples": {},
   "schema": 1,
+  "sra": {
+    "ERR6054684": [
+      {
+        "bioproject": "PRJEB44823",
+        "biosample": "SAMEA7524434",
+        "run": "ERR6054684"
+      }
+    ],
+    "ERR6054686": [
+      {
+        "bioproject": "PRJEB44823",
+        "biosample": "SAMEA7524434",
+        "run": "ERR6054686"
+      }
+    ],
+    "SRR30714999": [
+      {
+        "bioproject": "PRJNA1162521",
+        "biosample": "SAMN43815279",
+        "run": "SRR30714999"
+      }
+    ],
+    "SRR30715001": [
+      {
+        "bioproject": "PRJNA1162521",
+        "biosample": "SAMN43815277",
+        "run": "SRR30715001"
+      }
+    ],
+    "SRR30715002": [
+      {
+        "bioproject": "PRJNA1162521",
+        "biosample": "SAMN43815276",
+        "run": "SRR30715002"
+      }
+    ],
+    "SRR30715008": [
+      {
+        "bioproject": "PRJNA1162521",
+        "biosample": "SAMN43815271",
+        "run": "SRR30715008"
+      }
+    ],
+    "SRR30715010": [
+      {
+        "bioproject": "PRJNA1162521",
+        "biosample": "SAMN43815269",
+        "run": "SRR30715010"
+      }
+    ],
+    "SRR30715011": [
+      {
+        "bioproject": "PRJNA1162521",
+        "biosample": "SAMN43815268",
+        "run": "SRR30715011"
+      }
+    ],
+    "SRR30715012": [
+      {
+        "bioproject": "PRJNA1162521",
+        "biosample": "SAMN43815267",
+        "run": "SRR30715012"
+      }
+    ],
+    "SRR30715013": [
+      {
+        "bioproject": "PRJNA1162521",
+        "biosample": "SAMN43815266",
+        "run": "SRR30715013"
+      }
+    ],
+    "SRR30715014": [
+      {
+        "bioproject": "PRJNA1162521",
+        "biosample": "SAMN43815265",
+        "run": "SRR30715014"
+      }
+    ],
+    "SRR30715015": [
+      {
+        "bioproject": "PRJNA1162521",
+        "biosample": "SAMN43815264",
+        "run": "SRR30715015"
+      }
+    ],
+    "SRR30715017": [
+      {
+        "bioproject": "PRJNA1162521",
+        "biosample": "SAMN43815191",
+        "run": "SRR30715017"
+      }
+    ],
+    "SRR30715026": [
+      {
+        "bioproject": "PRJNA1162521",
+        "biosample": "SAMN43815254",
+        "run": "SRR30715026"
+      }
+    ],
+    "SRR30715030": [
+      {
+        "bioproject": "PRJNA1162521",
+        "biosample": "SAMN43815251",
+        "run": "SRR30715030"
+      }
+    ],
+    "SRR30715031": [
+      {
+        "bioproject": "PRJNA1162521",
+        "biosample": "SAMN43815250",
+        "run": "SRR30715031"
+      }
+    ],
+    "SRR30715032": [
+      {
+        "bioproject": "PRJNA1162521",
+        "biosample": "SAMN43815249",
+        "run": "SRR30715032"
+      }
+    ],
+    "SRR30715033": [
+      {
+        "bioproject": "PRJNA1162521",
+        "biosample": "SAMN43815248",
+        "run": "SRR30715033"
+      }
+    ],
+    "SRR30715055": [
+      {
+        "bioproject": "PRJNA1162521",
+        "biosample": "SAMN43815228",
+        "run": "SRR30715055"
+      }
+    ],
+    "SRR30715066": [
+      {
+        "bioproject": "PRJNA1162521",
+        "biosample": "SAMN43815218",
+        "run": "SRR30715066"
+      }
+    ],
+    "SRR30715071": [
+      {
+        "bioproject": "PRJNA1162521",
+        "biosample": "SAMN43815213",
+        "run": "SRR30715071"
+      }
+    ],
+    "SRR30715089": [
+      {
+        "bioproject": "PRJNA1162521",
+        "biosample": "SAMN43815197",
+        "run": "SRR30715089"
+      }
+    ],
+    "SRR30715090": [
+      {
+        "bioproject": "PRJNA1162521",
+        "biosample": "SAMN43815196",
+        "run": "SRR30715090"
+      }
+    ]
+  },
   "subject": "birds/caprimulgus-europaeus",
   "tool_version": "0.1.0",
   "vcf": {}

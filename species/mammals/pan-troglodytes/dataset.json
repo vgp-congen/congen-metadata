@@ -15,7 +15,7 @@
     "n_sites": 21304966
   },
   "declared_accession": "GCA_028858775.3",
-  "harvested_at": "2026-09-10T19:44:53Z",
+  "harvested_at": "2026-09-10T20:34:14Z",
   "notes": [],
   "objects": {
     "README.txt": {
@@ -432,6 +432,78 @@
     }
   },
   "schema": 1,
+  "sra": {
+    "SRR35946049": [
+      {
+        "bioproject": "PRJNA1357362",
+        "biosample": "SAMN53084328",
+        "run": "SRR35946049"
+      }
+    ],
+    "SRR35946050": [
+      {
+        "bioproject": "PRJNA1357362",
+        "biosample": "SAMN53084327",
+        "run": "SRR35946050"
+      }
+    ],
+    "SRR35946051": [
+      {
+        "bioproject": "PRJNA1357362",
+        "biosample": "SAMN53084326",
+        "run": "SRR35946051"
+      }
+    ],
+    "SRR35946052": [
+      {
+        "bioproject": "PRJNA1357362",
+        "biosample": "SAMN53084325",
+        "run": "SRR35946052"
+      }
+    ],
+    "SRR35946053": [
+      {
+        "bioproject": "PRJNA1357362",
+        "biosample": "SAMN53084324",
+        "run": "SRR35946053"
+      }
+    ],
+    "SRR35946054": [
+      {
+        "bioproject": "PRJNA1357362",
+        "biosample": "SAMN53084323",
+        "run": "SRR35946054"
+      }
+    ],
+    "SRR35946055": [
+      {
+        "bioproject": "PRJNA1357362",
+        "biosample": "SAMN53084322",
+        "run": "SRR35946055"
+      }
+    ],
+    "SRR35946056": [
+      {
+        "bioproject": "PRJNA1357362",
+        "biosample": "SAMN53084321",
+        "run": "SRR35946056"
+      }
+    ],
+    "SRR35946057": [
+      {
+        "bioproject": "PRJNA1357362",
+        "biosample": "SAMN53084320",
+        "run": "SRR35946057"
+      }
+    ],
+    "SRR35946058": [
+      {
+        "bioproject": "PRJNA1357362",
+        "biosample": "SAMN53084319",
+        "run": "SRR35946058"
+      }
+    ]
+  },
   "subject": "mammals/pan-troglodytes",
   "tool_version": "0.1.0",
   "vcf": {

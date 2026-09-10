@@ -15,7 +15,7 @@
     "n_sites": 12931023
   },
   "declared_accession": "GCA_947461875.1",
-  "harvested_at": "2026-09-10T19:44:46Z",
+  "harvested_at": "2026-09-10T20:33:56Z",
   "notes": [],
   "objects": {
     "README.txt": {
@@ -2500,6 +2500,687 @@
     }
   },
   "schema": 1,
+  "sra": {
+    "DRR191146": [
+      {
+        "bioproject": "PRJDB7806",
+        "biosample": "SAMD00156790",
+        "run": "DRR191146"
+      }
+    ],
+    "ERR16057160": [
+      {
+        "bioproject": "PRJEB57283",
+        "biosample": "SAMEA117070503",
+        "run": "ERR16057160"
+      }
+    ],
+    "ERR16057161": [
+      {
+        "bioproject": "PRJEB57283",
+        "biosample": "SAMEA117070504",
+        "run": "ERR16057161"
+      }
+    ],
+    "ERR16057162": [
+      {
+        "bioproject": "PRJEB57283",
+        "biosample": "SAMEA117070505",
+        "run": "ERR16057162"
+      }
+    ],
+    "ERR16057163": [
+      {
+        "bioproject": "PRJEB57283",
+        "biosample": "SAMEA117070496",
+        "run": "ERR16057163"
+      }
+    ],
+    "ERR16057164": [
+      {
+        "bioproject": "PRJEB57283",
+        "biosample": "SAMEA117070497",
+        "run": "ERR16057164"
+      }
+    ],
+    "ERR16057165": [
+      {
+        "bioproject": "PRJEB57283",
+        "biosample": "SAMEA117070498",
+        "run": "ERR16057165"
+      }
+    ],
+    "ERR16057166": [
+      {
+        "bioproject": "PRJEB57283",
+        "biosample": "SAMEA117070507",
+        "run": "ERR16057166"
+      }
+    ],
+    "ERR16057167": [
+      {
+        "bioproject": "PRJEB57283",
+        "biosample": "SAMEA117070511",
+        "run": "ERR16057167"
+      }
+    ],
+    "ERR16057168": [
+      {
+        "bioproject": "PRJEB57283",
+        "biosample": "SAMEA117070512",
+        "run": "ERR16057168"
+      }
+    ],
+    "ERR16057169": [
+      {
+        "bioproject": "PRJEB57283",
+        "biosample": "SAMEA117070513",
+        "run": "ERR16057169"
+      }
+    ],
+    "ERR16057170": [
+      {
+        "bioproject": "PRJEB57283",
+        "biosample": "SAMEA117070515",
+        "run": "ERR16057170"
+      }
+    ],
+    "ERR16057171": [
+      {
+        "bioproject": "PRJEB57283",
+        "biosample": "SAMEA117070516",
+        "run": "ERR16057171"
+      }
+    ],
+    "ERR16057172": [
+      {
+        "bioproject": "PRJEB57283",
+        "biosample": "SAMEA117070517",
+        "run": "ERR16057172"
+      }
+    ],
+    "ERR16057173": [
+      {
+        "bioproject": "PRJEB57283",
+        "biosample": "SAMEA117070518",
+        "run": "ERR16057173"
+      }
+    ],
+    "ERR16057174": [
+      {
+        "bioproject": "PRJEB57283",
+        "biosample": "SAMEA117070508",
+        "run": "ERR16057174"
+      }
+    ],
+    "ERR16057175": [
+      {
+        "bioproject": "PRJEB57283",
+        "biosample": "SAMEA117070509",
+        "run": "ERR16057175"
+      }
+    ],
+    "ERR16057176": [
+      {
+        "bioproject": "PRJEB57283",
+        "biosample": "SAMEA117070510",
+        "run": "ERR16057176"
+      }
+    ],
+    "ERR16057177": [
+      {
+        "bioproject": "PRJEB57283",
+        "biosample": "SAMEA117070525",
+        "run": "ERR16057177"
+      }
+    ],
+    "ERR16057178": [
+      {
+        "bioproject": "PRJEB57283",
+        "biosample": "SAMEA117070527",
+        "run": "ERR16057178"
+      }
+    ],
+    "ERR16057179": [
+      {
+        "bioproject": "PRJEB57283",
+        "biosample": "SAMEA117070528",
+        "run": "ERR16057179"
+      }
+    ],
+    "ERR16057180": [
+      {
+        "bioproject": "PRJEB57283",
+        "biosample": "SAMEA117070529",
+        "run": "ERR16057180"
+      }
+    ],
+    "ERR16057181": [
+      {
+        "bioproject": "PRJEB57283",
+        "biosample": "SAMEA117070520",
+        "run": "ERR16057181"
+      }
+    ],
+    "ERR16057182": [
+      {
+        "bioproject": "PRJEB57283",
+        "biosample": "SAMEA117070521",
+        "run": "ERR16057182"
+      }
+    ],
+    "ERR16057183": [
+      {
+        "bioproject": "PRJEB57283",
+        "biosample": "SAMEA117070522",
+        "run": "ERR16057183"
+      }
+    ],
+    "ERR16057184": [
+      {
+        "bioproject": "PRJEB57283",
+        "biosample": "SAMEA117070535",
+        "run": "ERR16057184"
+      }
+    ],
+    "ERR16057185": [
+      {
+        "bioproject": "PRJEB57283",
+        "biosample": "SAMEA117070536",
+        "run": "ERR16057185"
+      }
+    ],
+    "ERR16057186": [
+      {
+        "bioproject": "PRJEB57283",
+        "biosample": "SAMEA117070537",
+        "run": "ERR16057186"
+      }
+    ],
+    "ERR16057187": [
+      {
+        "bioproject": "PRJEB57283",
+        "biosample": "SAMEA117070539",
+        "run": "ERR16057187"
+      }
+    ],
+    "ERR16057188": [
+      {
+        "bioproject": "PRJEB57283",
+        "biosample": "SAMEA117070542",
+        "run": "ERR16057188"
+      }
+    ],
+    "ERR16057189": [
+      {
+        "bioproject": "PRJEB57283",
+        "biosample": "SAMEA117070533",
+        "run": "ERR16057189"
+      }
+    ],
+    "ERR16057190": [
+      {
+        "bioproject": "PRJEB57283",
+        "biosample": "SAMEA117070547",
+        "run": "ERR16057190"
+      }
+    ],
+    "ERR16057191": [
+      {
+        "bioproject": "PRJEB57283",
+        "biosample": "SAMEA117070548",
+        "run": "ERR16057191"
+      }
+    ],
+    "ERR16057192": [
+      {
+        "bioproject": "PRJEB57283",
+        "biosample": "SAMEA117070494",
+        "run": "ERR16057192"
+      }
+    ],
+    "ERR16057193": [
+      {
+        "bioproject": "PRJEB57283",
+        "biosample": "SAMEA117070484",
+        "run": "ERR16057193"
+      }
+    ],
+    "ERR16057194": [
+      {
+        "bioproject": "PRJEB57283",
+        "biosample": "SAMEA117070499",
+        "run": "ERR16057194"
+      }
+    ],
+    "ERR16057195": [
+      {
+        "bioproject": "PRJEB57283",
+        "biosample": "SAMEA117070506",
+        "run": "ERR16057195"
+      }
+    ],
+    "ERR16057196": [
+      {
+        "bioproject": "PRJEB57283",
+        "biosample": "SAMEA117070514",
+        "run": "ERR16057196"
+      }
+    ],
+    "ERR16057197": [
+      {
+        "bioproject": "PRJEB57283",
+        "biosample": "SAMEA117070519",
+        "run": "ERR16057197"
+      }
+    ],
+    "ERR16057198": [
+      {
+        "bioproject": "PRJEB57283",
+        "biosample": "SAMEA117070523",
+        "run": "ERR16057198"
+      }
+    ],
+    "ERR16057200": [
+      {
+        "bioproject": "PRJEB57283",
+        "biosample": "SAMEA117070530",
+        "run": "ERR16057200"
+      }
+    ],
+    "ERR16057201": [
+      {
+        "bioproject": "PRJEB57283",
+        "biosample": "SAMEA117070531",
+        "run": "ERR16057201"
+      }
+    ],
+    "ERR16057202": [
+      {
+        "bioproject": "PRJEB57283",
+        "biosample": "SAMEA117070538",
+        "run": "ERR16057202"
+      }
+    ],
+    "ERR16057203": [
+      {
+        "bioproject": "PRJEB57283",
+        "biosample": "SAMEA117070540",
+        "run": "ERR16057203"
+      }
+    ],
+    "ERR16057204": [
+      {
+        "bioproject": "PRJEB57283",
+        "biosample": "SAMEA117070532",
+        "run": "ERR16057204"
+      }
+    ],
+    "ERR16057205": [
+      {
+        "bioproject": "PRJEB57283",
+        "biosample": "SAMEA117070534",
+        "run": "ERR16057205"
+      }
+    ],
+    "ERR16057206": [
+      {
+        "bioproject": "PRJEB57283",
+        "biosample": "SAMEA117070543",
+        "run": "ERR16057206"
+      }
+    ],
+    "ERR16057207": [
+      {
+        "bioproject": "PRJEB57283",
+        "biosample": "SAMEA117070557",
+        "run": "ERR16057207"
+      }
+    ],
+    "ERR16057208": [
+      {
+        "bioproject": "PRJEB57283",
+        "biosample": "SAMEA117070568",
+        "run": "ERR16057208"
+      }
+    ],
+    "ERR16057209": [
+      {
+        "bioproject": "PRJEB57283",
+        "biosample": "SAMEA117070570",
+        "run": "ERR16057209"
+      }
+    ],
+    "ERR16057210": [
+      {
+        "bioproject": "PRJEB57283",
+        "biosample": "SAMEA117070483",
+        "run": "ERR16057210"
+      }
+    ],
+    "ERR16057211": [
+      {
+        "bioproject": "PRJEB57283",
+        "biosample": "SAMEA117070487",
+        "run": "ERR16057211"
+      }
+    ],
+    "ERR16057212": [
+      {
+        "bioproject": "PRJEB57283",
+        "biosample": "SAMEA117070488",
+        "run": "ERR16057212"
+      }
+    ],
+    "ERR16057213": [
+      {
+        "bioproject": "PRJEB57283",
+        "biosample": "SAMEA117070489",
+        "run": "ERR16057213"
+      }
+    ],
+    "ERR16057214": [
+      {
+        "bioproject": "PRJEB57283",
+        "biosample": "SAMEA117070490",
+        "run": "ERR16057214"
+      }
+    ],
+    "ERR16057215": [
+      {
+        "bioproject": "PRJEB57283",
+        "biosample": "SAMEA117070491",
+        "run": "ERR16057215"
+      }
+    ],
+    "ERR16057216": [
+      {
+        "bioproject": "PRJEB57283",
+        "biosample": "SAMEA117070492",
+        "run": "ERR16057216"
+      }
+    ],
+    "ERR16057217": [
+      {
+        "bioproject": "PRJEB57283",
+        "biosample": "SAMEA117070493",
+        "run": "ERR16057217"
+      }
+    ],
+    "ERR16057218": [
+      {
+        "bioproject": "PRJEB57283",
+        "biosample": "SAMEA117070485",
+        "run": "ERR16057218"
+      }
+    ],
+    "ERR16057219": [
+      {
+        "bioproject": "PRJEB57283",
+        "biosample": "SAMEA117070486",
+        "run": "ERR16057219"
+      }
+    ],
+    "ERR16057220": [
+      {
+        "bioproject": "PRJEB57283",
+        "biosample": "SAMEA117070495",
+        "run": "ERR16057220"
+      }
+    ],
+    "ERR16057221": [
+      {
+        "bioproject": "PRJEB57283",
+        "biosample": "SAMEA117070500",
+        "run": "ERR16057221"
+      }
+    ],
+    "ERR16057222": [
+      {
+        "bioproject": "PRJEB57283",
+        "biosample": "SAMEA117070501",
+        "run": "ERR16057222"
+      }
+    ],
+    "ERR16057223": [
+      {
+        "bioproject": "PRJEB57283",
+        "biosample": "SAMEA117070502",
+        "run": "ERR16057223"
+      }
+    ],
+    "ERR16057224": [
+      {
+        "bioproject": "PRJEB57283",
+        "biosample": "SAMEA117070549",
+        "run": "ERR16057224"
+      }
+    ],
+    "ERR16057225": [
+      {
+        "bioproject": "PRJEB57283",
+        "biosample": "SAMEA117070551",
+        "run": "ERR16057225"
+      }
+    ],
+    "ERR16057226": [
+      {
+        "bioproject": "PRJEB57283",
+        "biosample": "SAMEA117070552",
+        "run": "ERR16057226"
+      }
+    ],
+    "ERR16057227": [
+      {
+        "bioproject": "PRJEB57283",
+        "biosample": "SAMEA117070553",
+        "run": "ERR16057227"
+      }
+    ],
+    "ERR16057228": [
+      {
+        "bioproject": "PRJEB57283",
+        "biosample": "SAMEA117070554",
+        "run": "ERR16057228"
+      }
+    ],
+    "ERR16057229": [
+      {
+        "bioproject": "PRJEB57283",
+        "biosample": "SAMEA117070544",
+        "run": "ERR16057229"
+      }
+    ],
+    "ERR16057230": [
+      {
+        "bioproject": "PRJEB57283",
+        "biosample": "SAMEA117070545",
+        "run": "ERR16057230"
+      }
+    ],
+    "ERR16057231": [
+      {
+        "bioproject": "PRJEB57283",
+        "biosample": "SAMEA117070546",
+        "run": "ERR16057231"
+      }
+    ],
+    "ERR16057232": [
+      {
+        "bioproject": "PRJEB57283",
+        "biosample": "SAMEA117070555",
+        "run": "ERR16057232"
+      }
+    ],
+    "ERR16057233": [
+      {
+        "bioproject": "PRJEB57283",
+        "biosample": "SAMEA117070559",
+        "run": "ERR16057233"
+      }
+    ],
+    "ERR16057234": [
+      {
+        "bioproject": "PRJEB57283",
+        "biosample": "SAMEA117070560",
+        "run": "ERR16057234"
+      }
+    ],
+    "ERR16057235": [
+      {
+        "bioproject": "PRJEB57283",
+        "biosample": "SAMEA117070561",
+        "run": "ERR16057235"
+      }
+    ],
+    "ERR16057236": [
+      {
+        "bioproject": "PRJEB57283",
+        "biosample": "SAMEA117070562",
+        "run": "ERR16057236"
+      }
+    ],
+    "ERR16057237": [
+      {
+        "bioproject": "PRJEB57283",
+        "biosample": "SAMEA117070563",
+        "run": "ERR16057237"
+      }
+    ],
+    "ERR16057238": [
+      {
+        "bioproject": "PRJEB57283",
+        "biosample": "SAMEA117070564",
+        "run": "ERR16057238"
+      }
+    ],
+    "ERR16057239": [
+      {
+        "bioproject": "PRJEB57283",
+        "biosample": "SAMEA117070565",
+        "run": "ERR16057239"
+      }
+    ],
+    "ERR16057240": [
+      {
+        "bioproject": "PRJEB57283",
+        "biosample": "SAMEA117070566",
+        "run": "ERR16057240"
+      }
+    ],
+    "ERR16057241": [
+      {
+        "bioproject": "PRJEB57283",
+        "biosample": "SAMEA117070556",
+        "run": "ERR16057241"
+      }
+    ],
+    "ERR16057242": [
+      {
+        "bioproject": "PRJEB57283",
+        "biosample": "SAMEA117070558",
+        "run": "ERR16057242"
+      }
+    ],
+    "ERR16057243": [
+      {
+        "bioproject": "PRJEB57283",
+        "biosample": "SAMEA117070567",
+        "run": "ERR16057243"
+      }
+    ],
+    "ERR16057244": [
+      {
+        "bioproject": "PRJEB57283",
+        "biosample": "SAMEA117070571",
+        "run": "ERR16057244"
+      }
+    ],
+    "ERR16057245": [
+      {
+        "bioproject": "PRJEB57283",
+        "biosample": "SAMEA117070572",
+        "run": "ERR16057245"
+      }
+    ],
+    "ERR16057246": [
+      {
+        "bioproject": "PRJEB57283",
+        "biosample": "SAMEA117070573",
+        "run": "ERR16057246"
+      }
+    ],
+    "ERR16057247": [
+      {
+        "bioproject": "PRJEB57283",
+        "biosample": "SAMEA117070574",
+        "run": "ERR16057247"
+      }
+    ],
+    "ERR16057248": [
+      {
+        "bioproject": "PRJEB57283",
+        "biosample": "SAMEA117070575",
+        "run": "ERR16057248"
+      }
+    ],
+    "ERR16057249": [
+      {
+        "bioproject": "PRJEB57283",
+        "biosample": "SAMEA117070576",
+        "run": "ERR16057249"
+      }
+    ],
+    "ERR16057250": [
+      {
+        "bioproject": "PRJEB57283",
+        "biosample": "SAMEA117070577",
+        "run": "ERR16057250"
+      }
+    ],
+    "ERR16057251": [
+      {
+        "bioproject": "PRJEB57283",
+        "biosample": "SAMEA117070578",
+        "run": "ERR16057251"
+      }
+    ],
+    "ERR16057252": [
+      {
+        "bioproject": "PRJEB57283",
+        "biosample": "SAMEA117070569",
+        "run": "ERR16057252"
+      }
+    ],
+    "ERR16057253": [
+      {
+        "bioproject": "PRJEB57283",
+        "biosample": "SAMEA117070541",
+        "run": "ERR16057253"
+      }
+    ],
+    "SRR6650836": [
+      {
+        "bioproject": "PRJNA431699",
+        "biosample": "SAMN08398476",
+        "run": "SRR6650836"
+      }
+    ],
+    "SRR956891": [
+      {
+        "bioproject": "PRJNA212896",
+        "biosample": "SAMN02333670",
+        "run": "SRR956891"
+      }
+    ],
+    "SRR956892": [
+      {
+        "bioproject": "PRJNA212896",
+        "biosample": "SAMN02333670",
+        "run": "SRR956892"
+      }
+    ]
+  },
   "subject": "birds/haliaeetus-albicilla",
   "tool_version": "0.1.0",
   "vcf": {

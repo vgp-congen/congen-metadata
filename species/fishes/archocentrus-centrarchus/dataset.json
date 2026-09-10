@@ -15,7 +15,7 @@
     "n_sites": 10490150
   },
   "declared_accession": "GCA_007364275.2",
-  "harvested_at": "2026-09-10T19:44:47Z",
+  "harvested_at": "2026-09-10T20:33:59Z",
   "notes": [],
   "objects": {
     "README.txt": {
@@ -776,6 +776,176 @@
     }
   },
   "schema": 1,
+  "sra": {
+    "SRR13192255": [
+      {
+        "bioproject": "PRJNA682377",
+        "biosample": "SAMN16988351",
+        "run": "SRR13192255"
+      }
+    ],
+    "SRR13197352": [
+      {
+        "bioproject": "PRJNA682530",
+        "biosample": "SAMN16993266",
+        "run": "SRR13197352"
+      }
+    ],
+    "SRR13197353": [
+      {
+        "bioproject": "PRJNA682530",
+        "biosample": "SAMN16993265",
+        "run": "SRR13197353"
+      }
+    ],
+    "SRR13197354": [
+      {
+        "bioproject": "PRJNA682530",
+        "biosample": "SAMN16993264",
+        "run": "SRR13197354"
+      }
+    ],
+    "SRR13197355": [
+      {
+        "bioproject": "PRJNA682530",
+        "biosample": "SAMN16993263",
+        "run": "SRR13197355"
+      }
+    ],
+    "SRR13197356": [
+      {
+        "bioproject": "PRJNA682530",
+        "biosample": "SAMN16993262",
+        "run": "SRR13197356"
+      }
+    ],
+    "SRR13197357": [
+      {
+        "bioproject": "PRJNA682530",
+        "biosample": "SAMN16993261",
+        "run": "SRR13197357"
+      }
+    ],
+    "SRR13197358": [
+      {
+        "bioproject": "PRJNA682530",
+        "biosample": "SAMN16993260",
+        "run": "SRR13197358"
+      }
+    ],
+    "SRR13197359": [
+      {
+        "bioproject": "PRJNA682530",
+        "biosample": "SAMN16993259",
+        "run": "SRR13197359"
+      }
+    ],
+    "SRR13197360": [
+      {
+        "bioproject": "PRJNA682530",
+        "biosample": "SAMN16993276",
+        "run": "SRR13197360"
+      }
+    ],
+    "SRR13197361": [
+      {
+        "bioproject": "PRJNA682530",
+        "biosample": "SAMN16993275",
+        "run": "SRR13197361"
+      }
+    ],
+    "SRR13197362": [
+      {
+        "bioproject": "PRJNA682530",
+        "biosample": "SAMN16993274",
+        "run": "SRR13197362"
+      }
+    ],
+    "SRR13197363": [
+      {
+        "bioproject": "PRJNA682530",
+        "biosample": "SAMN16993273",
+        "run": "SRR13197363"
+      }
+    ],
+    "SRR13197364": [
+      {
+        "bioproject": "PRJNA682530",
+        "biosample": "SAMN16993272",
+        "run": "SRR13197364"
+      }
+    ],
+    "SRR13197365": [
+      {
+        "bioproject": "PRJNA682530",
+        "biosample": "SAMN16993271",
+        "run": "SRR13197365"
+      }
+    ],
+    "SRR13197366": [
+      {
+        "bioproject": "PRJNA682530",
+        "biosample": "SAMN16993270",
+        "run": "SRR13197366"
+      }
+    ],
+    "SRR13197367": [
+      {
+        "bioproject": "PRJNA682530",
+        "biosample": "SAMN16993269",
+        "run": "SRR13197367"
+      }
+    ],
+    "SRR13197368": [
+      {
+        "bioproject": "PRJNA682530",
+        "biosample": "SAMN16993268",
+        "run": "SRR13197368"
+      }
+    ],
+    "SRR13197369": [
+      {
+        "bioproject": "PRJNA682530",
+        "biosample": "SAMN16993267",
+        "run": "SRR13197369"
+      }
+    ],
+    "SRR13197370": [
+      {
+        "bioproject": "PRJNA682530",
+        "biosample": "SAMN16993258",
+        "run": "SRR13197370"
+      }
+    ],
+    "SRR13197371": [
+      {
+        "bioproject": "PRJNA682530",
+        "biosample": "SAMN16993257",
+        "run": "SRR13197371"
+      }
+    ],
+    "SRR5278303": [
+      {
+        "bioproject": "PRJNA376394",
+        "biosample": "SAMN06379698",
+        "run": "SRR5278303"
+      }
+    ],
+    "SRR5278305": [
+      {
+        "bioproject": "PRJNA376394",
+        "biosample": "SAMN06379700",
+        "run": "SRR5278305"
+      }
+    ],
+    "SRR5278309": [
+      {
+        "bioproject": "PRJNA376394",
+        "biosample": "SAMN06379701",
+        "run": "SRR5278309"
+      }
+    ]
+  },
   "subject": "fishes/archocentrus-centrarchus",
   "tool_version": "0.1.0",
   "vcf": {

@@ -15,7 +15,7 @@
     "n_sites": 25562549
   },
   "declared_accession": "GCA_914725855.1",
-  "harvested_at": "2026-09-10T19:44:51Z",
+  "harvested_at": "2026-09-10T20:34:06Z",
   "notes": [],
   "objects": {
     "README.txt": {
@@ -456,6 +456,225 @@
     }
   },
   "schema": 1,
+  "sra": {
+    "ERR1462404": [
+      {
+        "bioproject": "PRJEB14402",
+        "biosample": "SAMEA4032484",
+        "run": "ERR1462404"
+      }
+    ],
+    "ERR1462405": [
+      {
+        "bioproject": "PRJEB14402",
+        "biosample": "SAMEA4032484",
+        "run": "ERR1462405"
+      }
+    ],
+    "ERR1462406": [
+      {
+        "bioproject": "PRJEB14402",
+        "biosample": "SAMEA4032484",
+        "run": "ERR1462406"
+      }
+    ],
+    "ERR1462407": [
+      {
+        "bioproject": "PRJEB14402",
+        "biosample": "SAMEA4032485",
+        "run": "ERR1462407"
+      }
+    ],
+    "ERR1462408": [
+      {
+        "bioproject": "PRJEB14402",
+        "biosample": "SAMEA4032485",
+        "run": "ERR1462408"
+      }
+    ],
+    "ERR1462409": [
+      {
+        "bioproject": "PRJEB14402",
+        "biosample": "SAMEA4032485",
+        "run": "ERR1462409"
+      }
+    ],
+    "ERR1462410": [
+      {
+        "bioproject": "PRJEB14402",
+        "biosample": "SAMEA4032485",
+        "run": "ERR1462410"
+      }
+    ],
+    "ERR1462411": [
+      {
+        "bioproject": "PRJEB14402",
+        "biosample": "SAMEA4032485",
+        "run": "ERR1462411"
+      }
+    ],
+    "ERR1462412": [
+      {
+        "bioproject": "PRJEB14402",
+        "biosample": "SAMEA4032485",
+        "run": "ERR1462412"
+      }
+    ],
+    "ERR1462433": [
+      {
+        "bioproject": "PRJEB14402",
+        "biosample": "SAMEA4032497",
+        "run": "ERR1462433"
+      }
+    ],
+    "ERR1462434": [
+      {
+        "bioproject": "PRJEB14402",
+        "biosample": "SAMEA4032497",
+        "run": "ERR1462434"
+      }
+    ],
+    "ERR1462435": [
+      {
+        "bioproject": "PRJEB14402",
+        "biosample": "SAMEA4032497",
+        "run": "ERR1462435"
+      }
+    ],
+    "ERR1462438": [
+      {
+        "bioproject": "PRJEB14402",
+        "biosample": "SAMEA4032499",
+        "run": "ERR1462438"
+      }
+    ],
+    "ERR1462439": [
+      {
+        "bioproject": "PRJEB14402",
+        "biosample": "SAMEA4032499",
+        "run": "ERR1462439"
+      }
+    ],
+    "ERR1462440": [
+      {
+        "bioproject": "PRJEB14402",
+        "biosample": "SAMEA4032499",
+        "run": "ERR1462440"
+      }
+    ],
+    "ERR1462447": [
+      {
+        "bioproject": "PRJEB14402",
+        "biosample": "SAMEA4032503",
+        "run": "ERR1462447"
+      }
+    ],
+    "ERR1462448": [
+      {
+        "bioproject": "PRJEB14402",
+        "biosample": "SAMEA4032503",
+        "run": "ERR1462448"
+      }
+    ],
+    "ERR1462449": [
+      {
+        "bioproject": "PRJEB14402",
+        "biosample": "SAMEA4032503",
+        "run": "ERR1462449"
+      }
+    ],
+    "ERR1462466": [
+      {
+        "bioproject": "PRJEB14402",
+        "biosample": "SAMEA4032512",
+        "run": "ERR1462466"
+      }
+    ],
+    "ERR1462467": [
+      {
+        "bioproject": "PRJEB14402",
+        "biosample": "SAMEA4032512",
+        "run": "ERR1462467"
+      }
+    ],
+    "ERR1462468": [
+      {
+        "bioproject": "PRJEB14402",
+        "biosample": "SAMEA4032512",
+        "run": "ERR1462468"
+      }
+    ],
+    "ERR1462489": [
+      {
+        "bioproject": "PRJEB14402",
+        "biosample": "SAMEA4032524",
+        "run": "ERR1462489"
+      }
+    ],
+    "ERR1462490": [
+      {
+        "bioproject": "PRJEB14402",
+        "biosample": "SAMEA4032524",
+        "run": "ERR1462490"
+      }
+    ],
+    "ERR1462491": [
+      {
+        "bioproject": "PRJEB14402",
+        "biosample": "SAMEA4032524",
+        "run": "ERR1462491"
+      }
+    ],
+    "ERR1462492": [
+      {
+        "bioproject": "PRJEB14402",
+        "biosample": "SAMEA4032525",
+        "run": "ERR1462492"
+      }
+    ],
+    "ERR1462493": [
+      {
+        "bioproject": "PRJEB14402",
+        "biosample": "SAMEA4032525",
+        "run": "ERR1462493"
+      }
+    ],
+    "ERR1462494": [
+      {
+        "bioproject": "PRJEB14402",
+        "biosample": "SAMEA4032525",
+        "run": "ERR1462494"
+      }
+    ],
+    "ERR6842410": [
+      {
+        "bioproject": "PRJEB45133",
+        "biosample": "SAMEA8654761",
+        "run": "ERR6842410"
+      }
+    ],
+    "ERR6842412": [
+      {
+        "bioproject": "PRJEB45133",
+        "biosample": "SAMEA8654761",
+        "run": "ERR6842412"
+      }
+    ],
+    "SRR25294385": [
+      {
+        "bioproject": "PRJNA504596",
+        "biosample": "SAMN36466074",
+        "run": "SRR25294385"
+      }
+    ],
+    "SRR25294386": [
+      {
+        "bioproject": "PRJNA504596",
+        "biosample": "SAMN36466073",
+        "run": "SRR25294386"
+      }
+    ]
+  },
   "subject": "fishes/thunnus-albacares",
   "tool_version": "0.1.0",
   "vcf": {

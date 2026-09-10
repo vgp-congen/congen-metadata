@@ -1,0 +1,46 @@
+# Citations for the tools and resources every generated README depends on.
+#
+# Deliberately NOT generated. These are bibliographic claims about other
+# people's work, and a tool that guessed them would put the same wrong
+# reference into 79 documents at once. So each entry ships as `pending`,
+# which renders as a link and an accession rather than as a citation, and
+# a human fills it in.
+#
+# status: pending | confirmed
+#   pending    nobody has supplied a reference yet; the document says so
+#   confirmed  a human wrote this and stands behind it
+#
+# A `pending` entry never blocks a document. Gate B is about whether the
+# BioProject list is right, not about whether we know how to cite a tool.
+
+snparcher:
+  name: snpArcher
+  status: pending
+  doi: ""
+  citation: ""
+  url: ""
+
+gatk:
+  name: GATK
+  status: pending
+  doi: ""
+  citation: ""
+  url: ""
+
+genomeark:
+  name: GenomeArk / Vertebrate Genomes Project
+  status: pending
+  doi: ""
+  citation: ""
+  url: ""
+
+# The reference assembly a dataset was called against. Expected to become
+# the VGP flagship paper, but that is not settled — see readme-design.md,
+# "Deferred elsewhere". Until it is, the document links the accession on
+# NCBI and claims nothing.
+assembly:
+  name: VGP reference assembly
+  status: pending
+  doi: ""
+  citation: ""
+  url: ""

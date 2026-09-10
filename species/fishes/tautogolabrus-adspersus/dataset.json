@@ -15,7 +15,7 @@
     "n_sites": 23646774
   },
   "declared_accession": "GCA_020745685.1",
-  "harvested_at": "2026-09-10T19:44:50Z",
+  "harvested_at": "2026-09-10T20:34:06Z",
   "notes": [],
   "objects": {
     "README.txt": {
@@ -3800,6 +3800,1058 @@
     }
   },
   "schema": 1,
+  "sra": {
+    "SRR25051166": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437292",
+        "run": "SRR25051166"
+      }
+    ],
+    "SRR25051177": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437291",
+        "run": "SRR25051177"
+      }
+    ],
+    "SRR25051178": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437246",
+        "run": "SRR25051178"
+      }
+    ],
+    "SRR25051184": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437653",
+        "run": "SRR25051184"
+      }
+    ],
+    "SRR25051188": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437650",
+        "run": "SRR25051188"
+      }
+    ],
+    "SRR25051189": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437649",
+        "run": "SRR25051189"
+      }
+    ],
+    "SRR25051196": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437642",
+        "run": "SRR25051196"
+      }
+    ],
+    "SRR25051198": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437281",
+        "run": "SRR25051198"
+      }
+    ],
+    "SRR25051201": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437639",
+        "run": "SRR25051201"
+      }
+    ],
+    "SRR25051207": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437633",
+        "run": "SRR25051207"
+      }
+    ],
+    "SRR25051210": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437280",
+        "run": "SRR25051210"
+      }
+    ],
+    "SRR25051213": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437628",
+        "run": "SRR25051213"
+      }
+    ],
+    "SRR25051214": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437244",
+        "run": "SRR25051214"
+      }
+    ],
+    "SRR25051248": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437394",
+        "run": "SRR25051248"
+      }
+    ],
+    "SRR25051254": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437389",
+        "run": "SRR25051254"
+      }
+    ],
+    "SRR25051255": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437388",
+        "run": "SRR25051255"
+      }
+    ],
+    "SRR25051260": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437383",
+        "run": "SRR25051260"
+      }
+    ],
+    "SRR25051261": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437382",
+        "run": "SRR25051261"
+      }
+    ],
+    "SRR25051264": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437380",
+        "run": "SRR25051264"
+      }
+    ],
+    "SRR25051268": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437376",
+        "run": "SRR25051268"
+      }
+    ],
+    "SRR25051270": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437374",
+        "run": "SRR25051270"
+      }
+    ],
+    "SRR25051276": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437369",
+        "run": "SRR25051276"
+      }
+    ],
+    "SRR25051277": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437368",
+        "run": "SRR25051277"
+      }
+    ],
+    "SRR25051281": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437324",
+        "run": "SRR25051281"
+      }
+    ],
+    "SRR25051282": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437323",
+        "run": "SRR25051282"
+      }
+    ],
+    "SRR25051283": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437322",
+        "run": "SRR25051283"
+      }
+    ],
+    "SRR25051284": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35438050",
+        "run": "SRR25051284"
+      }
+    ],
+    "SRR25051293": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437249",
+        "run": "SRR25051293"
+      }
+    ],
+    "SRR25051295": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35438041",
+        "run": "SRR25051295"
+      }
+    ],
+    "SRR25051296": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35438040",
+        "run": "SRR25051296"
+      }
+    ],
+    "SRR25051299": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35438037",
+        "run": "SRR25051299"
+      }
+    ],
+    "SRR25051300": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35438036",
+        "run": "SRR25051300"
+      }
+    ],
+    "SRR25051303": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35438033",
+        "run": "SRR25051303"
+      }
+    ],
+    "SRR25051304": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437320",
+        "run": "SRR25051304"
+      }
+    ],
+    "SRR25051316": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437935",
+        "run": "SRR25051316"
+      }
+    ],
+    "SRR25051318": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437933",
+        "run": "SRR25051318"
+      }
+    ],
+    "SRR25051328": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437924",
+        "run": "SRR25051328"
+      }
+    ],
+    "SRR25051331": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437922",
+        "run": "SRR25051331"
+      }
+    ],
+    "SRR25051333": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437920",
+        "run": "SRR25051333"
+      }
+    ],
+    "SRR25051334": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437919",
+        "run": "SRR25051334"
+      }
+    ],
+    "SRR25051341": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437308",
+        "run": "SRR25051341"
+      }
+    ],
+    "SRR25051342": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437853",
+        "run": "SRR25051342"
+      }
+    ],
+    "SRR25051343": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437302",
+        "run": "SRR25051343"
+      }
+    ],
+    "SRR25051345": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437851",
+        "run": "SRR25051345"
+      }
+    ],
+    "SRR25051368": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437829",
+        "run": "SRR25051368"
+      }
+    ],
+    "SRR25051369": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437828",
+        "run": "SRR25051369"
+      }
+    ],
+    "SRR25051385": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437727",
+        "run": "SRR25051385"
+      }
+    ],
+    "SRR25051388": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437724",
+        "run": "SRR25051388"
+      }
+    ],
+    "SRR25051395": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437718",
+        "run": "SRR25051395"
+      }
+    ],
+    "SRR25051397": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437716",
+        "run": "SRR25051397"
+      }
+    ],
+    "SRR25051399": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437714",
+        "run": "SRR25051399"
+      }
+    ],
+    "SRR25051401": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437712",
+        "run": "SRR25051401"
+      }
+    ],
+    "SRR25051402": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437711",
+        "run": "SRR25051402"
+      }
+    ],
+    "SRR25051409": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437623",
+        "run": "SRR25051409"
+      }
+    ],
+    "SRR25051414": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437619",
+        "run": "SRR25051414"
+      }
+    ],
+    "SRR25051418": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437615",
+        "run": "SRR25051418"
+      }
+    ],
+    "SRR25051421": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437612",
+        "run": "SRR25051421"
+      }
+    ],
+    "SRR25051424": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437610",
+        "run": "SRR25051424"
+      }
+    ],
+    "SRR25051429": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437605",
+        "run": "SRR25051429"
+      }
+    ],
+    "SRR25051438": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437268",
+        "run": "SRR25051438"
+      }
+    ],
+    "SRR25051461": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437490",
+        "run": "SRR25051461"
+      }
+    ],
+    "SRR25051464": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437487",
+        "run": "SRR25051464"
+      }
+    ],
+    "SRR25051465": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437486",
+        "run": "SRR25051465"
+      }
+    ],
+    "SRR25051469": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437367",
+        "run": "SRR25051469"
+      }
+    ],
+    "SRR25051476": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437253",
+        "run": "SRR25051476"
+      }
+    ],
+    "SRR25051477": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437360",
+        "run": "SRR25051477"
+      }
+    ],
+    "SRR25051488": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437350",
+        "run": "SRR25051488"
+      }
+    ],
+    "SRR25051517": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437454",
+        "run": "SRR25051517"
+      }
+    ],
+    "SRR25051518": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437453",
+        "run": "SRR25051518"
+      }
+    ],
+    "SRR25051519": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437452",
+        "run": "SRR25051519"
+      }
+    ],
+    "SRR25051520": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437451",
+        "run": "SRR25051520"
+      }
+    ],
+    "SRR25051523": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437449",
+        "run": "SRR25051523"
+      }
+    ],
+    "SRR25051530": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437442",
+        "run": "SRR25051530"
+      }
+    ],
+    "SRR25051532": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437261",
+        "run": "SRR25051532"
+      }
+    ],
+    "SRR25051549": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437426",
+        "run": "SRR25051549"
+      }
+    ],
+    "SRR25051564": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437985",
+        "run": "SRR25051564"
+      }
+    ],
+    "SRR25051580": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437971",
+        "run": "SRR25051580"
+      }
+    ],
+    "SRR25051586": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437908",
+        "run": "SRR25051586"
+      }
+    ],
+    "SRR25051588": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437906",
+        "run": "SRR25051588"
+      }
+    ],
+    "SRR25051590": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437904",
+        "run": "SRR25051590"
+      }
+    ],
+    "SRR25051591": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437903",
+        "run": "SRR25051591"
+      }
+    ],
+    "SRR25051596": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437899",
+        "run": "SRR25051596"
+      }
+    ],
+    "SRR25051598": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437897",
+        "run": "SRR25051598"
+      }
+    ],
+    "SRR25051601": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437894",
+        "run": "SRR25051601"
+      }
+    ],
+    "SRR25051603": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437306",
+        "run": "SRR25051603"
+      }
+    ],
+    "SRR25051613": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437883",
+        "run": "SRR25051613"
+      }
+    ],
+    "SRR25051622": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437787",
+        "run": "SRR25051622"
+      }
+    ],
+    "SRR25051624": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437785",
+        "run": "SRR25051624"
+      }
+    ],
+    "SRR25051629": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437295",
+        "run": "SRR25051629"
+      }
+    ],
+    "SRR25051633": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437777",
+        "run": "SRR25051633"
+      }
+    ],
+    "SRR25051638": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437772",
+        "run": "SRR25051638"
+      }
+    ],
+    "SRR25051640": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437294",
+        "run": "SRR25051640"
+      }
+    ],
+    "SRR25051646": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437682",
+        "run": "SRR25051646"
+      }
+    ],
+    "SRR25051649": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437680",
+        "run": "SRR25051649"
+      }
+    ],
+    "SRR25051652": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437677",
+        "run": "SRR25051652"
+      }
+    ],
+    "SRR25051653": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437676",
+        "run": "SRR25051653"
+      }
+    ],
+    "SRR25051658": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437671",
+        "run": "SRR25051658"
+      }
+    ],
+    "SRR25051666": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437664",
+        "run": "SRR25051666"
+      }
+    ],
+    "SRR25051669": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437661",
+        "run": "SRR25051669"
+      }
+    ],
+    "SRR25051670": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437283",
+        "run": "SRR25051670"
+      }
+    ],
+    "SRR25051672": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437659",
+        "run": "SRR25051672"
+      }
+    ],
+    "SRR25051677": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437568",
+        "run": "SRR25051677"
+      }
+    ],
+    "SRR25051679": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437566",
+        "run": "SRR25051679"
+      }
+    ],
+    "SRR25051683": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437562",
+        "run": "SRR25051683"
+      }
+    ],
+    "SRR25051712": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437421",
+        "run": "SRR25051712"
+      }
+    ],
+    "SRR25051725": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437410",
+        "run": "SRR25051725"
+      }
+    ],
+    "SRR25051730": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437405",
+        "run": "SRR25051730"
+      }
+    ],
+    "SRR25051734": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437401",
+        "run": "SRR25051734"
+      }
+    ],
+    "SRR25051735": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437257",
+        "run": "SRR25051735"
+      }
+    ],
+    "SRR25051758": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437965",
+        "run": "SRR25051758"
+      }
+    ],
+    "SRR25051768": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437956",
+        "run": "SRR25051768"
+      }
+    ],
+    "SRR25051769": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437955",
+        "run": "SRR25051769"
+      }
+    ],
+    "SRR25051773": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437952",
+        "run": "SRR25051773"
+      }
+    ],
+    "SRR25051775": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437950",
+        "run": "SRR25051775"
+      }
+    ],
+    "SRR25051777": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437948",
+        "run": "SRR25051777"
+      }
+    ],
+    "SRR25051784": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437248",
+        "run": "SRR25051784"
+      }
+    ],
+    "SRR25051790": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437879",
+        "run": "SRR25051790"
+      }
+    ],
+    "SRR25051802": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437868",
+        "run": "SRR25051802"
+      }
+    ],
+    "SRR25051807": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437863",
+        "run": "SRR25051807"
+      }
+    ],
+    "SRR25051808": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437303",
+        "run": "SRR25051808"
+      }
+    ],
+    "SRR25051812": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437859",
+        "run": "SRR25051812"
+      }
+    ],
+    "SRR25051817": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437854",
+        "run": "SRR25051817"
+      }
+    ],
+    "SRR25051830": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437754",
+        "run": "SRR25051830"
+      }
+    ],
+    "SRR25051836": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35438026",
+        "run": "SRR25051836"
+      }
+    ],
+    "SRR25051837": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35438025",
+        "run": "SRR25051837"
+      }
+    ],
+    "SRR25051838": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35438024",
+        "run": "SRR25051838"
+      }
+    ],
+    "SRR25051844": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35438019",
+        "run": "SRR25051844"
+      }
+    ],
+    "SRR25051861": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35438003",
+        "run": "SRR25051861"
+      }
+    ],
+    "SRR25051865": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35438000",
+        "run": "SRR25051865"
+      }
+    ],
+    "SRR25051866": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437999",
+        "run": "SRR25051866"
+      }
+    ],
+    "SRR25051874": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437817",
+        "run": "SRR25051874"
+      }
+    ],
+    "SRR25051877": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437814",
+        "run": "SRR25051877"
+      }
+    ],
+    "SRR25051880": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437811",
+        "run": "SRR25051880"
+      }
+    ],
+    "SRR25051882": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437810",
+        "run": "SRR25051882"
+      }
+    ],
+    "SRR25051900": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437708",
+        "run": "SRR25051900"
+      }
+    ],
+    "SRR25051901": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437707",
+        "run": "SRR25051901"
+      }
+    ],
+    "SRR25051912": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437697",
+        "run": "SRR25051912"
+      }
+    ],
+    "SRR25051916": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437693",
+        "run": "SRR25051916"
+      }
+    ],
+    "SRR25051920": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437690",
+        "run": "SRR25051920"
+      }
+    ],
+    "SRR25051921": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437689",
+        "run": "SRR25051921"
+      }
+    ],
+    "SRR25051928": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437683",
+        "run": "SRR25051928"
+      }
+    ],
+    "SRR25051930": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437596",
+        "run": "SRR25051930"
+      }
+    ],
+    "SRR25051931": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437595",
+        "run": "SRR25051931"
+      }
+    ],
+    "SRR25051940": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437587",
+        "run": "SRR25051940"
+      }
+    ],
+    "SRR25051941": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437586",
+        "run": "SRR25051941"
+      }
+    ],
+    "SRR25051949": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437579",
+        "run": "SRR25051949"
+      }
+    ],
+    "SRR25051952": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437576",
+        "run": "SRR25051952"
+      }
+    ],
+    "SRR25051953": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437575",
+        "run": "SRR25051953"
+      }
+    ],
+    "SRR25051959": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437570",
+        "run": "SRR25051959"
+      }
+    ],
+    "SRR25051962": [
+      {
+        "bioproject": "PRJNA982083",
+        "biosample": "SAMN35437265",
+        "run": "SRR25051962"
+      }
+    ]
+  },
   "subject": "fishes/tautogolabrus-adspersus",
   "tool_version": "0.1.0",
   "vcf": {

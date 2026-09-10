@@ -15,7 +15,7 @@
     "n_sites": 42076196
   },
   "declared_accession": "GCA_905171665.2",
-  "harvested_at": "2026-09-10T19:44:51Z",
+  "harvested_at": "2026-09-10T20:34:07Z",
   "notes": [],
   "objects": {
     "README.txt": {
@@ -480,6 +480,92 @@
     }
   },
   "schema": 1,
+  "sra": {
+    "ERR6002554": [
+      {
+        "bioproject": "PRJEB42236",
+        "biosample": "SAMEA7524436",
+        "run": "ERR6002554"
+      }
+    ],
+    "SRR24216789": [
+      {
+        "bioproject": "PRJNA957442",
+        "biosample": "SAMN34252027",
+        "run": "SRR24216789"
+      }
+    ],
+    "SRR24216790": [
+      {
+        "bioproject": "PRJNA957442",
+        "biosample": "SAMN34252026",
+        "run": "SRR24216790"
+      }
+    ],
+    "SRR24216791": [
+      {
+        "bioproject": "PRJNA957442",
+        "biosample": "SAMN34252025",
+        "run": "SRR24216791"
+      }
+    ],
+    "SRR24216792": [
+      {
+        "bioproject": "PRJNA957442",
+        "biosample": "SAMN34252024",
+        "run": "SRR24216792"
+      }
+    ],
+    "SRR24216793": [
+      {
+        "bioproject": "PRJNA957442",
+        "biosample": "SAMN34252023",
+        "run": "SRR24216793"
+      }
+    ],
+    "SRR24216794": [
+      {
+        "bioproject": "PRJNA957442",
+        "biosample": "SAMN34252022",
+        "run": "SRR24216794"
+      }
+    ],
+    "SRR24216795": [
+      {
+        "bioproject": "PRJNA957442",
+        "biosample": "SAMN34252021",
+        "run": "SRR24216795"
+      }
+    ],
+    "SRR24216796": [
+      {
+        "bioproject": "PRJNA957442",
+        "biosample": "SAMN34252020",
+        "run": "SRR24216796"
+      }
+    ],
+    "SRR24216797": [
+      {
+        "bioproject": "PRJNA957442",
+        "biosample": "SAMN34252028",
+        "run": "SRR24216797"
+      }
+    ],
+    "SRR24216798": [
+      {
+        "bioproject": "PRJNA957442",
+        "biosample": "SAMN34252019",
+        "run": "SRR24216798"
+      }
+    ],
+    "SRR24216799": [
+      {
+        "bioproject": "PRJNA957442",
+        "biosample": "SAMN34252018",
+        "run": "SRR24216799"
+      }
+    ]
+  },
   "subject": "fishes/trachurus-trachurus",
   "tool_version": "0.1.0",
   "vcf": {

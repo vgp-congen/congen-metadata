@@ -15,7 +15,7 @@
     "n_sites": 30299513
   },
   "declared_accession": "GCA_009873245.3",
-  "harvested_at": "2026-09-10T19:44:51Z",
+  "harvested_at": "2026-09-10T20:34:08Z",
   "notes": [],
   "objects": {
     "README.txt": {
@@ -728,6 +728,162 @@
     }
   },
   "schema": 1,
+  "sra": {
+    "SRR24185302": [
+      {
+        "bioproject": "PRJNA955240",
+        "biosample": "SAMN34171312",
+        "run": "SRR24185302"
+      }
+    ],
+    "SRR24185303": [
+      {
+        "bioproject": "PRJNA955240",
+        "biosample": "SAMN34171311",
+        "run": "SRR24185303"
+      }
+    ],
+    "SRR24185311": [
+      {
+        "bioproject": "PRJNA955240",
+        "biosample": "SAMN34171310",
+        "run": "SRR24185311"
+      }
+    ],
+    "SRR24185312": [
+      {
+        "bioproject": "PRJNA955240",
+        "biosample": "SAMN34171314",
+        "run": "SRR24185312"
+      }
+    ],
+    "SRR24185313": [
+      {
+        "bioproject": "PRJNA955240",
+        "biosample": "SAMN34171316",
+        "run": "SRR24185313"
+      }
+    ],
+    "SRR24185314": [
+      {
+        "bioproject": "PRJNA955240",
+        "biosample": "SAMN34171315",
+        "run": "SRR24185314"
+      }
+    ],
+    "SRR24185315": [
+      {
+        "bioproject": "PRJNA955240",
+        "biosample": "SAMN34171313",
+        "run": "SRR24185315"
+      }
+    ],
+    "SRR24185316": [
+      {
+        "bioproject": "PRJNA955240",
+        "biosample": "SAMN34171317",
+        "run": "SRR24185316"
+      }
+    ],
+    "SRR24205116": [
+      {
+        "bioproject": "PRJNA955240",
+        "biosample": "SAMN34171322",
+        "run": "SRR24205116"
+      }
+    ],
+    "SRR24205217": [
+      {
+        "bioproject": "PRJNA955240",
+        "biosample": "SAMN34171318",
+        "run": "SRR24205217"
+      }
+    ],
+    "SRR24205218": [
+      {
+        "bioproject": "PRJNA955240",
+        "biosample": "SAMN34171319",
+        "run": "SRR24205218"
+      }
+    ],
+    "SRR24205221": [
+      {
+        "bioproject": "PRJNA955240",
+        "biosample": "SAMN34171320",
+        "run": "SRR24205221"
+      }
+    ],
+    "SRR24205222": [
+      {
+        "bioproject": "PRJNA955240",
+        "biosample": "SAMN34171321",
+        "run": "SRR24205222"
+      }
+    ],
+    "SRR24229238": [
+      {
+        "bioproject": "PRJNA955240",
+        "biosample": "SAMN34171326",
+        "run": "SRR24229238"
+      }
+    ],
+    "SRR24229942": [
+      {
+        "bioproject": "PRJNA955240",
+        "biosample": "SAMN34171325",
+        "run": "SRR24229942"
+      }
+    ],
+    "SRR24229944": [
+      {
+        "bioproject": "PRJNA955240",
+        "biosample": "SAMN34171323",
+        "run": "SRR24229944"
+      }
+    ],
+    "SRR24230178": [
+      {
+        "bioproject": "PRJNA955240",
+        "biosample": "SAMN34171324",
+        "run": "SRR24230178"
+      }
+    ],
+    "SRR24230224": [
+      {
+        "bioproject": "PRJNA955240",
+        "biosample": "SAMN34171327",
+        "run": "SRR24230224"
+      }
+    ],
+    "SRR24296621": [
+      {
+        "bioproject": "PRJNA955240",
+        "biosample": "SAMN34171308",
+        "run": "SRR24296621"
+      }
+    ],
+    "SRR24296622": [
+      {
+        "bioproject": "PRJNA955240",
+        "biosample": "SAMN34171309",
+        "run": "SRR24296622"
+      }
+    ],
+    "SRR25748645": [
+      {
+        "bioproject": "PRJNA1008646",
+        "biosample": "SAMN12287136",
+        "run": "SRR25748645"
+      }
+    ],
+    "SRR5665644": [
+      {
+        "bioproject": "PRJNA389516",
+        "biosample": "SAMN07201754",
+        "run": "SRR5665644"
+      }
+    ]
+  },
   "subject": "mammals/balaenoptera-musculus",
   "tool_version": "0.1.0",
   "vcf": {

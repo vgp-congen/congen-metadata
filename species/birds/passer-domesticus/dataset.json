@@ -15,7 +15,7 @@
     "n_sites": 53453387
   },
   "declared_accession": "GCA_036417665.1",
-  "harvested_at": "2026-09-10T19:44:46Z",
+  "harvested_at": "2026-09-10T20:33:56Z",
   "notes": [],
   "objects": {
     "README.txt": {
@@ -840,6 +840,204 @@
     }
   },
   "schema": 1,
+  "sra": {
+    "ERR2697464": [
+      {
+        "bioproject": "PRJEB27649",
+        "biosample": "SAMEA4785080",
+        "run": "ERR2697464"
+      }
+    ],
+    "ERR2697465": [
+      {
+        "bioproject": "PRJEB27649",
+        "biosample": "SAMEA4785081",
+        "run": "ERR2697465"
+      }
+    ],
+    "ERR2697466": [
+      {
+        "bioproject": "PRJEB27649",
+        "biosample": "SAMEA4785082",
+        "run": "ERR2697466"
+      }
+    ],
+    "ERR2697467": [
+      {
+        "bioproject": "PRJEB27649",
+        "biosample": "SAMEA4785083",
+        "run": "ERR2697467"
+      }
+    ],
+    "ERR2697468": [
+      {
+        "bioproject": "PRJEB27649",
+        "biosample": "SAMEA4785084",
+        "run": "ERR2697468"
+      }
+    ],
+    "ERR2697469": [
+      {
+        "bioproject": "PRJEB27649",
+        "biosample": "SAMEA4785085",
+        "run": "ERR2697469"
+      }
+    ],
+    "ERR2697471": [
+      {
+        "bioproject": "PRJEB27649",
+        "biosample": "SAMEA4785087",
+        "run": "ERR2697471"
+      }
+    ],
+    "ERR2697472": [
+      {
+        "bioproject": "PRJEB27649",
+        "biosample": "SAMEA4785088",
+        "run": "ERR2697472"
+      }
+    ],
+    "ERR2697473": [
+      {
+        "bioproject": "PRJEB27649",
+        "biosample": "SAMEA4785089",
+        "run": "ERR2697473"
+      }
+    ],
+    "ERR2697477": [
+      {
+        "bioproject": "PRJEB27649",
+        "biosample": "SAMEA4785093",
+        "run": "ERR2697477"
+      }
+    ],
+    "ERR2697479": [
+      {
+        "bioproject": "PRJEB27649",
+        "biosample": "SAMEA4785095",
+        "run": "ERR2697479"
+      }
+    ],
+    "ERR2697482": [
+      {
+        "bioproject": "PRJEB27649",
+        "biosample": "SAMEA4785098",
+        "run": "ERR2697482"
+      }
+    ],
+    "ERR2697485": [
+      {
+        "bioproject": "PRJEB27649",
+        "biosample": "SAMEA4785101",
+        "run": "ERR2697485"
+      }
+    ],
+    "ERR2697495": [
+      {
+        "bioproject": "PRJEB27649",
+        "biosample": "SAMEA4785111",
+        "run": "ERR2697495"
+      }
+    ],
+    "ERR2697496": [
+      {
+        "bioproject": "PRJEB27649",
+        "biosample": "SAMEA4785112",
+        "run": "ERR2697496"
+      }
+    ],
+    "ERR2697497": [
+      {
+        "bioproject": "PRJEB27649",
+        "biosample": "SAMEA4785113",
+        "run": "ERR2697497"
+      }
+    ],
+    "ERR2697498": [
+      {
+        "bioproject": "PRJEB27649",
+        "biosample": "SAMEA4785114",
+        "run": "ERR2697498"
+      }
+    ],
+    "ERR2697499": [
+      {
+        "bioproject": "PRJEB27649",
+        "biosample": "SAMEA4785115",
+        "run": "ERR2697499"
+      }
+    ],
+    "ERR2697503": [
+      {
+        "bioproject": "PRJEB27649",
+        "biosample": "SAMEA4785119",
+        "run": "ERR2697503"
+      }
+    ],
+    "ERR2697504": [
+      {
+        "bioproject": "PRJEB27649",
+        "biosample": "SAMEA4785120",
+        "run": "ERR2697504"
+      }
+    ],
+    "SRR5369957": [
+      {
+        "bioproject": "PRJNA255814",
+        "biosample": "SAMN06619701",
+        "run": "SRR5369957"
+      }
+    ],
+    "SRR5369958": [
+      {
+        "bioproject": "PRJNA255814",
+        "biosample": "SAMN06619700",
+        "run": "SRR5369958"
+      }
+    ],
+    "SRR5369962": [
+      {
+        "bioproject": "PRJNA255814",
+        "biosample": "SAMN06619696",
+        "run": "SRR5369962"
+      }
+    ],
+    "SRR5369963": [
+      {
+        "bioproject": "PRJNA255814",
+        "biosample": "SAMN06619695",
+        "run": "SRR5369963"
+      }
+    ],
+    "SRR5369965": [
+      {
+        "bioproject": "PRJNA255814",
+        "biosample": "SAMN06619693",
+        "run": "SRR5369965"
+      }
+    ],
+    "SRR5369966": [
+      {
+        "bioproject": "PRJNA255814",
+        "biosample": "SAMN06619692",
+        "run": "SRR5369966"
+      }
+    ],
+    "SRR5407744": [
+      {
+        "bioproject": "PRJNA255814",
+        "biosample": "SAMN02929199",
+        "run": "SRR5407744"
+      }
+    ],
+    "SRR5407747": [
+      {
+        "bioproject": "PRJNA255814",
+        "biosample": "SAMN02929199",
+        "run": "SRR5407747"
+      }
+    ]
+  },
   "subject": "birds/passer-domesticus",
   "tool_version": "0.1.0",
   "vcf": {

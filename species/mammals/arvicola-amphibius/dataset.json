@@ -3,7 +3,7 @@
   "assembly": {},
   "cohort": {},
   "declared_accession": "GCA_903992535.2",
-  "harvested_at": "2026-09-10T19:44:51Z",
+  "harvested_at": "2026-09-10T20:34:07Z",
   "notes": [
     "no data published on GenomeArk under GCA_903992535.2"
   ],
@@ -13,6 +13,225 @@
   "published": false,
   "samples": {},
   "schema": 1,
+  "sra": {
+    "ERR14743584": [
+      {
+        "bioproject": "PRJEB86998",
+        "biosample": "SAMEA117818188",
+        "run": "ERR14743584"
+      }
+    ],
+    "ERR14743585": [
+      {
+        "bioproject": "PRJEB86998",
+        "biosample": "SAMEA117818189",
+        "run": "ERR14743585"
+      }
+    ],
+    "ERR14743586": [
+      {
+        "bioproject": "PRJEB86998",
+        "biosample": "SAMEA117818190",
+        "run": "ERR14743586"
+      }
+    ],
+    "ERR14743587": [
+      {
+        "bioproject": "PRJEB86998",
+        "biosample": "SAMEA117818191",
+        "run": "ERR14743587"
+      }
+    ],
+    "ERR14743588": [
+      {
+        "bioproject": "PRJEB86998",
+        "biosample": "SAMEA117818192",
+        "run": "ERR14743588"
+      }
+    ],
+    "ERR14743589": [
+      {
+        "bioproject": "PRJEB86998",
+        "biosample": "SAMEA117818193",
+        "run": "ERR14743589"
+      }
+    ],
+    "ERR14743590": [
+      {
+        "bioproject": "PRJEB86998",
+        "biosample": "SAMEA117818194",
+        "run": "ERR14743590"
+      }
+    ],
+    "ERR14743591": [
+      {
+        "bioproject": "PRJEB86998",
+        "biosample": "SAMEA117818195",
+        "run": "ERR14743591"
+      }
+    ],
+    "ERR14743592": [
+      {
+        "bioproject": "PRJEB86998",
+        "biosample": "SAMEA117818196",
+        "run": "ERR14743592"
+      }
+    ],
+    "ERR14743593": [
+      {
+        "bioproject": "PRJEB86998",
+        "biosample": "SAMEA117818197",
+        "run": "ERR14743593"
+      }
+    ],
+    "ERR14743594": [
+      {
+        "bioproject": "PRJEB86998",
+        "biosample": "SAMEA117818198",
+        "run": "ERR14743594"
+      }
+    ],
+    "ERR14743595": [
+      {
+        "bioproject": "PRJEB86998",
+        "biosample": "SAMEA117818199",
+        "run": "ERR14743595"
+      }
+    ],
+    "ERR14743596": [
+      {
+        "bioproject": "PRJEB86998",
+        "biosample": "SAMEA117818200",
+        "run": "ERR14743596"
+      }
+    ],
+    "ERR14743597": [
+      {
+        "bioproject": "PRJEB86998",
+        "biosample": "SAMEA117818201",
+        "run": "ERR14743597"
+      }
+    ],
+    "ERR15374991": [
+      {
+        "bioproject": "PRJEB94947",
+        "biosample": "SAMEA118840311",
+        "run": "ERR15374991"
+      }
+    ],
+    "ERR15374993": [
+      {
+        "bioproject": "PRJEB94947",
+        "biosample": "SAMEA118840313",
+        "run": "ERR15374993"
+      }
+    ],
+    "ERR15374996": [
+      {
+        "bioproject": "PRJEB94947",
+        "biosample": "SAMEA118840307",
+        "run": "ERR15374996"
+      }
+    ],
+    "ERR15374997": [
+      {
+        "bioproject": "PRJEB94947",
+        "biosample": "SAMEA118840309",
+        "run": "ERR15374997"
+      }
+    ],
+    "ERR15374998": [
+      {
+        "bioproject": "PRJEB94947",
+        "biosample": "SAMEA118840310",
+        "run": "ERR15374998"
+      }
+    ],
+    "ERR15375002": [
+      {
+        "bioproject": "PRJEB94947",
+        "biosample": "SAMEA118840314",
+        "run": "ERR15375002"
+      }
+    ],
+    "ERR15375003": [
+      {
+        "bioproject": "PRJEB94947",
+        "biosample": "SAMEA118840308",
+        "run": "ERR15375003"
+      }
+    ],
+    "ERR15380938": [
+      {
+        "bioproject": "PRJEB94947",
+        "biosample": "SAMEA118840319",
+        "run": "ERR15380938"
+      }
+    ],
+    "ERR15380939": [
+      {
+        "bioproject": "PRJEB94947",
+        "biosample": "SAMEA118840316",
+        "run": "ERR15380939"
+      }
+    ],
+    "ERR15380940": [
+      {
+        "bioproject": "PRJEB94947",
+        "biosample": "SAMEA118840320",
+        "run": "ERR15380940"
+      }
+    ],
+    "ERR15380941": [
+      {
+        "bioproject": "PRJEB94947",
+        "biosample": "SAMEA118840315",
+        "run": "ERR15380941"
+      }
+    ],
+    "ERR15380942": [
+      {
+        "bioproject": "PRJEB94947",
+        "biosample": "SAMEA118840318",
+        "run": "ERR15380942"
+      }
+    ],
+    "ERR15380943": [
+      {
+        "bioproject": "PRJEB94947",
+        "biosample": "SAMEA118840317",
+        "run": "ERR15380943"
+      }
+    ],
+    "ERR15380944": [
+      {
+        "bioproject": "PRJEB94947",
+        "biosample": "SAMEA118840312",
+        "run": "ERR15380944"
+      }
+    ],
+    "ERR3133889": [
+      {
+        "bioproject": "PRJEB22206",
+        "biosample": "SAMEA994740",
+        "run": "ERR3133889"
+      }
+    ],
+    "ERR3316031": [
+      {
+        "bioproject": "PRJEB22206",
+        "biosample": "SAMEA994740",
+        "run": "ERR3316031"
+      }
+    ],
+    "ERR3316035": [
+      {
+        "bioproject": "PRJEB22206",
+        "biosample": "SAMEA994740",
+        "run": "ERR3316035"
+      }
+    ]
+  },
   "subject": "mammals/arvicola-amphibius",
   "tool_version": "0.1.0",
   "vcf": {}

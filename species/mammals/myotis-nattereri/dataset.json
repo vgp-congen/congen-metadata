@@ -3,7 +3,7 @@
   "assembly": {},
   "cohort": {},
   "declared_accession": "GCA_964212035.2",
-  "harvested_at": "2026-09-10T19:44:52Z",
+  "harvested_at": "2026-09-10T20:34:12Z",
   "notes": [
     "no data published on GenomeArk under GCA_964212035.2"
   ],
@@ -13,6 +13,113 @@
   "published": false,
   "samples": {},
   "schema": 1,
+  "sra": {
+    "SRR22703761": [
+      {
+        "bioproject": "PRJNA909969",
+        "biosample": "SAMN32108322",
+        "run": "SRR22703761"
+      }
+    ],
+    "SRR22703762": [
+      {
+        "bioproject": "PRJNA909969",
+        "biosample": "SAMN32108321",
+        "run": "SRR22703762"
+      }
+    ],
+    "SRR22703763": [
+      {
+        "bioproject": "PRJNA909969",
+        "biosample": "SAMN32108320",
+        "run": "SRR22703763"
+      }
+    ],
+    "SRR22703766": [
+      {
+        "bioproject": "PRJNA909969",
+        "biosample": "SAMN32108318",
+        "run": "SRR22703766"
+      }
+    ],
+    "SRR22703774": [
+      {
+        "bioproject": "PRJNA909969",
+        "biosample": "SAMN32108310",
+        "run": "SRR22703774"
+      }
+    ],
+    "SRR22703776": [
+      {
+        "bioproject": "PRJNA909969",
+        "biosample": "SAMN32108309",
+        "run": "SRR22703776"
+      }
+    ],
+    "SRR22703777": [
+      {
+        "bioproject": "PRJNA909969",
+        "biosample": "SAMN32108308",
+        "run": "SRR22703777"
+      }
+    ],
+    "SRR22703778": [
+      {
+        "bioproject": "PRJNA909969",
+        "biosample": "SAMN32108307",
+        "run": "SRR22703778"
+      }
+    ],
+    "SRR22703787": [
+      {
+        "bioproject": "PRJNA909969",
+        "biosample": "SAMN32108299",
+        "run": "SRR22703787"
+      }
+    ],
+    "SRR22703788": [
+      {
+        "bioproject": "PRJNA909969",
+        "biosample": "SAMN32108298",
+        "run": "SRR22703788"
+      }
+    ],
+    "SRR22703803": [
+      {
+        "bioproject": "PRJNA909969",
+        "biosample": "SAMN32108284",
+        "run": "SRR22703803"
+      }
+    ],
+    "SRR22703805": [
+      {
+        "bioproject": "PRJNA909969",
+        "biosample": "SAMN32108282",
+        "run": "SRR22703805"
+      }
+    ],
+    "SRR22703818": [
+      {
+        "bioproject": "PRJNA909969",
+        "biosample": "SAMN32108270",
+        "run": "SRR22703818"
+      }
+    ],
+    "SRR26641661": [
+      {
+        "bioproject": "PRJNA1031993",
+        "biosample": "SAMN37977949",
+        "run": "SRR26641661"
+      }
+    ],
+    "SRR27216497": [
+      {
+        "bioproject": "PRJNA1051501",
+        "biosample": "SAMN38777308",
+        "run": "SRR27216497"
+      }
+    ]
+  },
   "subject": "mammals/myotis-nattereri",
   "tool_version": "0.1.0",
   "vcf": {}

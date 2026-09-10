@@ -15,7 +15,7 @@
     "n_sites": 9140526
   },
   "declared_accession": "GCA_900496995.4",
-  "harvested_at": "2026-09-10T19:44:45Z",
+  "harvested_at": "2026-09-10T20:33:53Z",
   "notes": [],
   "objects": {
     "README.txt": {
@@ -624,6 +624,134 @@
     }
   },
   "schema": 1,
+  "sra": {
+    "DRR361046": [
+      {
+        "bioproject": "PRJDB13385",
+        "biosample": "SAMD00454443",
+        "run": "DRR361046"
+      }
+    ],
+    "DRR361049": [
+      {
+        "bioproject": "PRJDB13385",
+        "biosample": "SAMD00454446",
+        "run": "DRR361049"
+      }
+    ],
+    "DRR361050": [
+      {
+        "bioproject": "PRJDB13385",
+        "biosample": "SAMD00454447",
+        "run": "DRR361050"
+      }
+    ],
+    "DRR361051": [
+      {
+        "bioproject": "PRJDB13385",
+        "biosample": "SAMD00454448",
+        "run": "DRR361051"
+      }
+    ],
+    "DRR361052": [
+      {
+        "bioproject": "PRJDB13385",
+        "biosample": "SAMD00454449",
+        "run": "DRR361052"
+      }
+    ],
+    "DRR361053": [
+      {
+        "bioproject": "PRJDB13385",
+        "biosample": "SAMD00454450",
+        "run": "DRR361053"
+      }
+    ],
+    "DRR361054": [
+      {
+        "bioproject": "PRJDB13385",
+        "biosample": "SAMD00454451",
+        "run": "DRR361054"
+      }
+    ],
+    "DRR361055": [
+      {
+        "bioproject": "PRJDB13385",
+        "biosample": "SAMD00454452",
+        "run": "DRR361055"
+      }
+    ],
+    "DRR361056": [
+      {
+        "bioproject": "PRJDB13385",
+        "biosample": "SAMD00454453",
+        "run": "DRR361056"
+      }
+    ],
+    "DRR361057": [
+      {
+        "bioproject": "PRJDB13385",
+        "biosample": "SAMD00454454",
+        "run": "DRR361057"
+      }
+    ],
+    "DRR361058": [
+      {
+        "bioproject": "PRJDB13385",
+        "biosample": "SAMD00454455",
+        "run": "DRR361058"
+      }
+    ],
+    "DRR361059": [
+      {
+        "bioproject": "PRJDB13385",
+        "biosample": "SAMD00454456",
+        "run": "DRR361059"
+      }
+    ],
+    "DRR361060": [
+      {
+        "bioproject": "PRJDB13385",
+        "biosample": "SAMD00454457",
+        "run": "DRR361060"
+      }
+    ],
+    "DRR361061": [
+      {
+        "bioproject": "PRJDB13385",
+        "biosample": "SAMD00454458",
+        "run": "DRR361061"
+      }
+    ],
+    "DRR361062": [
+      {
+        "bioproject": "PRJDB13385",
+        "biosample": "SAMD00454459",
+        "run": "DRR361062"
+      }
+    ],
+    "DRR361063": [
+      {
+        "bioproject": "PRJDB13385",
+        "biosample": "SAMD00454460",
+        "run": "DRR361063"
+      }
+    ],
+    "DRR361064": [
+      {
+        "bioproject": "PRJDB13385",
+        "biosample": "SAMD00454461",
+        "run": "DRR361064"
+      }
+    ],
+    "ERR3316068": [
+      {
+        "bioproject": "PRJEB22206",
+        "biosample": "SAMEA994725",
+        "run": "ERR3316068"
+      }
+    ]
+  },
   "subject": "birds/aquila-chrysaetos",
   "tool_version": "0.1.0",
   "vcf": {

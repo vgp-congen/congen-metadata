@@ -15,7 +15,7 @@
     "n_sites": 40940451
   },
   "declared_accession": "GCA_014839835.1",
-  "harvested_at": "2026-09-10T19:44:45Z",
+  "harvested_at": "2026-09-10T20:33:54Z",
   "notes": [],
   "objects": {
     "README.txt": {
@@ -696,6 +696,162 @@
     }
   },
   "schema": 1,
+  "sra": {
+    "SRR22957527": [
+      {
+        "bioproject": "PRJNA917637",
+        "biosample": "SAMN32543658",
+        "run": "SRR22957527"
+      }
+    ],
+    "SRR22957531": [
+      {
+        "bioproject": "PRJNA917637",
+        "biosample": "SAMN32543654",
+        "run": "SRR22957531"
+      }
+    ],
+    "SRR22957557": [
+      {
+        "bioproject": "PRJNA917637",
+        "biosample": "SAMN32543631",
+        "run": "SRR22957557"
+      }
+    ],
+    "SRR22957563": [
+      {
+        "bioproject": "PRJNA917637",
+        "biosample": "SAMN32543625",
+        "run": "SRR22957563"
+      }
+    ],
+    "SRR22957567": [
+      {
+        "bioproject": "PRJNA917637",
+        "biosample": "SAMN32543622",
+        "run": "SRR22957567"
+      }
+    ],
+    "SRR22957570": [
+      {
+        "bioproject": "PRJNA917637",
+        "biosample": "SAMN32543619",
+        "run": "SRR22957570"
+      }
+    ],
+    "SRR22957582": [
+      {
+        "bioproject": "PRJNA917637",
+        "biosample": "SAMN32543608",
+        "run": "SRR22957582"
+      }
+    ],
+    "SRR22957583": [
+      {
+        "bioproject": "PRJNA917637",
+        "biosample": "SAMN32543607",
+        "run": "SRR22957583"
+      }
+    ],
+    "SRR25382985": [
+      {
+        "bioproject": "PRJNA1462765",
+        "biosample": "SAMN12629497",
+        "run": "SRR25382985"
+      }
+    ],
+    "SRR33614311": [
+      {
+        "bioproject": "PRJNA1264660",
+        "biosample": "SAMN48575288",
+        "run": "SRR33614311"
+      }
+    ],
+    "SRR33614312": [
+      {
+        "bioproject": "PRJNA1264660",
+        "biosample": "SAMN48575287",
+        "run": "SRR33614312"
+      }
+    ],
+    "SRR33614313": [
+      {
+        "bioproject": "PRJNA1264660",
+        "biosample": "SAMN48575286",
+        "run": "SRR33614313"
+      }
+    ],
+    "SRR33614314": [
+      {
+        "bioproject": "PRJNA1264660",
+        "biosample": "SAMN48575285",
+        "run": "SRR33614314"
+      }
+    ],
+    "SRR33614315": [
+      {
+        "bioproject": "PRJNA1264660",
+        "biosample": "SAMN48575284",
+        "run": "SRR33614315"
+      }
+    ],
+    "SRR33614316": [
+      {
+        "bioproject": "PRJNA1264660",
+        "biosample": "SAMN48575283",
+        "run": "SRR33614316"
+      }
+    ],
+    "SRR33614317": [
+      {
+        "bioproject": "PRJNA1264660",
+        "biosample": "SAMN48575282",
+        "run": "SRR33614317"
+      }
+    ],
+    "SRR33614318": [
+      {
+        "bioproject": "PRJNA1264660",
+        "biosample": "SAMN48575281",
+        "run": "SRR33614318"
+      }
+    ],
+    "SRR33614319": [
+      {
+        "bioproject": "PRJNA1264660",
+        "biosample": "SAMN48575280",
+        "run": "SRR33614319"
+      }
+    ],
+    "SRR33614320": [
+      {
+        "bioproject": "PRJNA1264660",
+        "biosample": "SAMN48575279",
+        "run": "SRR33614320"
+      }
+    ],
+    "SRR7126551": [
+      {
+        "bioproject": "PRJNA464344",
+        "biosample": "SAMN09081280",
+        "run": "SRR7126551"
+      }
+    ],
+    "SRR949789": [
+      {
+        "bioproject": "PRJNA212874",
+        "biosample": "SAMN02314405",
+        "run": "SRR949789"
+      }
+    ],
+    "SRR949790": [
+      {
+        "bioproject": "PRJNA212874",
+        "biosample": "SAMN02314405",
+        "run": "SRR949790"
+      }
+    ]
+  },
   "subject": "birds/dryobates-pubescens",
   "tool_version": "0.1.0",
   "vcf": {

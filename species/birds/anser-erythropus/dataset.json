@@ -15,7 +15,7 @@
     "n_sites": 30801496
   },
   "declared_accession": "GCA_965277985.1",
-  "harvested_at": "2026-09-10T19:44:44Z",
+  "harvested_at": "2026-09-10T20:33:52Z",
   "notes": [],
   "objects": {
     "README.txt": {
@@ -768,6 +768,190 @@
     }
   },
   "schema": 1,
+  "sra": {
+    "ERR11530885": [
+      {
+        "bioproject": "PRJEB35788",
+        "biosample": "SAMEA112262532",
+        "run": "ERR11530885"
+      }
+    ],
+    "ERR11530886": [
+      {
+        "bioproject": "PRJEB35788",
+        "biosample": "SAMEA112262533",
+        "run": "ERR11530886"
+      }
+    ],
+    "ERR11530887": [
+      {
+        "bioproject": "PRJEB35788",
+        "biosample": "SAMEA112262534",
+        "run": "ERR11530887"
+      }
+    ],
+    "ERR2193517": [
+      {
+        "bioproject": "PRJEB20373",
+        "biosample": "SAMEA104378304",
+        "run": "ERR2193517"
+      }
+    ],
+    "ERR2193518": [
+      {
+        "bioproject": "PRJEB20373",
+        "biosample": "SAMEA104378304",
+        "run": "ERR2193518"
+      }
+    ],
+    "ERR4691125": [
+      {
+        "bioproject": "PRJEB40857",
+        "biosample": "SAMEA7456484",
+        "run": "ERR4691125"
+      }
+    ],
+    "ERR4691126": [
+      {
+        "bioproject": "PRJEB40857",
+        "biosample": "SAMEA7456485",
+        "run": "ERR4691126"
+      }
+    ],
+    "ERR4691127": [
+      {
+        "bioproject": "PRJEB40857",
+        "biosample": "SAMEA7456486",
+        "run": "ERR4691127"
+      }
+    ],
+    "ERR4691128": [
+      {
+        "bioproject": "PRJEB40857",
+        "biosample": "SAMEA7456487",
+        "run": "ERR4691128"
+      }
+    ],
+    "ERR4691129": [
+      {
+        "bioproject": "PRJEB40857",
+        "biosample": "SAMEA7456488",
+        "run": "ERR4691129"
+      }
+    ],
+    "ERR4691130": [
+      {
+        "bioproject": "PRJEB40857",
+        "biosample": "SAMEA7456489",
+        "run": "ERR4691130"
+      }
+    ],
+    "ERR4691131": [
+      {
+        "bioproject": "PRJEB40857",
+        "biosample": "SAMEA7456490",
+        "run": "ERR4691131"
+      }
+    ],
+    "ERR4691132": [
+      {
+        "bioproject": "PRJEB40857",
+        "biosample": "SAMEA7456491",
+        "run": "ERR4691132"
+      }
+    ],
+    "ERR4691133": [
+      {
+        "bioproject": "PRJEB40857",
+        "biosample": "SAMEA7456492",
+        "run": "ERR4691133"
+      }
+    ],
+    "ERR4691134": [
+      {
+        "bioproject": "PRJEB40857",
+        "biosample": "SAMEA7456493",
+        "run": "ERR4691134"
+      }
+    ],
+    "ERR4691135": [
+      {
+        "bioproject": "PRJEB40857",
+        "biosample": "SAMEA7456493",
+        "run": "ERR4691135"
+      }
+    ],
+    "ERR4691136": [
+      {
+        "bioproject": "PRJEB40857",
+        "biosample": "SAMEA7456494",
+        "run": "ERR4691136"
+      }
+    ],
+    "ERR4691137": [
+      {
+        "bioproject": "PRJEB40857",
+        "biosample": "SAMEA7456495",
+        "run": "ERR4691137"
+      }
+    ],
+    "ERR4691138": [
+      {
+        "bioproject": "PRJEB40857",
+        "biosample": "SAMEA7456496",
+        "run": "ERR4691138"
+      }
+    ],
+    "ERR4691139": [
+      {
+        "bioproject": "PRJEB40857",
+        "biosample": "SAMEA7456497",
+        "run": "ERR4691139"
+      }
+    ],
+    "ERR4691140": [
+      {
+        "bioproject": "PRJEB40857",
+        "biosample": "SAMEA7456498",
+        "run": "ERR4691140"
+      }
+    ],
+    "ERR4691141": [
+      {
+        "bioproject": "PRJEB40857",
+        "biosample": "SAMEA7456499",
+        "run": "ERR4691141"
+      }
+    ],
+    "ERR4691142": [
+      {
+        "bioproject": "PRJEB40857",
+        "biosample": "SAMEA7456500",
+        "run": "ERR4691142"
+      }
+    ],
+    "ERR4691143": [
+      {
+        "bioproject": "PRJEB40857",
+        "biosample": "SAMEA7456501",
+        "run": "ERR4691143"
+      }
+    ],
+    "ERR4691144": [
+      {
+        "bioproject": "PRJEB40857",
+        "biosample": "SAMEA7456502",
+        "run": "ERR4691144"
+      }
+    ],
+    "ERR4691145": [
+      {
+        "bioproject": "PRJEB40857",
+        "biosample": "SAMEA7456503",
+        "run": "ERR4691145"
+      }
+    ]
+  },
   "subject": "birds/anser-erythropus",
   "tool_version": "0.1.0",
   "vcf": {

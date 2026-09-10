@@ -15,7 +15,7 @@
     "n_sites": 7314074
   },
   "declared_accession": "GCA_947650265.1",
-  "harvested_at": "2026-09-10T19:44:50Z",
+  "harvested_at": "2026-09-10T20:34:04Z",
   "notes": [],
   "objects": {
     "README.txt": {
@@ -552,6 +552,113 @@
     }
   },
   "schema": 1,
+  "sra": {
+    "SRR5043515": [
+      {
+        "bioproject": "PRJNA354496",
+        "biosample": "SAMN06046569",
+        "run": "SRR5043515"
+      }
+    ],
+    "SRR5043528": [
+      {
+        "bioproject": "PRJNA354496",
+        "biosample": "SAMN06046596",
+        "run": "SRR5043528"
+      }
+    ],
+    "SRR5043530": [
+      {
+        "bioproject": "PRJNA354496",
+        "biosample": "SAMN06046591",
+        "run": "SRR5043530"
+      }
+    ],
+    "SRR5043532": [
+      {
+        "bioproject": "PRJNA354496",
+        "biosample": "SAMN06046572",
+        "run": "SRR5043532"
+      }
+    ],
+    "SRR5043533": [
+      {
+        "bioproject": "PRJNA354496",
+        "biosample": "SAMN06046566",
+        "run": "SRR5043533"
+      }
+    ],
+    "SRR5043537": [
+      {
+        "bioproject": "PRJNA354496",
+        "biosample": "SAMN06046570",
+        "run": "SRR5043537"
+      }
+    ],
+    "SRR5043540": [
+      {
+        "bioproject": "PRJNA354496",
+        "biosample": "SAMN06046563",
+        "run": "SRR5043540"
+      }
+    ],
+    "SRR5043544": [
+      {
+        "bioproject": "PRJNA354496",
+        "biosample": "SAMN06046571",
+        "run": "SRR5043544"
+      }
+    ],
+    "SRR5043546": [
+      {
+        "bioproject": "PRJNA354496",
+        "biosample": "SAMN06046554",
+        "run": "SRR5043546"
+      }
+    ],
+    "SRR5043547": [
+      {
+        "bioproject": "PRJNA354496",
+        "biosample": "SAMN06046564",
+        "run": "SRR5043547"
+      }
+    ],
+    "SRR5043548": [
+      {
+        "bioproject": "PRJNA354496",
+        "biosample": "SAMN06046565",
+        "run": "SRR5043548"
+      }
+    ],
+    "SRR5043558": [
+      {
+        "bioproject": "PRJNA354496",
+        "biosample": "SAMN06046568",
+        "run": "SRR5043558"
+      }
+    ],
+    "SRR5043561": [
+      {
+        "bioproject": "PRJNA354496",
+        "biosample": "SAMN06046567",
+        "run": "SRR5043561"
+      }
+    ],
+    "SRR5043564": [
+      {
+        "bioproject": "PRJNA354496",
+        "biosample": "SAMN06046589",
+        "run": "SRR5043564"
+      }
+    ],
+    "SRR5043575": [
+      {
+        "bioproject": "PRJNA354496",
+        "biosample": "SAMN06046581",
+        "run": "SRR5043575"
+      }
+    ]
+  },
   "subject": "fishes/symphodus-melops",
   "tool_version": "0.1.0",
   "vcf": {

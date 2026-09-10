@@ -15,7 +15,7 @@
     "n_sites": 18879346
   },
   "declared_accession": "GCA_040955705.1",
-  "harvested_at": "2026-09-10T19:44:52Z",
+  "harvested_at": "2026-09-10T20:34:11Z",
   "notes": [],
   "objects": {
     "README.txt": {
@@ -864,6 +864,204 @@
     }
   },
   "schema": 1,
+  "sra": {
+    "SRR14750369": [
+      {
+        "bioproject": "PRJNA648123",
+        "biosample": "SAMN19522958",
+        "run": "SRR14750369"
+      }
+    ],
+    "SRR14750370": [
+      {
+        "bioproject": "PRJNA648123",
+        "biosample": "SAMN19522959",
+        "run": "SRR14750370"
+      }
+    ],
+    "SRR2971425": [
+      {
+        "bioproject": "PRJNA304992",
+        "biosample": "SAMN04312208",
+        "run": "SRR2971425"
+      }
+    ],
+    "SRR2971441": [
+      {
+        "bioproject": "PRJNA304992",
+        "biosample": "SAMN04312209",
+        "run": "SRR2971441"
+      }
+    ],
+    "SRR35196232": [
+      {
+        "bioproject": "PRJNA1313134",
+        "biosample": "SAMN50885748",
+        "run": "SRR35196232"
+      }
+    ],
+    "SRR35196233": [
+      {
+        "bioproject": "PRJNA1313134",
+        "biosample": "SAMN50885747",
+        "run": "SRR35196233"
+      }
+    ],
+    "SRR35196234": [
+      {
+        "bioproject": "PRJNA1313134",
+        "biosample": "SAMN50885746",
+        "run": "SRR35196234"
+      }
+    ],
+    "SRR35196235": [
+      {
+        "bioproject": "PRJNA1313134",
+        "biosample": "SAMN50885745",
+        "run": "SRR35196235"
+      }
+    ],
+    "SRR35196236": [
+      {
+        "bioproject": "PRJNA1313134",
+        "biosample": "SAMN50885744",
+        "run": "SRR35196236"
+      }
+    ],
+    "SRR35196237": [
+      {
+        "bioproject": "PRJNA1313134",
+        "biosample": "SAMN50885743",
+        "run": "SRR35196237"
+      }
+    ],
+    "SRR35196238": [
+      {
+        "bioproject": "PRJNA1313134",
+        "biosample": "SAMN50885742",
+        "run": "SRR35196238"
+      }
+    ],
+    "SRR35196239": [
+      {
+        "bioproject": "PRJNA1313134",
+        "biosample": "SAMN50885741",
+        "run": "SRR35196239"
+      }
+    ],
+    "SRR35196240": [
+      {
+        "bioproject": "PRJNA1313134",
+        "biosample": "SAMN50885758",
+        "run": "SRR35196240"
+      }
+    ],
+    "SRR35196241": [
+      {
+        "bioproject": "PRJNA1313134",
+        "biosample": "SAMN50885757",
+        "run": "SRR35196241"
+      }
+    ],
+    "SRR35196242": [
+      {
+        "bioproject": "PRJNA1313134",
+        "biosample": "SAMN50885756",
+        "run": "SRR35196242"
+      }
+    ],
+    "SRR35196243": [
+      {
+        "bioproject": "PRJNA1313134",
+        "biosample": "SAMN50885755",
+        "run": "SRR35196243"
+      }
+    ],
+    "SRR35196244": [
+      {
+        "bioproject": "PRJNA1313134",
+        "biosample": "SAMN50885754",
+        "run": "SRR35196244"
+      }
+    ],
+    "SRR35196245": [
+      {
+        "bioproject": "PRJNA1313134",
+        "biosample": "SAMN50885753",
+        "run": "SRR35196245"
+      }
+    ],
+    "SRR35196246": [
+      {
+        "bioproject": "PRJNA1313134",
+        "biosample": "SAMN50885752",
+        "run": "SRR35196246"
+      }
+    ],
+    "SRR35196247": [
+      {
+        "bioproject": "PRJNA1313134",
+        "biosample": "SAMN50885751",
+        "run": "SRR35196247"
+      }
+    ],
+    "SRR35196248": [
+      {
+        "bioproject": "PRJNA1313134",
+        "biosample": "SAMN50885750",
+        "run": "SRR35196248"
+      }
+    ],
+    "SRR35196249": [
+      {
+        "bioproject": "PRJNA1313134",
+        "biosample": "SAMN50885749",
+        "run": "SRR35196249"
+      }
+    ],
+    "SRR35196250": [
+      {
+        "bioproject": "PRJNA1313134",
+        "biosample": "SAMN50885740",
+        "run": "SRR35196250"
+      }
+    ],
+    "SRR35196251": [
+      {
+        "bioproject": "PRJNA1313134",
+        "biosample": "SAMN50885739",
+        "run": "SRR35196251"
+      }
+    ],
+    "SRR7759802": [
+      {
+        "bioproject": "PRJNA488093",
+        "biosample": "SAMN09924608",
+        "run": "SRR7759802"
+      }
+    ],
+    "SRR7874815": [
+      {
+        "bioproject": "PRJNA488046",
+        "biosample": "SAMN09917480",
+        "run": "SRR7874815"
+      }
+    ],
+    "SRR7874816": [
+      {
+        "bioproject": "PRJNA488046",
+        "biosample": "SAMN09917479",
+        "run": "SRR7874816"
+      }
+    ],
+    "SRR7874817": [
+      {
+        "bioproject": "PRJNA488046",
+        "biosample": "SAMN09917439",
+        "run": "SRR7874817"
+      }
+    ]
+  },
   "subject": "mammals/lycaon-pictus",
   "tool_version": "0.1.0",
   "vcf": {

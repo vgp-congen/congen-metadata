@@ -15,7 +15,7 @@
     "n_sites": 6456550
   },
   "declared_accession": "GCA_951394365.1",
-  "harvested_at": "2026-09-10T19:44:47Z",
+  "harvested_at": "2026-09-10T20:33:58Z",
   "notes": [],
   "objects": {
     "README.txt": {
@@ -552,6 +552,113 @@
     }
   },
   "schema": 1,
+  "sra": {
+    "ERR14184260": [
+      {
+        "bioproject": "PRJEB58761",
+        "biosample": "SAMEA111437128",
+        "run": "ERR14184260"
+      }
+    ],
+    "ERR14184261": [
+      {
+        "bioproject": "PRJEB58761",
+        "biosample": "SAMEA111437129",
+        "run": "ERR14184261"
+      }
+    ],
+    "ERR14184262": [
+      {
+        "bioproject": "PRJEB58761",
+        "biosample": "SAMEA111437130",
+        "run": "ERR14184262"
+      }
+    ],
+    "ERR14184263": [
+      {
+        "bioproject": "PRJEB58761",
+        "biosample": "SAMEA111437131",
+        "run": "ERR14184263"
+      }
+    ],
+    "ERR14184264": [
+      {
+        "bioproject": "PRJEB58761",
+        "biosample": "SAMEA111437132",
+        "run": "ERR14184264"
+      }
+    ],
+    "ERR14184265": [
+      {
+        "bioproject": "PRJEB58761",
+        "biosample": "SAMEA111437133",
+        "run": "ERR14184265"
+      }
+    ],
+    "ERR14184266": [
+      {
+        "bioproject": "PRJEB58761",
+        "biosample": "SAMEA111437134",
+        "run": "ERR14184266"
+      }
+    ],
+    "ERR14184267": [
+      {
+        "bioproject": "PRJEB58761",
+        "biosample": "SAMEA111437135",
+        "run": "ERR14184267"
+      }
+    ],
+    "ERR14184268": [
+      {
+        "bioproject": "PRJEB58761",
+        "biosample": "SAMEA111437136",
+        "run": "ERR14184268"
+      }
+    ],
+    "ERR14184269": [
+      {
+        "bioproject": "PRJEB58761",
+        "biosample": "SAMEA111437137",
+        "run": "ERR14184269"
+      }
+    ],
+    "ERR14184270": [
+      {
+        "bioproject": "PRJEB58761",
+        "biosample": "SAMEA111437139",
+        "run": "ERR14184270"
+      }
+    ],
+    "ERR14184271": [
+      {
+        "bioproject": "PRJEB58761",
+        "biosample": "SAMEA111437140",
+        "run": "ERR14184271"
+      }
+    ],
+    "ERR14184272": [
+      {
+        "bioproject": "PRJEB58761",
+        "biosample": "SAMEA111437141",
+        "run": "ERR14184272"
+      }
+    ],
+    "ERR14184273": [
+      {
+        "bioproject": "PRJEB58761",
+        "biosample": "SAMEA111437142",
+        "run": "ERR14184273"
+      }
+    ],
+    "ERR14184274": [
+      {
+        "bioproject": "PRJEB58761",
+        "biosample": "SAMEA111437143",
+        "run": "ERR14184274"
+      }
+    ]
+  },
   "subject": "birds/tetrao-urogallus",
   "tool_version": "0.1.0",
   "vcf": {
