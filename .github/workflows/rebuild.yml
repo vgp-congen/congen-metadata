@@ -62,13 +62,19 @@ jobs:
       # at once, and that should arrive as a deliberate bump to this line
       # with a reviewable diff, not overnight.
       #
+      # The corollary, learned the hard way: a renderer change is not live
+      # until it is tagged AND this line moves. Landing the References
+      # block without bumping the pin had the rebuild re-render 53
+      # documents with the previous version's placeholder, deleting 723
+      # lines of citations minutes after they landed.
+      #
       # congen-metadata-tools is public, so no credential is needed. If it
       # ever goes private again, replace the URL with
-      #   git+https://x-access-token:${{ secrets.TOOLS_TOKEN }}@github.com/vgp-congen/congen-metadata-tools@v0.2.0
+      #   git+https://x-access-token:${{ secrets.TOOLS_TOKEN }}@github.com/vgp-congen/congen-metadata-tools@v0.3.0
       # and add a fine-grained PAT with read access to that repo as the
       # TOOLS_TOKEN secret.
       - name: Install congen-metadata-tools
-        run: pip install 'congen-metadata-tools @ git+https://github.com/vgp-congen/congen-metadata-tools@v0.2.0'
+        run: pip install 'congen-metadata-tools @ git+https://github.com/vgp-congen/congen-metadata-tools@v0.3.0'
 
       - name: Show why this ran
         run: |
