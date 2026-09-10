@@ -90,7 +90,27 @@ jobs:
       #    promote to "fully cited" with unverified citations. Automation
       #    is exactly where a missing flag is forgotten permanently.
       - name: Validate
-        run: congen validate --all --check-sra --write-reports
+        # `validate` exits 1 when any error finding exists. That is a fact
+        # about the metadata, not a failure of the run: the corpus has four
+        # known errors waiting on human fixes, and the documents must still
+        # be regenerated and committed — the generated README is precisely
+        # where those errors get announced.
+        #
+        # Exit 2 (misuse) and anything else still fail the job, so a real
+        # breakage is not swallowed.
+        run: |
+          set +e
+          congen validate --all --check-sra --write-reports
+          status=$?
+          set -e
+          if [ "$status" -gt 1 ]; then
+            echo "::error::validate failed with exit $status"
+            exit "$status"
+          fi
+          if [ "$status" -eq 1 ]; then
+            echo "::notice::validate found error-level findings; "\
+                 "regenerating anyway so the documents report them"
+          fi
 
       # 3. Re-harvest GenomeArk, NCBI and the QC tables. Exits non-zero
       #    if any fetch failed, and leaves the previous good records in
