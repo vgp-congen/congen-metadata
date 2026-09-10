@@ -62,13 +62,13 @@ jobs:
       # at once, and that should arrive as a deliberate bump to this line
       # with a reviewable diff, not overnight.
       #
-      # This works as written only while congen-metadata-tools is public.
-      # For a private tools repo, replace the URL with
-      #   git+https://x-access-token:${{ secrets.TOOLS_TOKEN }}@github.com/vgp-congen/congen-metadata-tools@v0.1.0
+      # congen-metadata-tools is public, so no credential is needed. If it
+      # ever goes private again, replace the URL with
+      #   git+https://x-access-token:${{ secrets.TOOLS_TOKEN }}@github.com/vgp-congen/congen-metadata-tools@v0.2.0
       # and add a fine-grained PAT with read access to that repo as the
       # TOOLS_TOKEN secret.
       - name: Install congen-metadata-tools
-        run: pip install 'congen-metadata-tools @ git+https://github.com/vgp-congen/congen-metadata-tools@v0.1.0'
+        run: pip install 'congen-metadata-tools @ git+https://github.com/vgp-congen/congen-metadata-tools@v0.2.0'
 
       - name: Show why this ran
         run: |
