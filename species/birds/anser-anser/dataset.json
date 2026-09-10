@@ -1,0 +1,1211 @@
+{
+  "accession": "GCA_964211835.1",
+  "assembly": {
+    "assembly_level": "Chromosome",
+    "assembly_name": "bAnsAns1.hap1.1",
+    "common_name": null,
+    "organism_name": "Anser anser",
+    "paired_accession": "GCF_964211835.1",
+    "tax_id": 8843
+  },
+  "cohort": {
+    "max_coverage": 33.0,
+    "mean_coverage": 16.28825,
+    "min_coverage": 8.0,
+    "n_sites": 26039499
+  },
+  "declared_accession": "GCA_964211835.1",
+  "harvested_at": "2026-09-10T19:44:44Z",
+  "notes": [],
+  "objects": {
+    "README.txt": {
+      "etag": "c9ce75e692af502234ec10f336d5c971",
+      "size": 245
+    },
+    "bams/SAMEA104378306.bam": {
+      "etag": "4f01f86f8f2fb44bb4341d0013480e4d-1995",
+      "size": 16734584832
+    },
+    "bams/SAMEA104378306.bam.csi": {
+      "etag": "e0dfddaada7e39b6d52000cee8512aee",
+      "size": 1762878
+    },
+    "bams/SAMEA112262519.bam": {
+      "etag": "3c65b46abd63623e174799fc5d5fc1d4-2093",
+      "size": 17552996601
+    },
+    "bams/SAMEA112262519.bam.csi": {
+      "etag": "832f68a80fb1d412039523aabe5a8ff5",
+      "size": 1852090
+    },
+    "bams/SAMEA112262520.bam": {
+      "etag": "858d3de57973336d3c03707d2d5b4ac3-2098",
+      "size": 17593607013
+    },
+    "bams/SAMEA112262520.bam.csi": {
+      "etag": "5576ee9621ffa1afd3e280de9548fedb",
+      "size": 1856051
+    },
+    "bams/SAMEA112262521.bam": {
+      "etag": "0d7b08b49abb3d5798b48dbd31ade52f-2988",
+      "size": 25060341437
+    },
+    "bams/SAMEA112262521.bam.csi": {
+      "etag": "92617c7fa2b0ff646e634e0231b46eb1",
+      "size": 1936605
+    },
+    "bams/SAMEA112262522.bam": {
+      "etag": "35b6ced15c712d7f78eff982d39b5e8d-2078",
+      "size": 17427718129
+    },
+    "bams/SAMEA112262522.bam.csi": {
+      "etag": "b59490619f5d468a168f742aee264c2b",
+      "size": 1388598
+    },
+    "bams/SAMEA112262523.bam": {
+      "etag": "bac4d215bb7afcda48fe8617645602c1-2702",
+      "size": 22658449638
+    },
+    "bams/SAMEA112262523.bam.csi": {
+      "etag": "35d29bb759e7dc6f5b96ac3757c5fcf7",
+      "size": 1715665
+    },
+    "bams/SAMEA112262524.bam": {
+      "etag": "471ccd65c3ebdfdb6ec8d51a5ffeffd0-2360",
+      "size": 19795896912
+    },
+    "bams/SAMEA112262524.bam.csi": {
+      "etag": "6d859bfb3a1f589b9149f6bfe2d395fc",
+      "size": 1797673
+    },
+    "bams/SAMEA112262525.bam": {
+      "etag": "189c9c5ea082526b1d82b1a34c5f6901-2197",
+      "size": 18424459553
+    },
+    "bams/SAMEA112262525.bam.csi": {
+      "etag": "8a7ab4539effe2fe47b8e279cc881445",
+      "size": 1932269
+    },
+    "bams/SAMEA112262526.bam": {
+      "etag": "248a7ba54daec8fbb0f91e0b9b3f1459-2603",
+      "size": 21830362095
+    },
+    "bams/SAMEA112262526.bam.csi": {
+      "etag": "a12f6d4b0f1001837b538845fc135131",
+      "size": 1627576
+    },
+    "bams/SAMEA112262527.bam": {
+      "etag": "606801392494ce1e4f81bb5b427433fb-2811",
+      "size": 23577925695
+    },
+    "bams/SAMEA112262527.bam.csi": {
+      "etag": "d6e806962b48335e7b45fd2879fe3b79",
+      "size": 1748621
+    },
+    "bams/SAMEA112262528.bam": {
+      "etag": "b472683a35f7f66633e8bcff6a3ec2c4-1674",
+      "size": 14040211242
+    },
+    "bams/SAMEA112262528.bam.csi": {
+      "etag": "772e0cf5d4c0577022286141bf44047b",
+      "size": 1729519
+    },
+    "bams/SAMEA112262529.bam": {
+      "etag": "c3b4f78fa23eb1a3568f080e894aacd2-2150",
+      "size": 18033352361
+    },
+    "bams/SAMEA112262529.bam.csi": {
+      "etag": "c4362db0ba75f8cf9e51166bfedaf71d",
+      "size": 1813182
+    },
+    "bams/SAMEA112262530.bam": {
+      "etag": "31eeda43c2608f2d0e3d09b31853ef91-2568",
+      "size": 21536779394
+    },
+    "bams/SAMEA112262530.bam.csi": {
+      "etag": "741aa3227c3be59ede65b1f1bd235664",
+      "size": 1617617
+    },
+    "bams/SAMEA112262531.bam": {
+      "etag": "90db8eca67df25115f2161d38e18302d-2582",
+      "size": 21659122504
+    },
+    "bams/SAMEA112262531.bam.csi": {
+      "etag": "16b45bafd183ee3e378350b89ec15692",
+      "size": 1876178
+    },
+    "bams/SAMN16814035.bam": {
+      "etag": "5421b37c91ab14b3a876bf984dfb6aa8-567",
+      "size": 4748768517
+    },
+    "bams/SAMN16814035.bam.csi": {
+      "etag": "0c690a609a28e5b3115ea351af9e5a28",
+      "size": 843044
+    },
+    "bams/SAMN16814046.bam": {
+      "etag": "c9d8eed50ddb1fb56be77c33d7d3db3d-672",
+      "size": 5629198073
+    },
+    "bams/SAMN16814046.bam.csi": {
+      "etag": "76ebdb4eb598f397e9863c90bbd1c0b3",
+      "size": 1484541
+    },
+    "bams/SAMN16814047.bam": {
+      "etag": "36ef2bf130f585a13ea52f446060c57a-684",
+      "size": 5734509092
+    },
+    "bams/SAMN16814047.bam.csi": {
+      "etag": "c0fd4feba4b7f97d2f8774ac18b0e6e5",
+      "size": 1558437
+    },
+    "bams/SAMN16814048.bam": {
+      "etag": "4207467c1f04c7b5ff30a82245126d44-593",
+      "size": 4972314580
+    },
+    "bams/SAMN16814048.bam.csi": {
+      "etag": "fc8ebd51ff9543402631f492feb25804",
+      "size": 963526
+    },
+    "bams/SAMN16814049.bam": {
+      "etag": "2417c98e6c75f48bd5f174be89f30646-619",
+      "size": 5184743100
+    },
+    "bams/SAMN16814049.bam.csi": {
+      "etag": "6e563d72b4e1a1e44832a84400b3baf9",
+      "size": 1203029
+    },
+    "bams/SAMN16814054.bam": {
+      "etag": "241f00cf128adb2554a2a7fafb5e276b-646",
+      "size": 5411304275
+    },
+    "bams/SAMN16814054.bam.csi": {
+      "etag": "1b8ad1f2c92d31e35393d8ae2b3a762d",
+      "size": 1314379
+    },
+    "bams/SAMN16814062.bam": {
+      "etag": "38a305eb6e4a8fabbf734f5fdfb591df-582",
+      "size": 4880161708
+    },
+    "bams/SAMN16814062.bam.csi": {
+      "etag": "25034961474065c35286e6d0dc945dd6",
+      "size": 643422
+    },
+    "bams/SAMN18744284.bam": {
+      "etag": "012bd2704548afd7a2754823544502ae-740",
+      "size": 6203720387
+    },
+    "bams/SAMN18744284.bam.csi": {
+      "etag": "ac6189b621b7bc48b8356cdff6c4ca37",
+      "size": 1537851
+    },
+    "bams/SAMN18744285.bam": {
+      "etag": "e3c117b71e0b9eb7bf8f5aea0f00e5a1-797",
+      "size": 6682550789
+    },
+    "bams/SAMN18744285.bam.csi": {
+      "etag": "fa721c783d135a6f43070b72eb585296",
+      "size": 1554141
+    },
+    "bams/SAMN18744286.bam": {
+      "etag": "9d1c8ddbe994444c5cf5fe062c5ce425-880",
+      "size": 7381739451
+    },
+    "bams/SAMN18744286.bam.csi": {
+      "etag": "ac624ae4936351b2408c242bc73d1ac2",
+      "size": 1594666
+    },
+    "bams/SAMN18744287.bam": {
+      "etag": "12b5b52c1286a4666b4c59ef4194eb88-794",
+      "size": 6659072724
+    },
+    "bams/SAMN18744287.bam.csi": {
+      "etag": "e94b5f27bea9c17bacb4290fbe66d142",
+      "size": 1551986
+    },
+    "bams/SAMN18744288.bam": {
+      "etag": "88b59d3e40efddc7f165218231b54131-796",
+      "size": 6670651151
+    },
+    "bams/SAMN18744288.bam.csi": {
+      "etag": "c3e910ef22f6ca8dfa90b687e10fd39f",
+      "size": 1559719
+    },
+    "bams/SAMN18744289.bam": {
+      "etag": "28ac7801de3e1e94e9946cc76ef969c5-865",
+      "size": 7251544194
+    },
+    "bams/SAMN18744289.bam.csi": {
+      "etag": "0e1528c99ba977ae036973f3f8a35ead",
+      "size": 1585220
+    },
+    "bams/SAMN18744290.bam": {
+      "etag": "406592be59efddb05a0c626792104a89-678",
+      "size": 5681997076
+    },
+    "bams/SAMN18744290.bam.csi": {
+      "etag": "fb0d15cededebe6b2ba28002a07821fb",
+      "size": 1458550
+    },
+    "bams/SAMN18744291.bam": {
+      "etag": "bc88068edf23402c87d444dfb24b2cdb-878",
+      "size": 7360833561
+    },
+    "bams/SAMN18744291.bam.csi": {
+      "etag": "434cf878a6425e06d5f6b18c89cf280b",
+      "size": 1597686
+    },
+    "bams/SAMN18744292.bam": {
+      "etag": "86bbddf5d506daf992a50956394be92b-710",
+      "size": 5953748983
+    },
+    "bams/SAMN18744292.bam.csi": {
+      "etag": "911b83368d969dde9a1ee7015a601ea3",
+      "size": 1495640
+    },
+    "bams/SAMN21928428.bam": {
+      "etag": "f1bbdfdd23be43cbdc3c0f8ce672dcb3-610",
+      "size": 5113283821
+    },
+    "bams/SAMN21928428.bam.csi": {
+      "etag": "f173c3dfa444cc78bbbb385da70c3632",
+      "size": 977011
+    },
+    "bams/SAMN21928429.bam": {
+      "etag": "b73d6661a7d51fb1945fbc2b994a3125-623",
+      "size": 5225723497
+    },
+    "bams/SAMN21928429.bam.csi": {
+      "etag": "62e3cd709f29f538ab82d09df6623f71",
+      "size": 1047742
+    },
+    "bams/SAMN21928430.bam": {
+      "etag": "9e8c3c5d596b25d660ccfd08fa2fd0b0-644",
+      "size": 5396243155
+    },
+    "bams/SAMN21928430.bam.csi": {
+      "etag": "1ee3de006d44ee2bc4e6e6d313cc427e",
+      "size": 1217766
+    },
+    "bams/SAMN21928432.bam": {
+      "etag": "9ee5866b8132a3f0d602e085f8e03a3e-648",
+      "size": 5430632156
+    },
+    "bams/SAMN21928432.bam.csi": {
+      "etag": "ea6fc73de71441ac4c8014e4d75be85f",
+      "size": 1297463
+    },
+    "bams/SAMN26740353.bam": {
+      "etag": "7dd413337142c8ff6b1295692192c4d2-2062",
+      "size": 17291072783
+    },
+    "bams/SAMN26740353.bam.csi": {
+      "etag": "2f39b34d7b5958bc49ac083ce717ff7b",
+      "size": 1789126
+    },
+    "bams/SAMN26740354.bam": {
+      "etag": "b278faf928f0bc2ff24d951a2c24a1e3-2091",
+      "size": 17540425922
+    },
+    "bams/SAMN26740354.bam.csi": {
+      "etag": "6705172b1b6487334b08bbd67dd44bc4",
+      "size": 1827090
+    },
+    "bams/SAMN26740355.bam": {
+      "etag": "776e776e72834eb050a0631d3f8d54b9-1931",
+      "size": 16190333088
+    },
+    "bams/SAMN26740355.bam.csi": {
+      "etag": "078dca445632851b1db5058f710491f5",
+      "size": 1813042
+    },
+    "bams/SAMN26740356.bam": {
+      "etag": "ee679d38685e8c68d4e3275f4b96b794-1941",
+      "size": 16279410524
+    },
+    "bams/SAMN26740356.bam.csi": {
+      "etag": "a7013c657662fdf3a2830006283ad099",
+      "size": 1808221
+    },
+    "bams/SAMN26740357.bam": {
+      "etag": "7b13e44f248bbf1c37097d0bc8febaaa-1842",
+      "size": 15449624077
+    },
+    "bams/SAMN26740357.bam.csi": {
+      "etag": "8e3d6e34efec8f40234915c7f958961c",
+      "size": 1795714
+    },
+    "bams/SAMN26740358.bam": {
+      "etag": "38c8dff693ffd19d90b447fad1fa7dec-1969",
+      "size": 16514705193
+    },
+    "bams/SAMN26740358.bam.csi": {
+      "etag": "db53fe1a3e4f9bb18de4d154ca3ed53e",
+      "size": 1822758
+    },
+    "callable_sites/callable_sites.bed": {
+      "etag": "cfdf20230a58da0810198c6eeefcb21a",
+      "size": 3115222
+    },
+    "callable_sites/coverage.bed": {
+      "etag": "78748728e3d7138b8dfff0ba73efeee5",
+      "size": 94963
+    },
+    "callable_sites/coverage_thresholds.tsv": {
+      "etag": "b9498abba31e615173b4ed529cb7c4bb",
+      "size": 62
+    },
+    "callable_sites/mappability.bed": {
+      "etag": "9aba74852b144b3621bb43e9b5640583",
+      "size": 3113653
+    },
+    "callable_sites/mappability.bedgraph": {
+      "etag": "6b0e508cb63f52898827ad9a54d95f73-224",
+      "size": 1873407535
+    },
+    "qc/contig_map.tsv": {
+      "etag": "a989969180957392f06201d02014145d",
+      "size": 32106
+    },
+    "qc/ind_filter_list.txt": {
+      "etag": "98937933a3121e6aec44a0f0ed28091d",
+      "size": 52
+    },
+    "qc/individuals.FILTER.summary": {
+      "etag": "05e48cbba31736ab677443cee0e15d2f",
+      "size": 70
+    },
+    "qc/individuals.het": {
+      "etag": "db2741201d02f3d975dd2683630be9fb",
+      "size": 2062
+    },
+    "qc/individuals.idepth": {
+      "etag": "0a0e378996459a15fa7d91a9f4552d8e",
+      "size": 1250
+    },
+    "qc/individuals.imiss": {
+      "etag": "c9832eb4adc09a2382d51ce888f537b7",
+      "size": 1744
+    },
+    "qc/individuals.samps.txt": {
+      "etag": "7e2e3f2fb267129de5a6506e8e101930",
+      "size": 548
+    },
+    "qc/plink.2.P": {
+      "etag": "00bcc1dbb8010d828ca4af3da47e40da",
+      "size": 1809558
+    },
+    "qc/plink.2.Q": {
+      "etag": "8772830edd8a85db90abb902692e4880",
+      "size": 720
+    },
+    "qc/plink.3.P": {
+      "etag": "3924366dc3338ab341c792e93ac901a9",
+      "size": 2714337
+    },
+    "qc/plink.3.Q": {
+      "etag": "a6a694a003c52dfe32ae5e7adf2204e6",
+      "size": 1080
+    },
+    "qc/plink.bed": {
+      "etag": "e0b9124bf071d7b2822108a74c73db2f",
+      "size": 1005313
+    },
+    "qc/plink.bim": {
+      "etag": "e046ad8d4764fb663048c5f5d5fa97c6",
+      "size": 1925549
+    },
+    "qc/plink.bim.orig": {
+      "etag": "ad0788b2ccf3c0e7c3668beaa4dbfe36",
+      "size": 2824838
+    },
+    "qc/plink.bim_fixed": {
+      "etag": "e046ad8d4764fb663048c5f5d5fa97c6",
+      "size": 1925549
+    },
+    "qc/plink.dist": {
+      "etag": "329995b614798c7c88aa17e4d51289a5",
+      "size": 12294
+    },
+    "qc/plink.dist.id": {
+      "etag": "09ae7f5a71f6446e031ec0d20ae6830d",
+      "size": 628
+    },
+    "qc/plink.eigenval": {
+      "etag": "b7d15f24e654784257684596790336c5",
+      "size": 75
+    },
+    "qc/plink.eigenvec": {
+      "etag": "ec8415fe1051c30016d30775654622c4",
+      "size": 4784
+    },
+    "qc/plink.fam": {
+      "etag": "397f2a3a8b443cf80d3d529efb0410a0",
+      "size": 988
+    },
+    "qc/plink.king": {
+      "etag": "00dc90aca910c0b01f371c8e7932e26a",
+      "size": 15856
+    },
+    "qc/plink.king.id": {
+      "etag": "719fa3105d35a1d071319046302d1a04",
+      "size": 553
+    },
+    "qc/plink.log": {
+      "etag": "cb0a21cad22a97fef64491398d232526",
+      "size": 1285
+    },
+    "qc/plink.nosex": {
+      "etag": "09ae7f5a71f6446e031ec0d20ae6830d",
+      "size": 628
+    },
+    "qc/plink_input.vcf.gz": {
+      "etag": "3d96812a1e7d1edaabef2b8d283f49ff-4",
+      "size": 27829656
+    },
+    "qc/plink_input.vcf.gz.csi": {
+      "etag": "b5400700a9fad2598cffbf04d331a289",
+      "size": 507469
+    },
+    "qc/pruned.vcf.gz": {
+      "etag": "f1317ef6801dcf0a2b173c15aec2b4f1-4",
+      "size": 27829550
+    },
+    "qc/qc_dashboard.html": {
+      "etag": "5ac7ae2c74e4d884ebcf4322a884c202-2",
+      "size": 9464602
+    },
+    "qc/qc_report.tsv": {
+      "etag": "0cdc2dffaf50640976e9c9e346abbaf2",
+      "size": 3925
+    },
+    "qc/ref.fai": {
+      "etag": "6567846eadc6878db3184aeb7057c6e0",
+      "size": 33557
+    },
+    "qc/snpqc.txt": {
+      "etag": "eb29cb8a444d4c1d8f5fdc8e24162e17",
+      "size": 5774373
+    },
+    "sample_sheet.csv": {
+      "etag": "c894e2941ed644edb7f005a0f7677ad4",
+      "size": 1267
+    },
+    "vcfs/raw.vcf.gz": {
+      "etag": "0a1053138b688e95abdf82b4f5c8d89d-826",
+      "size": 6923088440
+    },
+    "vcfs/raw.vcf.gz.tbi": {
+      "etag": "7d8460b092dfc6b4836e3ae0add92ef1",
+      "size": 1146341
+    }
+  },
+  "opaque_subdirs": {
+    "callable_sites": [
+      "callable_loci.zarr",
+      "depths",
+      "depths.zarr",
+      "genmap_index"
+    ]
+  },
+  "prefix": "downstream_analyses/conservation_genomics/variant_calling/GCA_964211835.1",
+  "published": true,
+  "samples": {
+    "SAMEA104378306": {
+      "covered_bases": 1269888732,
+      "depth_at_called_sites": 12.3553,
+      "f_inbreeding": 0.0474,
+      "f_missing": 0.100946,
+      "fraction_passed": 0.9416,
+      "mean_depth": 13.95,
+      "n_missing": 2628572,
+      "n_sites_called": 23901000,
+      "percent_duplicates": 3.61,
+      "percent_mapped": 99.44,
+      "percent_properly_paired": 97.54,
+      "reads_after_filtering": 192635546,
+      "reads_before_filtering": 204582188,
+      "total_reads": 192819123
+    },
+    "SAMEA112262519": {
+      "covered_bases": 1302160818,
+      "depth_at_called_sites": 19.4706,
+      "f_inbreeding": 0.02388,
+      "f_missing": 0.0480016,
+      "fraction_passed": 0.9748,
+      "mean_depth": 21.47,
+      "n_missing": 1249938,
+      "n_sites_called": 25290437,
+      "percent_duplicates": 33.31,
+      "percent_mapped": 99.58,
+      "percent_properly_paired": 98.36,
+      "reads_after_filtering": 288147062,
+      "reads_before_filtering": 295600030,
+      "total_reads": 289409963
+    },
+    "SAMEA112262520": {
+      "covered_bases": 1307413026,
+      "depth_at_called_sites": 19.1289,
+      "f_inbreeding": 0.05516,
+      "f_missing": 0.0462895,
+      "fraction_passed": 0.9742,
+      "mean_depth": 21.23,
+      "n_missing": 1205355,
+      "n_sites_called": 25348684,
+      "percent_duplicates": 34.48,
+      "percent_mapped": 99.57,
+      "percent_properly_paired": 98.29,
+      "reads_after_filtering": 290464318,
+      "reads_before_filtering": 298167176,
+      "total_reads": 291800487
+    },
+    "SAMEA112262521": {
+      "covered_bases": 1288734476,
+      "depth_at_called_sites": 28.2982,
+      "f_inbreeding": 0.04334,
+      "f_missing": 0.0844857,
+      "fraction_passed": 0.9365,
+      "mean_depth": 29.11,
+      "n_missing": 2199966,
+      "n_sites_called": 25243326,
+      "percent_duplicates": 21.3,
+      "percent_mapped": 98.73,
+      "percent_properly_paired": 86.44,
+      "reads_after_filtering": 350517206,
+      "reads_before_filtering": 374269860,
+      "total_reads": 364617607
+    },
+    "SAMEA112262522": {
+      "covered_bases": 1167896011,
+      "depth_at_called_sites": 27.0549,
+      "f_inbreeding": 0.27411,
+      "f_missing": 0.211682,
+      "fraction_passed": 0.944,
+      "mean_depth": 21.58,
+      "n_missing": 5512090,
+      "n_sites_called": 21774936,
+      "percent_duplicates": 21.24,
+      "percent_mapped": 98.41,
+      "percent_properly_paired": 88.25,
+      "reads_after_filtering": 256369904,
+      "reads_before_filtering": 271589852,
+      "total_reads": 264779752
+    },
+    "SAMEA112262523": {
+      "covered_bases": 1279674730,
+      "depth_at_called_sites": 28.7787,
+      "f_inbreeding": 0.10734,
+      "f_missing": 0.0894618,
+      "fraction_passed": 0.9314,
+      "mean_depth": 26.97,
+      "n_missing": 2329541,
+      "n_sites_called": 24913242,
+      "percent_duplicates": 21.71,
+      "percent_mapped": 98.65,
+      "percent_properly_paired": 89.5,
+      "reads_after_filtering": 323448426,
+      "reads_before_filtering": 347261000,
+      "total_reads": 333857254
+    },
+    "SAMEA112262524": {
+      "covered_bases": 1302384842,
+      "depth_at_called_sites": 24.0886,
+      "f_inbreeding": 0.06662,
+      "f_missing": 0.0658091,
+      "fraction_passed": 0.9328,
+      "mean_depth": 23.56,
+      "n_missing": 1713637,
+      "n_sites_called": 25346939,
+      "percent_duplicates": 19.87,
+      "percent_mapped": 98.78,
+      "percent_properly_paired": 90.82,
+      "reads_after_filtering": 274388536,
+      "reads_before_filtering": 294140728,
+      "total_reads": 282037823
+    },
+    "SAMEA112262525": {
+      "covered_bases": 1304939723,
+      "depth_at_called_sites": 13.6788,
+      "f_inbreeding": -0.04525,
+      "f_missing": 0.071495,
+      "fraction_passed": 0.92,
+      "mean_depth": 18.74,
+      "n_missing": 1861695,
+      "n_sites_called": 25368403,
+      "percent_duplicates": 29.33,
+      "percent_mapped": 98.74,
+      "percent_properly_paired": 87.47,
+      "reads_after_filtering": 258302802,
+      "reads_before_filtering": 280758842,
+      "total_reads": 271916532
+    },
+    "SAMEA112262526": {
+      "covered_bases": 1263461956,
+      "depth_at_called_sites": 26.9022,
+      "f_inbreeding": 0.23374,
+      "f_missing": 0.113432,
+      "fraction_passed": 0.9402,
+      "mean_depth": 26.44,
+      "n_missing": 2953700,
+      "n_sites_called": 24396816,
+      "percent_duplicates": 18.69,
+      "percent_mapped": 98.79,
+      "percent_properly_paired": 87.81,
+      "reads_after_filtering": 311016966,
+      "reads_before_filtering": 330789212,
+      "total_reads": 320961554
+    },
+    "SAMEA112262527": {
+      "covered_bases": 1285534993,
+      "depth_at_called_sites": 33.572,
+      "f_inbreeding": 0.06421,
+      "f_missing": 0.0671914,
+      "fraction_passed": 0.9421,
+      "mean_depth": 30.93,
+      "n_missing": 1749630,
+      "n_sites_called": 25090735,
+      "percent_duplicates": 19.52,
+      "percent_mapped": 98.6,
+      "percent_properly_paired": 94.25,
+      "reads_after_filtering": 355446592,
+      "reads_before_filtering": 377306626,
+      "total_reads": 361169481
+    },
+    "SAMEA112262528": {
+      "covered_bases": 1273426220,
+      "depth_at_called_sites": 11.3982,
+      "f_inbreeding": 0.09166,
+      "f_missing": 0.0727766,
+      "fraction_passed": 0.9424,
+      "mean_depth": 12.87,
+      "n_missing": 1895067,
+      "n_sites_called": 24909563,
+      "percent_duplicates": 47.28,
+      "percent_mapped": 97.65,
+      "percent_properly_paired": 96.11,
+      "reads_after_filtering": 242225466,
+      "reads_before_filtering": 257033232,
+      "total_reads": 243862627
+    },
+    "SAMEA112262529": {
+      "covered_bases": 1269106146,
+      "depth_at_called_sites": 15.4189,
+      "f_inbreeding": 0.0618,
+      "f_missing": 0.0682898,
+      "fraction_passed": 0.9533,
+      "mean_depth": 16.53,
+      "n_missing": 1778232,
+      "n_sites_called": 24965054,
+      "percent_duplicates": 50.81,
+      "percent_mapped": 99.42,
+      "percent_properly_paired": 97.71,
+      "reads_after_filtering": 319894392,
+      "reads_before_filtering": 335556674,
+      "total_reads": 322797018
+    },
+    "SAMEA112262530": {
+      "covered_bases": 1241588425,
+      "depth_at_called_sites": 18.513,
+      "f_inbreeding": 0.18354,
+      "f_missing": 0.0981848,
+      "fraction_passed": 0.941,
+      "mean_depth": 19.11,
+      "n_missing": 2556683,
+      "n_sites_called": 24361552,
+      "percent_duplicates": 48.42,
+      "percent_mapped": 98.9,
+      "percent_properly_paired": 95.49,
+      "reads_after_filtering": 364493074,
+      "reads_before_filtering": 387347736,
+      "total_reads": 371721597
+    },
+    "SAMEA112262531": {
+      "covered_bases": 1304378538,
+      "depth_at_called_sites": 22.5039,
+      "f_inbreeding": 0.0192,
+      "f_missing": 0.0437374,
+      "fraction_passed": 0.9696,
+      "mean_depth": 24.67,
+      "n_missing": 1138900,
+      "n_sites_called": 25410327,
+      "percent_duplicates": 33.92,
+      "percent_mapped": 97.41,
+      "percent_properly_paired": 96.17,
+      "reads_after_filtering": 348649454,
+      "reads_before_filtering": 359594158,
+      "total_reads": 350147442
+    },
+    "SAMN16814035": {
+      "covered_bases": 1279794783,
+      "depth_at_called_sites": 8.49784,
+      "f_inbreeding": 0.42681,
+      "f_missing": 0.082659,
+      "fraction_passed": 0.9888,
+      "mean_depth": 8.58,
+      "n_missing": 2152399,
+      "n_sites_called": 24471443,
+      "percent_duplicates": 17.43,
+      "percent_mapped": 99.72,
+      "percent_properly_paired": 98.5,
+      "reads_after_filtering": 92495844,
+      "reads_before_filtering": 93547362,
+      "total_reads": 93002176
+    },
+    "SAMN16814046": {
+      "covered_bases": 1272479471,
+      "depth_at_called_sites": 9.74085,
+      "f_inbreeding": 0.36748,
+      "f_missing": 0.0830619,
+      "fraction_passed": 0.9867,
+      "mean_depth": 10.02,
+      "n_missing": 2162889,
+      "n_sites_called": 24451486,
+      "percent_duplicates": 11.08,
+      "percent_mapped": 99.7,
+      "percent_properly_paired": 98.51,
+      "reads_after_filtering": 100538102,
+      "reads_before_filtering": 101893378,
+      "total_reads": 101093860
+    },
+    "SAMN16814047": {
+      "covered_bases": 1263779952,
+      "depth_at_called_sites": 10.6778,
+      "f_inbreeding": 0.38058,
+      "f_missing": 0.0840499,
+      "fraction_passed": 0.9888,
+      "mean_depth": 10.78,
+      "n_missing": 2188618,
+      "n_sites_called": 24386390,
+      "percent_duplicates": 12.75,
+      "percent_mapped": 99.71,
+      "percent_properly_paired": 98.69,
+      "reads_after_filtering": 109806256,
+      "reads_before_filtering": 111047446,
+      "total_reads": 110340593
+    },
+    "SAMN16814048": {
+      "covered_bases": 1285339026,
+      "depth_at_called_sites": 8.99492,
+      "f_inbreeding": 0.42825,
+      "f_missing": 0.077647,
+      "fraction_passed": 0.9888,
+      "mean_depth": 9.12,
+      "n_missing": 2021890,
+      "n_sites_called": 24615407,
+      "percent_duplicates": 10.68,
+      "percent_mapped": 99.71,
+      "percent_properly_paired": 98.62,
+      "reads_after_filtering": 91052912,
+      "reads_before_filtering": 92082004,
+      "total_reads": 91477530
+    },
+    "SAMN16814049": {
+      "covered_bases": 1271246273,
+      "depth_at_called_sites": 9.19748,
+      "f_inbreeding": 0.35831,
+      "f_missing": 0.0829614,
+      "fraction_passed": 0.9879,
+      "mean_depth": 9.45,
+      "n_missing": 2160272,
+      "n_sites_called": 24469023,
+      "percent_duplicates": 12.01,
+      "percent_mapped": 99.7,
+      "percent_properly_paired": 98.52,
+      "reads_after_filtering": 95774574,
+      "reads_before_filtering": 96944882,
+      "total_reads": 96245704
+    },
+    "SAMN16814054": {
+      "covered_bases": 1272912017,
+      "depth_at_called_sites": 9.45936,
+      "f_inbreeding": 0.40658,
+      "f_missing": 0.0820096,
+      "fraction_passed": 0.9859,
+      "mean_depth": 9.7,
+      "n_missing": 2135488,
+      "n_sites_called": 24491088,
+      "percent_duplicates": 11.42,
+      "percent_mapped": 99.67,
+      "percent_properly_paired": 98.46,
+      "reads_after_filtering": 97890682,
+      "reads_before_filtering": 99293126,
+      "total_reads": 98443272
+    },
+    "SAMN16814062": {
+      "covered_bases": 1266644065,
+      "depth_at_called_sites": 8.53907,
+      "f_inbreeding": 0.43256,
+      "f_missing": 0.0833597,
+      "fraction_passed": 0.9871,
+      "mean_depth": 8.75,
+      "n_missing": 2170645,
+      "n_sites_called": 24473761,
+      "percent_duplicates": 10.91,
+      "percent_mapped": 99.67,
+      "percent_properly_paired": 98.41,
+      "reads_after_filtering": 87681524,
+      "reads_before_filtering": 88829032,
+      "total_reads": 88138647
+    },
+    "SAMN18744284": {
+      "covered_bases": 1286336102,
+      "depth_at_called_sites": 11.4269,
+      "f_inbreeding": 0.10832,
+      "f_missing": 0.0654109,
+      "fraction_passed": 0.9999,
+      "mean_depth": 11.52,
+      "n_missing": 1703266,
+      "n_sites_called": 24770567,
+      "percent_duplicates": 10.95,
+      "percent_mapped": 99.72,
+      "percent_properly_paired": 98.54,
+      "reads_after_filtering": 115511988,
+      "reads_before_filtering": 115522676,
+      "total_reads": 115752332
+    },
+    "SAMN18744285": {
+      "covered_bases": 1284727650,
+      "depth_at_called_sites": 11.8903,
+      "f_inbreeding": 0.14918,
+      "f_missing": 0.0686858,
+      "fraction_passed": 0.9999,
+      "mean_depth": 12.02,
+      "n_missing": 1788543,
+      "n_sites_called": 24659445,
+      "percent_duplicates": 10.89,
+      "percent_mapped": 99.75,
+      "percent_properly_paired": 98.94,
+      "reads_after_filtering": 120282168,
+      "reads_before_filtering": 120291136,
+      "total_reads": 120440111
+    },
+    "SAMN18744286": {
+      "covered_bases": 1287229408,
+      "depth_at_called_sites": 14.0285,
+      "f_inbreeding": -0.0059,
+      "f_missing": 0.065282,
+      "fraction_passed": 0.9999,
+      "mean_depth": 14.22,
+      "n_missing": 1699911,
+      "n_sites_called": 24743492,
+      "percent_duplicates": 12.19,
+      "percent_mapped": 99.73,
+      "percent_properly_paired": 98.84,
+      "reads_after_filtering": 144304092,
+      "reads_before_filtering": 144317312,
+      "total_reads": 144504773
+    },
+    "SAMN18744287": {
+      "covered_bases": 1286382295,
+      "depth_at_called_sites": 12.7741,
+      "f_inbreeding": -0.04021,
+      "f_missing": 0.065589,
+      "fraction_passed": 0.9999,
+      "mean_depth": 12.68,
+      "n_missing": 1707905,
+      "n_sites_called": 24741605,
+      "percent_duplicates": 11.27,
+      "percent_mapped": 99.73,
+      "percent_properly_paired": 98.88,
+      "reads_after_filtering": 127316310,
+      "reads_before_filtering": 127328284,
+      "total_reads": 127499921
+    },
+    "SAMN18744288": {
+      "covered_bases": 1287702085,
+      "depth_at_called_sites": 11.4202,
+      "f_inbreeding": 0.24631,
+      "f_missing": 0.0638139,
+      "fraction_passed": 1.0,
+      "mean_depth": 11.6,
+      "n_missing": 1661683,
+      "n_sites_called": 24795474,
+      "percent_duplicates": 8.74,
+      "percent_mapped": 99.75,
+      "percent_properly_paired": 98.88,
+      "reads_after_filtering": 113481334,
+      "reads_before_filtering": 113483680,
+      "total_reads": 113711425
+    },
+    "SAMN18744289": {
+      "covered_bases": 1286472622,
+      "depth_at_called_sites": 13.9842,
+      "f_inbreeding": -0.05531,
+      "f_missing": 0.065141,
+      "fraction_passed": 0.9999,
+      "mean_depth": 14.04,
+      "n_missing": 1696239,
+      "n_sites_called": 24743623,
+      "percent_duplicates": 11.77,
+      "percent_mapped": 99.73,
+      "percent_properly_paired": 98.94,
+      "reads_after_filtering": 141877800,
+      "reads_before_filtering": 141891276,
+      "total_reads": 142078293
+    },
+    "SAMN18744290": {
+      "covered_bases": 1285642790,
+      "depth_at_called_sites": 10.3663,
+      "f_inbreeding": 0.18567,
+      "f_missing": 0.0681303,
+      "fraction_passed": 0.9999,
+      "mean_depth": 10.39,
+      "n_missing": 1774080,
+      "n_sites_called": 24700249,
+      "percent_duplicates": 11.22,
+      "percent_mapped": 99.73,
+      "percent_properly_paired": 98.62,
+      "reads_after_filtering": 104360568,
+      "reads_before_filtering": 104369964,
+      "total_reads": 104503453
+    },
+    "SAMN18744291": {
+      "covered_bases": 1287867913,
+      "depth_at_called_sites": 14.1605,
+      "f_inbreeding": 0.03369,
+      "f_missing": 0.0620001,
+      "fraction_passed": 0.9999,
+      "mean_depth": 14.35,
+      "n_missing": 1614452,
+      "n_sites_called": 24829732,
+      "percent_duplicates": 11.86,
+      "percent_mapped": 99.73,
+      "percent_properly_paired": 98.94,
+      "reads_after_filtering": 145125850,
+      "reads_before_filtering": 145140038,
+      "total_reads": 145335520
+    },
+    "SAMN18744292": {
+      "covered_bases": 1281946072,
+      "depth_at_called_sites": 10.1052,
+      "f_inbreeding": 0.20025,
+      "f_missing": 0.07044,
+      "fraction_passed": 1.0,
+      "mean_depth": 10.18,
+      "n_missing": 1834222,
+      "n_sites_called": 24630011,
+      "percent_duplicates": 8.35,
+      "percent_mapped": 99.75,
+      "percent_properly_paired": 98.82,
+      "reads_after_filtering": 99107782,
+      "reads_before_filtering": 99109938,
+      "total_reads": 99230304
+    },
+    "SAMN21928428": {
+      "covered_bases": 1261536717,
+      "depth_at_called_sites": 8.15483,
+      "f_inbreeding": 0.23202,
+      "f_missing": 0.0854039,
+      "fraction_passed": 0.9999,
+      "mean_depth": 8.29,
+      "n_missing": 2223874,
+      "n_sites_called": 24349658,
+      "percent_duplicates": 21.36,
+      "percent_mapped": 99.73,
+      "percent_properly_paired": 98.83,
+      "reads_after_filtering": 93797490,
+      "reads_before_filtering": 93809132,
+      "total_reads": 94027322
+    },
+    "SAMN21928429": {
+      "covered_bases": 1277893267,
+      "depth_at_called_sites": 8.15241,
+      "f_inbreeding": -0.48423,
+      "f_missing": 0.0866492,
+      "fraction_passed": 0.9999,
+      "mean_depth": 8.15,
+      "n_missing": 2256301,
+      "n_sites_called": 24314053,
+      "percent_duplicates": 21.35,
+      "percent_mapped": 99.52,
+      "percent_properly_paired": 98.38,
+      "reads_after_filtering": 92663662,
+      "reads_before_filtering": 92674884,
+      "total_reads": 92927298
+    },
+    "SAMN21928430": {
+      "covered_bases": 1278863013,
+      "depth_at_called_sites": 9.10294,
+      "f_inbreeding": 0.37353,
+      "f_missing": 0.0833281,
+      "fraction_passed": 1.0,
+      "mean_depth": 9.14,
+      "n_missing": 2169823,
+      "n_sites_called": 24401688,
+      "percent_duplicates": 17.46,
+      "percent_mapped": 99.73,
+      "percent_properly_paired": 98.87,
+      "reads_after_filtering": 98331376,
+      "reads_before_filtering": 98331802,
+      "total_reads": 98588868
+    },
+    "SAMN21928432": {
+      "covered_bases": 1278067998,
+      "depth_at_called_sites": 9.41647,
+      "f_inbreeding": 0.39393,
+      "f_missing": 0.0804647,
+      "fraction_passed": 1.0,
+      "mean_depth": 9.34,
+      "n_missing": 2095261,
+      "n_sites_called": 24429715,
+      "percent_duplicates": 17.25,
+      "percent_mapped": 99.69,
+      "percent_properly_paired": 98.85,
+      "reads_after_filtering": 100223912,
+      "reads_before_filtering": 100224406,
+      "total_reads": 100510503
+    },
+    "SAMN26740353": {
+      "covered_bases": 1291412778,
+      "depth_at_called_sites": 28.7197,
+      "f_inbreeding": 0.35681,
+      "f_missing": 0.0610433,
+      "fraction_passed": 0.9834,
+      "mean_depth": 29.19,
+      "n_missing": 1589536,
+      "n_sites_called": 24870339,
+      "percent_duplicates": 10.05,
+      "percent_mapped": 99.73,
+      "percent_properly_paired": 98.87,
+      "reads_after_filtering": 287265086,
+      "reads_before_filtering": 292127806,
+      "total_reads": 288162192
+    },
+    "SAMN26740354": {
+      "covered_bases": 1299549348,
+      "depth_at_called_sites": 28.1997,
+      "f_inbreeding": 0.34858,
+      "f_missing": 0.0521753,
+      "fraction_passed": 0.9803,
+      "mean_depth": 28.76,
+      "n_missing": 1358618,
+      "n_sites_called": 25135220,
+      "percent_duplicates": 9.46,
+      "percent_mapped": 99.63,
+      "percent_properly_paired": 98.36,
+      "reads_after_filtering": 283136780,
+      "reads_before_filtering": 288819994,
+      "total_reads": 284206416
+    },
+    "SAMN26740355": {
+      "covered_bases": 1296756665,
+      "depth_at_called_sites": 25.1028,
+      "f_inbreeding": 0.40862,
+      "f_missing": 0.0574639,
+      "fraction_passed": 0.9756,
+      "mean_depth": 25.44,
+      "n_missing": 1496330,
+      "n_sites_called": 25002459,
+      "percent_duplicates": 10.91,
+      "percent_mapped": 99.65,
+      "percent_properly_paired": 98.39,
+      "reads_after_filtering": 254613416,
+      "reads_before_filtering": 260979786,
+      "total_reads": 255585002
+    },
+    "SAMN26740356": {
+      "covered_bases": 1301063145,
+      "depth_at_called_sites": 25.3639,
+      "f_inbreeding": 0.41688,
+      "f_missing": 0.0577953,
+      "fraction_passed": 0.9732,
+      "mean_depth": 25.55,
+      "n_missing": 1504960,
+      "n_sites_called": 25009084,
+      "percent_duplicates": 10.05,
+      "percent_mapped": 99.66,
+      "percent_properly_paired": 98.42,
+      "reads_after_filtering": 253138566,
+      "reads_before_filtering": 260119132,
+      "total_reads": 254042388
+    },
+    "SAMN26740357": {
+      "covered_bases": 1295991860,
+      "depth_at_called_sites": 25.5927,
+      "f_inbreeding": 0.37162,
+      "f_missing": 0.0577191,
+      "fraction_passed": 0.9808,
+      "mean_depth": 25.5,
+      "n_missing": 1502977,
+      "n_sites_called": 24989017,
+      "percent_duplicates": 10.03,
+      "percent_mapped": 99.66,
+      "percent_properly_paired": 98.5,
+      "reads_after_filtering": 251762904,
+      "reads_before_filtering": 256688488,
+      "total_reads": 252658325
+    },
+    "SAMN26740358": {
+      "covered_bases": 1299968282,
+      "depth_at_called_sites": 29.0515,
+      "f_inbreeding": 0.32522,
+      "f_missing": 0.0507082,
+      "fraction_passed": 0.982,
+      "mean_depth": 29.91,
+      "n_missing": 1320415,
+      "n_sites_called": 25190860,
+      "percent_duplicates": 9.64,
+      "percent_mapped": 98.98,
+      "percent_properly_paired": 97.29,
+      "reads_after_filtering": 298252582,
+      "reads_before_filtering": 303731694,
+      "total_reads": 299624489
+    }
+  },
+  "schema": 1,
+  "subject": "birds/anser-anser",
+  "tool_version": "0.1.0",
+  "vcf": {
+    "callers": [
+      "gatk"
+    ],
+    "het_prior": "0.005",
+    "n_contigs": 819,
+    "ploidy": "2",
+    "samples": [
+      "SAMEA104378306",
+      "SAMEA112262519",
+      "SAMEA112262520",
+      "SAMEA112262521",
+      "SAMEA112262522",
+      "SAMEA112262523",
+      "SAMEA112262524",
+      "SAMEA112262525",
+      "SAMEA112262526",
+      "SAMEA112262527",
+      "SAMEA112262528",
+      "SAMEA112262529",
+      "SAMEA112262530",
+      "SAMEA112262531",
+      "SAMN16814035",
+      "SAMN16814046",
+      "SAMN16814047",
+      "SAMN16814048",
+      "SAMN16814049",
+      "SAMN16814054",
+      "SAMN16814062",
+      "SAMN18744284",
+      "SAMN18744285",
+      "SAMN18744286",
+      "SAMN18744287",
+      "SAMN18744288",
+      "SAMN18744289",
+      "SAMN18744290",
+      "SAMN18744291",
+      "SAMN18744292",
+      "SAMN21928428",
+      "SAMN21928429",
+      "SAMN21928430",
+      "SAMN21928432",
+      "SAMN26740353",
+      "SAMN26740354",
+      "SAMN26740355",
+      "SAMN26740356",
+      "SAMN26740357",
+      "SAMN26740358"
+    ],
+    "tool_versions": {
+      "bcftools": "1.23.1",
+      "gatk": "4.6.2.0"
+    }
+  }
+}

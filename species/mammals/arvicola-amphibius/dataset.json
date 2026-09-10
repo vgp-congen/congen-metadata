@@ -1,0 +1,19 @@
+{
+  "accession": "GCA_903992535.2",
+  "assembly": {},
+  "cohort": {},
+  "declared_accession": "GCA_903992535.2",
+  "harvested_at": "2026-09-10T19:44:51Z",
+  "notes": [
+    "no data published on GenomeArk under GCA_903992535.2"
+  ],
+  "objects": {},
+  "opaque_subdirs": {},
+  "prefix": null,
+  "published": false,
+  "samples": {},
+  "schema": 1,
+  "subject": "mammals/arvicola-amphibius",
+  "tool_version": "0.1.0",
+  "vcf": {}
+}

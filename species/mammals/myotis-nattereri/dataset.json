@@ -1,0 +1,19 @@
+{
+  "accession": "GCA_964212035.2",
+  "assembly": {},
+  "cohort": {},
+  "declared_accession": "GCA_964212035.2",
+  "harvested_at": "2026-09-10T19:44:52Z",
+  "notes": [
+    "no data published on GenomeArk under GCA_964212035.2"
+  ],
+  "objects": {},
+  "opaque_subdirs": {},
+  "prefix": null,
+  "published": false,
+  "samples": {},
+  "schema": 1,
+  "subject": "mammals/myotis-nattereri",
+  "tool_version": "0.1.0",
+  "vcf": {}
+}

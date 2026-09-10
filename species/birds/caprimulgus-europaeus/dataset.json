@@ -1,0 +1,19 @@
+{
+  "accession": "GCA_907165065.1",
+  "assembly": {},
+  "cohort": {},
+  "declared_accession": "GCA_907165065.1",
+  "harvested_at": "2026-09-10T19:44:45Z",
+  "notes": [
+    "no data published on GenomeArk under GCA_907165065.1"
+  ],
+  "objects": {},
+  "opaque_subdirs": {},
+  "prefix": null,
+  "published": false,
+  "samples": {},
+  "schema": 1,
+  "subject": "birds/caprimulgus-europaeus",
+  "tool_version": "0.1.0",
+  "vcf": {}
+}

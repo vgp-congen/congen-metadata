@@ -1,0 +1,19 @@
+{
+  "accession": "GCA_048771995.1",
+  "assembly": {},
+  "cohort": {},
+  "declared_accession": "GCA_048771995.1",
+  "harvested_at": "2026-09-10T19:44:47Z",
+  "notes": [
+    "no data published on GenomeArk under GCA_048771995.1"
+  ],
+  "objects": {},
+  "opaque_subdirs": {},
+  "prefix": null,
+  "published": false,
+  "samples": {},
+  "schema": 1,
+  "subject": "birds/taeniopygia-guttata",
+  "tool_version": "0.1.0",
+  "vcf": {}
+}

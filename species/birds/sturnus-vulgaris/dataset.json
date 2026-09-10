@@ -1,0 +1,19 @@
+{
+  "accession": "GCF_001447265.1",
+  "assembly": {},
+  "cohort": {},
+  "declared_accession": "GCF_001447265.1",
+  "harvested_at": "2026-09-10T19:44:47Z",
+  "notes": [
+    "no data published on GenomeArk under GCF_001447265.1"
+  ],
+  "objects": {},
+  "opaque_subdirs": {},
+  "prefix": null,
+  "published": false,
+  "samples": {},
+  "schema": 1,
+  "subject": "birds/sturnus-vulgaris",
+  "tool_version": "0.1.0",
+  "vcf": {}
+}
