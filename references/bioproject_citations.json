@@ -1,4 +1,28 @@
 {
+  "PRJNA1149977": {
+    "citations": [
+      {
+        "doi": "10.3390/ani15050745",
+        "reference": "Li Y et al. (2025) Genomic Insights into the Population Genetics and Adaptive Evolution of Yellow Seabream (&lt;i&gt;Acanthopagrus latus&lt;/i&gt;) with Whole-Genome Resequencing",
+        "verified": false
+      }
+    ],
+    "status": "confirmed",
+    "submitter": "Third Institute of Oceanography, Ministry of Natural Resources",
+    "title": "Comprehensive whole-genome resequencing reveals genetic diversity and adaptive evolution in Acanthopagrus latus"
+  },
+  "PRJNA1218516": {
+    "citations": [
+      {
+        "doi": "10.1002/ece3.70946",
+        "reference": "Horaud M et al. (2025) Allochrony in Atlantic Lumpfish: Genomic and Otolith Shape Divergence Between Spring and Autumn Spawners",
+        "verified": false
+      }
+    ],
+    "status": "confirmed",
+    "submitter": "UiT The Arctic University of Norway",
+    "title": "ALLOCHRONY IN ATLANTIC LUMPFISH: GENOMIC AND OTOLITH SHAPE DIVERGENCE BETWEEN SPRING AND AUTUMN SPAWNERS"
+  },
   "PRJNA323498": {
     "citations": [
       {
@@ -25,6 +49,33 @@
     "status": "confirmed",
     "submitter": "The University of Colorado",
     "title": "Hirundo rustica Genome sequencing and assembly"
+  },
+  "PRJNA701455": {
+    "citations": [
+      {
+        "doi": "10.1111/eva.13551",
+        "reference": "Chen B et al. (2023) Genome-wide evolutionary signatures of climate adaptation in spotted sea bass inhabiting different latitudinal regions",
+        "verified": false
+      }
+    ],
+    "rejected": [
+      "10.1111/1755-0998.70180"
+    ],
+    "status": "confirmed",
+    "submitter": "Xiamen University",
+    "title": "Whole genome re-sequencing of spotted sea bass"
+  },
+  "PRJNA979930": {
+    "citations": [
+      {
+        "doi": "10.1002/ece3.10347",
+        "reference": "Johnson JA et al. (2023) Whole-genome survey reveals extensive variation in genetic diversity and inbreeding levels among peregrine falcon subspecies",
+        "verified": false
+      }
+    ],
+    "status": "confirmed",
+    "submitter": "University of North Texas",
+    "title": "Peregrine Falcon subspecies whole genome raw sequence reads"
   },
   "PRJNA982083": {
     "citations": [

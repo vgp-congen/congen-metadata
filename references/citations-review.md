@@ -80,16 +80,6 @@ Wellcome Sanger Institute · [BioProject](https://www.ncbi.nlm.nih.gov/bioprojec
 - [10.1016/j.isci.2023.108669](https://doi.org/10.1016/j.isci.2023.108669) — Liu Z et al. (2024) Nuclear environmental DNA resolves fine-scale population genetic structure in an aquatic habitat
 - NO PUBLICATION FOUND
 
-## PRJNA701455 — 100 samples · fishes/lateolabrax-maculatus
-
-Whole genome re-sequencing of spotted sea bass
-Xiamen University · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA701455)
-
-<!-- considered: 10.1111/1755-0998.70180 10.1111/eva.13551 -->
-
-- ★ [10.1111/eva.13551](https://doi.org/10.1111/eva.13551) — Chen B et al. (2023) Genome-wide evolutionary signatures of climate adaptation in spotted sea bass inhabiting different latitudinal regions
-
-
 ## PRJEB57283 — 93 samples · birds/haliaeetus-albicilla
 
 Haliaeetus albicilla (white-tailed eagle), genomic and transcriptomic data
@@ -132,15 +122,6 @@ Columbia University · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJN
 - ★ [10.1371/journal.pgen.1011661](https://doi.org/10.1371/journal.pgen.1011661) — Prentout D et al. (2025) Germline mutation rates and fine-scale recombination parameters in zebra finch
 - NO PUBLICATION FOUND
 
-## PRJNA1218516 — 64 samples · fishes/cyclopterus-lumpus
-
-ALLOCHRONY IN ATLANTIC LUMPFISH: GENOMIC AND OTOLITH SHAPE DIVERGENCE BETWEEN SPRING AND AUTUMN SPAWNERS
-UiT The Arctic University of Norway · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1218516)
-
-<!-- considered: 10.1002/ece3.70946 -->
-
-- ★ [10.1002/ece3.70946](https://doi.org/10.1002/ece3.70946) — Horaud M et al. (2025) Allochrony in Atlantic Lumpfish: Genomic and Otolith Shape Divergence Between Spring and Autumn Spawners
-
 ## PRJNA856472 — 64 samples · fishes/micropterus-salmoides
 
 Micropterus salmoides Raw sequence reads
@@ -161,15 +142,6 @@ INSTITUT DE BIOLOGIA EVOLUTIVA · [BioProject](https://www.ncbi.nlm.nih.gov/biop
 - [10.1101/2024.12.12.628160](https://doi.org/10.1101/2024.12.12.628160) — Fontsere C et al. (2024) Persistent genomic erosion in whooping cranes despite demographic recovery
 - NO PUBLICATION FOUND
 
-## PRJNA979930 — 53 samples · birds/falco-peregrinus
-
-Peregrine Falcon subspecies whole genome raw sequence reads
-University of North Texas · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA979930)
-
-<!-- considered: 10.1002/ece3.10347 -->
-
-- ★ [10.1002/ece3.10347](https://doi.org/10.1002/ece3.10347) — Johnson JA et al. (2023) Whole-genome survey reveals extensive variation in genetic diversity and inbreeding levels among peregrine falcon subspecies
-
 ## PRJEB88594 — 52 samples · fishes/platichthys-flesus
 
 Whole genome sequence of Platichthys flesus
@@ -185,15 +157,6 @@ BGI · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1012887)
 
 - NOT YET REVIEWED
 - NO PUBLICATION FOUND
-
-## PRJNA1149977 — 50 samples · fishes/acanthopagrus-latus
-
-Comprehensive whole-genome resequencing reveals genetic diversity and adaptive evolution in Acanthopagrus latus
-Third Institute of Oceanography, Ministry of Natural Resources · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1149977)
-
-<!-- considered: 10.3390/ani15050745 -->
-
-- ★ [10.3390/ani15050745](https://doi.org/10.3390/ani15050745) — Li Y et al. (2025) Genomic Insights into the Population Genetics and Adaptive Evolution of Yellow Seabream (&lt;i&gt;Acanthopagrus latus&lt;/i&gt;) with Whole-Genome Resequencing
 
 ## PRJEB48145 — 47 samples · fishes/astatotilapia-calliptera · fishes/aulonocara-stuartgranti
 
