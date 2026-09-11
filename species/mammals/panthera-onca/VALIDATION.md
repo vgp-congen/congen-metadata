@@ -1,15 +1,10 @@
 # Validation — Panthera onca
 
-**PASS WITH WARNINGS** · 2026-09-10 · GCA_046562875.2
+**PASS** · 2026-09-11 · GCA_046562875.2
 
-Metadata agrees with the data published on GenomeArk, with points to note.
+Metadata agrees with the data published on GenomeArk.
 
 35 samples in the sheet · 35 BAMs · 35 samples in the VCF
-
-## Warnings
-
-- **[G017](../../../CHECKS.md#g017)** GenomeArk publishes a README.txt that is not in the repo
-  - copy it into the species directory
 
 ## Optional files not present
 
@@ -20,12 +15,12 @@ Recorded for information. Supplying these needs a pipeline run rather than a met
 ## What was checked
 
 - 44 of 44 checks
-- 3 skipped: needs readme
 
 ## Provenance
 
-- validated `2026-09-10T19:51:48Z` by congen-metadata-tools 0.1.0
+- validated `2026-09-11T16:34:01Z` by congen-metadata-tools 0.4.0
 - data: `GCA_046562875.2`
+- `README.txt` `sha256:a626fae41ab9c30f5499619a719e6143fcb50ac3413313a7b79ba7ecd4c6e2cf`
 - `config.yaml` `sha256:37f5c3c7329d473cc8ceb6751c75577c3551e84733645f7bb8f15dd555b25121`
 - `sample_sheet.csv` `sha256:8fd8fccbe9ac9e285da41fada67544c27069e458eabea2beb6eabc8a9c9d2bff`
 

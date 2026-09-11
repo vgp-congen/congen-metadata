@@ -1331,6 +1331,14 @@ Center for Applied Medical Research · [BioProject](https://www.ncbi.nlm.nih.gov
 - [10.1073/pnas.2400486121](https://doi.org/10.1073/pnas.2400486121) — Ullate-Agote A et al. (2024) The dynamic behavior of chromatophores marks the transition from bands to spots in leopard geckos
 - NO PUBLICATION FOUND
 
+## PRJNA1018098 — 3 samples · mammals/balaenoptera-acutorostrata · mammals/balaenoptera-ricei · mammals/eubalaena-glacialis
+
+Highly amplified KRTAP hair genes have been repurposed as 'baleen genes' in filter-feeding mysticete whales
+University of California Riverside · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1018098)
+
+- NOT YET REVIEWED
+- NO PUBLICATION FOUND
+
 ## PRJNA545868 — 3 samples · birds/grus-americana · birds/hirundo-rustica · birds/poecile-atricapillus
 
 Bird 10,000 Genomes (B10K) Project - Family phase
@@ -1502,14 +1510,6 @@ Max Planck Institute for Biological Intelligence, Seewiesen · [BioProject](http
 
 25_Genomes_for_25_Years_of_Genomics
 Wellcome Sanger Institute · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJEB22206)
-
-- NOT YET REVIEWED
-- NO PUBLICATION FOUND
-
-## PRJNA1018098 — 2 samples · mammals/balaenoptera-acutorostrata · mammals/eubalaena-glacialis
-
-Highly amplified KRTAP hair genes have been repurposed as 'baleen genes' in filter-feeding mysticete whales
-University of California Riverside · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1018098)
 
 - NOT YET REVIEWED
 - NO PUBLICATION FOUND
@@ -3041,6 +3041,22 @@ China Agricultural University · [BioProject](https://www.ncbi.nlm.nih.gov/biopr
 - NOT YET REVIEWED
 - ★ [10.3389/fgene.2023.1118367](https://doi.org/10.3389/fgene.2023.1118367) — Wu H et al. (2023) Genome-wide analysis for the melatonin trait associated genes and SNPs in dairy goat (<i>Capra hircus</i>) as the molecular breeding markers
 - ★ [10.1002/advs.202506492](https://doi.org/10.1002/advs.202506492) — Liu Z et al. (2025) Genomic Insights into the Origin, High Fecundity and Environmental Adaptation of Hu Sheep
+- NO PUBLICATION FOUND
+
+## PRJNA1164936 — 0 samples · birds/sturnus-vulgaris
+
+Population genetics and invasion history of the European Starling across Aotearoa, New Zealand: Batch 1 samples
+University of Auckland · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1164936)
+
+- NOT YET REVIEWED
+- NO PUBLICATION FOUND
+
+## PRJNA1246661 — 0 samples · mammals/balaenoptera-ricei
+
+Rice's whales resequencing
+University of California Los Angeles · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1246661)
+
+- NOT YET REVIEWED
 - NO PUBLICATION FOUND
 
 ## PRJNA561991 — 0 samples · birds/dryobates-pubescens

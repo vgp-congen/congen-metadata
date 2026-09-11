@@ -1,15 +1,10 @@
 # Validation — Astatotilapia calliptera
 
-**PASS WITH WARNINGS** · 2026-09-10 · GCA_964374335.1
+**PASS** · 2026-09-11 · GCA_964374335.1
 
-Metadata agrees with the data published on GenomeArk, with points to note.
+Metadata agrees with the data published on GenomeArk.
 
 149 samples in the sheet · 149 BAMs · 149 samples in the VCF
-
-## Warnings
-
-- **[G017](../../../CHECKS.md#g017)** GenomeArk publishes a README.txt that is not in the repo
-  - copy it into the species directory
 
 ## Optional files not present
 
@@ -20,12 +15,12 @@ Recorded for information. Supplying these needs a pipeline run rather than a met
 ## What was checked
 
 - 44 of 44 checks
-- 3 skipped: needs readme
 
 ## Provenance
 
-- validated `2026-09-10T19:51:47Z` by congen-metadata-tools 0.1.0
+- validated `2026-09-11T16:34:01Z` by congen-metadata-tools 0.4.0
 - data: `GCA_964374335.1`
+- `README.txt` `sha256:aeb5e8ab80c6c5a68f70e97cd4e50a39a8e70551eb57b7bfad242a0ab5c0d3c6`
 - `config.yaml` `sha256:375c0b0d48b44830da467d13ce8af2c5b9d5ad344ac951d0f3bc52174d9f572a`
 - `sample_sheet.csv` `sha256:8e709536b4d67c07c02dca6ff6646a570e30eb7eb589b529aabda13122f136d9`
 

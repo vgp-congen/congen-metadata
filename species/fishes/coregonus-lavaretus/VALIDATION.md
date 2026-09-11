@@ -1,25 +1,20 @@
 # Validation — Coregonus lavaretus
 
-**PASS WITH WARNINGS** · 2026-09-10 · GCA_964263955.1
+**PASS** · 2026-09-11 · GCA_964263955.1
 
-Metadata agrees with the data published on GenomeArk, with points to note.
+Metadata agrees with the data published on GenomeArk.
 
 61 samples in the sheet · 61 BAMs · 61 samples in the VCF
-
-## Warnings
-
-- **[G017](../../../CHECKS.md#g017)** GenomeArk publishes a README.txt that is not in the repo
-  - copy it into the species directory
 
 ## What was checked
 
 - 44 of 44 checks
-- 3 skipped: needs readme
 
 ## Provenance
 
-- validated `2026-09-10T19:51:47Z` by congen-metadata-tools 0.1.0
+- validated `2026-09-11T16:34:01Z` by congen-metadata-tools 0.4.0
 - data: `GCA_964263955.1`
+- `README.txt` `sha256:907370becdadee5d550090def823b70482bbfbd72875716aed4f3a4fbdd4f005`
 - `config.yaml` `sha256:80443940242913e9804113111d1332ac0d7ec473e18ff75b54ba187f22617858`
 - `sample_sheet.csv` `sha256:383eca52dbf6a75c950ad0bb50e44fabe1ade9d6cf3803032afb074342c12a71`
 

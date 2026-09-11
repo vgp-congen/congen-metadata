@@ -1,25 +1,20 @@
 # Validation — Esox lucius
 
-**PASS WITH WARNINGS** · 2026-09-10 · GCA_011004845.1
+**PASS** · 2026-09-11 · GCA_011004845.1
 
-Metadata agrees with the data published on GenomeArk, with points to note.
+Metadata agrees with the data published on GenomeArk.
 
 65 samples in the sheet · 65 BAMs · 65 samples in the VCF
-
-## Warnings
-
-- **[G017](../../../CHECKS.md#g017)** GenomeArk publishes a README.txt that is not in the repo
-  - copy it into the species directory
 
 ## What was checked
 
 - 44 of 44 checks
-- 3 skipped: needs readme
 
 ## Provenance
 
-- validated `2026-09-10T19:51:47Z` by congen-metadata-tools 0.1.0
+- validated `2026-09-11T16:34:01Z` by congen-metadata-tools 0.4.0
 - data: `GCA_011004845.1`
+- `README.txt` `sha256:c27a9d1a7036401550e171a2bb7bbad9ced98e3bbfdf19b074705cda884571cf`
 - `config.yaml` `sha256:2ec5e7dfa5b5876d4cd4f1a5a4500088f1e9f7a486cf5a125c3b2ead4f9266dc`
 - `sample_sheet.csv` `sha256:7b924cdf1dc044c664a84be5d4fa30962f27f8a00992a2a2b3056eef274fdd00`
 

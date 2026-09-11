@@ -1,8 +1,8 @@
 {
   "subject": "birds/sturnus-vulgaris",
-  "state": "FAIL",
-  "validated_at": "2026-09-10T19:51:47Z",
-  "tool_version": "0.1.0",
+  "state": "PASS WITH WARNINGS",
+  "validated_at": "2026-09-11T16:34:01Z",
+  "tool_version": "0.4.0",
   "catalog": "sha256:44f7010fb4de2e48c91122dfd97086699b1036f7038eda45349f6a6db2e58514",
   "checks_run": [
     "E001",
@@ -52,313 +52,66 @@
   ],
   "checks_available": 44,
   "inputs": {
-    "config.yaml": "sha256:12a60afd6191adc6ecf57772b41afe0dd8a947abe343a4c1115dea6774a1647f",
-    "sample_sheet.csv": "sha256:4930e7d25eb1e16ed763a04a0770ef85f3f694f22319a97bdc677b7308b84420"
+    "config.yaml": "sha256:d17ef0520223c8be11cac7fe1fcbe2d63143ac2cfc0fa7d5af64c135b54c8a6d",
+    "sample_sheet.csv": "sha256:32dd243b1163e7ce63a1f8aeb2bb4378e24d40e470cbd234c0329bbde6fa923a",
+    "README.txt": "sha256:ee25bdaf69f93e9b0ec315ebf2d57ab9079b4be1664c4df0ed9de6a59583d1c5"
   },
   "data": {
-    "published": false,
-    "accession": "GCF_001447265.1"
+    "published": true,
+    "accession": "GCA_052056855.1",
+    "objects": {
+      "raw.vcf.gz": "etag:f95b25d8a505cb0e4e63a9da92a037b0-2015",
+      "raw.vcf.gz.tbi": "etag:b41699a0bd261e3582b7c912017283f1",
+      "filtered.vcf.gz": "etag:08836b873fd8e3aef03bceb8c0401c8b-2750",
+      "sample_sheet.csv": "etag:c27bb9304111991b88d412db3198aaea"
+    },
+    "bams": {
+      "count": 78,
+      "digest": "sha256:1f1ab39f9e0a4761e6c07d8274cd3e886cbd523218ebfb53a7d4cb43d777277a"
+    }
   },
   "findings": [
     {
-      "id": "F020",
-      "severity": "error",
-      "subject": "birds/sturnus-vulgaris",
-      "message": "config declares GCF_001447265.1 (Sturnus_vulgaris-1.0, Scaffold), but the VGP assembly for Sturnus vulgaris is GCA_052056855.1",
-      "detail": "a different assembly, not an accession-namespace variant",
-      "path": "species/birds/sturnus-vulgaris/config.yaml",
-      "line": null
-    },
-    {
-      "id": "G018",
-      "severity": "warn",
-      "subject": "birds/sturnus-vulgaris",
-      "message": "no README.txt in the repo or on GenomeArk",
-      "detail": "nothing records which bioprojects this dataset draws on",
-      "path": null,
-      "line": null
-    },
-    {
-      "id": "R003",
-      "severity": "warn",
-      "subject": "birds/sturnus-vulgaris",
-      "message": "reference.name is an accession (GCF_001447265.1), not a species name",
-      "detail": "snpArcher stages the reference as results/reference/<name>.fa.gz",
-      "path": "species/birds/sturnus-vulgaris/config.yaml",
-      "line": null
-    },
-    {
       "id": "E002",
-      "severity": "skipped",
+      "severity": "warn",
       "subject": "birds/sturnus-vulgaris",
-      "message": "skipped: every run's bioproject is listed in README.txt",
-      "detail": "needs readme",
-      "path": null,
+      "message": "1 bioproject(s) contribute runs but are not in README.txt",
+      "detail": "PRJNA214891; README lists PRJNA1164936, PRJNA1165315, PRJNA293892, PRJNA706841, PRJNA935977 (+1 more)",
+      "path": "species/birds/sturnus-vulgaris/README.txt",
       "line": null
     },
     {
       "id": "E003",
-      "severity": "skipped",
+      "severity": "warn",
       "subject": "birds/sturnus-vulgaris",
-      "message": "skipped: every README.txt bioproject contributes runs",
-      "detail": "needs readme",
-      "path": null,
-      "line": null
-    },
-    {
-      "id": "F001",
-      "severity": "skipped",
-      "subject": "birds/sturnus-vulgaris",
-      "message": "skipped: every VCF contig exists in the declared assembly",
-      "detail": "needs vcf_header",
-      "path": null,
-      "line": null
-    },
-    {
-      "id": "F002",
-      "severity": "skipped",
-      "subject": "birds/sturnus-vulgaris",
-      "message": "skipped: VCF contig lengths match the assembly",
-      "detail": "needs vcf_header",
-      "path": null,
-      "line": null
-    },
-    {
-      "id": "F003",
-      "severity": "skipped",
-      "subject": "birds/sturnus-vulgaris",
-      "message": "skipped: contig names use one consistent naming scheme",
-      "detail": "needs vcf_header",
-      "path": null,
-      "line": null
-    },
-    {
-      "id": "F004",
-      "severity": "skipped",
-      "subject": "birds/sturnus-vulgaris",
-      "message": "skipped: BAM @SQ matches the VCF contigs",
-      "detail": "needs vcf_header, bam_headers",
-      "path": null,
-      "line": null
-    },
-    {
-      "id": "F005",
-      "severity": "skipped",
-      "subject": "birds/sturnus-vulgaris",
-      "message": "skipped: all BAMs share one @SQ list",
-      "detail": "needs bam_headers",
-      "path": null,
-      "line": null
-    },
-    {
-      "id": "F006",
-      "severity": "skipped",
-      "subject": "birds/sturnus-vulgaris",
-      "message": "skipped: the BAM's bwa command line names reference.name",
-      "detail": "needs bam_headers",
-      "path": null,
-      "line": null
-    },
-    {
-      "id": "F008",
-      "severity": "skipped",
-      "subject": "birds/sturnus-vulgaris",
-      "message": "skipped: qc/contig_map.tsv agrees with the VCF contigs",
-      "detail": "needs contig_map, vcf_header",
-      "path": null,
-      "line": null
-    },
-    {
-      "id": "F009",
-      "severity": "skipped",
-      "subject": "birds/sturnus-vulgaris",
-      "message": "skipped: assembly sequences absent from the VCF",
-      "detail": "needs vcf_header",
-      "path": null,
-      "line": null
-    },
-    {
-      "id": "F011",
-      "severity": "skipped",
-      "subject": "birds/sturnus-vulgaris",
-      "message": "skipped: no whole assembled molecule is absent from the VCF",
-      "detail": "needs vcf_header",
-      "path": null,
-      "line": null
-    },
-    {
-      "id": "G010",
-      "severity": "skipped",
-      "subject": "birds/sturnus-vulgaris",
-      "message": "skipped: vcfs/raw.vcf.gz is present",
-      "detail": "needs s3",
-      "path": null,
-      "line": null
-    },
-    {
-      "id": "G011",
-      "severity": "skipped",
-      "subject": "birds/sturnus-vulgaris",
-      "message": "skipped: the raw VCF has an index",
-      "detail": "needs s3",
-      "path": null,
-      "line": null
-    },
-    {
-      "id": "G012",
-      "severity": "skipped",
-      "subject": "birds/sturnus-vulgaris",
-      "message": "skipped: bams/ is not empty",
-      "detail": "needs s3",
-      "path": null,
-      "line": null
-    },
-    {
-      "id": "G013",
-      "severity": "skipped",
-      "subject": "birds/sturnus-vulgaris",
-      "message": "skipped: every BAM has an index",
-      "detail": "needs s3",
-      "path": null,
-      "line": null
-    },
-    {
-      "id": "G014",
-      "severity": "skipped",
-      "subject": "birds/sturnus-vulgaris",
-      "message": "skipped: no zero-byte data objects",
-      "detail": "needs s3",
-      "path": null,
-      "line": null
-    },
-    {
-      "id": "G017",
-      "severity": "skipped",
-      "subject": "birds/sturnus-vulgaris",
-      "message": "skipped: the repo and GenomeArk READMEs agree",
-      "detail": "needs s3",
-      "path": null,
-      "line": null
-    },
-    {
-      "id": "P001",
-      "severity": "skipped",
-      "subject": "birds/sturnus-vulgaris",
-      "message": "skipped: variant_calling.ploidy matches the recorded --sample-ploidy",
-      "detail": "needs vcf_header",
-      "path": null,
-      "line": null
-    },
-    {
-      "id": "P002",
-      "severity": "skipped",
-      "subject": "birds/sturnus-vulgaris",
-      "message": "skipped: gatk.het_prior matches the recorded --heterozygosity",
-      "detail": "needs vcf_header",
-      "path": null,
-      "line": null
-    },
-    {
-      "id": "P003",
-      "severity": "skipped",
-      "subject": "birds/sturnus-vulgaris",
-      "message": "skipped: variant_calling.tool matches the caller recorded in the VCF",
-      "detail": "needs vcf_header",
-      "path": null,
-      "line": null
-    },
-    {
-      "id": "R020",
-      "severity": "skipped",
-      "subject": "birds/sturnus-vulgaris",
-      "message": "skipped: README.txt accession matches the config",
-      "detail": "needs readme",
-      "path": null,
-      "line": null
-    },
-    {
-      "id": "S001",
-      "severity": "skipped",
-      "subject": "birds/sturnus-vulgaris",
-      "message": "skipped: sheet samples == VCF samples",
-      "detail": "needs vcf_header",
-      "path": null,
-      "line": null
-    },
-    {
-      "id": "S002",
-      "severity": "skipped",
-      "subject": "birds/sturnus-vulgaris",
-      "message": "skipped: sheet samples == published BAMs",
-      "detail": "needs s3",
-      "path": null,
-      "line": null
-    },
-    {
-      "id": "S003",
-      "severity": "skipped",
-      "subject": "birds/sturnus-vulgaris",
-      "message": "skipped: VCF samples == published BAMs",
-      "detail": "needs vcf_header, s3",
-      "path": null,
-      "line": null
-    },
-    {
-      "id": "S004",
-      "severity": "skipped",
-      "subject": "birds/sturnus-vulgaris",
-      "message": "skipped: each BAM's @RG SM matches its filename",
-      "detail": "needs bam_headers",
-      "path": null,
-      "line": null
-    },
-    {
-      "id": "S005",
-      "severity": "skipped",
-      "subject": "birds/sturnus-vulgaris",
-      "message": "skipped: qc/individuals.samps.txt agrees with the VCF",
-      "detail": "needs qc_samples, vcf_header",
-      "path": null,
-      "line": null
-    },
-    {
-      "id": "S006",
-      "severity": "skipped",
-      "subject": "birds/sturnus-vulgaris",
-      "message": "skipped: the published sample sheet matches the repo copy",
-      "detail": "needs s3_sheet",
-      "path": null,
-      "line": null
-    },
-    {
-      "id": "S007",
-      "severity": "skipped",
-      "subject": "birds/sturnus-vulgaris",
-      "message": "skipped: @RG LB agrees with library_id where the sheet declares it",
-      "detail": "needs bam_headers",
-      "path": null,
+      "message": "README.txt cites 1 bioproject(s) that contribute no runs to the sheet",
+      "detail": "PRJNA1164936",
+      "path": "species/birds/sturnus-vulgaris/README.txt",
       "line": null
     }
   ],
   "status": {
     "subject": "birds/sturnus-vulgaris",
-    "state": "absent",
-    "accession": null,
-    "declared_accession": "GCF_001447265.1",
+    "state": "complete",
+    "accession": "GCA_052056855.1",
+    "declared_accession": "GCA_052056855.1",
     "accession_differs": false,
-    "present": [],
-    "missing": [
+    "present": [
+      "bams",
+      "callable_sites",
+      "filtered_vcf",
+      "published_readme",
+      "qc",
       "raw_vcf",
       "raw_vcf_index",
-      "bams",
-      "qc",
-      "callable_sites"
+      "repo_readme"
     ],
+    "missing": [],
     "missing_optional": [],
     "counts": {
-      "sheet_samples": 79,
-      "bams": 0,
-      "vcf_samples": null
+      "sheet_samples": 78,
+      "bams": 78,
+      "vcf_samples": 78
     }
   },
   "superseded": null,

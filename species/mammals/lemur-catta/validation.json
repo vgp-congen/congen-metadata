@@ -1,8 +1,8 @@
 {
   "subject": "mammals/lemur-catta",
-  "state": "PASS WITH WARNINGS",
-  "validated_at": "2026-09-10T19:51:47Z",
-  "tool_version": "0.1.0",
+  "state": "PASS",
+  "validated_at": "2026-09-11T16:34:01Z",
+  "tool_version": "0.4.0",
   "catalog": "sha256:44f7010fb4de2e48c91122dfd97086699b1036f7038eda45349f6a6db2e58514",
   "checks_run": [
     "E001",
@@ -53,7 +53,8 @@
   "checks_available": 44,
   "inputs": {
     "config.yaml": "sha256:ae979d28a67bac7c3076588b016bf567ae30d4306a6fde4ca53a3048999901a3",
-    "sample_sheet.csv": "sha256:dd5640b0a59a4381a74f4fc5214f053f992b3d47ceb16695179ece4550d833b8"
+    "sample_sheet.csv": "sha256:dd5640b0a59a4381a74f4fc5214f053f992b3d47ceb16695179ece4550d833b8",
+    "README.txt": "sha256:378724f2439b69893994fb4cf86cfa9edf17b89a0c3b7e064b565cd0232a3205"
   },
   "data": {
     "published": true,
@@ -69,44 +70,7 @@
       "digest": "sha256:0271022955194320008d7a7744e98717d65b593e62b4bf77340b05f04b898128"
     }
   },
-  "findings": [
-    {
-      "id": "G017",
-      "severity": "warn",
-      "subject": "mammals/lemur-catta",
-      "message": "GenomeArk publishes a README.txt that is not in the repo",
-      "detail": "copy it into the species directory",
-      "path": null,
-      "line": null
-    },
-    {
-      "id": "E002",
-      "severity": "skipped",
-      "subject": "mammals/lemur-catta",
-      "message": "skipped: every run's bioproject is listed in README.txt",
-      "detail": "needs readme",
-      "path": null,
-      "line": null
-    },
-    {
-      "id": "E003",
-      "severity": "skipped",
-      "subject": "mammals/lemur-catta",
-      "message": "skipped: every README.txt bioproject contributes runs",
-      "detail": "needs readme",
-      "path": null,
-      "line": null
-    },
-    {
-      "id": "R020",
-      "severity": "skipped",
-      "subject": "mammals/lemur-catta",
-      "message": "skipped: README.txt accession matches the config",
-      "detail": "needs readme",
-      "path": null,
-      "line": null
-    }
-  ],
+  "findings": [],
   "status": {
     "subject": "mammals/lemur-catta",
     "state": "complete",
@@ -120,7 +84,8 @@
       "published_readme",
       "qc",
       "raw_vcf",
-      "raw_vcf_index"
+      "raw_vcf_index",
+      "repo_readme"
     ],
     "missing": [],
     "missing_optional": [],

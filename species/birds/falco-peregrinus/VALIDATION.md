@@ -1,25 +1,20 @@
 # Validation — Falco peregrinus
 
-**PASS WITH WARNINGS** · 2026-09-10 · GCA_023634155.1
+**PASS** · 2026-09-11 · GCA_023634155.1
 
-Metadata agrees with the data published on GenomeArk, with points to note.
+Metadata agrees with the data published on GenomeArk.
 
 91 samples in the sheet · 91 BAMs · 91 samples in the VCF
-
-## Warnings
-
-- **[G017](../../../CHECKS.md#g017)** GenomeArk publishes a README.txt that is not in the repo
-  - copy it into the species directory
 
 ## What was checked
 
 - 44 of 44 checks
-- 3 skipped: needs readme
 
 ## Provenance
 
-- validated `2026-09-10T19:51:47Z` by congen-metadata-tools 0.1.0
+- validated `2026-09-11T16:34:01Z` by congen-metadata-tools 0.4.0
 - data: `GCA_023634155.1`
+- `README.txt` `sha256:b67f7fe1f8f985a135baf25cc4a36b2ad3e9a295b0bc19dc99f5bc8f4fbaeae5`
 - `config.yaml` `sha256:904f6df6c5b3890f1ee92175d9181fe611c68549af24fd7b1f89fb7068f6218a`
 - `sample_sheet.csv` `sha256:52f1e9a9cff25bf3188f8d8b30af2b6f1a6ff7d33917f8599c7f38da68a56f86`
 

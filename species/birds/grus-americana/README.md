@@ -4,7 +4,7 @@
 *Grus americana* — 57 samples. **This dataset cannot be used as it stands.** See below.
 
 > [!CAUTION]
-> **FAIL** · validated 2026-09-10 · `GCA_028858705.1`
+> **FAIL** · validated 2026-09-11 · `GCA_028858705.1`
 >
 > Validation found errors (`F021`). **Do not use this dataset** until they are resolved.
 >

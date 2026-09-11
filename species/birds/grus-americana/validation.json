@@ -1,8 +1,8 @@
 {
   "subject": "birds/grus-americana",
   "state": "FAIL",
-  "validated_at": "2026-09-10T19:51:47Z",
-  "tool_version": "0.1.0",
+  "validated_at": "2026-09-11T16:34:01Z",
+  "tool_version": "0.4.0",
   "catalog": "sha256:44f7010fb4de2e48c91122dfd97086699b1036f7038eda45349f6a6db2e58514",
   "checks_run": [
     "E001",
@@ -53,7 +53,8 @@
   "checks_available": 44,
   "inputs": {
     "config.yaml": "sha256:a173d205f5104fe41a4504a90cce86e44f4e4b38182a286c78586bb2f9ca95e6",
-    "sample_sheet.csv": "sha256:ccb5d4cd495dd18e385c08341178709392ae63dd13e2ec6d7956d963cd916076"
+    "sample_sheet.csv": "sha256:ccb5d4cd495dd18e385c08341178709392ae63dd13e2ec6d7956d963cd916076",
+    "README.txt": "sha256:3c2e0062b7353d969a4bff7e37314135546d6c1a58340bfd42039975d04b886e"
   },
   "data": {
     "published": true,
@@ -80,39 +81,12 @@
       "line": null
     },
     {
-      "id": "G017",
+      "id": "R020",
       "severity": "warn",
       "subject": "birds/grus-americana",
-      "message": "GenomeArk publishes a README.txt that is not in the repo",
-      "detail": "copy it into the species directory",
-      "path": null,
-      "line": null
-    },
-    {
-      "id": "E002",
-      "severity": "skipped",
-      "subject": "birds/grus-americana",
-      "message": "skipped: every run's bioproject is listed in README.txt",
-      "detail": "needs readme",
-      "path": null,
-      "line": null
-    },
-    {
-      "id": "E003",
-      "severity": "skipped",
-      "subject": "birds/grus-americana",
-      "message": "skipped: every README.txt bioproject contributes runs",
-      "detail": "needs readme",
-      "path": null,
-      "line": null
-    },
-    {
-      "id": "R020",
-      "severity": "skipped",
-      "subject": "birds/grus-americana",
-      "message": "skipped: README.txt accession matches the config",
-      "detail": "needs readme",
-      "path": null,
+      "message": "README.txt says GCA_028858705.1, config says GCF_028858705.1",
+      "detail": null,
+      "path": "species/birds/grus-americana/README.txt",
       "line": null
     }
   ],
@@ -129,7 +103,8 @@
       "published_readme",
       "qc",
       "raw_vcf",
-      "raw_vcf_index"
+      "raw_vcf_index",
+      "repo_readme"
     ],
     "missing": [],
     "missing_optional": [],

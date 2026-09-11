@@ -1,15 +1,10 @@
 # Validation — Haliaeetus albicilla
 
-**PASS WITH WARNINGS** · 2026-09-10 · GCA_947461875.1
+**PASS** · 2026-09-11 · GCA_947461875.1
 
-Metadata agrees with the data published on GenomeArk, with points to note.
+Metadata agrees with the data published on GenomeArk.
 
 96 samples in the sheet · 96 BAMs · 96 samples in the VCF
-
-## Warnings
-
-- **[G017](../../../CHECKS.md#g017)** GenomeArk publishes a README.txt that is not in the repo
-  - copy it into the species directory
 
 ## Optional files not present
 
@@ -20,12 +15,12 @@ Recorded for information. Supplying these needs a pipeline run rather than a met
 ## What was checked
 
 - 44 of 44 checks
-- 3 skipped: needs readme
 
 ## Provenance
 
-- validated `2026-09-10T19:51:47Z` by congen-metadata-tools 0.1.0
+- validated `2026-09-11T16:34:01Z` by congen-metadata-tools 0.4.0
 - data: `GCA_947461875.1`
+- `README.txt` `sha256:8848e8f259087fec80e7c8ddb2ab389d28dcd9060db7f5a1746904c02fb66f2f`
 - `config.yaml` `sha256:2b704bdf5419a2593060c344b5c97a644c0644630194efe82e1e1f17ca47be72`
 - `sample_sheet.csv` `sha256:1b8a0827bf93a05af7f7bd4ac037acc45454aeeaf80df06f2a9c3dc49732c66a`
 

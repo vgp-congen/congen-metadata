@@ -1,8 +1,8 @@
 {
   "subject": "mammals/neofelis-nebulosa",
-  "state": "PASS WITH WARNINGS",
-  "validated_at": "2026-09-10T19:51:48Z",
-  "tool_version": "0.1.0",
+  "state": "PASS",
+  "validated_at": "2026-09-11T16:34:01Z",
+  "tool_version": "0.4.0",
   "catalog": "sha256:44f7010fb4de2e48c91122dfd97086699b1036f7038eda45349f6a6db2e58514",
   "checks_run": [
     "E001",
@@ -53,7 +53,8 @@
   "checks_available": 44,
   "inputs": {
     "config.yaml": "sha256:5337a85ac67d2d5644aa0c6a644fcea084ad2e458fc2a265880f7f726a2c72e7",
-    "sample_sheet.csv": "sha256:5f53f4b4d034042956299112b886c57fd68598e0a7093bb945eeed7eaa18f45e"
+    "sample_sheet.csv": "sha256:5f53f4b4d034042956299112b886c57fd68598e0a7093bb945eeed7eaa18f45e",
+    "README.txt": "sha256:4abbdf51efb045fb437887a3dc55f4310ae1705c5d32972ffa4d6c06aeb619f2"
   },
   "data": {
     "published": true,
@@ -69,44 +70,7 @@
       "digest": "sha256:3818528ddb21161c96899db302cfd774c91a0376eaab3239163e76f0824c2809"
     }
   },
-  "findings": [
-    {
-      "id": "G017",
-      "severity": "warn",
-      "subject": "mammals/neofelis-nebulosa",
-      "message": "GenomeArk publishes a README.txt that is not in the repo",
-      "detail": "copy it into the species directory",
-      "path": null,
-      "line": null
-    },
-    {
-      "id": "E002",
-      "severity": "skipped",
-      "subject": "mammals/neofelis-nebulosa",
-      "message": "skipped: every run's bioproject is listed in README.txt",
-      "detail": "needs readme",
-      "path": null,
-      "line": null
-    },
-    {
-      "id": "E003",
-      "severity": "skipped",
-      "subject": "mammals/neofelis-nebulosa",
-      "message": "skipped: every README.txt bioproject contributes runs",
-      "detail": "needs readme",
-      "path": null,
-      "line": null
-    },
-    {
-      "id": "R020",
-      "severity": "skipped",
-      "subject": "mammals/neofelis-nebulosa",
-      "message": "skipped: README.txt accession matches the config",
-      "detail": "needs readme",
-      "path": null,
-      "line": null
-    }
-  ],
+  "findings": [],
   "status": {
     "subject": "mammals/neofelis-nebulosa",
     "state": "complete",
@@ -120,7 +84,8 @@
       "published_readme",
       "qc",
       "raw_vcf",
-      "raw_vcf_index"
+      "raw_vcf_index",
+      "repo_readme"
     ],
     "missing": [],
     "missing_optional": [],

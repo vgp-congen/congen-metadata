@@ -1,0 +1,119 @@
+{
+  "subject": "mammals/balaenoptera-ricei",
+  "state": "FAIL",
+  "validated_at": "2026-09-11T16:34:01Z",
+  "tool_version": "0.4.0",
+  "catalog": "sha256:44f7010fb4de2e48c91122dfd97086699b1036f7038eda45349f6a6db2e58514",
+  "checks_run": [
+    "E001",
+    "E002",
+    "E003",
+    "F001",
+    "F002",
+    "F003",
+    "F004",
+    "F005",
+    "F006",
+    "F008",
+    "F009",
+    "F011",
+    "F020",
+    "F021",
+    "F022",
+    "F023",
+    "F024",
+    "G001",
+    "G010",
+    "G011",
+    "G012",
+    "G013",
+    "G014",
+    "G017",
+    "G018",
+    "P001",
+    "P002",
+    "P003",
+    "R001",
+    "R002",
+    "R003",
+    "R010",
+    "R013",
+    "R015",
+    "R016",
+    "R017",
+    "R020",
+    "S001",
+    "S002",
+    "S003",
+    "S004",
+    "S005",
+    "S006",
+    "S007"
+  ],
+  "checks_available": 44,
+  "inputs": {
+    "config.yaml": "sha256:ee61de3ac16eee81b932c83d7ad040a92662870934f83eb6fb5743525b574695",
+    "sample_sheet.csv": "sha256:fc78e91f0834cad1cc3a155ab88ad9a31f6cc42d777bcbdf21a5bc9253d89e4e",
+    "README.txt": "sha256:34304e6c96aca75ca23e2405335b3a4c06cb42fc4011da0e6dc0ada58b515161"
+  },
+  "data": {
+    "published": true,
+    "accession": "GCA_028023285.1",
+    "objects": {
+      "raw.vcf.gz": "etag:96c6e65c16b39c651cd1de0ba4c3e1c7-210",
+      "raw.vcf.gz.tbi": "etag:0a8447313ceae91de36d186b636d85c7",
+      "filtered.vcf.gz": "etag:462549afbc775a9c12b6a31ac6ba791a-281",
+      "sample_sheet.csv": "etag:dba2dbe12263472f797b54543017a9d2"
+    },
+    "bams": {
+      "count": 25,
+      "digest": "sha256:b0ec912e2f37fa59e39027613cd07cb42ebb186a432d211b680da1ef18d7bd14"
+    }
+  },
+  "findings": [
+    {
+      "id": "E001",
+      "severity": "error",
+      "subject": "mammals/balaenoptera-ricei",
+      "message": "24 input accession(s) are unknown to SRA",
+      "detail": "SRR32988783, SRR32988784, SRR32988785, SRR32988786, SRR32988787 (+19 more)",
+      "path": "species/mammals/balaenoptera-ricei/sample_sheet.csv",
+      "line": null
+    },
+    {
+      "id": "E003",
+      "severity": "warn",
+      "subject": "mammals/balaenoptera-ricei",
+      "message": "README.txt cites 1 bioproject(s) that contribute no runs to the sheet",
+      "detail": "PRJNA1246661",
+      "path": "species/mammals/balaenoptera-ricei/README.txt",
+      "line": null
+    }
+  ],
+  "status": {
+    "subject": "mammals/balaenoptera-ricei",
+    "state": "complete",
+    "accession": "GCA_028023285.1",
+    "declared_accession": "GCA_028023285.1",
+    "accession_differs": false,
+    "present": [
+      "bams",
+      "callable_sites",
+      "filtered_vcf",
+      "published_readme",
+      "qc",
+      "raw_vcf",
+      "raw_vcf_index",
+      "repo_readme"
+    ],
+    "missing": [],
+    "missing_optional": [],
+    "counts": {
+      "sheet_samples": 25,
+      "bams": 25,
+      "vcf_samples": 25
+    }
+  },
+  "superseded": null,
+  "stale_reason": null
+}

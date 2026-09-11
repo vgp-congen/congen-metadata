@@ -1,8 +1,8 @@
 {
   "subject": "birds/hirundo-rustica",
-  "state": "PASS WITH WARNINGS",
-  "validated_at": "2026-09-10T19:51:47Z",
-  "tool_version": "0.1.0",
+  "state": "PASS",
+  "validated_at": "2026-09-11T16:34:01Z",
+  "tool_version": "0.4.0",
   "catalog": "sha256:44f7010fb4de2e48c91122dfd97086699b1036f7038eda45349f6a6db2e58514",
   "checks_run": [
     "E001",
@@ -53,7 +53,8 @@
   "checks_available": 44,
   "inputs": {
     "config.yaml": "sha256:f5f6226e6f0675066f34c4a3f0a5f8d11e9f63130841b15fc6f713cd275db26b",
-    "sample_sheet.csv": "sha256:18157ddf981cf50ccc929efd45c37e3f006cf5c3e7e389a48ac3b95c1a468a70"
+    "sample_sheet.csv": "sha256:18157ddf981cf50ccc929efd45c37e3f006cf5c3e7e389a48ac3b95c1a468a70",
+    "README.txt": "sha256:89b46cb4a73a674453f0dea53489f6bd04cb8dbcbe01fadf081f3654b717e4af"
   },
   "data": {
     "published": true,
@@ -68,44 +69,7 @@
       "digest": "sha256:b1336e90395f25b429945592e0932917f454c1137903dd2c9655e3b3e9843f22"
     }
   },
-  "findings": [
-    {
-      "id": "G017",
-      "severity": "warn",
-      "subject": "birds/hirundo-rustica",
-      "message": "GenomeArk publishes a README.txt that is not in the repo",
-      "detail": "copy it into the species directory",
-      "path": null,
-      "line": null
-    },
-    {
-      "id": "E002",
-      "severity": "skipped",
-      "subject": "birds/hirundo-rustica",
-      "message": "skipped: every run's bioproject is listed in README.txt",
-      "detail": "needs readme",
-      "path": null,
-      "line": null
-    },
-    {
-      "id": "E003",
-      "severity": "skipped",
-      "subject": "birds/hirundo-rustica",
-      "message": "skipped: every README.txt bioproject contributes runs",
-      "detail": "needs readme",
-      "path": null,
-      "line": null
-    },
-    {
-      "id": "R020",
-      "severity": "skipped",
-      "subject": "birds/hirundo-rustica",
-      "message": "skipped: README.txt accession matches the config",
-      "detail": "needs readme",
-      "path": null,
-      "line": null
-    }
-  ],
+  "findings": [],
   "status": {
     "subject": "birds/hirundo-rustica",
     "state": "complete",
@@ -118,7 +82,8 @@
       "published_readme",
       "qc",
       "raw_vcf",
-      "raw_vcf_index"
+      "raw_vcf_index",
+      "repo_readme"
     ],
     "missing": [],
     "missing_optional": [

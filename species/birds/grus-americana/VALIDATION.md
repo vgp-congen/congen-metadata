@@ -1,6 +1,6 @@
 # Validation — Grus americana
 
-**FAIL** · 2026-09-10 · GCA_028858705.1
+**FAIL** · 2026-09-11 · GCA_028858705.1
 
 Problems were found. See below before relying on this metadata.
 
@@ -14,18 +14,18 @@ Problems were found. See below before relying on this metadata.
 
 ## Warnings
 
-- **[G017](../../../CHECKS.md#g017)** GenomeArk publishes a README.txt that is not in the repo
-  - copy it into the species directory
+- **[R020](../../../CHECKS.md#r020)** README.txt says GCA_028858705.1, config says GCF_028858705.1
+  - at `species/birds/grus-americana/README.txt`
 
 ## What was checked
 
 - 44 of 44 checks
-- 3 skipped: needs readme
 
 ## Provenance
 
-- validated `2026-09-10T19:51:47Z` by congen-metadata-tools 0.1.0
+- validated `2026-09-11T16:34:01Z` by congen-metadata-tools 0.4.0
 - data: `GCA_028858705.1`
+- `README.txt` `sha256:3c2e0062b7353d969a4bff7e37314135546d6c1a58340bfd42039975d04b886e`
 - `config.yaml` `sha256:a173d205f5104fe41a4504a90cce86e44f4e4b38182a286c78586bb2f9ca95e6`
 - `sample_sheet.csv` `sha256:ccb5d4cd495dd18e385c08341178709392ae63dd13e2ec6d7956d963cd916076`
 
