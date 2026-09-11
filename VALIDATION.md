@@ -7,7 +7,6 @@ Most recent validation `2026-09-11T17:18:39Z` · congen-metadata-tools 0.4.0.
 | **FAIL** | 2 |
 | **PASS WITH WARNINGS** | 5 |
 | **PASS WITH NOTES** | 1 |
-| **PENDING** | 6 |
 | **PASS** | 66 |
 
 ## Species
@@ -21,7 +20,6 @@ Most recent validation `2026-09-11T17:18:39Z` · congen-metadata-tools 0.4.0.
 | [birds/anser-fabalis](species/birds/anser-fabalis/VALIDATION.md) | PASS | 2026-09-10 | — |
 | [birds/apteryx-mantelli](species/birds/apteryx-mantelli/VALIDATION.md) | PASS | 2026-09-10 | — |
 | [birds/aquila-chrysaetos](species/birds/aquila-chrysaetos/VALIDATION.md) | PASS | 2026-09-10 | — |
-| [birds/caprimulgus-europaeus](species/birds/caprimulgus-europaeus/VALIDATION.md) | PENDING | 2026-09-10 | 1 warning |
 | [birds/catharus-ustulatus](species/birds/catharus-ustulatus/VALIDATION.md) | PASS | 2026-09-11 | — |
 | [birds/chlamydotis-macqueenii](species/birds/chlamydotis-macqueenii/VALIDATION.md) | PASS | 2026-09-10 | — |
 | [birds/dryobates-pubescens](species/birds/dryobates-pubescens/VALIDATION.md) | PASS WITH WARNINGS | 2026-09-10 | 2 warnings |
@@ -37,7 +35,6 @@ Most recent validation `2026-09-11T17:18:39Z` · congen-metadata-tools 0.4.0.
 | [birds/pogoniulus-pusillus](species/birds/pogoniulus-pusillus/VALIDATION.md) | PASS | 2026-09-10 | — |
 | [birds/serinus-canaria](species/birds/serinus-canaria/VALIDATION.md) | PASS | 2026-09-10 | — |
 | [birds/sturnus-vulgaris](species/birds/sturnus-vulgaris/VALIDATION.md) | PASS WITH WARNINGS | 2026-09-11 | 2 warnings |
-| [birds/taeniopygia-guttata](species/birds/taeniopygia-guttata/VALIDATION.md) | PENDING | 2026-09-10 | 1 warning |
 | [birds/tetrao-urogallus](species/birds/tetrao-urogallus/VALIDATION.md) | PASS | 2026-09-10 | — |
 | [birds/zosterops-lateralis](species/birds/zosterops-lateralis/VALIDATION.md) | PASS | 2026-09-10 | — |
 | [fishes/acanthopagrus-latus](species/fishes/acanthopagrus-latus/VALIDATION.md) | PASS | 2026-09-10 | — |
@@ -67,7 +64,6 @@ Most recent validation `2026-09-11T17:18:39Z` · congen-metadata-tools 0.4.0.
 | [fishes/tautogolabrus-adspersus](species/fishes/tautogolabrus-adspersus/VALIDATION.md) | PASS | 2026-09-10 | — |
 | [fishes/thunnus-albacares](species/fishes/thunnus-albacares/VALIDATION.md) | PASS | 2026-09-10 | — |
 | [fishes/trachurus-trachurus](species/fishes/trachurus-trachurus/VALIDATION.md) | PASS | 2026-09-10 | — |
-| [mammals/arvicola-amphibius](species/mammals/arvicola-amphibius/VALIDATION.md) | PENDING | 2026-09-10 | 1 warning |
 | [mammals/balaenoptera-acutorostrata](species/mammals/balaenoptera-acutorostrata/VALIDATION.md) | PASS | 2026-09-10 | — |
 | [mammals/balaenoptera-musculus](species/mammals/balaenoptera-musculus/VALIDATION.md) | PASS | 2026-09-10 | — |
 | [mammals/balaenoptera-ricei](species/mammals/balaenoptera-ricei/VALIDATION.md) | FAIL | 2026-09-11 | 1 error, 1 warning |
@@ -77,13 +73,10 @@ Most recent validation `2026-09-11T17:18:39Z` · congen-metadata-tools 0.4.0.
 | [mammals/hyperoodon-ampullatus](species/mammals/hyperoodon-ampullatus/VALIDATION.md) | PASS | 2026-09-10 | — |
 | [mammals/lemur-catta](species/mammals/lemur-catta/VALIDATION.md) | PASS | 2026-09-11 | — |
 | [mammals/lycaon-pictus](species/mammals/lycaon-pictus/VALIDATION.md) | PASS | 2026-09-10 | — |
-| [mammals/macrotis-lagotis](species/mammals/macrotis-lagotis/VALIDATION.md) | PENDING | 2026-09-10 | 1 warning |
 | [mammals/mustela-erminea](species/mammals/mustela-erminea/VALIDATION.md) | PASS | 2026-09-10 | — |
 | [mammals/myotis-myotis](species/mammals/myotis-myotis/VALIDATION.md) | PASS | 2026-09-10 | — |
-| [mammals/myotis-nattereri](species/mammals/myotis-nattereri/VALIDATION.md) | PENDING | 2026-09-10 | 1 warning |
 | [mammals/neofelis-nebulosa](species/mammals/neofelis-nebulosa/VALIDATION.md) | PASS | 2026-09-11 | — |
 | [mammals/neovison-vison](species/mammals/neovison-vison/VALIDATION.md) | PASS | 2026-09-10 | — |
-| [mammals/notamacropus-eugenii](species/mammals/notamacropus-eugenii/VALIDATION.md) | PENDING | 2026-09-10 | 1 warning |
 | [mammals/ovis-aries](species/mammals/ovis-aries/VALIDATION.md) | PASS | 2026-09-10 | — |
 | [mammals/ovis-canadensis](species/mammals/ovis-canadensis/VALIDATION.md) | PASS | 2026-09-10 | — |
 | [mammals/pan-troglodytes](species/mammals/pan-troglodytes/VALIDATION.md) | PASS | 2026-09-10 | — |

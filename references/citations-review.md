@@ -536,14 +536,6 @@ NATURHISTORISKA RIKSMUSEET · [BioProject](https://www.ncbi.nlm.nih.gov/bioproje
 - [10.1038/s41598-020-75315-y](https://doi.org/10.1038/s41598-020-75315-y) — Díez-Del-Molino D et al. (2020) Population genomics reveals lack of greater white-fronted introgression into the Swedish lesser white-fronted goose
 - NO PUBLICATION FOUND
 
-## PRJNA1083753 — 20 samples · birds/taeniopygia-guttata
-
-Trio sequencing of captive zebra finches
-Albert Ludwig University Freiburg · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1083753)
-
-- NOT YET REVIEWED
-- NO PUBLICATION FOUND
-
 ## PRJNA1089471 — 20 samples · reptiles/podarcis-raffonei
 
 Population genomics of the critically endangered Aeolian wall lizard (Podarcis raffonei)
@@ -707,22 +699,6 @@ Wellcome Sanger Institute · [BioProject](https://www.ncbi.nlm.nih.gov/bioprojec
 - [10.1186/s12859-023-05169-4](https://doi.org/10.1186/s12859-023-05169-4) — Solovieva E et al. (2023) PSReliP: an integrated pipeline for analysis and visualization of population structure and relatedness based on genome-wide genetic variant data
 - NO PUBLICATION FOUND
 
-## PRJEB86998 — 14 samples · mammals/arvicola-amphibius
-
-Water vole SNP discovery
-University of Liverpool · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJEB86998)
-
-- NOT YET REVIEWED
-- NO PUBLICATION FOUND
-
-## PRJEB94947 — 14 samples · mammals/arvicola-amphibius
-
-European water vole Arvicola amphibius conservation genetics
-Centre for Genomic Research, Institute of Integrative Biology, University of Liverpool, UK · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJEB94947)
-
-- NOT YET REVIEWED
-- NO PUBLICATION FOUND
-
 ## PRJNA1225496 — 14 samples · reptiles/eublepharis-macularius
 
 Homozygous and Heterozygous Hypomelanistic leopard gecko blood DNA-Seq
@@ -766,14 +742,6 @@ University of Wisconsin-Milwaukee · [BioProject](https://www.ncbi.nlm.nih.gov/b
 
 - NOT YET REVIEWED
 - ★ [10.1073/pnas.2120482119](https://doi.org/10.1073/pnas.2120482119) — Sly ND et al. (2022) Molecular parallelism in signaling function across different sexually selected ornaments in a warbler
-- NO PUBLICATION FOUND
-
-## PRJNA909969 — 13 samples · mammals/myotis-nattereri
-
-Bat Genomes
-Natural History Museum Berlin · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA909969)
-
-- NOT YET REVIEWED
 - NO PUBLICATION FOUND
 
 ## PRJNA1264480 — 12 samples · birds/zosterops-lateralis
@@ -1354,14 +1322,6 @@ B10K Consortium · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA545
 - [10.1111/eva.13739](https://doi.org/10.1111/eva.13739) — Cavill EL et al. (2024) When birds of a feather flock together: Severe genomic erosion and the implications for genetic rescue in an endangered island passerine
 - NO PUBLICATION FOUND
 
-## PRJNA1031993 — 3 samples · mammals/myotis-myotis · mammals/myotis-nattereri
-
-Karyotypic stasis and swarming influenced the evolution of viral tolerance in a species-rich bat radiation.
-Texas A&M University · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1031993)
-
-- NOT YET REVIEWED
-- NO PUBLICATION FOUND
-
 ## PRJEB30931 — 3 samples · mammals/ovis-aries
 
 This is a data repository for sheep genomes that have been re-sequenced for various congenital traits
@@ -1498,22 +1458,6 @@ Pearl River Fisheries Research Institute · [BioProject](https://www.ncbi.nlm.ni
 - ★ [10.3389/fgene.2022.936610](https://doi.org/10.3389/fgene.2022.936610) — Du J et al. (2022) Genetic diversity analysis and development of molecular markers for the identification of largemouth bass (<i>Micropterus salmoides</i> L.) based on whole-genome re-sequencing
 - NO PUBLICATION FOUND
 
-## PRJNA967190 — 3 samples · birds/taeniopygia-guttata
-
-Intersex-single case study: male zebra finch with an ovary in place of testicles developed a typical song system.
-Max Planck Institute for Biological Intelligence, Seewiesen · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA967190)
-
-- NOT YET REVIEWED
-- NO PUBLICATION FOUND
-
-## PRJEB22206 — 2 samples · birds/aquila-chrysaetos · mammals/arvicola-amphibius
-
-25_Genomes_for_25_Years_of_Genomics
-Wellcome Sanger Institute · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJEB22206)
-
-- NOT YET REVIEWED
-- NO PUBLICATION FOUND
-
 ## PRJNA389516 — 2 samples · mammals/balaenoptera-musculus · mammals/eubalaena-glacialis
 
 Baleen whale resequencing
@@ -1583,6 +1527,14 @@ Max Planck Institute for Evolutionary Anthropology · [BioProject](https://www.n
 - ★ [10.1186/s13059-015-0711-4](https://doi.org/10.1186/s13059-015-0711-4) — Le Duc D et al. (2015) Kiwi genome provides insights into evolution of a nocturnal lifestyle
 - [10.1080/23802359.2016.1186511](https://doi.org/10.1080/23802359.2016.1186511) — Liu J et al. (2016) The complete mitochondrial genome of North Island brown kiwi (<i>Apteryx mantelli</i>)
 - [10.1093/nar/gkv1311](https://doi.org/10.1093/nar/gkv1311) — Gibson R et al. (2016) Biocuration of functional annotation at the European nucleotide archive
+- NO PUBLICATION FOUND
+
+## PRJNA1031993 — 2 samples · mammals/myotis-myotis
+
+Karyotypic stasis and swarming influenced the evolution of viral tolerance in a species-rich bat radiation.
+Texas A&M University · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1031993)
+
+- NOT YET REVIEWED
 - NO PUBLICATION FOUND
 
 ## PRJNA1146985 — 2 samples · mammals/mustela-erminea
@@ -1894,14 +1846,6 @@ National Institute of Genetics · [BioProject](https://www.ncbi.nlm.nih.gov/biop
 - NOT YET REVIEWED
 - NO PUBLICATION FOUND
 
-## PRJDB2132 — 1 sample · mammals/notamacropus-eugenii
-
-Whole genome sequencing of tammar wallaby
-Center for Genetic Resource Information, Comparative Genomics Laboratory, National Institute of Genetics, Research Organization of Information and Systems · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJDB2132)
-
-- NOT YET REVIEWED
-- NO PUBLICATION FOUND
-
 ## PRJDB6607 — 1 sample · fishes/takifugu-rubripes
 
 Simultaneous and highly efficient construction of two independent sets of high-density linkage maps and draft sequences using an artificially generated hybrid organism
@@ -1958,14 +1902,6 @@ AARHUS UNIVERSITY, DENMARK · [BioProject](https://www.ncbi.nlm.nih.gov/bioproje
 - NOT YET REVIEWED
 - NO PUBLICATION FOUND
 
-## PRJEB15235 — 1 sample · birds/taeniopygia-guttata
-
-Fitness Consequences of Polymorphic Inversions in the Zebra Finch Genome
-Max Planck Institute for Ornithology · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJEB15235)
-
-- NOT YET REVIEWED
-- NO PUBLICATION FOUND
-
 ## PRJEB15663 — 1 sample · mammals/neovison-vison
 
 The first draft reference genome of the American mink (Neovison vison)
@@ -1983,6 +1919,14 @@ AARHUS UNIVERSITY · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJEB1
 
 - NOT YET REVIEWED
 - ★ [10.1038/s41598-017-15169-z](https://doi.org/10.1038/s41598-017-15169-z) — Cai Z et al. (2017) The first draft reference genome of the American mink (Neovison vison)
+- NO PUBLICATION FOUND
+
+## PRJEB22206 — 1 sample · birds/aquila-chrysaetos
+
+25_Genomes_for_25_Years_of_Genomics
+Wellcome Sanger Institute · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJEB22206)
+
+- NOT YET REVIEWED
 - NO PUBLICATION FOUND
 
 ## PRJEB32126 — 1 sample · fishes/syngnathus-typhle
@@ -2050,14 +1994,6 @@ ETH ZURICH · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJEB39374)
 
 Trachurus trachurus (Atlantic horse mackerel), genomic and transcriptomic data
 WELLCOME SANGER INSTITUTE · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJEB42236)
-
-- NOT YET REVIEWED
-- NO PUBLICATION FOUND
-
-## PRJEB44823 — 1 sample · birds/caprimulgus-europaeus
-
-Caprimulgus europaeus (Eurasian nightjar), genomic and transcriptomic data
-WELLCOME SANGER INSTITUTE · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJEB44823)
 
 - NOT YET REVIEWED
 - NO PUBLICATION FOUND
@@ -2177,14 +2113,6 @@ G10K · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1008551)
 - NOT YET REVIEWED
 - NO PUBLICATION FOUND
 
-## PRJNA1008595 — 1 sample · birds/taeniopygia-guttata
-
-Taeniopygia guttata (zebra finch) genome sequencing, bTaeGut2, sequence data
-G10K · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1008595)
-
-- NOT YET REVIEWED
-- NO PUBLICATION FOUND
-
 ## PRJNA1008625 — 1 sample · mammals/phocoena-sinus
 
 Phocoena sinus (Vaquita) genome, mPhoSin1, sequence data
@@ -2221,14 +2149,6 @@ G10K · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1008646)
 
 Pogoniulus pusillus (red-fronted tinkerbird) genome, bPogPus1, sequence data
 G10K · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1008668)
-
-- NOT YET REVIEWED
-- NO PUBLICATION FOUND
-
-## PRJNA1061303 — 1 sample · birds/taeniopygia-guttata
-
-Transgenic UBC-GFP Zebra finch Genome
-Boston University · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1061303)
 
 - NOT YET REVIEWED
 - NO PUBLICATION FOUND
@@ -2368,22 +2288,6 @@ Vertebrate Genomes Project · [BioProject](https://www.ncbi.nlm.nih.gov/bioproje
 
 - NOT YET REVIEWED
 - [10.1016/j.xgen.2026.101323](https://doi.org/10.1016/j.xgen.2026.101323) — Antipov D et al. (2026) Automatic generation of model sequences for complex regions in assembly graphs with TTT
-- NO PUBLICATION FOUND
-
-## PRJNA1241434 — 1 sample · birds/taeniopygia-guttata
-
-Taeniopygia guttata (zebra finch) genome, bTaeGut8, sequence data
-Vertebrate Genomes Project · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1241434)
-
-- NOT YET REVIEWED
-- NO PUBLICATION FOUND
-
-## PRJNA1241435 — 1 sample · birds/taeniopygia-guttata
-
-Taeniopygia guttata (zebra finch) genome, bTaeGut9, sequence data
-Vertebrate Genomes Project · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1241435)
-
-- NOT YET REVIEWED
 - NO PUBLICATION FOUND
 
 ## PRJNA1250171 — 1 sample · mammals/ovis-aries
@@ -3076,4 +2980,100 @@ Vertebrate Genomes Project · [BioProject](https://www.ncbi.nlm.nih.gov/bioproje
 
 - NOT YET REVIEWED
 - [10.3390/genes14101870](https://doi.org/10.3390/genes14101870) — Maduna SN et al. (2023) Genomic Signatures of Local Adaptation under High Gene Flow in Lumpfish-Implications for Broodstock Provenance Sourcing and Larval Production
+- NO PUBLICATION FOUND
+
+## PRJDB2132 — 0 samples
+
+Whole genome sequencing of tammar wallaby
+Center for Genetic Resource Information, Comparative Genomics Laboratory, National Institute of Genetics, Research Organization of Information and Systems · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJDB2132)
+
+- NOT YET REVIEWED
+- NO PUBLICATION FOUND
+
+## PRJEB15235 — 0 samples
+
+Fitness Consequences of Polymorphic Inversions in the Zebra Finch Genome
+Max Planck Institute for Ornithology · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJEB15235)
+
+- NOT YET REVIEWED
+- NO PUBLICATION FOUND
+
+## PRJEB44823 — 0 samples
+
+Caprimulgus europaeus (Eurasian nightjar), genomic and transcriptomic data
+WELLCOME SANGER INSTITUTE · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJEB44823)
+
+- NOT YET REVIEWED
+- NO PUBLICATION FOUND
+
+## PRJEB86998 — 0 samples
+
+Water vole SNP discovery
+University of Liverpool · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJEB86998)
+
+- NOT YET REVIEWED
+- NO PUBLICATION FOUND
+
+## PRJEB94947 — 0 samples
+
+European water vole Arvicola amphibius conservation genetics
+Centre for Genomic Research, Institute of Integrative Biology, University of Liverpool, UK · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJEB94947)
+
+- NOT YET REVIEWED
+- NO PUBLICATION FOUND
+
+## PRJNA1008595 — 0 samples
+
+Taeniopygia guttata (zebra finch) genome sequencing, bTaeGut2, sequence data
+G10K · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1008595)
+
+- NOT YET REVIEWED
+- NO PUBLICATION FOUND
+
+## PRJNA1061303 — 0 samples
+
+Transgenic UBC-GFP Zebra finch Genome
+Boston University · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1061303)
+
+- NOT YET REVIEWED
+- NO PUBLICATION FOUND
+
+## PRJNA1083753 — 0 samples
+
+Trio sequencing of captive zebra finches
+Albert Ludwig University Freiburg · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1083753)
+
+- NOT YET REVIEWED
+- NO PUBLICATION FOUND
+
+## PRJNA1241434 — 0 samples
+
+Taeniopygia guttata (zebra finch) genome, bTaeGut8, sequence data
+Vertebrate Genomes Project · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1241434)
+
+- NOT YET REVIEWED
+- NO PUBLICATION FOUND
+
+## PRJNA1241435 — 0 samples
+
+Taeniopygia guttata (zebra finch) genome, bTaeGut9, sequence data
+Vertebrate Genomes Project · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1241435)
+
+- NOT YET REVIEWED
+- NO PUBLICATION FOUND
+
+## PRJNA909969 — 0 samples
+
+Bat Genomes
+Natural History Museum Berlin · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA909969)
+
+- NOT YET REVIEWED
+- NO PUBLICATION FOUND
+
+## PRJNA967190 — 0 samples
+
+Intersex-single case study: male zebra finch with an ovary in place of testicles developed a typical song system.
+Max Planck Institute for Biological Intelligence, Seewiesen · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA967190)
+
+- NOT YET REVIEWED
 - NO PUBLICATION FOUND
