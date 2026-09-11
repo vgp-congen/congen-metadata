@@ -1,14 +1,14 @@
 # Validation status
 
-Most recent validation `2026-09-11T16:34:01Z` · congen-metadata-tools 0.4.0.
+Most recent validation `2026-09-11T17:18:39Z` · congen-metadata-tools 0.4.0.
 
 | State | Species |
 |---|---|
-| **FAIL** | 3 |
+| **FAIL** | 2 |
 | **PASS WITH WARNINGS** | 5 |
 | **PASS WITH NOTES** | 1 |
 | **PENDING** | 6 |
-| **PASS** | 65 |
+| **PASS** | 66 |
 
 ## Species
 
@@ -28,7 +28,7 @@ Most recent validation `2026-09-11T16:34:01Z` · congen-metadata-tools 0.4.0.
 | [birds/falco-peregrinus](species/birds/falco-peregrinus/VALIDATION.md) | PASS | 2026-09-11 | — |
 | [birds/fringilla-coelebs](species/birds/fringilla-coelebs/VALIDATION.md) | PASS | 2026-09-10 | — |
 | [birds/geothlypis-trichas](species/birds/geothlypis-trichas/VALIDATION.md) | PASS | 2026-09-10 | — |
-| [birds/grus-americana](species/birds/grus-americana/VALIDATION.md) | FAIL | 2026-09-11 | 1 error, 1 warning |
+| [birds/grus-americana](species/birds/grus-americana/VALIDATION.md) | PASS | 2026-09-11 | — |
 | [birds/haemorhous-mexicanus](species/birds/haemorhous-mexicanus/VALIDATION.md) | PASS | 2026-09-10 | — |
 | [birds/haliaeetus-albicilla](species/birds/haliaeetus-albicilla/VALIDATION.md) | PASS | 2026-09-11 | — |
 | [birds/hirundo-rustica](species/birds/hirundo-rustica/VALIDATION.md) | PASS | 2026-09-11 | — |

@@ -14,8 +14,8 @@
     "min_coverage": 7.0,
     "n_sites": 61390344
   },
-  "declared_accession": "GCF_028858705.1",
-  "harvested_at": "2026-09-10T20:33:55Z",
+  "declared_accession": "GCA_028858705.1",
+  "harvested_at": "2026-09-11T17:18:44Z",
   "notes": [],
   "objects": {
     "README.txt": {
@@ -2281,7 +2281,7 @@
     ]
   },
   "subject": "birds/grus-americana",
-  "tool_version": "0.1.0",
+  "tool_version": "0.4.0",
   "vcf": {
     "callers": [
       "gatk"

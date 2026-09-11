@@ -1,11 +1,11 @@
 {
-  "validated_at": "2026-09-11T16:34:01Z",
+  "validated_at": "2026-09-11T17:18:39Z",
   "tool_version": "0.4.0",
   "counts": {
-    "PASS": 65,
+    "PASS": 66,
     "PASS WITH WARNINGS": 5,
     "PASS WITH NOTES": 1,
-    "FAIL": 3,
+    "FAIL": 2,
     "PENDING": 6
   },
   "corpus_findings": [],
@@ -24,7 +24,7 @@
     "birds/falco-peregrinus": "PASS",
     "birds/fringilla-coelebs": "PASS",
     "birds/geothlypis-trichas": "PASS",
-    "birds/grus-americana": "FAIL",
+    "birds/grus-americana": "PASS",
     "birds/haemorhous-mexicanus": "PASS",
     "birds/haliaeetus-albicilla": "PASS",
     "birds/hirundo-rustica": "PASS",
