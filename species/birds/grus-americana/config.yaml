@@ -7,7 +7,7 @@ samples: "config/gruAme.csv"
 
 reference:
   name: "Grus_americana"
-  source: "GCF_028858705.1"
+  source: "GCA_028858705.1"
 
 variant_calling:
   expected_coverage: "low"  # low | high | auto (future)
