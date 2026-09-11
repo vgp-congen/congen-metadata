@@ -87,10 +87,8 @@ Xiamen University · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA7
 
 <!-- considered: 10.1111/1755-0998.70180 10.1111/eva.13551 -->
 
-- NOT YET REVIEWED
 - ★ [10.1111/eva.13551](https://doi.org/10.1111/eva.13551) — Chen B et al. (2023) Genome-wide evolutionary signatures of climate adaptation in spotted sea bass inhabiting different latitudinal regions
-- [10.1111/1755-0998.70180](https://doi.org/10.1111/1755-0998.70180) — Zhang C et al. (2026) The Pan-Genome of 1107 Spotted Sea Bass Accessions Reveals Gene Evolution Patterns During Domestication Selection
-- NO PUBLICATION FOUND
+
 
 ## PRJEB57283 — 93 samples · birds/haliaeetus-albicilla
 
@@ -141,9 +139,7 @@ UiT The Arctic University of Norway · [BioProject](https://www.ncbi.nlm.nih.gov
 
 <!-- considered: 10.1002/ece3.70946 -->
 
-- NOT YET REVIEWED
 - ★ [10.1002/ece3.70946](https://doi.org/10.1002/ece3.70946) — Horaud M et al. (2025) Allochrony in Atlantic Lumpfish: Genomic and Otolith Shape Divergence Between Spring and Autumn Spawners
-- NO PUBLICATION FOUND
 
 ## PRJNA856472 — 64 samples · fishes/micropterus-salmoides
 
@@ -172,9 +168,7 @@ University of North Texas · [BioProject](https://www.ncbi.nlm.nih.gov/bioprojec
 
 <!-- considered: 10.1002/ece3.10347 -->
 
-- NOT YET REVIEWED
 - ★ [10.1002/ece3.10347](https://doi.org/10.1002/ece3.10347) — Johnson JA et al. (2023) Whole-genome survey reveals extensive variation in genetic diversity and inbreeding levels among peregrine falcon subspecies
-- NO PUBLICATION FOUND
 
 ## PRJEB88594 — 52 samples · fishes/platichthys-flesus
 
@@ -199,9 +193,7 @@ Third Institute of Oceanography, Ministry of Natural Resources · [BioProject](h
 
 <!-- considered: 10.3390/ani15050745 -->
 
-- NOT YET REVIEWED
 - ★ [10.3390/ani15050745](https://doi.org/10.3390/ani15050745) — Li Y et al. (2025) Genomic Insights into the Population Genetics and Adaptive Evolution of Yellow Seabream (&lt;i&gt;Acanthopagrus latus&lt;/i&gt;) with Whole-Genome Resequencing
-- NO PUBLICATION FOUND
 
 ## PRJEB48145 — 47 samples · fishes/astatotilapia-calliptera · fishes/aulonocara-stuartgranti
 
