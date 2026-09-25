@@ -1,0 +1,161 @@
+{
+  "accession": "GCA_028390025.1",
+  "assembly": {},
+  "cohort": {},
+  "declared_accession": "GCA_028390025.1",
+  "harvested_at": "2026-09-25T15:46:58Z",
+  "notes": [
+    "no data published on GenomeArk under GCA_028390025.1"
+  ],
+  "objects": {},
+  "opaque_subdirs": {},
+  "prefix": null,
+  "published": false,
+  "samples": {},
+  "schema": 1,
+  "sra": {
+    "SRR28349094": [
+      {
+        "bioproject": "PRJNA1088171",
+        "biosample": "SAMN40463425",
+        "run": "SRR28349094"
+      }
+    ],
+    "SRR28349095": [
+      {
+        "bioproject": "PRJNA1088171",
+        "biosample": "SAMN40463424",
+        "run": "SRR28349095"
+      }
+    ],
+    "SRR28349096": [
+      {
+        "bioproject": "PRJNA1088171",
+        "biosample": "SAMN40463423",
+        "run": "SRR28349096"
+      }
+    ],
+    "SRR28349097": [
+      {
+        "bioproject": "PRJNA1088171",
+        "biosample": "SAMN40463422",
+        "run": "SRR28349097"
+      }
+    ],
+    "SRR28349098": [
+      {
+        "bioproject": "PRJNA1088171",
+        "biosample": "SAMN40463421",
+        "run": "SRR28349098"
+      }
+    ],
+    "SRR28349099": [
+      {
+        "bioproject": "PRJNA1088171",
+        "biosample": "SAMN40463420",
+        "run": "SRR28349099"
+      }
+    ],
+    "SRR28349100": [
+      {
+        "bioproject": "PRJNA1088171",
+        "biosample": "SAMN40463419",
+        "run": "SRR28349100"
+      }
+    ],
+    "SRR28349102": [
+      {
+        "bioproject": "PRJNA1088171",
+        "biosample": "SAMN40463418",
+        "run": "SRR28349102"
+      }
+    ],
+    "SRR28349103": [
+      {
+        "bioproject": "PRJNA1088171",
+        "biosample": "SAMN40463435",
+        "run": "SRR28349103"
+      }
+    ],
+    "SRR28349104": [
+      {
+        "bioproject": "PRJNA1088171",
+        "biosample": "SAMN40463434",
+        "run": "SRR28349104"
+      }
+    ],
+    "SRR28349105": [
+      {
+        "bioproject": "PRJNA1088171",
+        "biosample": "SAMN40463433",
+        "run": "SRR28349105"
+      }
+    ],
+    "SRR28349106": [
+      {
+        "bioproject": "PRJNA1088171",
+        "biosample": "SAMN40463432",
+        "run": "SRR28349106"
+      }
+    ],
+    "SRR28349107": [
+      {
+        "bioproject": "PRJNA1088171",
+        "biosample": "SAMN40463431",
+        "run": "SRR28349107"
+      }
+    ],
+    "SRR28349108": [
+      {
+        "bioproject": "PRJNA1088171",
+        "biosample": "SAMN40463430",
+        "run": "SRR28349108"
+      }
+    ],
+    "SRR28349109": [
+      {
+        "bioproject": "PRJNA1088171",
+        "biosample": "SAMN40463429",
+        "run": "SRR28349109"
+      }
+    ],
+    "SRR28349110": [
+      {
+        "bioproject": "PRJNA1088171",
+        "biosample": "SAMN40463428",
+        "run": "SRR28349110"
+      }
+    ],
+    "SRR28349111": [
+      {
+        "bioproject": "PRJNA1088171",
+        "biosample": "SAMN40463427",
+        "run": "SRR28349111"
+      }
+    ],
+    "SRR28349112": [
+      {
+        "bioproject": "PRJNA1088171",
+        "biosample": "SAMN40463426",
+        "run": "SRR28349112"
+      }
+    ],
+    "SRR28349113": [
+      {
+        "bioproject": "PRJNA1088171",
+        "biosample": "SAMN40463417",
+        "run": "SRR28349113"
+      }
+    ],
+    "SRR28349114": [
+      {
+        "bioproject": "PRJNA1088171",
+        "biosample": "SAMN40463416",
+        "run": "SRR28349114"
+      }
+    ]
+  },
+  "subject": "amphibians/pseudophryne-corroboree",
+  "tool_version": "0.4.0",
+  "vcf": {}
+}

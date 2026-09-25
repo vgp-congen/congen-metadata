@@ -1,0 +1,135 @@
+{
+  "subject": "birds/columba-livia",
+  "state": "PASS WITH WARNINGS",
+  "validated_at": "2026-09-25T15:46:56Z",
+  "tool_version": "0.4.0",
+  "catalog": "sha256:44f7010fb4de2e48c91122dfd97086699b1036f7038eda45349f6a6db2e58514",
+  "checks_run": [
+    "E001",
+    "E002",
+    "E003",
+    "F001",
+    "F002",
+    "F003",
+    "F004",
+    "F005",
+    "F006",
+    "F008",
+    "F009",
+    "F011",
+    "F020",
+    "F021",
+    "F022",
+    "F023",
+    "F024",
+    "G001",
+    "G010",
+    "G011",
+    "G012",
+    "G013",
+    "G014",
+    "G017",
+    "G018",
+    "P001",
+    "P002",
+    "P003",
+    "R001",
+    "R002",
+    "R003",
+    "R010",
+    "R013",
+    "R015",
+    "R016",
+    "R017",
+    "R020",
+    "S001",
+    "S002",
+    "S003",
+    "S004",
+    "S005",
+    "S006",
+    "S007"
+  ],
+  "checks_available": 44,
+  "inputs": {
+    "config.yaml": "sha256:d504162aac1922e2b1471c538b0b97a2ebce471ceb83c8a9c95fa4d59075b338",
+    "sample_sheet.csv": "sha256:c4c11dfc8d226022d22dbcbfb1da628e87ffe114eb39babc103edec9f3799037"
+  },
+  "data": {
+    "published": true,
+    "accession": "GCA_036013475.2",
+    "objects": {
+      "raw.vcf.gz": "etag:671665e3497ac7a5be36605c1fa733bf-6424",
+      "raw.vcf.gz.tbi": "etag:94f80bebc928f37c14c78301ed48dc3c",
+      "filtered.vcf.gz": "etag:90bd0d07439550af8e11ce5dc163049e-9546",
+      "sample_sheet.csv": "etag:d1558861eaf469d8b6ed3049f73fc731"
+    },
+    "bams": {
+      "count": 227,
+      "digest": "sha256:d701f2090ad503d090ade2223536169e58a10ddb60d939732472aeb725da72ea"
+    }
+  },
+  "findings": [
+    {
+      "id": "G017",
+      "severity": "warn",
+      "subject": "birds/columba-livia",
+      "message": "GenomeArk publishes a README.txt that is not in the repo",
+      "detail": "copy it into the species directory",
+      "path": null,
+      "line": null
+    },
+    {
+      "id": "E002",
+      "severity": "skipped",
+      "subject": "birds/columba-livia",
+      "message": "skipped: every run's bioproject is listed in README.txt",
+      "detail": "needs readme",
+      "path": null,
+      "line": null
+    },
+    {
+      "id": "E003",
+      "severity": "skipped",
+      "subject": "birds/columba-livia",
+      "message": "skipped: every README.txt bioproject contributes runs",
+      "detail": "needs readme",
+      "path": null,
+      "line": null
+    },
+    {
+      "id": "R020",
+      "severity": "skipped",
+      "subject": "birds/columba-livia",
+      "message": "skipped: README.txt accession matches the config",
+      "detail": "needs readme",
+      "path": null,
+      "line": null
+    }
+  ],
+  "status": {
+    "subject": "birds/columba-livia",
+    "state": "complete",
+    "accession": "GCA_036013475.2",
+    "declared_accession": "GCA_036013475.2",
+    "accession_differs": false,
+    "present": [
+      "bams",
+      "callable_sites",
+      "filtered_vcf",
+      "published_readme",
+      "qc",
+      "raw_vcf",
+      "raw_vcf_index"
+    ],
+    "missing": [],
+    "missing_optional": [],
+    "counts": {
+      "sheet_samples": 227,
+      "bams": 227,
+      "vcf_samples": 227
+    }
+  },
+  "superseded": null,
+  "stale_reason": null
+}

@@ -1,0 +1,135 @@
+{
+  "subject": "fishes/sparus-aurata",
+  "state": "PASS WITH WARNINGS",
+  "validated_at": "2026-09-25T15:46:56Z",
+  "tool_version": "0.4.0",
+  "catalog": "sha256:44f7010fb4de2e48c91122dfd97086699b1036f7038eda45349f6a6db2e58514",
+  "checks_run": [
+    "E001",
+    "E002",
+    "E003",
+    "F001",
+    "F002",
+    "F003",
+    "F004",
+    "F005",
+    "F006",
+    "F008",
+    "F009",
+    "F011",
+    "F020",
+    "F021",
+    "F022",
+    "F023",
+    "F024",
+    "G001",
+    "G010",
+    "G011",
+    "G012",
+    "G013",
+    "G014",
+    "G017",
+    "G018",
+    "P001",
+    "P002",
+    "P003",
+    "R001",
+    "R002",
+    "R003",
+    "R010",
+    "R013",
+    "R015",
+    "R016",
+    "R017",
+    "R020",
+    "S001",
+    "S002",
+    "S003",
+    "S004",
+    "S005",
+    "S006",
+    "S007"
+  ],
+  "checks_available": 44,
+  "inputs": {
+    "config.yaml": "sha256:5d7debca2cb530e74599997cc600eee0ce2effe1185ca92c40bbce7ebb8f367b",
+    "sample_sheet.csv": "sha256:2cced9209d5adade9b08d7b45e4c679f0516cbbc97e2ae0a2a0dea9a4da5ef21"
+  },
+  "data": {
+    "published": true,
+    "accession": "GCA_900880675.2",
+    "objects": {
+      "raw.vcf.gz": "etag:a9ee5a7bb9df6682a63f61f3da1b2d83-2212",
+      "raw.vcf.gz.tbi": "etag:5010c357e96df274dd412ce1bbc21477",
+      "filtered.vcf.gz": "etag:4163d04c6619b4eb1a8f77ccecd0f954-2817",
+      "sample_sheet.csv": "etag:047494be67410c01f0a08be8ce2e1425"
+    },
+    "bams": {
+      "count": 75,
+      "digest": "sha256:35e27ee62ae7b28b23196f7bda86619e242b746386a49e420a783c3ca719d386"
+    }
+  },
+  "findings": [
+    {
+      "id": "G017",
+      "severity": "warn",
+      "subject": "fishes/sparus-aurata",
+      "message": "GenomeArk publishes a README.txt that is not in the repo",
+      "detail": "copy it into the species directory",
+      "path": null,
+      "line": null
+    },
+    {
+      "id": "E002",
+      "severity": "skipped",
+      "subject": "fishes/sparus-aurata",
+      "message": "skipped: every run's bioproject is listed in README.txt",
+      "detail": "needs readme",
+      "path": null,
+      "line": null
+    },
+    {
+      "id": "E003",
+      "severity": "skipped",
+      "subject": "fishes/sparus-aurata",
+      "message": "skipped: every README.txt bioproject contributes runs",
+      "detail": "needs readme",
+      "path": null,
+      "line": null
+    },
+    {
+      "id": "R020",
+      "severity": "skipped",
+      "subject": "fishes/sparus-aurata",
+      "message": "skipped: README.txt accession matches the config",
+      "detail": "needs readme",
+      "path": null,
+      "line": null
+    }
+  ],
+  "status": {
+    "subject": "fishes/sparus-aurata",
+    "state": "complete",
+    "accession": "GCA_900880675.2",
+    "declared_accession": "GCA_900880675.2",
+    "accession_differs": false,
+    "present": [
+      "bams",
+      "callable_sites",
+      "filtered_vcf",
+      "published_readme",
+      "qc",
+      "raw_vcf",
+      "raw_vcf_index"
+    ],
+    "missing": [],
+    "missing_optional": [],
+    "counts": {
+      "sheet_samples": 75,
+      "bams": 75,
+      "vcf_samples": 75
+    }
+  },
+  "superseded": null,
+  "stale_reason": null
+}

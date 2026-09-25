@@ -1,0 +1,348 @@
+{
+  "subject": "fishes/petromyzon-marinus",
+  "state": "PENDING",
+  "validated_at": "2026-09-25T15:46:56Z",
+  "tool_version": "0.4.0",
+  "catalog": "sha256:44f7010fb4de2e48c91122dfd97086699b1036f7038eda45349f6a6db2e58514",
+  "checks_run": [
+    "E001",
+    "E002",
+    "E003",
+    "F001",
+    "F002",
+    "F003",
+    "F004",
+    "F005",
+    "F006",
+    "F008",
+    "F009",
+    "F011",
+    "F020",
+    "F021",
+    "F022",
+    "F023",
+    "F024",
+    "G001",
+    "G010",
+    "G011",
+    "G012",
+    "G013",
+    "G014",
+    "G017",
+    "G018",
+    "P001",
+    "P002",
+    "P003",
+    "R001",
+    "R002",
+    "R003",
+    "R010",
+    "R013",
+    "R015",
+    "R016",
+    "R017",
+    "R020",
+    "S001",
+    "S002",
+    "S003",
+    "S004",
+    "S005",
+    "S006",
+    "S007"
+  ],
+  "checks_available": 44,
+  "inputs": {
+    "config.yaml": "sha256:726f9366b9e6c4afd687e4503099d025d9d9be21a5903c451ab6ad04a4137759",
+    "sample_sheet.csv": "sha256:f21614b0cda1226b37b2e636fef6eeab6d3e07fb9951b10557de83b696d3c017"
+  },
+  "data": {
+    "published": false,
+    "accession": "GCA_048934315.1"
+  },
+  "findings": [
+    {
+      "id": "G018",
+      "severity": "warn",
+      "subject": "fishes/petromyzon-marinus",
+      "message": "no README.txt in the repo or on GenomeArk",
+      "detail": "nothing records which bioprojects this dataset draws on",
+      "path": null,
+      "line": null
+    },
+    {
+      "id": "E002",
+      "severity": "skipped",
+      "subject": "fishes/petromyzon-marinus",
+      "message": "skipped: every run's bioproject is listed in README.txt",
+      "detail": "needs readme",
+      "path": null,
+      "line": null
+    },
+    {
+      "id": "E003",
+      "severity": "skipped",
+      "subject": "fishes/petromyzon-marinus",
+      "message": "skipped: every README.txt bioproject contributes runs",
+      "detail": "needs readme",
+      "path": null,
+      "line": null
+    },
+    {
+      "id": "F001",
+      "severity": "skipped",
+      "subject": "fishes/petromyzon-marinus",
+      "message": "skipped: every VCF contig exists in the declared assembly",
+      "detail": "needs vcf_header",
+      "path": null,
+      "line": null
+    },
+    {
+      "id": "F002",
+      "severity": "skipped",
+      "subject": "fishes/petromyzon-marinus",
+      "message": "skipped: VCF contig lengths match the assembly",
+      "detail": "needs vcf_header",
+      "path": null,
+      "line": null
+    },
+    {
+      "id": "F003",
+      "severity": "skipped",
+      "subject": "fishes/petromyzon-marinus",
+      "message": "skipped: contig names use one consistent naming scheme",
+      "detail": "needs vcf_header",
+      "path": null,
+      "line": null
+    },
+    {
+      "id": "F004",
+      "severity": "skipped",
+      "subject": "fishes/petromyzon-marinus",
+      "message": "skipped: BAM @SQ matches the VCF contigs",
+      "detail": "needs vcf_header, bam_headers",
+      "path": null,
+      "line": null
+    },
+    {
+      "id": "F005",
+      "severity": "skipped",
+      "subject": "fishes/petromyzon-marinus",
+      "message": "skipped: all BAMs share one @SQ list",
+      "detail": "needs bam_headers",
+      "path": null,
+      "line": null
+    },
+    {
+      "id": "F006",
+      "severity": "skipped",
+      "subject": "fishes/petromyzon-marinus",
+      "message": "skipped: the BAM's bwa command line names reference.name",
+      "detail": "needs bam_headers",
+      "path": null,
+      "line": null
+    },
+    {
+      "id": "F008",
+      "severity": "skipped",
+      "subject": "fishes/petromyzon-marinus",
+      "message": "skipped: qc/contig_map.tsv agrees with the VCF contigs",
+      "detail": "needs contig_map, vcf_header",
+      "path": null,
+      "line": null
+    },
+    {
+      "id": "F009",
+      "severity": "skipped",
+      "subject": "fishes/petromyzon-marinus",
+      "message": "skipped: assembly sequences absent from the VCF",
+      "detail": "needs vcf_header",
+      "path": null,
+      "line": null
+    },
+    {
+      "id": "F011",
+      "severity": "skipped",
+      "subject": "fishes/petromyzon-marinus",
+      "message": "skipped: no whole assembled molecule is absent from the VCF",
+      "detail": "needs vcf_header",
+      "path": null,
+      "line": null
+    },
+    {
+      "id": "G010",
+      "severity": "skipped",
+      "subject": "fishes/petromyzon-marinus",
+      "message": "skipped: vcfs/raw.vcf.gz is present",
+      "detail": "needs s3",
+      "path": null,
+      "line": null
+    },
+    {
+      "id": "G011",
+      "severity": "skipped",
+      "subject": "fishes/petromyzon-marinus",
+      "message": "skipped: the raw VCF has an index",
+      "detail": "needs s3",
+      "path": null,
+      "line": null
+    },
+    {
+      "id": "G012",
+      "severity": "skipped",
+      "subject": "fishes/petromyzon-marinus",
+      "message": "skipped: bams/ is not empty",
+      "detail": "needs s3",
+      "path": null,
+      "line": null
+    },
+    {
+      "id": "G013",
+      "severity": "skipped",
+      "subject": "fishes/petromyzon-marinus",
+      "message": "skipped: every BAM has an index",
+      "detail": "needs s3",
+      "path": null,
+      "line": null
+    },
+    {
+      "id": "G014",
+      "severity": "skipped",
+      "subject": "fishes/petromyzon-marinus",
+      "message": "skipped: no zero-byte data objects",
+      "detail": "needs s3",
+      "path": null,
+      "line": null
+    },
+    {
+      "id": "G017",
+      "severity": "skipped",
+      "subject": "fishes/petromyzon-marinus",
+      "message": "skipped: the repo and GenomeArk READMEs agree",
+      "detail": "needs s3",
+      "path": null,
+      "line": null
+    },
+    {
+      "id": "P001",
+      "severity": "skipped",
+      "subject": "fishes/petromyzon-marinus",
+      "message": "skipped: variant_calling.ploidy matches the recorded --sample-ploidy",
+      "detail": "needs vcf_header",
+      "path": null,
+      "line": null
+    },
+    {
+      "id": "P002",
+      "severity": "skipped",
+      "subject": "fishes/petromyzon-marinus",
+      "message": "skipped: gatk.het_prior matches the recorded --heterozygosity",
+      "detail": "needs vcf_header",
+      "path": null,
+      "line": null
+    },
+    {
+      "id": "P003",
+      "severity": "skipped",
+      "subject": "fishes/petromyzon-marinus",
+      "message": "skipped: variant_calling.tool matches the caller recorded in the VCF",
+      "detail": "needs vcf_header",
+      "path": null,
+      "line": null
+    },
+    {
+      "id": "R020",
+      "severity": "skipped",
+      "subject": "fishes/petromyzon-marinus",
+      "message": "skipped: README.txt accession matches the config",
+      "detail": "needs readme",
+      "path": null,
+      "line": null
+    },
+    {
+      "id": "S001",
+      "severity": "skipped",
+      "subject": "fishes/petromyzon-marinus",
+      "message": "skipped: sheet samples == VCF samples",
+      "detail": "needs vcf_header",
+      "path": null,
+      "line": null
+    },
+    {
+      "id": "S002",
+      "severity": "skipped",
+      "subject": "fishes/petromyzon-marinus",
+      "message": "skipped: sheet samples == published BAMs",
+      "detail": "needs s3",
+      "path": null,
+      "line": null
+    },
+    {
+      "id": "S003",
+      "severity": "skipped",
+      "subject": "fishes/petromyzon-marinus",
+      "message": "skipped: VCF samples == published BAMs",
+      "detail": "needs vcf_header, s3",
+      "path": null,
+      "line": null
+    },
+    {
+      "id": "S004",
+      "severity": "skipped",
+      "subject": "fishes/petromyzon-marinus",
+      "message": "skipped: each BAM's @RG SM matches its filename",
+      "detail": "needs bam_headers",
+      "path": null,
+      "line": null
+    },
+    {
+      "id": "S005",
+      "severity": "skipped",
+      "subject": "fishes/petromyzon-marinus",
+      "message": "skipped: qc/individuals.samps.txt agrees with the VCF",
+      "detail": "needs qc_samples, vcf_header",
+      "path": null,
+      "line": null
+    },
+    {
+      "id": "S006",
+      "severity": "skipped",
+      "subject": "fishes/petromyzon-marinus",
+      "message": "skipped: the published sample sheet matches the repo copy",
+      "detail": "needs s3_sheet",
+      "path": null,
+      "line": null
+    },
+    {
+      "id": "S007",
+      "severity": "skipped",
+      "subject": "fishes/petromyzon-marinus",
+      "message": "skipped: @RG LB agrees with library_id where the sheet declares it",
+      "detail": "needs bam_headers",
+      "path": null,
+      "line": null
+    }
+  ],
+  "status": {
+    "subject": "fishes/petromyzon-marinus",
+    "state": "absent",
+    "accession": null,
+    "declared_accession": "GCA_048934315.1",
+    "accession_differs": false,
+    "present": [],
+    "missing": [
+      "raw_vcf",
+      "raw_vcf_index",
+      "bams",
+      "qc",
+      "callable_sites"
+    ],
+    "missing_optional": [],
+    "counts": {
+      "sheet_samples": 14,
+      "bams": 0,
+      "vcf_samples": null
+    }
+  },
+  "superseded": null,
+  "stale_reason": null
+}

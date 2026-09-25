@@ -1,0 +1,135 @@
+{
+  "subject": "mammals/tursiops-truncatus",
+  "state": "PASS WITH WARNINGS",
+  "validated_at": "2026-09-25T15:46:56Z",
+  "tool_version": "0.4.0",
+  "catalog": "sha256:44f7010fb4de2e48c91122dfd97086699b1036f7038eda45349f6a6db2e58514",
+  "checks_run": [
+    "E001",
+    "E002",
+    "E003",
+    "F001",
+    "F002",
+    "F003",
+    "F004",
+    "F005",
+    "F006",
+    "F008",
+    "F009",
+    "F011",
+    "F020",
+    "F021",
+    "F022",
+    "F023",
+    "F024",
+    "G001",
+    "G010",
+    "G011",
+    "G012",
+    "G013",
+    "G014",
+    "G017",
+    "G018",
+    "P001",
+    "P002",
+    "P003",
+    "R001",
+    "R002",
+    "R003",
+    "R010",
+    "R013",
+    "R015",
+    "R016",
+    "R017",
+    "R020",
+    "S001",
+    "S002",
+    "S003",
+    "S004",
+    "S005",
+    "S006",
+    "S007"
+  ],
+  "checks_available": 44,
+  "inputs": {
+    "config.yaml": "sha256:342a1bafdbe6a89bc82e01dac2b9ce5d16c625334c72d083aacb865d9d9b353a",
+    "sample_sheet.csv": "sha256:a0777629b16b4bb65d899124570eda0ef123f56f6c030fe550caa45bf3318233"
+  },
+  "data": {
+    "published": true,
+    "accession": "GCA_011762595.2",
+    "objects": {
+      "raw.vcf.gz": "etag:3be411dcd431c4023ebd7e25f69c307f-1944",
+      "raw.vcf.gz.tbi": "etag:5d7084cc0945278e111ee2473e98bd82",
+      "filtered.vcf.gz": "etag:4db6c59ce27a264af5f75cd9c184b4f8-2761",
+      "sample_sheet.csv": "etag:977680cf62684b8e5c954e32ae403373"
+    },
+    "bams": {
+      "count": 65,
+      "digest": "sha256:2571a6979eb02e105d0910562bf16cbbbf3691cbd5260ebed85552bcbed40140"
+    }
+  },
+  "findings": [
+    {
+      "id": "G017",
+      "severity": "warn",
+      "subject": "mammals/tursiops-truncatus",
+      "message": "GenomeArk publishes a README.txt that is not in the repo",
+      "detail": "copy it into the species directory",
+      "path": null,
+      "line": null
+    },
+    {
+      "id": "E002",
+      "severity": "skipped",
+      "subject": "mammals/tursiops-truncatus",
+      "message": "skipped: every run's bioproject is listed in README.txt",
+      "detail": "needs readme",
+      "path": null,
+      "line": null
+    },
+    {
+      "id": "E003",
+      "severity": "skipped",
+      "subject": "mammals/tursiops-truncatus",
+      "message": "skipped: every README.txt bioproject contributes runs",
+      "detail": "needs readme",
+      "path": null,
+      "line": null
+    },
+    {
+      "id": "R020",
+      "severity": "skipped",
+      "subject": "mammals/tursiops-truncatus",
+      "message": "skipped: README.txt accession matches the config",
+      "detail": "needs readme",
+      "path": null,
+      "line": null
+    }
+  ],
+  "status": {
+    "subject": "mammals/tursiops-truncatus",
+    "state": "complete",
+    "accession": "GCA_011762595.2",
+    "declared_accession": "GCA_011762595.2",
+    "accession_differs": false,
+    "present": [
+      "bams",
+      "callable_sites",
+      "filtered_vcf",
+      "published_readme",
+      "qc",
+      "raw_vcf",
+      "raw_vcf_index"
+    ],
+    "missing": [],
+    "missing_optional": [],
+    "counts": {
+      "sheet_samples": 65,
+      "bams": 65,
+      "vcf_samples": 65
+    }
+  },
+  "superseded": null,
+  "stale_reason": null
+}

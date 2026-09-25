@@ -1,0 +1,119 @@
+{
+  "accession": "GCA_048934315.1",
+  "assembly": {},
+  "cohort": {},
+  "declared_accession": "GCA_048934315.1",
+  "harvested_at": "2026-09-25T15:47:09Z",
+  "notes": [
+    "no data published on GenomeArk under GCA_048934315.1"
+  ],
+  "objects": {},
+  "opaque_subdirs": {},
+  "prefix": null,
+  "published": false,
+  "samples": {},
+  "schema": 1,
+  "sra": {
+    "SRR16928913": [
+      {
+        "bioproject": "PRJNA779416",
+        "biosample": "SAMN23067069",
+        "run": "SRR16928913"
+      }
+    ],
+    "SRR26284181": [
+      {
+        "bioproject": "PRJNA1024071",
+        "biosample": "SAMN37687933",
+        "run": "SRR26284181"
+      }
+    ],
+    "SRR26284183": [
+      {
+        "bioproject": "PRJNA1024071",
+        "biosample": "SAMN37687931",
+        "run": "SRR26284183"
+      }
+    ],
+    "SRR26284188": [
+      {
+        "bioproject": "PRJNA1024071",
+        "biosample": "SAMN37687929",
+        "run": "SRR26284188"
+      }
+    ],
+    "SRR26284210": [
+      {
+        "bioproject": "PRJNA1024071",
+        "biosample": "SAMN37687927",
+        "run": "SRR26284210"
+      }
+    ],
+    "SRR26284222": [
+      {
+        "bioproject": "PRJNA1024071",
+        "biosample": "SAMN37687925",
+        "run": "SRR26284222"
+      }
+    ],
+    "SRR30991392": [
+      {
+        "bioproject": "PRJNA779416",
+        "biosample": "SAMN44282437",
+        "run": "SRR30991392"
+      }
+    ],
+    "SRR36182835": [
+      {
+        "bioproject": "PRJNA720393",
+        "biosample": "SAMN52826238",
+        "run": "SRR36182835"
+      }
+    ],
+    "SRR37083673": [
+      {
+        "bioproject": "PRJNA720393",
+        "biosample": "SAMN55037060",
+        "run": "SRR37083673"
+      }
+    ],
+    "SRR37083676": [
+      {
+        "bioproject": "PRJNA720393",
+        "biosample": "SAMN55037059",
+        "run": "SRR37083676"
+      }
+    ],
+    "SRR38066845": [
+      {
+        "bioproject": "PRJNA720393",
+        "biosample": "SAMN57239938",
+        "run": "SRR38066845"
+      }
+    ],
+    "SRR5535434": [
+      {
+        "bioproject": "PRJNA385973",
+        "biosample": "SAMN06921184",
+        "run": "SRR5535434"
+      }
+    ],
+    "SRR6329400": [
+      {
+        "bioproject": "PRJNA420358",
+        "biosample": "SAMN08109816",
+        "run": "SRR6329400"
+      }
+    ],
+    "SRR6329401": [
+      {
+        "bioproject": "PRJNA420358",
+        "biosample": "SAMN08109817",
+        "run": "SRR6329401"
+      }
+    ]
+  },
+  "subject": "fishes/petromyzon-marinus",
+  "tool_version": "0.4.0",
+  "vcf": {}
+}
