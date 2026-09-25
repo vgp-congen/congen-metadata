@@ -1,25 +1,20 @@
 # Validation — Tursiops truncatus
 
-**PASS WITH WARNINGS** · 2026-09-25 · GCA_011762595.2
+**PASS** · 2026-09-25 · GCA_011762595.2
 
-Metadata agrees with the data published on GenomeArk, with points to note.
+Metadata agrees with the data published on GenomeArk.
 
 65 samples in the sheet · 65 BAMs · 65 samples in the VCF
-
-## Warnings
-
-- **[G017](../../../CHECKS.md#g017)** GenomeArk publishes a README.txt that is not in the repo
-  - copy it into the species directory
 
 ## What was checked
 
 - 44 of 44 checks
-- 3 skipped: needs readme
 
 ## Provenance
 
-- validated `2026-09-25T15:46:56Z` by congen-metadata-tools 0.4.0
+- validated `2026-09-25T16:03:41Z` by congen-metadata-tools 0.4.0
 - data: `GCA_011762595.2`
+- `README.txt` `sha256:ff2af6d8cff7d5cf9437aa2560cb06fd40b79534bfb92fff7b56472056173bd0`
 - `config.yaml` `sha256:342a1bafdbe6a89bc82e01dac2b9ce5d16c625334c72d083aacb865d9d9b353a`
 - `sample_sheet.csv` `sha256:a0777629b16b4bb65d899124570eda0ef123f56f6c030fe550caa45bf3318233`
 

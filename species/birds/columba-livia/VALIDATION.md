@@ -1,25 +1,20 @@
 # Validation — Columba livia
 
-**PASS WITH WARNINGS** · 2026-09-25 · GCA_036013475.2
+**PASS** · 2026-09-25 · GCA_036013475.2
 
-Metadata agrees with the data published on GenomeArk, with points to note.
+Metadata agrees with the data published on GenomeArk.
 
 227 samples in the sheet · 227 BAMs · 227 samples in the VCF
-
-## Warnings
-
-- **[G017](../../../CHECKS.md#g017)** GenomeArk publishes a README.txt that is not in the repo
-  - copy it into the species directory
 
 ## What was checked
 
 - 44 of 44 checks
-- 3 skipped: needs readme
 
 ## Provenance
 
-- validated `2026-09-25T15:46:56Z` by congen-metadata-tools 0.4.0
+- validated `2026-09-25T16:03:41Z` by congen-metadata-tools 0.4.0
 - data: `GCA_036013475.2`
+- `README.txt` `sha256:c29ce67d6754d94393d3076e374647709bdea9b37dbcd367995e422745a90742`
 - `config.yaml` `sha256:d504162aac1922e2b1471c538b0b97a2ebce471ceb83c8a9c95fa4d59075b338`
 - `sample_sheet.csv` `sha256:c4c11dfc8d226022d22dbcbfb1da628e87ffe114eb39babc103edec9f3799037`
 

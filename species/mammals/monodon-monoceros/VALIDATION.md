@@ -1,25 +1,20 @@
 # Validation — Monodon monoceros
 
-**PASS WITH WARNINGS** · 2026-09-25 · GCA_005190385.4
+**PASS** · 2026-09-25 · GCA_005190385.4
 
-Metadata agrees with the data published on GenomeArk, with points to note.
+Metadata agrees with the data published on GenomeArk.
 
 65 samples in the sheet · 65 BAMs · 65 samples in the VCF
-
-## Warnings
-
-- **[G017](../../../CHECKS.md#g017)** GenomeArk publishes a README.txt that is not in the repo
-  - copy it into the species directory
 
 ## What was checked
 
 - 44 of 44 checks
-- 3 skipped: needs readme
 
 ## Provenance
 
-- validated `2026-09-25T15:46:56Z` by congen-metadata-tools 0.4.0
+- validated `2026-09-25T16:03:41Z` by congen-metadata-tools 0.4.0
 - data: `GCA_005190385.4`
+- `README.txt` `sha256:7c54cbef08711de30e42f99b5c7e3b624e0d0fef8326df846d58ca5eafe836ea`
 - `config.yaml` `sha256:c76a16e56072b9cbe893914620f2c4a712a95cc7bb594ba698e96fe734e34fb8`
 - `sample_sheet.csv` `sha256:cdaf316a5fdd08c80fcabe62bf07d9ea9651c50ebeeb2ad52b17eeecbc7d25bf`
 

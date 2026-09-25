@@ -1,7 +1,7 @@
 {
   "subject": "fishes/sparus-aurata",
-  "state": "PASS WITH WARNINGS",
-  "validated_at": "2026-09-25T15:46:56Z",
+  "state": "PASS",
+  "validated_at": "2026-09-25T16:03:41Z",
   "tool_version": "0.4.0",
   "catalog": "sha256:44f7010fb4de2e48c91122dfd97086699b1036f7038eda45349f6a6db2e58514",
   "checks_run": [
@@ -53,7 +53,8 @@
   "checks_available": 44,
   "inputs": {
     "config.yaml": "sha256:5d7debca2cb530e74599997cc600eee0ce2effe1185ca92c40bbce7ebb8f367b",
-    "sample_sheet.csv": "sha256:2cced9209d5adade9b08d7b45e4c679f0516cbbc97e2ae0a2a0dea9a4da5ef21"
+    "sample_sheet.csv": "sha256:2cced9209d5adade9b08d7b45e4c679f0516cbbc97e2ae0a2a0dea9a4da5ef21",
+    "README.txt": "sha256:825032bd716c0d8dd3959a89f56ba39766dec2f9231e12dbd6df3a22793ba3f2"
   },
   "data": {
     "published": true,
@@ -69,44 +70,7 @@
       "digest": "sha256:35e27ee62ae7b28b23196f7bda86619e242b746386a49e420a783c3ca719d386"
     }
   },
-  "findings": [
-    {
-      "id": "G017",
-      "severity": "warn",
-      "subject": "fishes/sparus-aurata",
-      "message": "GenomeArk publishes a README.txt that is not in the repo",
-      "detail": "copy it into the species directory",
-      "path": null,
-      "line": null
-    },
-    {
-      "id": "E002",
-      "severity": "skipped",
-      "subject": "fishes/sparus-aurata",
-      "message": "skipped: every run's bioproject is listed in README.txt",
-      "detail": "needs readme",
-      "path": null,
-      "line": null
-    },
-    {
-      "id": "E003",
-      "severity": "skipped",
-      "subject": "fishes/sparus-aurata",
-      "message": "skipped: every README.txt bioproject contributes runs",
-      "detail": "needs readme",
-      "path": null,
-      "line": null
-    },
-    {
-      "id": "R020",
-      "severity": "skipped",
-      "subject": "fishes/sparus-aurata",
-      "message": "skipped: README.txt accession matches the config",
-      "detail": "needs readme",
-      "path": null,
-      "line": null
-    }
-  ],
+  "findings": [],
   "status": {
     "subject": "fishes/sparus-aurata",
     "state": "complete",
@@ -120,7 +84,8 @@
       "published_readme",
       "qc",
       "raw_vcf",
-      "raw_vcf_index"
+      "raw_vcf_index",
+      "repo_readme"
     ],
     "missing": [],
     "missing_optional": [],
