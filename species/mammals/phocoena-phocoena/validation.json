@@ -1,0 +1,100 @@
+{
+  "subject": "mammals/phocoena-phocoena",
+  "state": "PASS",
+  "validated_at": "2026-09-28T23:33:04Z",
+  "tool_version": "0.4.0",
+  "catalog": "sha256:44f7010fb4de2e48c91122dfd97086699b1036f7038eda45349f6a6db2e58514",
+  "checks_run": [
+    "E001",
+    "E002",
+    "E003",
+    "F001",
+    "F002",
+    "F003",
+    "F004",
+    "F005",
+    "F006",
+    "F008",
+    "F009",
+    "F011",
+    "F020",
+    "F021",
+    "F022",
+    "F023",
+    "F024",
+    "G001",
+    "G010",
+    "G011",
+    "G012",
+    "G013",
+    "G014",
+    "G017",
+    "G018",
+    "P001",
+    "P002",
+    "P003",
+    "R001",
+    "R002",
+    "R003",
+    "R010",
+    "R013",
+    "R015",
+    "R016",
+    "R017",
+    "R020",
+    "S001",
+    "S002",
+    "S003",
+    "S004",
+    "S005",
+    "S006",
+    "S007"
+  ],
+  "checks_available": 44,
+  "inputs": {
+    "config.yaml": "sha256:180ba5c307a3114c9bae336c96e70e65bc880d447197d82cefa2b7103dd0087d",
+    "sample_sheet.csv": "sha256:50fe4922b7d27fecb5ebbe1c1e2270a66d18fb2d6c4c7c78c537b328b90ac84d",
+    "README.txt": "sha256:83186d4093a3cf5bb7a6668cab17d4e83447286f7f8f690ebd7ac2dff694ef0e"
+  },
+  "data": {
+    "published": true,
+    "accession": "GCA_963924675.1",
+    "objects": {
+      "raw.vcf.gz": "etag:848b472a066791a20b1c9e4b7d1805ee-2629",
+      "raw.vcf.gz.tbi": "etag:0f0d497c3acda05d72e97483daa98aa9",
+      "filtered.vcf.gz": "etag:feb7db4988d6f9ea566073d87eb24041-3741",
+      "sample_sheet.csv": "etag:b29fdbd46f859ba3f1fdfae278124fb5"
+    },
+    "bams": {
+      "count": 70,
+      "digest": "sha256:9c6a8e09d0e646f5ba65cbeee050004183758c1e1f97e47f416c005dd0347cea"
+    }
+  },
+  "findings": [],
+  "status": {
+    "subject": "mammals/phocoena-phocoena",
+    "state": "complete",
+    "accession": "GCA_963924675.1",
+    "declared_accession": "GCA_963924675.1",
+    "accession_differs": false,
+    "present": [
+      "bams",
+      "callable_sites",
+      "filtered_vcf",
+      "published_readme",
+      "qc",
+      "raw_vcf",
+      "raw_vcf_index",
+      "repo_readme"
+    ],
+    "missing": [],
+    "missing_optional": [],
+    "counts": {
+      "sheet_samples": 70,
+      "bams": 70,
+      "vcf_samples": 70
+    }
+  },
+  "superseded": null,
+  "stale_reason": null
+}

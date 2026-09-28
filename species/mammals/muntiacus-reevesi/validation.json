@@ -1,0 +1,100 @@
+{
+  "subject": "mammals/muntiacus-reevesi",
+  "state": "PASS",
+  "validated_at": "2026-09-28T23:33:04Z",
+  "tool_version": "0.4.0",
+  "catalog": "sha256:44f7010fb4de2e48c91122dfd97086699b1036f7038eda45349f6a6db2e58514",
+  "checks_run": [
+    "E001",
+    "E002",
+    "E003",
+    "F001",
+    "F002",
+    "F003",
+    "F004",
+    "F005",
+    "F006",
+    "F008",
+    "F009",
+    "F011",
+    "F020",
+    "F021",
+    "F022",
+    "F023",
+    "F024",
+    "G001",
+    "G010",
+    "G011",
+    "G012",
+    "G013",
+    "G014",
+    "G017",
+    "G018",
+    "P001",
+    "P002",
+    "P003",
+    "R001",
+    "R002",
+    "R003",
+    "R010",
+    "R013",
+    "R015",
+    "R016",
+    "R017",
+    "R020",
+    "S001",
+    "S002",
+    "S003",
+    "S004",
+    "S005",
+    "S006",
+    "S007"
+  ],
+  "checks_available": 44,
+  "inputs": {
+    "config.yaml": "sha256:30368938d421f6f55b969a9af9d1d972fd94751b4f3fb40cb2a2212f116d36ea",
+    "sample_sheet.csv": "sha256:05c039178911f7b980fd936e8f7eb3a4f07a040cba8901ba7e2a788cb7f9914a",
+    "README.txt": "sha256:e20adfeda9c5292302410f8694d0f649424556c138f0199a5cea4b18ff4dbc85"
+  },
+  "data": {
+    "published": true,
+    "accession": "GCA_963930625.2",
+    "objects": {
+      "raw.vcf.gz": "etag:1195be72914355b535e79b1dec90c974-4645",
+      "raw.vcf.gz.tbi": "etag:89575360d4b9814954b306dceec76340",
+      "filtered.vcf.gz": "etag:b00e894f52e0e35149c38946ddc4be82-6716",
+      "sample_sheet.csv": "etag:18aef45d0050f35cac0fe0c458f07005"
+    },
+    "bams": {
+      "count": 65,
+      "digest": "sha256:93cc86e332d853fad6b29d0e97f9e04203553c127368e3b0e20dc89b8ec9142f"
+    }
+  },
+  "findings": [],
+  "status": {
+    "subject": "mammals/muntiacus-reevesi",
+    "state": "complete",
+    "accession": "GCA_963930625.2",
+    "declared_accession": "GCA_963930625.2",
+    "accession_differs": false,
+    "present": [
+      "bams",
+      "callable_sites",
+      "filtered_vcf",
+      "published_readme",
+      "qc",
+      "raw_vcf",
+      "raw_vcf_index",
+      "repo_readme"
+    ],
+    "missing": [],
+    "missing_optional": [],
+    "counts": {
+      "sheet_samples": 65,
+      "bams": 65,
+      "vcf_samples": 65
+    }
+  },
+  "superseded": null,
+  "stale_reason": null
+}

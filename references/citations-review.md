@@ -180,6 +180,22 @@ Potsdam University · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA
 - ★ [10.1111/1755-0998.13860](https://doi.org/10.1111/1755-0998.13860) — Celemín E et al. (2025) Evolutionary history and seascape genomics of Harbour porpoises (Phocoena phocoena) across environmental gradients in the North Atlantic and adjacent waters
 - NO PUBLICATION FOUND
 
+## PRJNA1033834 — 62 samples · mammals/muntiacus-reevesi
+
+Muntiacus reevesi whole genome resequencing
+the State Key Laboratory of Mycology, Institute of Microbiology · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1033834)
+
+- NOT YET REVIEWED
+- NO PUBLICATION FOUND
+
+## PRJNA1026538 — 60 samples · mammals/monodon-monoceros
+
+Narwhal resequencing
+University of Manitoba · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1026538)
+
+- NOT YET REVIEWED
+- NO PUBLICATION FOUND
+
 ## PRJNA724031 — 57 samples · mammals/tursiops-truncatus
 
 Tursiops truncatus Raw sequence reads
@@ -885,6 +901,14 @@ Wellcome Sanger Institute · [BioProject](https://www.ncbi.nlm.nih.gov/bioprojec
 - ★ [10.1126/sciadv.abm4950](https://doi.org/10.1126/sciadv.abm4950) — Kwon YM et al. (2022) Genomic consequences of domestication of the Siamese fighting fish
 - NO PUBLICATION FOUND
 
+## PRJNA551969 — 16 samples · fishes/sparus-aurata
+
+Gilthead sea bream (Sparus aurata) Sequencing data
+Instituto de Acuicultura Torre de la Sal · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA551969)
+
+- NOT YET REVIEWED
+- NO PUBLICATION FOUND
+
 ## PRJEB58761 — 15 samples · birds/tetrao-urogallus
 
 Tetrao_urogallus_Popgen
@@ -1512,6 +1536,14 @@ Labolatory of Aquatic Molecular Biology and Biotechnology, The University of Tok
 - NOT YET REVIEWED
 - NO PUBLICATION FOUND
 
+## PRJEB32375 — 5 samples · mammals/phocoena-phocoena
+
+Cross_species_somatic_mutation_rate_project___harbour_porpoise
+Wellcome Sanger Institute · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJEB32375)
+
+- NOT YET REVIEWED
+- NO PUBLICATION FOUND
+
 ## PRJNA1024071 — 5 samples · fishes/petromyzon-marinus
 
 Cyclostome phylogeny
@@ -2105,6 +2137,14 @@ INRA · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA514888)
 - ★ [10.1371/journal.pgen.1008013](https://doi.org/10.1371/journal.pgen.1008013) — Pan Q et al. (2019) Identification of the master sex determining gene in Northern pike (Esox lucius) reveals restricted sex chromosome differentiation
 - NO PUBLICATION FOUND
 
+## PRJNA520934 — 2 samples · mammals/monodon-monoceros
+
+Monodon monoceros isolate:NGI Genome sequencing and assembly
+The Narwhal Genome Initiative · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA520934)
+
+- NOT YET REVIEWED
+- NO PUBLICATION FOUND
+
 ## PRJNA523711 — 2 samples · mammals/ovis-aries
 
 African sheep whole genome sequences (SheepGenomeDB)
@@ -2592,6 +2632,14 @@ G10K · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1008551)
 - NOT YET REVIEWED
 - NO PUBLICATION FOUND
 
+## PRJNA1008618 — 1 sample · mammals/tursiops-truncatus
+
+Tursiops truncatus (bottlenose dolphin) genome, mTurTru1, sequence data
+G10K · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1008618)
+
+- NOT YET REVIEWED
+- NO PUBLICATION FOUND
+
 ## PRJNA1008625 — 1 sample · mammals/phocoena-sinus
 
 Phocoena sinus (Vaquita) genome, mPhoSin1, sequence data
@@ -2707,6 +2755,22 @@ Vertebrate Genomes Project · [BioProject](https://www.ncbi.nlm.nih.gov/bioproje
 
 Chlamydotis macqueenii (MacQueen's bustard) genome, bChlMac3, sequence data
 Vertebrate Genomes Project · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1140158)
+
+- NOT YET REVIEWED
+- NO PUBLICATION FOUND
+
+## PRJNA1145944 — 1 sample · birds/columba-livia
+
+Columba livia (rock pigeon) genome, bColLiv3, sequence data
+Vertebrate Genomes Project · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1145944)
+
+- NOT YET REVIEWED
+- NO PUBLICATION FOUND
+
+## PRJNA1145953 — 1 sample · birds/columba-livia
+
+Columba livia (rock pigeon) genome, bColLiv2, sequence data
+Vertebrate Genomes Project · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1145953)
 
 - NOT YET REVIEWED
 - NO PUBLICATION FOUND
@@ -3053,6 +3117,14 @@ University of Kentucky · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/P
 - NOT YET REVIEWED
 - NO PUBLICATION FOUND
 
+## PRJNA399349 — 1 sample · mammals/monodon-monoceros
+
+Monodon monoceros Genome sequencing and assembly
+Broad Institute · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA399349)
+
+- NOT YET REVIEWED
+- NO PUBLICATION FOUND
+
 ## PRJNA399410 — 1 sample · mammals/ovis-canadensis
 
 Ovis canadensis isolate:BS48 Genome sequencing and assembly
@@ -3080,6 +3152,14 @@ Broad Institute · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA399
 - NOT YET REVIEWED
 - NO PUBLICATION FOUND
 
+## PRJNA399454 — 1 sample · mammals/phocoena-phocoena
+
+Phocoena phocoena isolate:BS71 Genome sequencing and assembly
+Broad Institute · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA399454)
+
+- NOT YET REVIEWED
+- NO PUBLICATION FOUND
+
 ## PRJNA407434 — 1 sample · fishes/lateolabrax-maculatus
 
 Whole genome sequencing of the Chinese seabass (Lateolabrax maculatus)
@@ -3090,6 +3170,14 @@ College of Ocean and Earth Sciences, Xiamen University · [BioProject](https://w
 - NOT YET REVIEWED
 - [10.3389/fgene.2019.01126](https://doi.org/10.3389/fgene.2019.01126) — Tian Y et al. (2019) Characterization of Full-Length Transcriptome Sequences and Splice Variants of <i>Lateolabrax maculatus</i> by Single-Molecule Long-Read Sequencing and Their Involvement in Salinity Regulation
 - [10.3390/ijms252212098](https://doi.org/10.3390/ijms252212098) — Liu C et al. (2024) Integration of mRNA and miRNA Analysis Sheds New Light on the Muscle Response to Heat Stress in Spotted Sea Bass (<i>Lateolabrax maculatus</i>)
+- NO PUBLICATION FOUND
+
+## PRJNA416845 — 1 sample · fishes/sparus-aurata
+
+Sparus aurata genome assembly
+University of Padova · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA416845)
+
+- NOT YET REVIEWED
 - NO PUBLICATION FOUND
 
 ## PRJNA418771 — 1 sample · mammals/sus-scrofa-domesticus
@@ -3741,14 +3829,6 @@ Max Planck Institute for Ornithology · [BioProject](https://www.ncbi.nlm.nih.go
 - NOT YET REVIEWED
 - NO PUBLICATION FOUND
 
-## PRJEB32375 — 0 samples
-
-Cross_species_somatic_mutation_rate_project___harbour_porpoise
-Wellcome Sanger Institute · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJEB32375)
-
-- NOT YET REVIEWED
-- NO PUBLICATION FOUND
-
 ## PRJEB44823 — 0 samples
 
 Caprimulgus europaeus (Eurasian nightjar), genomic and transcriptomic data
@@ -3761,30 +3841,6 @@ WELLCOME SANGER INSTITUTE · [BioProject](https://www.ncbi.nlm.nih.gov/bioprojec
 
 Taeniopygia guttata (zebra finch) genome sequencing, bTaeGut2, sequence data
 G10K · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1008595)
-
-- NOT YET REVIEWED
-- NO PUBLICATION FOUND
-
-## PRJNA1008618 — 0 samples
-
-Tursiops truncatus (bottlenose dolphin) genome, mTurTru1, sequence data
-G10K · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1008618)
-
-- NOT YET REVIEWED
-- NO PUBLICATION FOUND
-
-## PRJNA1026538 — 0 samples
-
-Narwhal resequencing
-University of Manitoba · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1026538)
-
-- NOT YET REVIEWED
-- NO PUBLICATION FOUND
-
-## PRJNA1033834 — 0 samples
-
-Muntiacus reevesi whole genome resequencing
-the State Key Laboratory of Mycology, Institute of Microbiology · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1033834)
 
 - NOT YET REVIEWED
 - NO PUBLICATION FOUND
@@ -3805,22 +3861,6 @@ Albert Ludwig University Freiburg · [BioProject](https://www.ncbi.nlm.nih.gov/b
 - NOT YET REVIEWED
 - NO PUBLICATION FOUND
 
-## PRJNA1145944 — 0 samples
-
-Columba livia (rock pigeon) genome, bColLiv3, sequence data
-Vertebrate Genomes Project · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1145944)
-
-- NOT YET REVIEWED
-- NO PUBLICATION FOUND
-
-## PRJNA1145953 — 0 samples
-
-Columba livia (rock pigeon) genome, bColLiv2, sequence data
-Vertebrate Genomes Project · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1145953)
-
-- NOT YET REVIEWED
-- NO PUBLICATION FOUND
-
 ## PRJNA1241434 — 0 samples
 
 Taeniopygia guttata (zebra finch) genome, bTaeGut8, sequence data
@@ -3833,46 +3873,6 @@ Vertebrate Genomes Project · [BioProject](https://www.ncbi.nlm.nih.gov/bioproje
 
 Taeniopygia guttata (zebra finch) genome, bTaeGut9, sequence data
 Vertebrate Genomes Project · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1241435)
-
-- NOT YET REVIEWED
-- NO PUBLICATION FOUND
-
-## PRJNA399349 — 0 samples
-
-Monodon monoceros Genome sequencing and assembly
-Broad Institute · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA399349)
-
-- NOT YET REVIEWED
-- NO PUBLICATION FOUND
-
-## PRJNA399454 — 0 samples
-
-Phocoena phocoena isolate:BS71 Genome sequencing and assembly
-Broad Institute · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA399454)
-
-- NOT YET REVIEWED
-- NO PUBLICATION FOUND
-
-## PRJNA416845 — 0 samples
-
-Sparus aurata genome assembly
-University of Padova · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA416845)
-
-- NOT YET REVIEWED
-- NO PUBLICATION FOUND
-
-## PRJNA520934 — 0 samples
-
-Monodon monoceros isolate:NGI Genome sequencing and assembly
-The Narwhal Genome Initiative · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA520934)
-
-- NOT YET REVIEWED
-- NO PUBLICATION FOUND
-
-## PRJNA551969 — 0 samples
-
-Gilthead sea bream (Sparus aurata) Sequencing data
-Instituto de Acuicultura Torre de la Sal · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA551969)
 
 - NOT YET REVIEWED
 - NO PUBLICATION FOUND

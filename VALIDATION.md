@@ -1,6 +1,6 @@
 # Validation status
 
-Most recent validation `2026-09-28T23:26:04Z` · congen-metadata-tools 0.4.0.
+Most recent validation `2026-09-28T23:33:04Z` · congen-metadata-tools 0.4.0.
 
 | State | Species |
 |---|---|
@@ -8,16 +8,7 @@ Most recent validation `2026-09-28T23:26:04Z` · congen-metadata-tools 0.4.0.
 | **PASS WITH WARNINGS** | 6 |
 | **PASS WITH NOTES** | 1 |
 | **PENDING** | 8 |
-| **PASS** | 67 |
-
-## Corpus
-
-- **G020** GCA_005190385.4 (Monodon monoceros) is published and in the VGP list, but has no species directory
-- **G020** GCA_011762595.2 (Tursiops truncatus) is published and in the VGP list, but has no species directory
-- **G020** GCA_036013475.2 (Columba livia) is published and in the VGP list, but has no species directory
-- **G020** GCA_900880675.2 (Sparus aurata) is published and in the VGP list, but has no species directory
-- **G020** GCA_963924675.1 (Phocoena phocoena) is published and in the VGP list, but has no species directory
-- **G020** GCA_963930625.2 (Muntiacus reevesi) is published and in the VGP list, but has no species directory
+| **PASS** | 73 |
 
 ## Species
 
@@ -34,6 +25,7 @@ Most recent validation `2026-09-28T23:26:04Z` · congen-metadata-tools 0.4.0.
 | [birds/aquila-chrysaetos](species/birds/aquila-chrysaetos/VALIDATION.md) | PASS | 2026-09-10 | — |
 | [birds/catharus-ustulatus](species/birds/catharus-ustulatus/VALIDATION.md) | PASS | 2026-09-11 | — |
 | [birds/chlamydotis-macqueenii](species/birds/chlamydotis-macqueenii/VALIDATION.md) | PASS | 2026-09-10 | — |
+| [birds/columba-livia](species/birds/columba-livia/VALIDATION.md) | PASS | 2026-09-28 | — |
 | [birds/cyanistes-caeruleus](species/birds/cyanistes-caeruleus/VALIDATION.md) | PENDING | 2026-09-25 | 1 warning |
 | [birds/dryobates-pubescens](species/birds/dryobates-pubescens/VALIDATION.md) | PASS WITH WARNINGS | 2026-09-10 | 2 warnings |
 | [birds/erithacus-rubecula](species/birds/erithacus-rubecula/VALIDATION.md) | PENDING | 2026-09-25 | 1 warning |
@@ -75,6 +67,7 @@ Most recent validation `2026-09-28T23:26:04Z` · congen-metadata-tools 0.4.0.
 | [fishes/sardina-pilchardus](species/fishes/sardina-pilchardus/VALIDATION.md) | PASS | 2026-09-28 | — |
 | [fishes/scatophagus-argus](species/fishes/scatophagus-argus/VALIDATION.md) | PASS | 2026-09-10 | — |
 | [fishes/scophthalmus-maximus](species/fishes/scophthalmus-maximus/VALIDATION.md) | PASS | 2026-09-10 | — |
+| [fishes/sparus-aurata](species/fishes/sparus-aurata/VALIDATION.md) | PASS | 2026-09-28 | — |
 | [fishes/sprattus-sprattus](species/fishes/sprattus-sprattus/VALIDATION.md) | PASS | 2026-09-10 | — |
 | [fishes/symphodus-melops](species/fishes/symphodus-melops/VALIDATION.md) | PASS | 2026-09-10 | — |
 | [fishes/syngnathus-typhle](species/fishes/syngnathus-typhle/VALIDATION.md) | PASS | 2026-09-10 | — |
@@ -92,6 +85,8 @@ Most recent validation `2026-09-28T23:26:04Z` · congen-metadata-tools 0.4.0.
 | [mammals/hyperoodon-ampullatus](species/mammals/hyperoodon-ampullatus/VALIDATION.md) | PASS | 2026-09-10 | — |
 | [mammals/lemur-catta](species/mammals/lemur-catta/VALIDATION.md) | PASS | 2026-09-11 | — |
 | [mammals/lycaon-pictus](species/mammals/lycaon-pictus/VALIDATION.md) | PASS | 2026-09-10 | — |
+| [mammals/monodon-monoceros](species/mammals/monodon-monoceros/VALIDATION.md) | PASS | 2026-09-28 | — |
+| [mammals/muntiacus-reevesi](species/mammals/muntiacus-reevesi/VALIDATION.md) | PASS | 2026-09-28 | — |
 | [mammals/mustela-erminea](species/mammals/mustela-erminea/VALIDATION.md) | PASS | 2026-09-10 | — |
 | [mammals/myotis-myotis](species/mammals/myotis-myotis/VALIDATION.md) | PASS | 2026-09-10 | — |
 | [mammals/neofelis-nebulosa](species/mammals/neofelis-nebulosa/VALIDATION.md) | PASS | 2026-09-11 | — |
@@ -100,10 +95,12 @@ Most recent validation `2026-09-28T23:26:04Z` · congen-metadata-tools 0.4.0.
 | [mammals/ovis-canadensis](species/mammals/ovis-canadensis/VALIDATION.md) | PASS | 2026-09-10 | — |
 | [mammals/pan-troglodytes](species/mammals/pan-troglodytes/VALIDATION.md) | PASS | 2026-09-10 | — |
 | [mammals/panthera-onca](species/mammals/panthera-onca/VALIDATION.md) | PASS | 2026-09-11 | — |
+| [mammals/phocoena-phocoena](species/mammals/phocoena-phocoena/VALIDATION.md) | PASS | 2026-09-28 | — |
 | [mammals/phocoena-sinus](species/mammals/phocoena-sinus/VALIDATION.md) | PASS | 2026-09-11 | — |
 | [mammals/rhinolophus-affinis](species/mammals/rhinolophus-affinis/VALIDATION.md) | PASS | 2026-09-10 | — |
 | [mammals/sminthopsis-crassicaudata](species/mammals/sminthopsis-crassicaudata/VALIDATION.md) | PENDING | 2026-09-25 | 1 warning |
 | [mammals/sus-scrofa-domesticus](species/mammals/sus-scrofa-domesticus/VALIDATION.md) | PASS WITH WARNINGS | 2026-09-10 | 1 warning |
+| [mammals/tursiops-truncatus](species/mammals/tursiops-truncatus/VALIDATION.md) | PASS | 2026-09-28 | — |
 | [mammals/vulpes-vulpes](species/mammals/vulpes-vulpes/VALIDATION.md) | PENDING | 2026-09-25 | 1 warning |
 | [reptiles/eublepharis-macularius](species/reptiles/eublepharis-macularius/VALIDATION.md) | PASS | 2026-09-11 | — |
 | [reptiles/podarcis-raffonei](species/reptiles/podarcis-raffonei/VALIDATION.md) | PASS | 2026-09-10 | — |
