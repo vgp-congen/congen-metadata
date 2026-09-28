@@ -1,0 +1,110 @@
+{
+  "subject": "mammals/arvicola-amphibius",
+  "state": "PASS WITH WARNINGS",
+  "validated_at": "2026-09-28T23:26:04Z",
+  "tool_version": "0.4.0",
+  "catalog": "sha256:44f7010fb4de2e48c91122dfd97086699b1036f7038eda45349f6a6db2e58514",
+  "checks_run": [
+    "E001",
+    "E002",
+    "E003",
+    "F001",
+    "F002",
+    "F003",
+    "F004",
+    "F005",
+    "F006",
+    "F008",
+    "F009",
+    "F011",
+    "F020",
+    "F021",
+    "F022",
+    "F023",
+    "F024",
+    "G001",
+    "G010",
+    "G011",
+    "G012",
+    "G013",
+    "G014",
+    "G017",
+    "G018",
+    "P001",
+    "P002",
+    "P003",
+    "R001",
+    "R002",
+    "R003",
+    "R010",
+    "R013",
+    "R015",
+    "R016",
+    "R017",
+    "R020",
+    "S001",
+    "S002",
+    "S003",
+    "S004",
+    "S005",
+    "S006",
+    "S007"
+  ],
+  "checks_available": 44,
+  "inputs": {
+    "config.yaml": "sha256:a7ad13e0deb17540eb5d90a495a35fc6e25b90d6181e6a8339c2295d35a9024c",
+    "sample_sheet.csv": "sha256:2935eb4a875d13c2decf14722bc5ef189564d2bf8dd4a6f6715e42f7927ce463",
+    "README.txt": "sha256:a55313502e38563e16ea9b7d7702cd4565454f3d8bae48aa1147e20951d6178f"
+  },
+  "data": {
+    "published": true,
+    "accession": "GCA_903992535.2",
+    "objects": {
+      "raw.vcf.gz": "etag:0deb00166ac9fd18b9927921935a6f49-920",
+      "raw.vcf.gz.tbi": "etag:3df0a8dd690d58f07ed337dd798c29a0",
+      "sample_sheet.csv": "etag:c62bb1497f1a95a0f43725d6f36c77f5"
+    },
+    "bams": {
+      "count": 29,
+      "digest": "sha256:8c6104849bc4eaf784fb858b0d153c49846073da0b705589e6feae0f9c4b2626"
+    }
+  },
+  "findings": [
+    {
+      "id": "E002",
+      "severity": "warn",
+      "subject": "mammals/arvicola-amphibius",
+      "message": "1 bioproject(s) contribute runs but are not in README.txt",
+      "detail": "PRJEB94947; README lists PRJEB22206, PRJEB86998",
+      "path": "species/mammals/arvicola-amphibius/README.txt",
+      "line": null
+    }
+  ],
+  "status": {
+    "subject": "mammals/arvicola-amphibius",
+    "state": "complete",
+    "accession": "GCA_903992535.2",
+    "declared_accession": "GCA_903992535.2",
+    "accession_differs": false,
+    "present": [
+      "bams",
+      "callable_sites",
+      "published_readme",
+      "qc",
+      "raw_vcf",
+      "raw_vcf_index",
+      "repo_readme"
+    ],
+    "missing": [],
+    "missing_optional": [
+      "filtered_vcf"
+    ],
+    "counts": {
+      "sheet_samples": 29,
+      "bams": 29,
+      "vcf_samples": 29
+    }
+  },
+  "superseded": null,
+  "stale_reason": null
+}

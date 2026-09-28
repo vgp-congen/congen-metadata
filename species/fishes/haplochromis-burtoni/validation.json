@@ -1,0 +1,119 @@
+{
+  "subject": "fishes/haplochromis-burtoni",
+  "state": "FAIL",
+  "validated_at": "2026-09-28T23:26:04Z",
+  "tool_version": "0.4.0",
+  "catalog": "sha256:44f7010fb4de2e48c91122dfd97086699b1036f7038eda45349f6a6db2e58514",
+  "checks_run": [
+    "E001",
+    "E002",
+    "E003",
+    "F001",
+    "F002",
+    "F003",
+    "F004",
+    "F005",
+    "F006",
+    "F008",
+    "F009",
+    "F011",
+    "F020",
+    "F021",
+    "F022",
+    "F023",
+    "F024",
+    "G001",
+    "G010",
+    "G011",
+    "G012",
+    "G013",
+    "G014",
+    "G017",
+    "G018",
+    "P001",
+    "P002",
+    "P003",
+    "R001",
+    "R002",
+    "R003",
+    "R010",
+    "R013",
+    "R015",
+    "R016",
+    "R017",
+    "R020",
+    "S001",
+    "S002",
+    "S003",
+    "S004",
+    "S005",
+    "S006",
+    "S007"
+  ],
+  "checks_available": 44,
+  "inputs": {
+    "config.yaml": "sha256:51d4425457200c875d9f25f5ed8fb5da618c6ea5ea290c0cde0c4d6ebb22949f",
+    "sample_sheet.csv": "sha256:cb12a7b6532e5e28c9309eba40f59ec590031df91b769413af5b7e03317892dd",
+    "README.txt": "sha256:ce6b8819f608dc5d92354e54062f3e056b3c240e9538e2cbb17c2e6ea4547cac"
+  },
+  "data": {
+    "published": true,
+    "accession": "GCA_054824465.1",
+    "objects": {
+      "raw.vcf.gz": "etag:b4434484114f9441fe941e7165853162-3309",
+      "raw.vcf.gz.tbi": "etag:5e63e1afd529e349c128bc81d50f5193",
+      "sample_sheet.csv": "etag:83e6ffdb990e58bf550e6841868e7409"
+    },
+    "bams": {
+      "count": 149,
+      "digest": "sha256:0c949f67e52e2b8ec72597505ccceafc42ed35635b5614f529e749a0fc6d842c"
+    }
+  },
+  "findings": [
+    {
+      "id": "E001",
+      "severity": "error",
+      "subject": "fishes/haplochromis-burtoni",
+      "message": "2 input accession(s) are unknown to SRA",
+      "detail": "SRR12844190, SRR12844191",
+      "path": "species/fishes/haplochromis-burtoni/sample_sheet.csv",
+      "line": null
+    },
+    {
+      "id": "E003",
+      "severity": "warn",
+      "subject": "fishes/haplochromis-burtoni",
+      "message": "README.txt cites 1 bioproject(s) that contribute no runs to the sheet",
+      "detail": "PRJNA669839",
+      "path": "species/fishes/haplochromis-burtoni/README.txt",
+      "line": null
+    }
+  ],
+  "status": {
+    "subject": "fishes/haplochromis-burtoni",
+    "state": "complete",
+    "accession": "GCA_054824465.1",
+    "declared_accession": "GCA_054824465.1",
+    "accession_differs": false,
+    "present": [
+      "bams",
+      "callable_sites",
+      "published_readme",
+      "qc",
+      "raw_vcf",
+      "raw_vcf_index",
+      "repo_readme"
+    ],
+    "missing": [],
+    "missing_optional": [
+      "filtered_vcf"
+    ],
+    "counts": {
+      "sheet_samples": 149,
+      "bams": 149,
+      "vcf_samples": 149
+    }
+  },
+  "superseded": null,
+  "stale_reason": null
+}

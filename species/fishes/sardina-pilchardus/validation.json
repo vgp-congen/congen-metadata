@@ -1,0 +1,100 @@
+{
+  "subject": "fishes/sardina-pilchardus",
+  "state": "PASS",
+  "validated_at": "2026-09-28T23:26:04Z",
+  "tool_version": "0.4.0",
+  "catalog": "sha256:44f7010fb4de2e48c91122dfd97086699b1036f7038eda45349f6a6db2e58514",
+  "checks_run": [
+    "E001",
+    "E002",
+    "E003",
+    "F001",
+    "F002",
+    "F003",
+    "F004",
+    "F005",
+    "F006",
+    "F008",
+    "F009",
+    "F011",
+    "F020",
+    "F021",
+    "F022",
+    "F023",
+    "F024",
+    "G001",
+    "G010",
+    "G011",
+    "G012",
+    "G013",
+    "G014",
+    "G017",
+    "G018",
+    "P001",
+    "P002",
+    "P003",
+    "R001",
+    "R002",
+    "R003",
+    "R010",
+    "R013",
+    "R015",
+    "R016",
+    "R017",
+    "R020",
+    "S001",
+    "S002",
+    "S003",
+    "S004",
+    "S005",
+    "S006",
+    "S007"
+  ],
+  "checks_available": 44,
+  "inputs": {
+    "config.yaml": "sha256:a8031019be09441cd33814e47e3aee8d2a3d8d2c04b6b9b4efadf0b0a9d05e9f",
+    "sample_sheet.csv": "sha256:325384eba81d3e008f166977c79ddb7acbb215518f3a4ca28baa2f93caf09984",
+    "README.txt": "sha256:339fd04cbe688dea4c633bc34316b648d699d65d36cdfe19ef3e9a67e05dbb2f"
+  },
+  "data": {
+    "published": true,
+    "accession": "GCA_963854185.1",
+    "objects": {
+      "raw.vcf.gz": "etag:7657f319ecb0d0f99cb22e94bb47a154-3521",
+      "raw.vcf.gz.tbi": "etag:412239d252d170c0ae0b0fa59a932be4",
+      "sample_sheet.csv": "etag:c2bc74a43b2ac880f3b7010ce80eddd4"
+    },
+    "bams": {
+      "count": 43,
+      "digest": "sha256:67aed9a3fcbb55c83ef9cff5431f86636cd62d6b85dddbb95759173283ec7eef"
+    }
+  },
+  "findings": [],
+  "status": {
+    "subject": "fishes/sardina-pilchardus",
+    "state": "complete",
+    "accession": "GCA_963854185.1",
+    "declared_accession": "GCA_963854185.1",
+    "accession_differs": false,
+    "present": [
+      "bams",
+      "callable_sites",
+      "published_readme",
+      "qc",
+      "raw_vcf",
+      "raw_vcf_index",
+      "repo_readme"
+    ],
+    "missing": [],
+    "missing_optional": [
+      "filtered_vcf"
+    ],
+    "counts": {
+      "sheet_samples": 43,
+      "bams": 43,
+      "vcf_samples": 43
+    }
+  },
+  "superseded": null,
+  "stale_reason": null
+}

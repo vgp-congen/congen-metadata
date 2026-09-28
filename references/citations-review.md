@@ -80,6 +80,18 @@ Wellcome Sanger Institute · [BioProject](https://www.ncbi.nlm.nih.gov/bioprojec
 - [10.1016/j.isci.2023.108669](https://doi.org/10.1016/j.isci.2023.108669) — Liu Z et al. (2024) Nuclear environmental DNA resolves fine-scale population genetic structure in an aquatic habitat
 - NO PUBLICATION FOUND
 
+## PRJNA485198 — 99 samples · fishes/haplochromis-burtoni
+
+whole-genome resequencing data of Astatotilapia burtoni, Haplochromis stappersii and Ctenochromis horei
+University of Basel · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA485198)
+
+<!-- considered: 10.1093/gbe/evag223 10.1093/g3journal/jkad011 -->
+
+- NOT YET REVIEWED
+- ★ [10.1093/g3journal/jkad011](https://doi.org/10.1093/g3journal/jkad011) — Lichilín N et al. (2023) No evidence for sex chromosomes in natural populations of the cichlid fish Astatotilapia burtoni
+- [10.1093/gbe/evag223](https://doi.org/10.1093/gbe/evag223) — Smith SH et al. (2026) Same Sex Chromosomes With Independent Origins in Haplochromine Cichlids
+- NO PUBLICATION FOUND
+
 ## PRJEB57283 — 93 samples · birds/haliaeetus-albicilla
 
 Haliaeetus albicilla (white-tailed eagle), genomic and transcriptomic data
@@ -166,22 +178,6 @@ Potsdam University · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA
 
 - NOT YET REVIEWED
 - ★ [10.1111/1755-0998.13860](https://doi.org/10.1111/1755-0998.13860) — Celemín E et al. (2025) Evolutionary history and seascape genomics of Harbour porpoises (Phocoena phocoena) across environmental gradients in the North Atlantic and adjacent waters
-- NO PUBLICATION FOUND
-
-## PRJNA1033834 — 62 samples · mammals/muntiacus-reevesi
-
-Muntiacus reevesi whole genome resequencing
-the State Key Laboratory of Mycology, Institute of Microbiology · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1033834)
-
-- NOT YET REVIEWED
-- NO PUBLICATION FOUND
-
-## PRJNA1026538 — 60 samples · mammals/monodon-monoceros
-
-Narwhal resequencing
-University of Manitoba · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1026538)
-
-- NOT YET REVIEWED
 - NO PUBLICATION FOUND
 
 ## PRJNA724031 — 57 samples · mammals/tursiops-truncatus
@@ -283,6 +279,14 @@ University of Victoria · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/P
 - ★ [10.1093/g3journal/jkae183](https://doi.org/10.1093/g3journal/jkae183) — Johnson HA et al. (2024) Loss of genetic variation and ancestral sex determination system in North American northern pike characterized by whole-genome resequencing
 - NO PUBLICATION FOUND
 
+## PRJNA1255292 — 44 samples · fishes/haplochromis-burtoni
+
+Genome assemblies and family crosses to understand sex chromosomes in a lab population of Astatotilapia burtoni
+University of Maryland · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1255292)
+
+- NOT YET REVIEWED
+- NO PUBLICATION FOUND
+
 ## PRJNA689926 — 44 samples · fishes/betta-splendens
 
 Betta splendens whole genome re-sequencing
@@ -372,6 +376,14 @@ Dalhousie University · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJ
 
 - NOT YET REVIEWED
 - ★ [10.1111/mec.16643](https://doi.org/10.1111/mec.16643) — de Greef E et al. (2022) Genomics reveal population structure, evolutionary history, and signatures of selection in the northern bottlenose whale, Hyperoodon ampullatus
+- NO PUBLICATION FOUND
+
+## PRJNA1215307 — 34 samples · fishes/sardina-pilchardus
+
+Pool-seq of European sardine Sardina pilchardus
+Centre of Molecular and Environmental Biology, University of Minho · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1215307)
+
+- NOT YET REVIEWED
 - NO PUBLICATION FOUND
 
 ## PRJNA893818 — 34 samples · birds/poecile-atricapillus
@@ -873,14 +885,6 @@ Wellcome Sanger Institute · [BioProject](https://www.ncbi.nlm.nih.gov/bioprojec
 - ★ [10.1126/sciadv.abm4950](https://doi.org/10.1126/sciadv.abm4950) — Kwon YM et al. (2022) Genomic consequences of domestication of the Siamese fighting fish
 - NO PUBLICATION FOUND
 
-## PRJNA551969 — 16 samples · fishes/sparus-aurata
-
-Gilthead sea bream (Sparus aurata) Sequencing data
-Instituto de Acuicultura Torre de la Sal · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA551969)
-
-- NOT YET REVIEWED
-- NO PUBLICATION FOUND
-
 ## PRJEB58761 — 15 samples · birds/tetrao-urogallus
 
 Tetrao_urogallus_Popgen
@@ -910,6 +914,22 @@ Wellcome Sanger Institute · [BioProject](https://www.ncbi.nlm.nih.gov/bioprojec
 - ★ [10.1093/molbev/msaf147](https://doi.org/10.1093/molbev/msaf147) — Camacho García JI et al. (2025) Widespread Genetic Signals of Visual System Adaptation in Deepwater Cichlid Fishes
 - [10.1016/j.isci.2023.108669](https://doi.org/10.1016/j.isci.2023.108669) — Liu Z et al. (2024) Nuclear environmental DNA resolves fine-scale population genetic structure in an aquatic habitat
 - [10.1186/s12859-023-05169-4](https://doi.org/10.1186/s12859-023-05169-4) — Solovieva E et al. (2023) PSReliP: an integrated pipeline for analysis and visualization of population structure and relatedness based on genome-wide genetic variant data
+- NO PUBLICATION FOUND
+
+## PRJEB86998 — 14 samples · mammals/arvicola-amphibius
+
+Water vole SNP discovery
+University of Liverpool · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJEB86998)
+
+- NOT YET REVIEWED
+- NO PUBLICATION FOUND
+
+## PRJEB94947 — 14 samples · mammals/arvicola-amphibius
+
+European water vole Arvicola amphibius conservation genetics
+Centre for Genomic Research, Institute of Integrative Biology, University of Liverpool, UK · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJEB94947)
+
+- NOT YET REVIEWED
 - NO PUBLICATION FOUND
 
 ## PRJNA1225496 — 14 samples · reptiles/eublepharis-macularius
@@ -1384,6 +1404,17 @@ Jiangxi Science and Technology Normal University · [BioProject](https://www.ncb
 - ★ [10.1038/s42003-022-04125-x](https://doi.org/10.1038/s42003-022-04125-x) — Ouyang J et al. (2022) Chromosome-level genome and population genomics reveal evolutionary characteristics and conservation status of Chinese indigenous geese
 - NO PUBLICATION FOUND
 
+## PRJNA688514 — 7 samples · fishes/sardina-pilchardus
+
+Population genomics of European sardines
+CIIMAR - Interdisciplinary Centre of Marine and Environmental Research · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA688514)
+
+<!-- considered: 10.3390/genes15020170 -->
+
+- NOT YET REVIEWED
+- ★ [10.3390/genes15020170](https://doi.org/10.3390/genes15020170) — da Fonseca RR et al. (2024) Population Genomics Reveals the Underlying Structure of the Small Pelagic European Sardine and Suggests Low Connectivity within Macaronesia
+- NO PUBLICATION FOUND
+
 ## PRJNA730084 — 7 samples · reptiles/eublepharis-macularius
 
 Genome sequencing to identify Lemon Frost mutation in Leopard Geckos
@@ -1477,14 +1508,6 @@ WAGENINGEN UNIVERSITY · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PR
 
 Dramatic improvement in genome assembly by using doubled-haploid individuals
 Labolatory of Aquatic Molecular Biology and Biotechnology, The University of Tokyo · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJDB3068)
-
-- NOT YET REVIEWED
-- NO PUBLICATION FOUND
-
-## PRJEB32375 — 5 samples · mammals/phocoena-phocoena
-
-Cross_species_somatic_mutation_rate_project___harbour_porpoise
-Wellcome Sanger Institute · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJEB32375)
 
 - NOT YET REVIEWED
 - NO PUBLICATION FOUND
@@ -1673,6 +1696,14 @@ Center for Applied Medical Research · [BioProject](https://www.ncbi.nlm.nih.gov
 - [10.1073/pnas.2400486121](https://doi.org/10.1073/pnas.2400486121) — Ullate-Agote A et al. (2024) The dynamic behavior of chromatophores marks the transition from bands to spots in leopard geckos
 - NO PUBLICATION FOUND
 
+## PRJEB22206 — 3 samples · birds/aquila-chrysaetos · birds/erithacus-rubecula · mammals/arvicola-amphibius
+
+25_Genomes_for_25_Years_of_Genomics
+Wellcome Sanger Institute · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJEB22206)
+
+- NOT YET REVIEWED
+- NO PUBLICATION FOUND
+
 ## PRJNA1018098 — 3 samples · mammals/balaenoptera-acutorostrata · mammals/balaenoptera-ricei · mammals/eubalaena-glacialis
 
 Highly amplified KRTAP hair genes have been repurposed as 'baleen genes' in filter-feeding mysticete whales
@@ -1852,14 +1883,6 @@ Chongqing Academy of Animal Science · [BioProject](https://www.ncbi.nlm.nih.gov
 
 - NOT YET REVIEWED
 - ★ [10.1016/j.psj.2025.104842](https://doi.org/10.1016/j.psj.2025.104842) — Huang M et al. (2025) Goose multi-omics database: A comprehensive multi-omics database for goose genomics
-- NO PUBLICATION FOUND
-
-## PRJEB22206 — 2 samples · birds/aquila-chrysaetos · birds/erithacus-rubecula
-
-25_Genomes_for_25_Years_of_Genomics
-Wellcome Sanger Institute · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJEB22206)
-
-- NOT YET REVIEWED
 - NO PUBLICATION FOUND
 
 ## PRJNA389516 — 2 samples · mammals/balaenoptera-musculus · mammals/eubalaena-glacialis
@@ -2082,14 +2105,6 @@ INRA · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA514888)
 - ★ [10.1371/journal.pgen.1008013](https://doi.org/10.1371/journal.pgen.1008013) — Pan Q et al. (2019) Identification of the master sex determining gene in Northern pike (Esox lucius) reveals restricted sex chromosome differentiation
 - NO PUBLICATION FOUND
 
-## PRJNA520934 — 2 samples · mammals/monodon-monoceros
-
-Monodon monoceros isolate:NGI Genome sequencing and assembly
-The Narwhal Genome Initiative · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA520934)
-
-- NOT YET REVIEWED
-- NO PUBLICATION FOUND
-
 ## PRJNA523711 — 2 samples · mammals/ovis-aries
 
 African sheep whole genome sequences (SheepGenomeDB)
@@ -2247,6 +2262,21 @@ New York University Abu Dhabi · [BioProject](https://www.ncbi.nlm.nih.gov/biopr
 - NOT YET REVIEWED
 - NO PUBLICATION FOUND
 
+## PRJNA802233 — 2 samples · fishes/haplochromis-burtoni
+
+Sex determination in East African cichlids
+University of Maryland · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA802233)
+
+<!-- considered: 10.1093/gbe/evag076 10.1093/gbe/evaf191 10.1038/s41598-024-53021-3 10.1038/s41598-022-23017-y 10.3390/genes13050804 -->
+
+- NOT YET REVIEWED
+- ★ [10.1093/gbe/evaf191](https://doi.org/10.1093/gbe/evaf191) — Behrens KA et al. (2026) Before the East African Radiation: Sex Chromosome Systems in Basal Haplotilapiine Cichlids
+- ★ [10.1038/s41598-024-53021-3](https://doi.org/10.1038/s41598-024-53021-3) — Behrens KA et al. (2024) Turnover of sex chromosomes in the Lake Tanganyika cichlid tribe Tropheini (Teleostei: Cichlidae)
+- ★ [10.1038/s41598-022-23017-y](https://doi.org/10.1038/s41598-022-23017-y) — Behrens KA et al. (2022) Sex chromosomes in the tribe Cyprichromini (Teleostei: Cichlidae) of Lake Tanganyika
+- ★ [10.3390/genes13050804](https://doi.org/10.3390/genes13050804) — Kocher TD et al. (2022) New Sex Chromosomes in Lake Victoria Cichlid Fishes (Cichlidae: Haplochromini)
+- [10.1093/gbe/evag076](https://doi.org/10.1093/gbe/evag076) — (2026) Correction to: Before the East African radiation: sex chromosome systems in basal haplotilapiine cichlids
+- NO PUBLICATION FOUND
+
 ## PRJNA802268 — 2 samples · mammals/ovis-aries
 
 High-Depth Resequencing of 150 Yunnan sheep
@@ -2351,6 +2381,17 @@ AARHUS UNIVERSITY · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJEB1
 
 - NOT YET REVIEWED
 - ★ [10.1038/s41598-017-15169-z](https://doi.org/10.1038/s41598-017-15169-z) — Cai Z et al. (2017) The first draft reference genome of the American mink (Neovison vison)
+- NO PUBLICATION FOUND
+
+## PRJEB27990 — 1 sample · fishes/sardina-pilchardus
+
+De novo assembly of sardine genome
+Center of Marine Sciences - University of Algarve, Faro, Portugal · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJEB27990)
+
+<!-- considered: 10.1093/gigascience/giz059 -->
+
+- NOT YET REVIEWED
+- ★ [10.1093/gigascience/giz059](https://doi.org/10.1093/gigascience/giz059) — Louro B et al. (2019) A haplotype-resolved draft genome of the European sardine (Sardina pilchardus)
 - NO PUBLICATION FOUND
 
 ## PRJEB32126 — 1 sample · fishes/syngnathus-typhle
@@ -2551,14 +2592,6 @@ G10K · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1008551)
 - NOT YET REVIEWED
 - NO PUBLICATION FOUND
 
-## PRJNA1008618 — 1 sample · mammals/tursiops-truncatus
-
-Tursiops truncatus (bottlenose dolphin) genome, mTurTru1, sequence data
-G10K · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1008618)
-
-- NOT YET REVIEWED
-- NO PUBLICATION FOUND
-
 ## PRJNA1008625 — 1 sample · mammals/phocoena-sinus
 
 Phocoena sinus (Vaquita) genome, mPhoSin1, sequence data
@@ -2674,22 +2707,6 @@ Vertebrate Genomes Project · [BioProject](https://www.ncbi.nlm.nih.gov/bioproje
 
 Chlamydotis macqueenii (MacQueen's bustard) genome, bChlMac3, sequence data
 Vertebrate Genomes Project · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1140158)
-
-- NOT YET REVIEWED
-- NO PUBLICATION FOUND
-
-## PRJNA1145944 — 1 sample · birds/columba-livia
-
-Columba livia (rock pigeon) genome, bColLiv3, sequence data
-Vertebrate Genomes Project · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1145944)
-
-- NOT YET REVIEWED
-- NO PUBLICATION FOUND
-
-## PRJNA1145953 — 1 sample · birds/columba-livia
-
-Columba livia (rock pigeon) genome, bColLiv2, sequence data
-Vertebrate Genomes Project · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1145953)
 
 - NOT YET REVIEWED
 - NO PUBLICATION FOUND
@@ -3036,14 +3053,6 @@ University of Kentucky · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/P
 - NOT YET REVIEWED
 - NO PUBLICATION FOUND
 
-## PRJNA399349 — 1 sample · mammals/monodon-monoceros
-
-Monodon monoceros Genome sequencing and assembly
-Broad Institute · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA399349)
-
-- NOT YET REVIEWED
-- NO PUBLICATION FOUND
-
 ## PRJNA399410 — 1 sample · mammals/ovis-canadensis
 
 Ovis canadensis isolate:BS48 Genome sequencing and assembly
@@ -3071,14 +3080,6 @@ Broad Institute · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA399
 - NOT YET REVIEWED
 - NO PUBLICATION FOUND
 
-## PRJNA399454 — 1 sample · mammals/phocoena-phocoena
-
-Phocoena phocoena isolate:BS71 Genome sequencing and assembly
-Broad Institute · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA399454)
-
-- NOT YET REVIEWED
-- NO PUBLICATION FOUND
-
 ## PRJNA407434 — 1 sample · fishes/lateolabrax-maculatus
 
 Whole genome sequencing of the Chinese seabass (Lateolabrax maculatus)
@@ -3089,14 +3090,6 @@ College of Ocean and Earth Sciences, Xiamen University · [BioProject](https://w
 - NOT YET REVIEWED
 - [10.3389/fgene.2019.01126](https://doi.org/10.3389/fgene.2019.01126) — Tian Y et al. (2019) Characterization of Full-Length Transcriptome Sequences and Splice Variants of <i>Lateolabrax maculatus</i> by Single-Molecule Long-Read Sequencing and Their Involvement in Salinity Regulation
 - [10.3390/ijms252212098](https://doi.org/10.3390/ijms252212098) — Liu C et al. (2024) Integration of mRNA and miRNA Analysis Sheds New Light on the Muscle Response to Heat Stress in Spotted Sea Bass (<i>Lateolabrax maculatus</i>)
-- NO PUBLICATION FOUND
-
-## PRJNA416845 — 1 sample · fishes/sparus-aurata
-
-Sparus aurata genome assembly
-University of Padova · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA416845)
-
-- NOT YET REVIEWED
 - NO PUBLICATION FOUND
 
 ## PRJNA418771 — 1 sample · mammals/sus-scrofa-domesticus
@@ -3165,6 +3158,14 @@ Johns Hopkins University · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject
 
 - NOT YET REVIEWED
 - ★ [10.1093/gigascience/giy168](https://doi.org/10.1093/gigascience/giy168) — Martinez-Viaud KA et al. (2019) New de novo assembly of the Atlantic bottlenose dolphin (Tursiops truncatus) improves genome completeness and provides haplotype phasing
+- NO PUBLICATION FOUND
+
+## PRJNA481265 — 1 sample · fishes/sardina-pilchardus
+
+Sardina pilchardus (European pilchard )
+CIIMAR - Interdisciplinary Centre of Marine and Environmental Research · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA481265)
+
+- NOT YET REVIEWED
 - NO PUBLICATION FOUND
 
 ## PRJNA488093 — 1 sample · mammals/lycaon-pictus
@@ -3236,6 +3237,21 @@ University of California, Berkeley · [BioProject](https://www.ncbi.nlm.nih.gov/
 
 - NOT YET REVIEWED
 - ★ [10.1038/s42003-020-1096-9](https://doi.org/10.1038/s42003-020-1096-9) — Mudd AB et al. (2020) Analysis of muntjac deer genome and chromatin architecture reveals rapid karyotype evolution
+- NO PUBLICATION FOUND
+
+## PRJNA550295 — 1 sample · fishes/haplochromis-burtoni
+
+Genomic analysis of an adaptive radiation
+"CICHLID~X" · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA550295)
+
+<!-- considered: 10.1111/jne.70203 10.1038/s41598-022-23017-y 10.1126/sciadv.adg6568 10.1080/23802359.2021.1981789 10.1111/mec.16429 -->
+
+- NOT YET REVIEWED
+- [10.1111/jne.70203](https://doi.org/10.1111/jne.70203) — Sorigue P et al. (2026) Nonapeptide molecular evolution during the adaptive radiation of Tanganyika cichlids
+- [10.1038/s41598-022-23017-y](https://doi.org/10.1038/s41598-022-23017-y) — Behrens KA et al. (2022) Sex chromosomes in the tribe Cyprichromini (Teleostei: Cichlidae) of Lake Tanganyika
+- [10.1126/sciadv.adg6568](https://doi.org/10.1126/sciadv.adg6568) — Ricci V et al. (2023) Visual opsin gene expression evolution in the adaptive radiation of cichlid fishes of Lake Tanganyika
+- [10.1080/23802359.2021.1981789](https://doi.org/10.1080/23802359.2021.1981789) — Nam SE et al. (2021) The complete mitochondrial genome of <i>Lamprologus signatus</i> (Perciformes: Cichlidae)
+- [10.1111/mec.16429](https://doi.org/10.1111/mec.16429) — Ricci V et al. (2022) Molecular evolution and depth-related adaptations of rhodopsin in the adaptive radiation of cichlid fishes in Lake Tanganyika
 - NO PUBLICATION FOUND
 
 ## PRJNA554206 — 1 sample · birds/anser-cygnoides
@@ -3605,6 +3621,14 @@ Government of Canada · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJ
 - [10.1186/s12864-023-09779-3](https://doi.org/10.1186/s12864-023-09779-3) — Bringloe TT et al. (2023) Contrasting new and available reference genomes to highlight uncertainties in assemblies and areas for future improvement: an example with monodontid species
 - NO PUBLICATION FOUND
 
+## PRJNA928336 — 1 sample · fishes/haplochromis-burtoni
+
+Victoria Region haplochromine cichlid fishes
+Wellcome Sanger Institute · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA928336)
+
+- NOT YET REVIEWED
+- NO PUBLICATION FOUND
+
 ## PRJNA928557 — 1 sample · birds/acridotheres-tristis
 
 Acridotheres tristis isolate:AcTrisAU Genome sequencing and assembly
@@ -3690,6 +3714,17 @@ Vertebrate Genomes Project · [BioProject](https://www.ncbi.nlm.nih.gov/bioproje
 - [10.3390/genes14101870](https://doi.org/10.3390/genes14101870) — Maduna SN et al. (2023) Genomic Signatures of Local Adaptation under High Gene Flow in Lumpfish-Implications for Broodstock Provenance Sourcing and Larval Production
 - NO PUBLICATION FOUND
 
+## PRJNA669839 — 0 samples · fishes/haplochromis-burtoni
+
+Sex chromosome evolution in cichlid fishes
+University of Maryland · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA669839)
+
+<!-- considered: 10.1093/gbe/evag076 -->
+
+- NOT YET REVIEWED
+- [10.1093/gbe/evag076](https://doi.org/10.1093/gbe/evag076) — (2026) Correction to: Before the East African radiation: sex chromosome systems in basal haplotilapiine cichlids
+- NO PUBLICATION FOUND
+
 ## PRJDB2132 — 0 samples
 
 Whole genome sequencing of tammar wallaby
@@ -3706,6 +3741,14 @@ Max Planck Institute for Ornithology · [BioProject](https://www.ncbi.nlm.nih.go
 - NOT YET REVIEWED
 - NO PUBLICATION FOUND
 
+## PRJEB32375 — 0 samples
+
+Cross_species_somatic_mutation_rate_project___harbour_porpoise
+Wellcome Sanger Institute · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJEB32375)
+
+- NOT YET REVIEWED
+- NO PUBLICATION FOUND
+
 ## PRJEB44823 — 0 samples
 
 Caprimulgus europaeus (Eurasian nightjar), genomic and transcriptomic data
@@ -3714,26 +3757,34 @@ WELLCOME SANGER INSTITUTE · [BioProject](https://www.ncbi.nlm.nih.gov/bioprojec
 - NOT YET REVIEWED
 - NO PUBLICATION FOUND
 
-## PRJEB86998 — 0 samples
-
-Water vole SNP discovery
-University of Liverpool · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJEB86998)
-
-- NOT YET REVIEWED
-- NO PUBLICATION FOUND
-
-## PRJEB94947 — 0 samples
-
-European water vole Arvicola amphibius conservation genetics
-Centre for Genomic Research, Institute of Integrative Biology, University of Liverpool, UK · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJEB94947)
-
-- NOT YET REVIEWED
-- NO PUBLICATION FOUND
-
 ## PRJNA1008595 — 0 samples
 
 Taeniopygia guttata (zebra finch) genome sequencing, bTaeGut2, sequence data
 G10K · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1008595)
+
+- NOT YET REVIEWED
+- NO PUBLICATION FOUND
+
+## PRJNA1008618 — 0 samples
+
+Tursiops truncatus (bottlenose dolphin) genome, mTurTru1, sequence data
+G10K · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1008618)
+
+- NOT YET REVIEWED
+- NO PUBLICATION FOUND
+
+## PRJNA1026538 — 0 samples
+
+Narwhal resequencing
+University of Manitoba · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1026538)
+
+- NOT YET REVIEWED
+- NO PUBLICATION FOUND
+
+## PRJNA1033834 — 0 samples
+
+Muntiacus reevesi whole genome resequencing
+the State Key Laboratory of Mycology, Institute of Microbiology · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1033834)
 
 - NOT YET REVIEWED
 - NO PUBLICATION FOUND
@@ -3754,6 +3805,22 @@ Albert Ludwig University Freiburg · [BioProject](https://www.ncbi.nlm.nih.gov/b
 - NOT YET REVIEWED
 - NO PUBLICATION FOUND
 
+## PRJNA1145944 — 0 samples
+
+Columba livia (rock pigeon) genome, bColLiv3, sequence data
+Vertebrate Genomes Project · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1145944)
+
+- NOT YET REVIEWED
+- NO PUBLICATION FOUND
+
+## PRJNA1145953 — 0 samples
+
+Columba livia (rock pigeon) genome, bColLiv2, sequence data
+Vertebrate Genomes Project · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1145953)
+
+- NOT YET REVIEWED
+- NO PUBLICATION FOUND
+
 ## PRJNA1241434 — 0 samples
 
 Taeniopygia guttata (zebra finch) genome, bTaeGut8, sequence data
@@ -3766,6 +3833,46 @@ Vertebrate Genomes Project · [BioProject](https://www.ncbi.nlm.nih.gov/bioproje
 
 Taeniopygia guttata (zebra finch) genome, bTaeGut9, sequence data
 Vertebrate Genomes Project · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1241435)
+
+- NOT YET REVIEWED
+- NO PUBLICATION FOUND
+
+## PRJNA399349 — 0 samples
+
+Monodon monoceros Genome sequencing and assembly
+Broad Institute · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA399349)
+
+- NOT YET REVIEWED
+- NO PUBLICATION FOUND
+
+## PRJNA399454 — 0 samples
+
+Phocoena phocoena isolate:BS71 Genome sequencing and assembly
+Broad Institute · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA399454)
+
+- NOT YET REVIEWED
+- NO PUBLICATION FOUND
+
+## PRJNA416845 — 0 samples
+
+Sparus aurata genome assembly
+University of Padova · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA416845)
+
+- NOT YET REVIEWED
+- NO PUBLICATION FOUND
+
+## PRJNA520934 — 0 samples
+
+Monodon monoceros isolate:NGI Genome sequencing and assembly
+The Narwhal Genome Initiative · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA520934)
+
+- NOT YET REVIEWED
+- NO PUBLICATION FOUND
+
+## PRJNA551969 — 0 samples
+
+Gilthead sea bream (Sparus aurata) Sequencing data
+Instituto de Acuicultura Torre de la Sal · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA551969)
 
 - NOT YET REVIEWED
 - NO PUBLICATION FOUND
