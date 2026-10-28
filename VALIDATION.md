@@ -1,6 +1,6 @@
 # Validation status
 
-Most recent validation `2026-09-28T23:33:04Z` · congen-metadata-tools 0.4.0.
+Most recent validation `2026-10-28T14:42:45Z` · congen-metadata-tools 0.4.0.
 
 | State | Species |
 |---|---|
@@ -9,6 +9,10 @@ Most recent validation `2026-09-28T23:33:04Z` · congen-metadata-tools 0.4.0.
 | **PASS WITH NOTES** | 1 |
 | **PENDING** | 8 |
 | **PASS** | 73 |
+
+## Corpus
+
+- **G020** GCA_009819655.1 (Sylvia atricapilla) is published and in the VGP list, but has no species directory
 
 ## Species
 
@@ -20,7 +24,7 @@ Most recent validation `2026-09-28T23:33:04Z` · congen-metadata-tools 0.4.0.
 | [birds/anser-anser](species/birds/anser-anser/VALIDATION.md) | PASS WITH NOTES | 2026-09-10 | 1 note |
 | [birds/anser-cygnoides](species/birds/anser-cygnoides/VALIDATION.md) | PENDING | 2026-09-25 | 1 warning |
 | [birds/anser-erythropus](species/birds/anser-erythropus/VALIDATION.md) | PASS | 2026-09-10 | — |
-| [birds/anser-fabalis](species/birds/anser-fabalis/VALIDATION.md) | PASS | 2026-09-10 | — |
+| [birds/anser-fabalis](species/birds/anser-fabalis/VALIDATION.md) | PASS | 2026-10-28 | — |
 | [birds/apteryx-mantelli](species/birds/apteryx-mantelli/VALIDATION.md) | PASS | 2026-09-10 | — |
 | [birds/aquila-chrysaetos](species/birds/aquila-chrysaetos/VALIDATION.md) | PASS | 2026-09-10 | — |
 | [birds/catharus-ustulatus](species/birds/catharus-ustulatus/VALIDATION.md) | PASS | 2026-09-11 | — |

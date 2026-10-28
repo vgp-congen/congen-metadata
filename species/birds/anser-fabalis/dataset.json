@@ -1,13 +1,6 @@
 {
   "accession": "GCA_965250395.1",
-  "assembly": {
-    "assembly_level": "Chromosome",
-    "assembly_name": "bAnsFab1.1",
-    "common_name": null,
-    "organism_name": "Anser fabalis",
-    "paired_accession": null,
-    "tax_id": 132587
-  },
+  "assembly": {},
   "cohort": {
     "max_coverage": 46.0,
     "mean_coverage": 22.932,
@@ -15,8 +8,10 @@
     "n_sites": 27098403
   },
   "declared_accession": "GCA_965250395.1",
-  "harvested_at": "2026-09-10T20:33:52Z",
-  "notes": [],
+  "harvested_at": "2026-10-28T14:42:52Z",
+  "notes": [
+    "NCBI knows no assembly GCA_965250395.1"
+  ],
   "objects": {
     "README.txt": {
       "etag": "a10cbed5acbe8befe84b90034097e933",
@@ -533,7 +528,7 @@
     ]
   },
   "subject": "birds/anser-fabalis",
-  "tool_version": "0.1.0",
+  "tool_version": "0.4.0",
   "vcf": {
     "callers": [
       "gatk"

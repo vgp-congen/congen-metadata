@@ -1,10 +1,10 @@
 <!-- congen:begin body -->
 # *Anser fabalis*
 
-Population-genomic variant calls for 10 *Anser fabalis* samples ([NCBI taxon 132587](https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=132587)), produced by snpArcher against `GCA_965250395.1` and published on GenomeArk.
+Population-genomic variant calls for 10 *Anser fabalis* samples, produced by snpArcher against `GCA_965250395.1` and published on GenomeArk.
 
 > [!TIP]
-> **PASS** · validated 2026-09-10 · `GCA_965250395.1`
+> **PASS** · validated 2026-10-28 · `GCA_965250395.1`
 >
 > Metadata agrees with the data published on GenomeArk.
 >
@@ -15,7 +15,7 @@ Population-genomic variant calls for 10 *Anser fabalis* samples ([NCBI taxon 132
 |  |  |
 |---|---|
 | Clade | birds |
-| Reference assembly | [`GCA_965250395.1`](https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_965250395.1/) — bAnsFab1.1, Chromosome |
+| Reference assembly | [`GCA_965250395.1`](https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_965250395.1/) |
 | Variant caller | gatk 4.6.2.0 |
 | Samples | 10 across 14 sheet rows, all from SRA runs |
 | Variant sites | 27,098,403 |
@@ -25,8 +25,6 @@ Population-genomic variant calls for 10 *Anser fabalis* samples ([NCBI taxon 132
 
 |  |  |
 |---|---|
-| Assembly organism | Anser fabalis |
-| NCBI taxon | 132587 |
 | Contigs in the VCF | 879 |
 | Ploidy / heterozygosity prior | 2 / 0.005 |
 | Other tools recorded in the VCF header | bcftools 1.23.1 |

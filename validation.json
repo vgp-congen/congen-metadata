@@ -1,5 +1,5 @@
 {
-  "validated_at": "2026-09-28T23:33:04Z",
+  "validated_at": "2026-10-28T14:42:45Z",
   "tool_version": "0.4.0",
   "counts": {
     "PASS": 73,
@@ -8,7 +8,17 @@
     "FAIL": 3,
     "PENDING": 8
   },
-  "corpus_findings": [],
+  "corpus_findings": [
+    {
+      "id": "G020",
+      "severity": "warn",
+      "subject": "<corpus>",
+      "message": "GCA_009819655.1 (Sylvia atricapilla) is published and in the VGP list, but has no species directory",
+      "detail": null,
+      "path": null,
+      "line": null
+    }
+  ],
   "species": {
     "amphibians/pseudophryne-corroboree": "PENDING",
     "birds/acridotheres-tristis": "PASS",
