@@ -1,0 +1,100 @@
+{
+  "subject": "fishes/anguilla-anguilla",
+  "state": "PASS",
+  "validated_at": "2026-11-02T18:03:37Z",
+  "tool_version": "0.4.0",
+  "catalog": "sha256:44f7010fb4de2e48c91122dfd97086699b1036f7038eda45349f6a6db2e58514",
+  "checks_run": [
+    "E001",
+    "E002",
+    "E003",
+    "F001",
+    "F002",
+    "F003",
+    "F004",
+    "F005",
+    "F006",
+    "F008",
+    "F009",
+    "F011",
+    "F020",
+    "F021",
+    "F022",
+    "F023",
+    "F024",
+    "G001",
+    "G010",
+    "G011",
+    "G012",
+    "G013",
+    "G014",
+    "G017",
+    "G018",
+    "P001",
+    "P002",
+    "P003",
+    "R001",
+    "R002",
+    "R003",
+    "R010",
+    "R013",
+    "R015",
+    "R016",
+    "R017",
+    "R020",
+    "S001",
+    "S002",
+    "S003",
+    "S004",
+    "S005",
+    "S006",
+    "S007"
+  ],
+  "checks_available": 44,
+  "inputs": {
+    "config.yaml": "sha256:203b4f6de69e5c07d65b388c04937191cfc7fae4998229d593c8a42777a6e0a1",
+    "sample_sheet.csv": "sha256:206311da23c3f19c6d441d156eb9169bb340e154fa4c5d28589ad260fd675dbf",
+    "README.txt": "sha256:2b4ee871646abb79d45524b450217cbd4a6857895e72b05c6467a39b2589f8f0"
+  },
+  "data": {
+    "published": true,
+    "accession": "GCA_013347855.1",
+    "objects": {
+      "raw.vcf.gz": "etag:a89e5f626105b7a596594db5db9b2da6-6642",
+      "raw.vcf.gz.tbi": "etag:4db09782f22b833e987742aadeb49354",
+      "sample_sheet.csv": "etag:f1b06526563f530fa961440f832e5f8e"
+    },
+    "bams": {
+      "count": 58,
+      "digest": "sha256:8b7a4a6e72481a154969a7c5e2f7ed82f62b361d870a82a348bdede9a848c223"
+    }
+  },
+  "findings": [],
+  "status": {
+    "subject": "fishes/anguilla-anguilla",
+    "state": "complete",
+    "accession": "GCA_013347855.1",
+    "declared_accession": "GCA_013347855.1",
+    "accession_differs": false,
+    "present": [
+      "bams",
+      "callable_sites",
+      "published_readme",
+      "qc",
+      "raw_vcf",
+      "raw_vcf_index",
+      "repo_readme"
+    ],
+    "missing": [],
+    "missing_optional": [
+      "filtered_vcf"
+    ],
+    "counts": {
+      "sheet_samples": 58,
+      "bams": 58,
+      "vcf_samples": 58
+    }
+  },
+  "superseded": null,
+  "stale_reason": null
+}

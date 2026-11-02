@@ -1,0 +1,100 @@
+{
+  "subject": "fishes/amblyraja-radiata",
+  "state": "PASS",
+  "validated_at": "2026-11-02T18:03:37Z",
+  "tool_version": "0.4.0",
+  "catalog": "sha256:44f7010fb4de2e48c91122dfd97086699b1036f7038eda45349f6a6db2e58514",
+  "checks_run": [
+    "E001",
+    "E002",
+    "E003",
+    "F001",
+    "F002",
+    "F003",
+    "F004",
+    "F005",
+    "F006",
+    "F008",
+    "F009",
+    "F011",
+    "F020",
+    "F021",
+    "F022",
+    "F023",
+    "F024",
+    "G001",
+    "G010",
+    "G011",
+    "G012",
+    "G013",
+    "G014",
+    "G017",
+    "G018",
+    "P001",
+    "P002",
+    "P003",
+    "R001",
+    "R002",
+    "R003",
+    "R010",
+    "R013",
+    "R015",
+    "R016",
+    "R017",
+    "R020",
+    "S001",
+    "S002",
+    "S003",
+    "S004",
+    "S005",
+    "S006",
+    "S007"
+  ],
+  "checks_available": 44,
+  "inputs": {
+    "config.yaml": "sha256:b76205a878802394a12966466f8b9e18104d107c9ac2e28ac75e5cab9aadd1df",
+    "sample_sheet.csv": "sha256:3bace7766d278408e6ad09004bea57bd04a3b9a821211f0c31fecef6954de59a",
+    "README.txt": "sha256:a00cd96faaba127c82d57318b9af9ea365534630abb6bc31333c360376762e6e"
+  },
+  "data": {
+    "published": true,
+    "accession": "GCA_010909765.2",
+    "objects": {
+      "raw.vcf.gz": "etag:d57811d88a04823218c9d039f0fcd42d-7603",
+      "raw.vcf.gz.tbi": "etag:d854a781fcf9a07db76e78b447979c75",
+      "filtered.vcf.gz": "etag:5048bcf2be5510512e14591ee843a501-5371",
+      "sample_sheet.csv": "etag:4522eb678db5d5db0baaed3967111c95"
+    },
+    "bams": {
+      "count": 50,
+      "digest": "sha256:941acf2b2629eee4e7b69ecb5cb9c8ffd1af534a41aa80c07ccd29d039085055"
+    }
+  },
+  "findings": [],
+  "status": {
+    "subject": "fishes/amblyraja-radiata",
+    "state": "complete",
+    "accession": "GCA_010909765.2",
+    "declared_accession": "GCA_010909765.2",
+    "accession_differs": false,
+    "present": [
+      "bams",
+      "callable_sites",
+      "filtered_vcf",
+      "published_readme",
+      "qc",
+      "raw_vcf",
+      "raw_vcf_index",
+      "repo_readme"
+    ],
+    "missing": [],
+    "missing_optional": [],
+    "counts": {
+      "sheet_samples": 50,
+      "bams": 50,
+      "vcf_samples": 50
+    }
+  },
+  "superseded": null,
+  "stale_reason": null
+}

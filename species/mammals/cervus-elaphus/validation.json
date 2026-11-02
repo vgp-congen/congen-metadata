@@ -1,0 +1,100 @@
+{
+  "subject": "mammals/cervus-elaphus",
+  "state": "PASS",
+  "validated_at": "2026-11-02T18:03:37Z",
+  "tool_version": "0.4.0",
+  "catalog": "sha256:44f7010fb4de2e48c91122dfd97086699b1036f7038eda45349f6a6db2e58514",
+  "checks_run": [
+    "E001",
+    "E002",
+    "E003",
+    "F001",
+    "F002",
+    "F003",
+    "F004",
+    "F005",
+    "F006",
+    "F008",
+    "F009",
+    "F011",
+    "F020",
+    "F021",
+    "F022",
+    "F023",
+    "F024",
+    "G001",
+    "G010",
+    "G011",
+    "G012",
+    "G013",
+    "G014",
+    "G017",
+    "G018",
+    "P001",
+    "P002",
+    "P003",
+    "R001",
+    "R002",
+    "R003",
+    "R010",
+    "R013",
+    "R015",
+    "R016",
+    "R017",
+    "R020",
+    "S001",
+    "S002",
+    "S003",
+    "S004",
+    "S005",
+    "S006",
+    "S007"
+  ],
+  "checks_available": 44,
+  "inputs": {
+    "config.yaml": "sha256:a522b5df2ca659f249797077b95506381b822a84596ddd1efd8e9cba202add47",
+    "sample_sheet.csv": "sha256:d02ba51ddf167e4bed1b08a24239081de6f42fabd4383570d9f66129917c8861",
+    "README.txt": "sha256:1c0e0a30a0f8a92c3b7c30e502746d4f3d1b033ca421836d3659869b8ac24910"
+  },
+  "data": {
+    "published": true,
+    "accession": "GCA_910594005.2",
+    "objects": {
+      "raw.vcf.gz": "etag:1cc152f94722fba0fbf2050ea4e6860b-5955",
+      "raw.vcf.gz.tbi": "etag:b58c54b360d1db73f66d97a2fd806901",
+      "filtered.vcf.gz": "etag:a9456e1adb91b516557b8247374e59d0-9191",
+      "sample_sheet.csv": "etag:d6169d3a2fdc35bad8809d17876fa8cf"
+    },
+    "bams": {
+      "count": 94,
+      "digest": "sha256:29b688bc4548577d89ffb7130ddcf3e58d811ac8470f2f47204c779adff0f393"
+    }
+  },
+  "findings": [],
+  "status": {
+    "subject": "mammals/cervus-elaphus",
+    "state": "complete",
+    "accession": "GCA_910594005.2",
+    "declared_accession": "GCA_910594005.2",
+    "accession_differs": false,
+    "present": [
+      "bams",
+      "callable_sites",
+      "filtered_vcf",
+      "published_readme",
+      "qc",
+      "raw_vcf",
+      "raw_vcf_index",
+      "repo_readme"
+    ],
+    "missing": [],
+    "missing_optional": [],
+    "counts": {
+      "sheet_samples": 94,
+      "bams": 94,
+      "vcf_samples": 94
+    }
+  },
+  "superseded": null,
+  "stale_reason": null
+}

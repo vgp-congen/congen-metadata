@@ -1,12 +1,14 @@
 <!-- congen:begin body -->
 # *Sminthopsis crassicaudata*
 
-*Sminthopsis crassicaudata* — 13 samples in the sheet, awaiting the pipeline run. See below.
+*Sminthopsis crassicaudata* — 13 samples. **This dataset cannot be used as it stands.** See below.
 
-> [!NOTE]
-> **PENDING** · validated 2026-09-25 · `GCA_048593235.1`
+> [!CAUTION]
+> **FAIL** · validated 2026-11-02 · `GCA_048593235.1`
 >
-> No data has been published for this species yet. This is an expected state: metadata is committed before the pipeline runs.
+> Validation found errors (`G011`). **Do not use this dataset** until they are resolved.
+>
+> Also: the upload is incomplete.
 >
 > Full report: [`VALIDATION.md`](VALIDATION.md) · check definitions: [`CHECKS.md`](../../../CHECKS.md) · baseline description: [`README.txt`](README.txt)
 <!-- congen:end body -->

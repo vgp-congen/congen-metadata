@@ -43,6 +43,36 @@ this file only ever shows work that remains.
 
 Ordered by how many samples depend on each BioProject, worst first.
 
+## PRJNA614488 — 263 samples · birds/cuculus-canorus
+
+Cuckoo Population Genetics
+LMU Munich · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA614488)
+
+<!-- considered: 10.1126/sciadv.adl5255 -->
+
+- NOT YET REVIEWED
+- ★ [10.1126/sciadv.adl5255](https://doi.org/10.1126/sciadv.adl5255) — Merondun J et al. (2024) Evolution and genetic architecture of sex-limited polymorphism in cuckoos
+- NO PUBLICATION FOUND
+
+## PRJNA1008404 — 147 samples · reptiles/podarcis-muralis
+
+WGS of Podarcis muralis from Italy
+Lund University · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1008404)
+
+<!-- considered: 10.1126/sciadv.adk9315 -->
+
+- NOT YET REVIEWED
+- ★ [10.1126/sciadv.adk9315](https://doi.org/10.1126/sciadv.adk9315) — Feiner N et al. (2024) Adaptive introgression reveals the genetic basis of a sexually selected syndrome in wall lizards
+- NO PUBLICATION FOUND
+
+## PRJNA1128009 — 139 samples · birds/oenanthe-melanoleuca
+
+Population-wide whole genome re-sequencing of Oenanthe hispanica complex
+Swiss Ornithological Institute · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1128009)
+
+- NOT YET REVIEWED
+- NO PUBLICATION FOUND
+
 ## PRJEB39599 — 130 samples · fishes/pungitius-pungitius
 
 Whole-genome sequencing of wild nine-spined sticklebacks
@@ -67,6 +97,41 @@ Havforskingsinstituttet · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/
 
 - NOT YET REVIEWED
 - [10.1111/mec.17732](https://doi.org/10.1111/mec.17732) — Jansson E et al. (2025) Genomic Landscape of Divergence in Ballan Wrasse (Labrus bergylta)
+- NO PUBLICATION FOUND
+
+## PRJEB63068 — 114 samples · reptiles/podarcis-muralis
+
+Popgen_study
+Wellcome Sanger Institute · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJEB63068)
+
+<!-- considered: 10.1371/journal.pbio.3003742 10.1073/pnas.2410939122 -->
+
+- NOT YET REVIEWED
+- ★ [10.1371/journal.pbio.3003742](https://doi.org/10.1371/journal.pbio.3003742) — Ben Chehida Y et al. (2026) Genetic parallelism underpins convergent mimicry coloration in Lepidoptera across 120 million years of evolution
+- ★ [10.1073/pnas.2410939122](https://doi.org/10.1073/pnas.2410939122) — van der Heijden ESM et al. (2025) Genomics of Neotropical biodiversity indicators: Two butterfly radiations with rampant chromosomal rearrangements and hybridization
+- NO PUBLICATION FOUND
+
+## PRJNA558458 — 110 samples · fishes/astyanax-mexicanus
+
+Astyanax genome re-sequencing
+University of Minnesota · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA558458)
+
+<!-- considered: 10.1016/j.cub.2026.05.003 10.1038/s41467-023-37909-8 -->
+
+- NOT YET REVIEWED
+- ★ [10.1038/s41467-023-37909-8](https://doi.org/10.1038/s41467-023-37909-8) — Moran RL et al. (2023) Selection-driven trait loss in independently evolved cavefish populations
+- [10.1016/j.cub.2026.05.003](https://doi.org/10.1016/j.cub.2026.05.003) — Guerra DP et al. (2026) Disruption of carotenoid metabolism in cavefish via loss of beta-carotene oxygenase 2a
+- NO PUBLICATION FOUND
+
+## PRJNA616371 — 110 samples · birds/sylvia-atricapilla
+
+European blackcap resequencing
+Max Planck Institute for Evolutionary Biology · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA616371)
+
+<!-- considered: 10.7554/elife.54462 -->
+
+- NOT YET REVIEWED
+- ★ [10.7554/elife.54462](https://doi.org/10.7554/elife.54462) — Delmore K et al. (2020) The evolutionary history and genomics of European blackcap migration
 - NO PUBLICATION FOUND
 
 ## PRJEB27804 — 106 samples · fishes/astatotilapia-calliptera
@@ -98,6 +163,17 @@ Haliaeetus albicilla (white-tailed eagle), genomic and transcriptomic data
 WELLCOME SANGER INSTITUTE · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJEB57283)
 
 - NOT YET REVIEWED
+- NO PUBLICATION FOUND
+
+## PRJNA1187868 — 92 samples · mammals/cervus-elaphus
+
+Resequencing of red deer (Cervus elaphus)
+Senckenberg Institute · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1187868)
+
+<!-- considered: 10.1093/molbev/msaf031 -->
+
+- NOT YET REVIEWED
+- ★ [10.1093/molbev/msaf031](https://doi.org/10.1093/molbev/msaf031) — de Jong MJ et al. (2025) Red Deer Resequencing Reveals the Importance of Sex Chromosomes for Reconstructing Late Quaternary Events
 - NO PUBLICATION FOUND
 
 ## PRJNA1054049 — 82 samples · birds/acridotheres-tristis
@@ -134,6 +210,17 @@ Sun Yat-sen University · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/P
 - [10.1016/j.isci.2026.115539](https://doi.org/10.1016/j.isci.2026.115539) — Hu Y et al. (2026) The pangenome of &lt;i&gt;Acanthopagrus&lt;/i&gt; provides genomic variation evidence for genetic diversity
 - NO PUBLICATION FOUND
 
+## PRJEB65115 — 79 samples · birds/sylvia-atricapilla
+
+Structural genomic variation in the Eurasian blackcap
+Max Planck Institute for Evolutionary Biology · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJEB65115)
+
+<!-- considered: 10.1093/evlett/qrad040 -->
+
+- NOT YET REVIEWED
+- ★ [10.1093/evlett/qrad040](https://doi.org/10.1093/evlett/qrad040) — Delmore KE et al. (2023) Structural genomic variation and migratory behavior in a wild songbird
+- NO PUBLICATION FOUND
+
 ## PRJNA759394 — 75 samples · birds/cyanistes-caeruleus
 
 Re-sequencing of 75 Blue tit (Cyanistes caeruleus) genomes
@@ -153,6 +240,28 @@ Columbia University · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJN
 - ★ [10.1371/journal.pgen.1011661](https://doi.org/10.1371/journal.pgen.1011661) — Prentout D et al. (2025) Germline mutation rates and fine-scale recombination parameters in zebra finch
 - NO PUBLICATION FOUND
 
+## PRJEB66075 — 69 samples · birds/sylvia-atricapilla
+
+Population genomics in the Eurasian blackcap
+institute of avian research "vogelwarte helgoland" · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJEB66075)
+
+<!-- considered: 10.1093/genetics/iyaf004 -->
+
+- NOT YET REVIEWED
+- [10.1093/genetics/iyaf004](https://doi.org/10.1093/genetics/iyaf004) — Ishigohoka J et al. (2025) High-recombining genomic regions affect demography inference based on ancestral recombination graphs
+- NO PUBLICATION FOUND
+
+## PRJNA1238330 — 69 samples · fishes/thunnus-thynnus
+
+Ancient DNA suggests a historical demographic decline and genetic erosion in the Atlantic bluefin tuna
+University of Bologna · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1238330)
+
+<!-- considered: 10.1073/pnas.2409302122 -->
+
+- NOT YET REVIEWED
+- ★ [10.1073/pnas.2409302122](https://doi.org/10.1073/pnas.2409302122) — Andrews AJ et al. (2025) Ancient DNA suggests a historical demographic decline and genetic erosion in the Atlantic bluefin tuna
+- NO PUBLICATION FOUND
+
 ## PRJNA856472 — 64 samples · fishes/micropterus-salmoides
 
 Micropterus salmoides Raw sequence reads
@@ -167,6 +276,18 @@ Population genomics of Spanish European robins
 institute of avian research "vogelwarte helgoland" · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJEB71790)
 
 - NOT YET REVIEWED
+- NO PUBLICATION FOUND
+
+## PRJNA818012 — 63 samples · birds/zonotrichia-albicollis
+
+Dynamic molecular evolution of a supergene with suppressed recombination in white-throated sparrows
+Georgia Institute of Technology · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA818012)
+
+<!-- considered: 10.1111/mec.70271 10.7554/elife.79387 -->
+
+- NOT YET REVIEWED
+- ★ [10.1111/mec.70271](https://doi.org/10.1111/mec.70271) — Baran NM et al. (2026) Massive Genomic and Transcriptomic Changes Within a Young Inversion Polymorphism in the Absence of Degeneration
+- ★ [10.7554/elife.79387](https://doi.org/10.7554/elife.79387) — Jeong H et al. (2022) Dynamic molecular evolution of a supergene with suppressed recombination in white-throated sparrows
 - NO PUBLICATION FOUND
 
 ## PRJNA997110 — 63 samples · mammals/phocoena-phocoena
@@ -253,6 +374,17 @@ University of Helsinki · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/P
 - NOT YET REVIEWED
 - NO PUBLICATION FOUND
 
+## PRJNA973617 — 52 samples · birds/cuculus-canorus
+
+Cuculus Plumage Genomics
+Cuculus Plumage Genomics · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA973617)
+
+<!-- considered: 10.1126/sciadv.adl5255 -->
+
+- NOT YET REVIEWED
+- [10.1126/sciadv.adl5255](https://doi.org/10.1126/sciadv.adl5255) — Merondun J et al. (2024) Evolution and genetic architecture of sex-limited polymorphism in cuckoos
+- NO PUBLICATION FOUND
+
 ## PRJNA1012887 — 51 samples · fishes/micropterus-salmoides
 
 Micropterus salmoides breed:JDF Genome sequencing and assembly
@@ -274,6 +406,25 @@ Roslin Institute · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJEB40
 - [10.1002/ece3.70512](https://doi.org/10.1002/ece3.70512) — Moulistanos A et al. (2024) Genomic Signatures of Domestication in European Seabass (&lt;i&gt;Dicentrarchus labrax&lt;/i&gt; L.) Reveal a Potential Role for Epigenetic Regulation in Adaptation to Captivity
 - [10.1002/ece3.10727](https://doi.org/10.1002/ece3.10727) — Moulistanos A et al. (2023) Investigating the role of genetic variation in &lt;i&gt;vgll3&lt;/i&gt; and &lt;i&gt;six6&lt;/i&gt; in the domestication of gilthead seabream (&lt;i&gt;Sparus aurata&lt;/i&gt; Linnaeus) and European seabass (&lt;i&gt;Dicentrarchus labrax&lt;/i&gt; Linnaeus)
 - [10.3390/genes14040839](https://doi.org/10.3390/genes14040839) — Bertolini F et al. (2023) Whole Genome Sequencing Provides Information on the Genomic Architecture and Diversity of Cultivated Gilthead Seabream (<i>Sparus aurata</i>) Broodstock Nuclei
+- NO PUBLICATION FOUND
+
+## PRJNA812038 — 50 samples · fishes/anguilla-anguilla
+
+Genome-wide methylation in the panmictic European eel (Anguilla anguilla)
+Aarhus University · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA812038)
+
+- NOT YET REVIEWED
+- NO PUBLICATION FOUND
+
+## PRJNA1189519 — 49 samples · fishes/amblyraja-radiata
+
+Whole Genome data of the thorny skate (Amblyraja radiata) and the arctic skate (Amblyraja hyperborea)
+Vertebrate Genome Project · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1189519)
+
+<!-- considered: 10.1038/s41467-025-56126-z -->
+
+- NOT YET REVIEWED
+- [10.1038/s41467-025-56126-z](https://doi.org/10.1038/s41467-025-56126-z) — Lesturgie P et al. (2025) Short-term evolutionary implications of an introgressed size-determining supergene in a vulnerable population
 - NO PUBLICATION FOUND
 
 ## PRJEB48145 — 47 samples · fishes/astatotilapia-calliptera · fishes/aulonocara-stuartgranti
@@ -500,6 +651,17 @@ Leibniz Institute for the analysis of biodiversity change · [BioProject](https:
 
 - NOT YET REVIEWED
 - ★ [10.1186/s13104-024-07075-1](https://doi.org/10.1186/s13104-024-07075-1) — Macphee A et al. (2025) Comparison of whole genome sequencing performance from fish swabs and fin clips
+- NO PUBLICATION FOUND
+
+## PRJNA1284928 — 28 samples · reptiles/podarcis-muralis
+
+Invasive common wall lizard (Podarcis muralis) sequences
+The Ohio State University · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1284928)
+
+<!-- considered: 10.1111/mec.70288 -->
+
+- NOT YET REVIEWED
+- ★ [10.1111/mec.70288](https://doi.org/10.1111/mec.70288) — Bode ER et al. (2026) Surviving the Squeeze: Genomic Analysis of a Successful Invasion by European Common Wall Lizards (Podarcis muralis) in North America (Ohio, USA)
 - NO PUBLICATION FOUND
 
 ## PRJNA1288365 — 26 samples · fishes/phoxinus-phoxinus
@@ -917,6 +1079,20 @@ Wellcome Sanger Institute · [BioProject](https://www.ncbi.nlm.nih.gov/bioprojec
 - NOT YET REVIEWED
 - NO PUBLICATION FOUND
 
+## PRJNA260715 — 15 samples · fishes/astyanax-mexicanus
+
+Astyanax Genome sequencing
+University of Minnesota · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA260715)
+
+<!-- considered: 10.1016/j.cub.2026.05.003 10.1038/s41467-021-21733-z 10.1186/s12862-021-01823-8 10.1111/mec.14877 -->
+
+- NOT YET REVIEWED
+- ★ [10.1038/s41467-021-21733-z](https://doi.org/10.1038/s41467-021-21733-z) — Warren WC et al. (2021) A chromosome-level genome of Astyanax mexicanus surface fish for comparing population-specific genetic differences contributing to trait evolution
+- ★ [10.1186/s12862-021-01823-8](https://doi.org/10.1186/s12862-021-01823-8) — Riddle MR et al. (2021) Genetic mapping of metabolic traits in the blind Mexican cavefish reveals sex-dependent quantitative trait loci associated with cave adaptation
+- ★ [10.1111/mec.14877](https://doi.org/10.1111/mec.14877) — Herman A et al. (2018) The role of gene flow in rapid and repeated evolution of cave-related traits in Mexican tetra, Astyanax mexicanus
+- [10.1016/j.cub.2026.05.003](https://doi.org/10.1016/j.cub.2026.05.003) — Guerra DP et al. (2026) Disruption of carotenoid metabolism in cavefish via loss of beta-carotene oxygenase 2a
+- NO PUBLICATION FOUND
+
 ## PRJNA354496 — 15 samples · fishes/symphodus-melops
 
 Corkwing wrasse genetics in Northern Europe
@@ -1031,6 +1207,17 @@ University of Oxford · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJ
 - ★ [10.1111/mec.17830](https://doi.org/10.1111/mec.17830) — Estandía A et al. (2025) Islands Promote Diversification of the Silvereye Species Complex: A Phylogenomic Analysis of a Great Speciator
 - NO PUBLICATION FOUND
 
+## PRJNA643514 — 12 samples · birds/zonotrichia-albicollis
+
+Genome-wide variation in DNA methylation in white-throated sparrows
+Georgia Institute of Technology · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA643514)
+
+<!-- considered: 10.1111/mec.15793 -->
+
+- NOT YET REVIEWED
+- ★ [10.1111/mec.15793](https://doi.org/10.1111/mec.15793) — Sun D et al. (2021) Genome-wide variation in DNA methylation linked to developmental stage and chromosomal suppression of recombination in white-throated sparrows
+- NO PUBLICATION FOUND
+
 ## PRJNA835238 — 12 samples · birds/anser-cygnoides
 
 Anser cygnoides strain:Chinese local goose | breed:Sichuan White Goose Raw sequence reads
@@ -1071,6 +1258,14 @@ Hangzhou Academy of Agricultural Sciences · [BioProject](https://www.ncbi.nlm.n
 
 WGS of Common Yellowthroat (Geothlypis trichas)
 Colorado State University · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1424374)
+
+- NOT YET REVIEWED
+- NO PUBLICATION FOUND
+
+## PRJNA339312 — 11 samples · fishes/astyanax-mexicanus
+
+Astyanax Genome sequencing
+University of Minnesota · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA339312)
 
 - NOT YET REVIEWED
 - NO PUBLICATION FOUND
@@ -1336,6 +1531,14 @@ Harvard University · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA
 - ★ [10.1073/pnas.2409943121](https://doi.org/10.1073/pnas.2409943121) — Fang B et al. (2024) Fitness consequences of structural variation inferred from a House Finch pangenome
 - NO PUBLICATION FOUND
 
+## PRJNA384315 — 8 samples · fishes/thunnus-thynnus
+
+Thunnus thynnus Raw sequence reads
+EMBRIC · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA384315)
+
+- NOT YET REVIEWED
+- NO PUBLICATION FOUND
+
 ## PRJNA575114 — 8 samples · birds/anser-cygnoides
 
 IIB/RAD sequencing of overfed Landes Geese
@@ -1362,6 +1565,14 @@ American Museum of Natural History · [BioProject](https://www.ncbi.nlm.nih.gov/
 
 Fur Trade Project
 University of Oklahoma · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1164432)
+
+- NOT YET REVIEWED
+- NO PUBLICATION FOUND
+
+## PRJNA1170948 — 7 samples · birds/cuculus-canorus
+
+Cuculus Migratory Genetics
+LMU Munich · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1170948)
 
 - NOT YET REVIEWED
 - NO PUBLICATION FOUND
@@ -1591,6 +1802,14 @@ Cold Spring Harbor Laboratory · [BioProject](https://www.ncbi.nlm.nih.gov/biopr
 - NOT YET REVIEWED
 - NO PUBLICATION FOUND
 
+## PRJNA899818 — 5 samples · fishes/astyanax-mexicanus
+
+Evolutionary history of Astyanax
+Universidad Nacional Autonoma de Mexico · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA899818)
+
+- NOT YET REVIEWED
+- NO PUBLICATION FOUND
+
 ## PRJNA512907 — 4 samples · mammals/eubalaena-glacialis · mammals/notamacropus-eugenii · mammals/ovis-canadensis · mammals/panthera-onca
 
 DNA Zoo
@@ -1646,6 +1865,17 @@ Cetacea Genome sequencing
 Seoul National Univerisity · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA274879)
 
 - NOT YET REVIEWED
+- NO PUBLICATION FOUND
+
+## PRJNA283149 — 4 samples · birds/zonotrichia-albicollis
+
+Zonotrichia albicollis Raw sequence reads
+East Carolina University · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA283149)
+
+<!-- considered: 10.1111/mec.70271 -->
+
+- NOT YET REVIEWED
+- [10.1111/mec.70271](https://doi.org/10.1111/mec.70271) — Baran NM et al. (2026) Massive Genomic and Transcriptomic Changes Within a Young Inversion Polymorphism in the Absence of Degeneration
 - NO PUBLICATION FOUND
 
 ## PRJNA416843 — 4 samples · fishes/betta-splendens
@@ -1880,6 +2110,28 @@ Hunan Agricultural university · [BioProject](https://www.ncbi.nlm.nih.gov/biopr
 - [10.1038/s42003-026-09557-3](https://doi.org/10.1038/s42003-026-09557-3) — Chen D et al. (2026) The Neijiang pig T2T genome reveals domestication history and germplasm traits of Southwest Chinese local breeds
 - [10.1093/gigascience/giaf048](https://doi.org/10.1093/gigascience/giaf048) — Cao C et al. (2025) A near telomere-to-telomere genome assembly of the Jinhua pig: enabling more accurate genetic research
 - [10.3390/biology12040500](https://doi.org/10.3390/biology12040500) — Xie Q et al. (2023) Integration of Selection Signatures and Protein Interactions Reveals <i>NR6A1</i>, <i>PAPPA2</i>, and <i>PIK3C2B</i> as the Promising Candidate Genes Underlying the Characteristics of Licha Black Pig
+- NO PUBLICATION FOUND
+
+## PRJNA606808 — 3 samples · fishes/astyanax-mexicanus
+
+Integrative genomic analysis reveals the gene contents, repeats landscapes and evolutionary dynamics of the B chromosomes in multiple species
+UNESP · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA606808)
+
+<!-- considered: 10.1186/s12864-020-07072-1 -->
+
+- NOT YET REVIEWED
+- ★ [10.1186/s12864-020-07072-1](https://doi.org/10.1186/s12864-020-07072-1) — Ahmad SF et al. (2020) B chromosomes of multiple species have intense evolutionary dynamics and accumulated genes related to important biological processes
+- NO PUBLICATION FOUND
+
+## PRJNA668259 — 3 samples · fishes/anguilla-anguilla
+
+Low-coverage re-sequencing of European eel and American eel individuals
+Uppsala University · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA668259)
+
+<!-- considered: 10.1073/pnas.2022620118 -->
+
+- NOT YET REVIEWED
+- ★ [10.1073/pnas.2022620118](https://doi.org/10.1073/pnas.2022620118) — Enbody ED et al. (2021) Ecological adaptation in European eels is based on phenotypic plasticity
 - NO PUBLICATION FOUND
 
 ## PRJNA72723 — 3 samples · mammals/balaenoptera-acutorostrata
@@ -2157,10 +2409,29 @@ SheepGenomeDB (SGB) · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJN
 - [10.1093/gbe/evab014](https://doi.org/10.1093/gbe/evab014) — Wiener P et al. (2021) Whole-Genome Sequence Data Suggest Environmental Adaptation of Ethiopian Sheep Populations
 - NO PUBLICATION FOUND
 
+## PRJNA533584 — 2 samples · fishes/astyanax-mexicanus
+
+Astyanax mexicanus isolate:Pachon cavefish Genome sequencing and assembly
+Aquatic Genome Models · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA533584)
+
+<!-- considered: 10.1038/s41467-021-21733-z -->
+
+- NOT YET REVIEWED
+- [10.1038/s41467-021-21733-z](https://doi.org/10.1038/s41467-021-21733-z) — Warren WC et al. (2021) A chromosome-level genome of Astyanax mexicanus surface fish for comparing population-specific genetic differences contributing to trait evolution
+- NO PUBLICATION FOUND
+
 ## PRJNA542243 — 2 samples · fishes/scophthalmus-maximus
 
 Draft genomes of female and male turbot (Scophthalmus maximus)
 Yellow Sea Fisheries Research Institute · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA542243)
+
+- NOT YET REVIEWED
+- NO PUBLICATION FOUND
+
+## PRJNA554219 — 2 samples · fishes/anguilla-anguilla
+
+Study of speciation history of the Atlantic eels
+Aarhus University · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA554219)
 
 - NOT YET REVIEWED
 - NO PUBLICATION FOUND
@@ -2174,6 +2445,17 @@ Guangdong Ocean University · [BioProject](https://www.ncbi.nlm.nih.gov/bioproje
 
 - NOT YET REVIEWED
 - ★ [10.3390/ani9121117](https://doi.org/10.3390/ani9121117) — Huang Y et al. (2019) Genome Survey of Male and Female Spotted Scat (<i>Scatophagus argus</i>)
+- NO PUBLICATION FOUND
+
+## PRJNA579268 — 2 samples · birds/sylvia-atricapilla
+
+Whole-genome sequencing of Sylvioidea birds
+Lund Unviersity · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA579268)
+
+<!-- considered: 10.1038/s42003-026-10603-3 -->
+
+- NOT YET REVIEWED
+- [10.1038/s42003-026-10603-3](https://doi.org/10.1038/s42003-026-10603-3) — Sigeman H et al. (2026) Evolutionary dynamics of enlarged neo-sex chromosomes and novel pseudoautosomal regions in Sylvioidea songbirds
 - NO PUBLICATION FOUND
 
 ## PRJNA591356 — 2 samples · birds/serinus-canaria
@@ -2243,6 +2525,17 @@ Genes enhancing disease resistance in Aleutian disease virus (ADV) infected Amer
 Genetics, Department of Veterinary Clinical Sciences, Animal Genetics, Bioinformatics and Breeding,, University of copenhagen · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA687044)
 
 - NOT YET REVIEWED
+- NO PUBLICATION FOUND
+
+## PRJNA734455 — 2 samples · fishes/astyanax-mexicanus
+
+Pachon cavefish Astyanax mexicanus genome sequencing and assembly
+GenoFish · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA734455)
+
+<!-- considered: 10.1016/j.cub.2021.08.030 -->
+
+- NOT YET REVIEWED
+- [10.1016/j.cub.2021.08.030](https://doi.org/10.1016/j.cub.2021.08.030) — Imarazene B et al. (2021) A supernumerary "B-sex" chromosome drives male sex determination in the Pachón cavefish, Astyanax mexicanus
 - NO PUBLICATION FOUND
 
 ## PRJNA740148 — 2 samples · mammals/rhinolophus-affinis
@@ -2511,6 +2804,14 @@ WELLCOME SANGER INSTITUTE · [BioProject](https://www.ncbi.nlm.nih.gov/bioprojec
 - NOT YET REVIEWED
 - NO PUBLICATION FOUND
 
+## PRJEB45134 — 1 sample · mammals/cervus-elaphus
+
+Cervus elaphus (red deer), genomic and transcriptomic data
+WELLCOME SANGER INSTITUTE · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJEB45134)
+
+- NOT YET REVIEWED
+- NO PUBLICATION FOUND
+
 ## PRJEB50463 — 1 sample · mammals/capra-hircus
 
 This dataset includes a total of 60 whole genome sequencing data from goats generated at Genoscope (Evry, France). It has been uploaded for the VarGoats Consortium (http://www.goatgenome.org/vargoats.html). To use this dataset please contact: gwenola.tosser@inrae.fr or vargoats@inrae.fr
@@ -2592,6 +2893,14 @@ University of Utah · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA
 - ★ [10.1093/g3journal/jkad280](https://doi.org/10.1093/g3journal/jkad280) — Maclary ET et al. (2024) Assembly and annotation of 2 high-quality columbid reference genomes from sequencing of a Columba livia × Columba guinea F1 hybrid
 - NO PUBLICATION FOUND
 
+## PRJNA1007610 — 1 sample · fishes/anguilla-anguilla
+
+Anguilla anguilla (European eel) genome, fAngAng1, sequence data.
+G10K · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1007610)
+
+- NOT YET REVIEWED
+- NO PUBLICATION FOUND
+
 ## PRJNA1008089 — 1 sample · birds/grus-americana
 
 Grus americana (whooping crane) genome, bGruAme1, sequence data.
@@ -2604,6 +2913,14 @@ G10K · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1008089)
 
 Hirundo rustica (Barn swallow) genome, bHirRus1, sequence data.
 G10K · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1008106)
+
+- NOT YET REVIEWED
+- NO PUBLICATION FOUND
+
+## PRJNA1008113 — 1 sample · fishes/amblyraja-radiata
+
+Amblyraja radiata (thorny skate) genome, sAmbRad1, sequence data.
+G10K · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1008113)
 
 - NOT YET REVIEWED
 - NO PUBLICATION FOUND
@@ -2849,6 +3166,14 @@ Lanzhou University · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA
 - NOT YET REVIEWED
 - NO PUBLICATION FOUND
 
+## PRJNA1268171 — 1 sample · reptiles/podarcis-muralis
+
+Zootoca vivipara whole genome sequencing for phylogeny and viviparity evolution study
+University of Glasgow · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1268171)
+
+- NOT YET REVIEWED
+- NO PUBLICATION FOUND
+
 ## PRJNA1320661 — 1 sample · birds/geothlypis-trichas
 
 Geothlypis trichas (Common yellowthroat) genome, bGeoTri1, sequence data
@@ -2934,6 +3259,19 @@ Laboratory of Evolutionary Genomics · [BioProject](https://www.ncbi.nlm.nih.gov
 
 - NOT YET REVIEWED
 - [10.1093/molbev/msad068](https://doi.org/10.1093/molbev/msad068) — Ord J et al. (2023) High Nucleotide Diversity Accompanies Differential DNA Methylation in Naturally Diverging Populations
+- NO PUBLICATION FOUND
+
+## PRJNA212870 — 1 sample · birds/cuculus-canorus
+
+Cuculus canorus Genome sequencing and assembly
+BGI · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA212870)
+
+<!-- considered: 10.1186/s13059-014-0539-3 10.1186/s13742-014-0038-1 10.1146/annurev-animal-090414-014900 -->
+
+- NOT YET REVIEWED
+- [10.1186/s13059-014-0539-3](https://doi.org/10.1186/s13059-014-0539-3) — Cui J et al. (2014) Low frequency of paleoviral infiltration across the  avian phylogeny
+- [10.1186/s13742-014-0038-1](https://doi.org/10.1186/s13742-014-0038-1) — Jarvis ED et al. (2015) Phylogenomic analyses data of the avian phylogenomics project
+- [10.1146/annurev-animal-090414-014900](https://doi.org/10.1146/annurev-animal-090414-014900) — Koepfli KP et al. (2015) The Genome 10K Project: a way forward
 - NO PUBLICATION FOUND
 
 ## PRJNA212874 — 1 sample · birds/dryobates-pubescens
@@ -3037,6 +3375,20 @@ Shanghai Ocean University · [BioProject](https://www.ncbi.nlm.nih.gov/bioprojec
 - NOT YET REVIEWED
 - NO PUBLICATION FOUND
 
+## PRJNA324173 — 1 sample · mammals/cervus-elaphus
+
+Cervus elaphus hippelaphus Genome sequencing and assembly
+National Agricultural Research and Innovation Centre · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA324173)
+
+<!-- considered: 10.1371/journal.pone.0242506 10.1002/ece3.5131 10.7717/peerj.7338 10.1016/j.chom.2020.01.008 -->
+
+- NOT YET REVIEWED
+- ★ [10.1371/journal.pone.0242506](https://doi.org/10.1371/journal.pone.0242506) — Frank K et al. (2020) Mining the red deer genome (CerEla1.0) to develop X-and Y-chromosome-linked STR markers
+- [10.1002/ece3.5131](https://doi.org/10.1002/ece3.5131) — Matsumoto Y et al. (2019) Evaluation of introgressive hybridization among Cervidae in Japan's Kinki District via two novel genetic markers developed from public NGS data
+- [10.7717/peerj.7338](https://doi.org/10.7717/peerj.7338) — Kauer RV et al. (2019) Discovery of novel astrovirus genotype species in small ruminants
+- [10.1016/j.chom.2020.01.008](https://doi.org/10.1016/j.chom.2020.01.008) — Kim AS et al. (2020) An Evolutionary Insertion in the Mxra8 Receptor-Binding Site Confers Resistance to Alphavirus Infection and Pathogenesis
+- NO PUBLICATION FOUND
+
 ## PRJNA325682 — 1 sample · mammals/ovis-aries
 
 SheepCRC whole genome sequencing
@@ -3061,6 +3413,14 @@ BGI · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA339626)
 
 - NOT YET REVIEWED
 - [10.1186/s13742-016-0151-4](https://doi.org/10.1186/s13742-016-0151-4) — Xiong Z et al. (2016) Draft genome of the leopard gecko, Eublepharis macularius
+- NO PUBLICATION FOUND
+
+## PRJNA341682 — 1 sample · birds/zonotrichia-albicollis
+
+Whole genome sequencing of the white-throated sparrow (super white morph)
+Georgia Institute of Technology · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA341682)
+
+- NOT YET REVIEWED
 - NO PUBLICATION FOUND
 
 ## PRJNA353147 — 1 sample · reptiles/shinisaurus-crocodilurus
@@ -3203,6 +3563,17 @@ GEROMICS · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA431699)
 - [10.1186/s13059-019-1793-1](https://doi.org/10.1186/s13059-019-1793-1) — Cho YS et al. (2019) Raptor genomes reveal evolutionary signatures of predatory and nocturnal lifestyles
 - NO PUBLICATION FOUND
 
+## PRJNA432036 — 1 sample · fishes/thunnus-thynnus
+
+Thunnus thynnus Genome sequencing and assembly and sequencing reduced representation libraries
+University of Bologna · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA432036)
+
+<!-- considered: 10.3390/ani11123340 -->
+
+- NOT YET REVIEWED
+- [10.3390/ani11123340](https://doi.org/10.3390/ani11123340) — Marisaldi L et al. (2021) A Comparison of Reproductive Performances in Young and Old Females: A Case Study on the Atlantic Bluefin Tuna in the Mediterranean Sea
+- NO PUBLICATION FOUND
+
 ## PRJNA436966 — 1 sample · fishes/gasterosteus-aculeatus
 
 Gasterosteus aculeatus Raw sequence reads
@@ -3305,6 +3676,18 @@ INRA · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA514887)
 - ★ [10.1371/journal.pgen.1008013](https://doi.org/10.1371/journal.pgen.1008013) — Pan Q et al. (2019) Identification of the master sex determining gene in Northern pike (Esox lucius) reveals restricted sex chromosome differentiation
 - NO PUBLICATION FOUND
 
+## PRJNA515813 — 1 sample · reptiles/podarcis-muralis
+
+Podarcis muralis Genome sequencing and assembly
+CIBIO-InBIO · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA515813)
+
+<!-- considered: 10.1073/pnas.1820320116 10.1093/jhered/esad023 -->
+
+- NOT YET REVIEWED
+- ★ [10.1073/pnas.1820320116](https://doi.org/10.1073/pnas.1820320116) — Andrade P et al. (2019) Regulatory changes in pterin and carotenoid genes underlie balanced color polymorphisms in the wall lizard
+- [10.1093/jhered/esad023](https://doi.org/10.1093/jhered/esad023) — Pinto BJ et al. (2023) A lizard is never late: Squamate genomics as a recent catalyst for understanding sex chromosome and microchromosome evolution
+- NO PUBLICATION FOUND
+
 ## PRJNA525775 — 1 sample · fishes/gasterosteus-aculeatus
 
 Gasterosteus aculeatus Genome sequencing and assembly
@@ -3365,6 +3748,14 @@ Smithsonian Institution · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/
 
 Urucum canary pool-seq
 CIBIO · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA559291)
+
+- NOT YET REVIEWED
+- NO PUBLICATION FOUND
+
+## PRJNA577456 — 1 sample · fishes/thunnus-thynnus
+
+WGS of Bluefin Tuna with PacBio HiFi (CCS) for assembly and scaffolding
+Pacific Biosciences · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA577456)
 
 - NOT YET REVIEWED
 - NO PUBLICATION FOUND
@@ -3443,6 +3834,17 @@ Biozeron Shenzhen Inc. · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/P
 - NOT YET REVIEWED
 - NO PUBLICATION FOUND
 
+## PRJNA662234 — 1 sample · reptiles/podarcis-muralis
+
+Podarcis muralis nigriventris Genome sequencing and assembly
+Lund University · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA662234)
+
+<!-- considered: 10.1126/sciadv.adk9315 -->
+
+- NOT YET REVIEWED
+- ★ [10.1126/sciadv.adk9315](https://doi.org/10.1126/sciadv.adk9315) — Feiner N et al. (2024) Adaptive introgression reveals the genetic basis of a sexually selected syndrome in wall lizards
+- NO PUBLICATION FOUND
+
 ## PRJNA671542 — 1 sample · mammals/capra-hircus
 
 Capra hircus Raw sequence reads
@@ -3519,6 +3921,17 @@ Vertebrate Genome Project(VGP) · [BioProject](https://www.ncbi.nlm.nih.gov/biop
 - NOT YET REVIEWED
 - NO PUBLICATION FOUND
 
+## PRJNA693699 — 1 sample · fishes/anguilla-anguilla
+
+Anguilla anguilla isolate:tag_6206 Genome sequencing and assembly
+GenoFish · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA693699)
+
+<!-- considered: 10.1101/2022.04.07.487469 -->
+
+- NOT YET REVIEWED
+- [10.1101/2022.04.07.487469](https://doi.org/10.1101/2022.04.07.487469) — Parey E et al. (2022) Genome structures resolve the early diversification of teleost fishes
+- NO PUBLICATION FOUND
+
 ## PRJNA699447 — 1 sample · mammals/capra-hircus
 
 Genomic raw sequence reads of Huai Goat and Yudong goat
@@ -3551,6 +3964,18 @@ Lund University · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA715
 - NOT YET REVIEWED
 - ★ [10.1093/molbev/msab311](https://doi.org/10.1093/molbev/msab311) — Yang W et al. (2022) Population Genomics of Wall Lizards Reflects the Dynamic History of the Mediterranean Basin
 - ★ [10.1038/s41467-021-22949-9](https://doi.org/10.1038/s41467-021-22949-9) — Yang W et al. (2021) Extensive introgression and mosaic genomes of Mediterranean endemic lizards
+- NO PUBLICATION FOUND
+
+## PRJNA73577 — 1 sample · fishes/anguilla-anguilla
+
+Anguilla anguilla Genome sequencing and assembly
+ZF-screens B.V. · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA73577)
+
+<!-- considered: 10.1371/journal.pone.0198294 10.1093/bfgp/elt046 -->
+
+- NOT YET REVIEWED
+- [10.1371/journal.pone.0198294](https://doi.org/10.1371/journal.pone.0198294) — Politis SN et al. (2018) Salinity reduction benefits European eel larvae: Insights at the morphological and molecular level
+- [10.1093/bfgp/elt046](https://doi.org/10.1093/bfgp/elt046) — Spaink HP et al. (2014) Advances in genomics of bony fish
 - NO PUBLICATION FOUND
 
 ## PRJNA736831 — 1 sample · birds/anser-cygnoides
@@ -3677,6 +4102,21 @@ South China Agricultural University · [BioProject](https://www.ncbi.nlm.nih.gov
 - ★ [10.1038/s42003-023-04933-9](https://doi.org/10.1038/s42003-023-04933-9) — Ding R et al. (2023) The SWine IMputation (SWIM) haplotype reference panel enables nucleotide resolution genetic mapping in pigs
 - [10.1038/s42003-026-09557-3](https://doi.org/10.1038/s42003-026-09557-3) — Chen D et al. (2026) The Neijiang pig T2T genome reveals domestication history and germplasm traits of Southwest Chinese local breeds
 - [10.1093/gigascience/giaf048](https://doi.org/10.1093/gigascience/giaf048) — Cao C et al. (2025) A near telomere-to-telomere genome assembly of the Jinhua pig: enabling more accurate genetic research
+- NO PUBLICATION FOUND
+
+## PRJNA89115 — 1 sample · fishes/astyanax-mexicanus
+
+Astyanax mexicanus isolate:Rio Sabinas/Rio Valles surface cross Genome sequencing and assembly
+Aquatic Genome Models · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA89115)
+
+<!-- considered: 10.1038/s41467-021-21733-z 10.1111/ede.12131 10.1038/hdy.2017.43 10.1534/g3.114.015438 10.1038/ncomms6307 -->
+
+- NOT YET REVIEWED
+- [10.1038/s41467-021-21733-z](https://doi.org/10.1038/s41467-021-21733-z) — Warren WC et al. (2021) A chromosome-level genome of Astyanax mexicanus surface fish for comparing population-specific genetic differences contributing to trait evolution
+- [10.1111/ede.12131](https://doi.org/10.1111/ede.12131) — Gross JB et al. (2016) Natural bone fragmentation in the blind cave-dwelling fish, Astyanax mexicanus: candidate gene identification through integrative comparative genomics
+- [10.1038/hdy.2017.43](https://doi.org/10.1038/hdy.2017.43) — Utsunomia R et al. (2017) Evolution and conservation of Characidium sex chromosomes
+- [10.1534/g3.114.015438](https://doi.org/10.1534/g3.114.015438) — Carlson BM et al. (2014) A high-density linkage map for Astyanax mexicanus using genotyping-by-sequencing technology
+- [10.1038/ncomms6307](https://doi.org/10.1038/ncomms6307) — McGaugh SE et al. (2014) The cavefish genome reveals candidate genes for eye loss
 - NO PUBLICATION FOUND
 
 ## PRJNA902967 — 1 sample · fishes/platichthys-flesus

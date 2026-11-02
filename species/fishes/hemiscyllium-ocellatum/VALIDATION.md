@@ -1,33 +1,25 @@
 # Validation — Hemiscyllium ocellatum
 
-**PENDING** · 2026-09-25 · GCA_020745735.1
+**PASS WITH WARNINGS** · 2026-11-02 · GCA_020745735.1
 
-Not yet validated against published data. This is an expected state: metadata is often committed before a run is published.
+Metadata agrees with the data published on GenomeArk, with points to note.
 
-12 samples in the sheet · publication absent
+12 samples in the sheet · 12 BAMs · 12 samples in the VCF
 
 ## Warnings
 
-- **[G018](../../../CHECKS.md#g018)** no README.txt in the repo or on GenomeArk
-  - nothing records which bioprojects this dataset draws on
+- **[G017](../../../CHECKS.md#g017)** GenomeArk publishes a README.txt that is not in the repo
+  - copy it into the species directory
 
 ## What was checked
 
 - 44 of 44 checks
-- 9 skipped: needs vcf_header
-- 7 skipped: needs s3
-- 4 skipped: needs bam_headers
 - 3 skipped: needs readme
-- 1 skipped: needs vcf_header, bam_headers
-- 1 skipped: needs contig_map, vcf_header
-- 1 skipped: needs vcf_header, s3
-- 1 skipped: needs qc_samples, vcf_header
-- 1 skipped: needs s3_sheet
 
 ## Provenance
 
-- validated `2026-09-25T15:46:56Z` by congen-metadata-tools 0.4.0
-- data: `GCA_020745735.1` (not published)
+- validated `2026-11-02T18:03:37Z` by congen-metadata-tools 0.4.0
+- data: `GCA_020745735.1`
 - `config.yaml` `sha256:3ad2d25ea8d9455ff319ee449b14f0cdf94744d8cebb6fa1da841dc99ef6d9a1`
 - `sample_sheet.csv` `sha256:923100fef7472c9ef6d0c85e0a55d32901033b68f4d63d9b7ecee57197730ae3`
 

@@ -1,0 +1,119 @@
+{
+  "subject": "birds/oenanthe-melanoleuca",
+  "state": "FAIL",
+  "validated_at": "2026-11-02T18:03:37Z",
+  "tool_version": "0.4.0",
+  "catalog": "sha256:44f7010fb4de2e48c91122dfd97086699b1036f7038eda45349f6a6db2e58514",
+  "checks_run": [
+    "E001",
+    "E002",
+    "E003",
+    "F001",
+    "F002",
+    "F003",
+    "F004",
+    "F005",
+    "F006",
+    "F008",
+    "F009",
+    "F011",
+    "F020",
+    "F021",
+    "F022",
+    "F023",
+    "F024",
+    "G001",
+    "G010",
+    "G011",
+    "G012",
+    "G013",
+    "G014",
+    "G017",
+    "G018",
+    "P001",
+    "P002",
+    "P003",
+    "R001",
+    "R002",
+    "R003",
+    "R010",
+    "R013",
+    "R015",
+    "R016",
+    "R017",
+    "R020",
+    "S001",
+    "S002",
+    "S003",
+    "S004",
+    "S005",
+    "S006",
+    "S007"
+  ],
+  "checks_available": 44,
+  "inputs": {
+    "config.yaml": "sha256:a0fa5fada6ff04bde1b9bd88d2f765a3e21c428cc91c8912c55fa11bee1a26e9",
+    "sample_sheet.csv": "sha256:82313c99c0cf606ac494501b704a5d7fa99fb455874392091119517aa9740ea5",
+    "README.txt": "sha256:207f63905b786b6915b3dff0789bef95f812105e2025efb068b90b56cebdf1e3"
+  },
+  "data": {
+    "published": true,
+    "accession": "GCA_029582105.1",
+    "objects": {
+      "raw.vcf.gz": "etag:3c87a62761deeda5d3cd76087df6c01d-6517",
+      "raw.vcf.gz.tbi": "etag:2746beea8d2572ae9f10626f0f59d80d",
+      "filtered.vcf.gz": "etag:6eacc9a4c4a50ac558fc1d9c3510411a-9811",
+      "sample_sheet.csv": "etag:cd6167d7827d9e7e3f3bfe70bd497373"
+    },
+    "bams": {
+      "count": 139,
+      "digest": "sha256:c73e7341f5dd7b01abdcbe9db0e79cf78047d14857d017c286e5f287e6ca0736"
+    }
+  },
+  "findings": [
+    {
+      "id": "F021",
+      "severity": "error",
+      "subject": "birds/oenanthe-melanoleuca",
+      "message": "config declares GCF_029582105.1; the VGP accession is GCA_029582105.1",
+      "detail": "same assembly, non-canonical accession namespace; confirmed by NCBI paired_assembly",
+      "path": "species/birds/oenanthe-melanoleuca/config.yaml",
+      "line": null
+    },
+    {
+      "id": "R020",
+      "severity": "warn",
+      "subject": "birds/oenanthe-melanoleuca",
+      "message": "README.txt says GCA_029582105.1, config says GCF_029582105.1",
+      "detail": null,
+      "path": "species/birds/oenanthe-melanoleuca/README.txt",
+      "line": null
+    }
+  ],
+  "status": {
+    "subject": "birds/oenanthe-melanoleuca",
+    "state": "complete",
+    "accession": "GCA_029582105.1",
+    "declared_accession": "GCF_029582105.1",
+    "accession_differs": true,
+    "present": [
+      "bams",
+      "callable_sites",
+      "filtered_vcf",
+      "published_readme",
+      "qc",
+      "raw_vcf",
+      "raw_vcf_index",
+      "repo_readme"
+    ],
+    "missing": [],
+    "missing_optional": [],
+    "counts": {
+      "sheet_samples": 139,
+      "bams": 139,
+      "vcf_samples": 139
+    }
+  },
+  "superseded": null,
+  "stale_reason": null
+}

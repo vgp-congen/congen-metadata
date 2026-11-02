@@ -1,0 +1,119 @@
+{
+  "subject": "fishes/thunnus-thynnus",
+  "state": "FAIL",
+  "validated_at": "2026-11-02T18:03:37Z",
+  "tool_version": "0.4.0",
+  "catalog": "sha256:44f7010fb4de2e48c91122dfd97086699b1036f7038eda45349f6a6db2e58514",
+  "checks_run": [
+    "E001",
+    "E002",
+    "E003",
+    "F001",
+    "F002",
+    "F003",
+    "F004",
+    "F005",
+    "F006",
+    "F008",
+    "F009",
+    "F011",
+    "F020",
+    "F021",
+    "F022",
+    "F023",
+    "F024",
+    "G001",
+    "G010",
+    "G011",
+    "G012",
+    "G013",
+    "G014",
+    "G017",
+    "G018",
+    "P001",
+    "P002",
+    "P003",
+    "R001",
+    "R002",
+    "R003",
+    "R010",
+    "R013",
+    "R015",
+    "R016",
+    "R017",
+    "R020",
+    "S001",
+    "S002",
+    "S003",
+    "S004",
+    "S005",
+    "S006",
+    "S007"
+  ],
+  "checks_available": 44,
+  "inputs": {
+    "config.yaml": "sha256:3b3a2d2721ca9faab4f3db001e1682f1e989d34da09effa16e8fcd3c8c73a978",
+    "sample_sheet.csv": "sha256:47f08c1d626db1abeaec5e24e3ea9a23c2d42a65c144fd3bc60c3566d3a27f3d",
+    "README.txt": "sha256:7fb80b3ca7e16e3f2781e901ff9c8a954db72c3b8c0ff282e8fc439db703282f"
+  },
+  "data": {
+    "published": true,
+    "accession": "GCA_963924715.1",
+    "objects": {
+      "raw.vcf.gz": "etag:543a5fa747a18e231fbe96b00e31a00e-3670",
+      "raw.vcf.gz.tbi": "etag:150f2879472069f41907e2ad95f653c7",
+      "sample_sheet.csv": "etag:5d74a8c762b1bf536a90e80b71c45861"
+    },
+    "bams": {
+      "count": 103,
+      "digest": "sha256:21a1a3448445ea5a2e7a87f94c1f9a4724cca1842d5e6ca03136f3e7db359aeb"
+    }
+  },
+  "findings": [
+    {
+      "id": "S002",
+      "severity": "error",
+      "subject": "fishes/thunnus-thynnus",
+      "message": "sample_sheet.csv (79) and bams/ (103) describe different samples",
+      "detail": "only in bams/: SAMN47468117, SAMN47544792, SAMN47544793, SAMN47544802, SAMN47544829 (+19 more) \u2014 needs human review; either side may be the stale one",
+      "path": "species/fishes/thunnus-thynnus/sample_sheet.csv",
+      "line": null
+    },
+    {
+      "id": "S003",
+      "severity": "error",
+      "subject": "fishes/thunnus-thynnus",
+      "message": "raw.vcf.gz (79) and bams/ (103) describe different samples",
+      "detail": "only in bams/: SAMN47468117, SAMN47544792, SAMN47544793, SAMN47544802, SAMN47544829 (+19 more) \u2014 needs human review; either side may be the stale one",
+      "path": null,
+      "line": null
+    }
+  ],
+  "status": {
+    "subject": "fishes/thunnus-thynnus",
+    "state": "complete",
+    "accession": "GCA_963924715.1",
+    "declared_accession": "GCA_963924715.1",
+    "accession_differs": false,
+    "present": [
+      "bams",
+      "callable_sites",
+      "published_readme",
+      "qc",
+      "raw_vcf",
+      "raw_vcf_index",
+      "repo_readme"
+    ],
+    "missing": [],
+    "missing_optional": [
+      "filtered_vcf"
+    ],
+    "counts": {
+      "sheet_samples": 79,
+      "bams": 103,
+      "vcf_samples": 79
+    }
+  },
+  "superseded": null,
+  "stale_reason": null
+}

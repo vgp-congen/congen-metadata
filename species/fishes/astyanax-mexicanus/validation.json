@@ -1,0 +1,100 @@
+{
+  "subject": "fishes/astyanax-mexicanus",
+  "state": "PASS",
+  "validated_at": "2026-11-02T18:03:37Z",
+  "tool_version": "0.4.0",
+  "catalog": "sha256:44f7010fb4de2e48c91122dfd97086699b1036f7038eda45349f6a6db2e58514",
+  "checks_run": [
+    "E001",
+    "E002",
+    "E003",
+    "F001",
+    "F002",
+    "F003",
+    "F004",
+    "F005",
+    "F006",
+    "F008",
+    "F009",
+    "F011",
+    "F020",
+    "F021",
+    "F022",
+    "F023",
+    "F024",
+    "G001",
+    "G010",
+    "G011",
+    "G012",
+    "G013",
+    "G014",
+    "G017",
+    "G018",
+    "P001",
+    "P002",
+    "P003",
+    "R001",
+    "R002",
+    "R003",
+    "R010",
+    "R013",
+    "R015",
+    "R016",
+    "R017",
+    "R020",
+    "S001",
+    "S002",
+    "S003",
+    "S004",
+    "S005",
+    "S006",
+    "S007"
+  ],
+  "checks_available": 44,
+  "inputs": {
+    "config.yaml": "sha256:bdf952742a87a06e436332bd477d60d2de9a8fce21d0b72e0dfba6029ee0ddeb",
+    "sample_sheet.csv": "sha256:29c50d84d5ff181f330746ee005f0c5e5ab8a87aee68a2dfad1e8654e7115932",
+    "README.txt": "sha256:0cc2f7c933498b85612e985b5de41ccbfb177bb2fb9f1905a71c4d43935408ca"
+  },
+  "data": {
+    "published": true,
+    "accession": "GCA_023375975.1",
+    "objects": {
+      "raw.vcf.gz": "etag:cba072f920c1925fb39a420e62a6df33-5286",
+      "raw.vcf.gz.tbi": "etag:106ce20e596561552e5aa4b8503db0c7",
+      "sample_sheet.csv": "etag:d1c142f0f1b30531eaaf4fcda1d9076c"
+    },
+    "bams": {
+      "count": 149,
+      "digest": "sha256:60901028279ff54b14520707ae4986b960b753bdef3f8afc8e26ecb1248238e7"
+    }
+  },
+  "findings": [],
+  "status": {
+    "subject": "fishes/astyanax-mexicanus",
+    "state": "complete",
+    "accession": "GCA_023375975.1",
+    "declared_accession": "GCA_023375975.1",
+    "accession_differs": false,
+    "present": [
+      "bams",
+      "callable_sites",
+      "published_readme",
+      "qc",
+      "raw_vcf",
+      "raw_vcf_index",
+      "repo_readme"
+    ],
+    "missing": [],
+    "missing_optional": [
+      "filtered_vcf"
+    ],
+    "counts": {
+      "sheet_samples": 149,
+      "bams": 149,
+      "vcf_samples": 149
+    }
+  },
+  "superseded": null,
+  "stale_reason": null
+}

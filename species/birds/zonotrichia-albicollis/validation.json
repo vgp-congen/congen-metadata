@@ -1,0 +1,119 @@
+{
+  "subject": "birds/zonotrichia-albicollis",
+  "state": "FAIL",
+  "validated_at": "2026-11-02T18:03:37Z",
+  "tool_version": "0.4.0",
+  "catalog": "sha256:44f7010fb4de2e48c91122dfd97086699b1036f7038eda45349f6a6db2e58514",
+  "checks_run": [
+    "E001",
+    "E002",
+    "E003",
+    "F001",
+    "F002",
+    "F003",
+    "F004",
+    "F005",
+    "F006",
+    "F008",
+    "F009",
+    "F011",
+    "F020",
+    "F021",
+    "F022",
+    "F023",
+    "F024",
+    "G001",
+    "G010",
+    "G011",
+    "G012",
+    "G013",
+    "G014",
+    "G017",
+    "G018",
+    "P001",
+    "P002",
+    "P003",
+    "R001",
+    "R002",
+    "R003",
+    "R010",
+    "R013",
+    "R015",
+    "R016",
+    "R017",
+    "R020",
+    "S001",
+    "S002",
+    "S003",
+    "S004",
+    "S005",
+    "S006",
+    "S007"
+  ],
+  "checks_available": 44,
+  "inputs": {
+    "config.yaml": "sha256:9016f0517bf56b8622d198847f26576f3549200bfaeceb0a2917fb9de72731f7",
+    "sample_sheet.csv": "sha256:9e6cb5720c97c9a9b7e57b8ab41fe435fda8b8cc3a800c5965d0f11cf36810d6",
+    "README.txt": "sha256:b131e8bc463bfbe8392b7369a29f02fd478766eb38ea9af3c097fec86bbd00ff"
+  },
+  "data": {
+    "published": true,
+    "accession": "GCA_047830755.1",
+    "objects": {
+      "raw.vcf.gz": "etag:d8106c65aae99ed4139d9870326319ea-9006",
+      "raw.vcf.gz.tbi": "etag:aa62140abb261ed936aeba64b78155c7",
+      "filtered.vcf.gz": "etag:96bb07dd884236ad565a14162a3041ab-6683",
+      "sample_sheet.csv": "etag:e3d688a4e04f9538cb921d6cb5878ceb"
+    },
+    "bams": {
+      "count": 146,
+      "digest": "sha256:8b681125b930ec6c2cc425fbf8fe169a0e402b1a4685a0ce2c6d78479110f118"
+    }
+  },
+  "findings": [
+    {
+      "id": "F021",
+      "severity": "error",
+      "subject": "birds/zonotrichia-albicollis",
+      "message": "config declares GCF_047830755.1; the VGP accession is GCA_047830755.1",
+      "detail": "same assembly, non-canonical accession namespace; confirmed by NCBI paired_assembly",
+      "path": "species/birds/zonotrichia-albicollis/config.yaml",
+      "line": null
+    },
+    {
+      "id": "R020",
+      "severity": "warn",
+      "subject": "birds/zonotrichia-albicollis",
+      "message": "README.txt says GCA_047830755.1, config says GCF_047830755.1",
+      "detail": null,
+      "path": "species/birds/zonotrichia-albicollis/README.txt",
+      "line": null
+    }
+  ],
+  "status": {
+    "subject": "birds/zonotrichia-albicollis",
+    "state": "complete",
+    "accession": "GCA_047830755.1",
+    "declared_accession": "GCF_047830755.1",
+    "accession_differs": true,
+    "present": [
+      "bams",
+      "callable_sites",
+      "filtered_vcf",
+      "published_readme",
+      "qc",
+      "raw_vcf",
+      "raw_vcf_index",
+      "repo_readme"
+    ],
+    "missing": [],
+    "missing_optional": [],
+    "counts": {
+      "sheet_samples": 146,
+      "bams": 146,
+      "vcf_samples": 146
+    }
+  },
+  "superseded": null,
+  "stale_reason": null
+}

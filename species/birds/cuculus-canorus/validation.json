@@ -1,0 +1,110 @@
+{
+  "subject": "birds/cuculus-canorus",
+  "state": "PASS WITH WARNINGS",
+  "validated_at": "2026-11-02T18:03:37Z",
+  "tool_version": "0.4.0",
+  "catalog": "sha256:44f7010fb4de2e48c91122dfd97086699b1036f7038eda45349f6a6db2e58514",
+  "checks_run": [
+    "E001",
+    "E002",
+    "E003",
+    "F001",
+    "F002",
+    "F003",
+    "F004",
+    "F005",
+    "F006",
+    "F008",
+    "F009",
+    "F011",
+    "F020",
+    "F021",
+    "F022",
+    "F023",
+    "F024",
+    "G001",
+    "G010",
+    "G011",
+    "G012",
+    "G013",
+    "G014",
+    "G017",
+    "G018",
+    "P001",
+    "P002",
+    "P003",
+    "R001",
+    "R002",
+    "R003",
+    "R010",
+    "R013",
+    "R015",
+    "R016",
+    "R017",
+    "R020",
+    "S001",
+    "S002",
+    "S003",
+    "S004",
+    "S005",
+    "S006",
+    "S007"
+  ],
+  "checks_available": 44,
+  "inputs": {
+    "config.yaml": "sha256:af56b49376c3d05a59760ed45e769719fd9ec2584878ab4382aa71b3a473ec77",
+    "sample_sheet.csv": "sha256:f675380515ad72fa3d3e77c7b699451bf351e920bb39f42342e8399ede83bf93",
+    "README.txt": "sha256:b8d83f6241d891bb9a21bcc874e78de7c8f9c6c95be085bc309cc84fbbc8b895"
+  },
+  "data": {
+    "published": true,
+    "accession": "GCA_017976375.1",
+    "objects": {
+      "raw.vcf.gz": "etag:887fbf8f54bab97b795a0f2165ee9c04-5111",
+      "raw.vcf.gz.tbi": "etag:032b5e68561b1715bf20b6721f8ff38c",
+      "filtered.vcf.gz": "etag:b5958e27da7be6f76db59b4ad73f10fc-7983",
+      "sample_sheet.csv": "etag:4e28bc2a02d4aa2c69882b49ca102844"
+    },
+    "bams": {
+      "count": 323,
+      "digest": "sha256:17feb0f9a0d2fdb4fb56841520d0bb14203973ff0ab1293fa528db07e9472223"
+    }
+  },
+  "findings": [
+    {
+      "id": "E002",
+      "severity": "warn",
+      "subject": "birds/cuculus-canorus",
+      "message": "1 bioproject(s) contribute runs but are not in README.txt",
+      "detail": "PRJNA212870; README lists PRJNA1170948, PRJNA614488, PRJNA973617",
+      "path": "species/birds/cuculus-canorus/README.txt",
+      "line": null
+    }
+  ],
+  "status": {
+    "subject": "birds/cuculus-canorus",
+    "state": "complete",
+    "accession": "GCA_017976375.1",
+    "declared_accession": "GCA_017976375.1",
+    "accession_differs": false,
+    "present": [
+      "bams",
+      "callable_sites",
+      "filtered_vcf",
+      "published_readme",
+      "qc",
+      "raw_vcf",
+      "raw_vcf_index",
+      "repo_readme"
+    ],
+    "missing": [],
+    "missing_optional": [],
+    "counts": {
+      "sheet_samples": 323,
+      "bams": 323,
+      "vcf_samples": 323
+    }
+  },
+  "superseded": null,
+  "stale_reason": null
+}

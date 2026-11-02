@@ -1,7 +1,7 @@
 {
   "subject": "birds/erithacus-rubecula",
-  "state": "PENDING",
-  "validated_at": "2026-09-25T15:46:56Z",
+  "state": "PASS WITH WARNINGS",
+  "validated_at": "2026-11-02T18:03:37Z",
   "tool_version": "0.4.0",
   "catalog": "sha256:44f7010fb4de2e48c91122dfd97086699b1036f7038eda45349f6a6db2e58514",
   "checks_run": [
@@ -56,16 +56,26 @@
     "sample_sheet.csv": "sha256:b85fdfa5d426ab197f1a11fe3ee52a694637df5b3e61002024f9ee85c9616f23"
   },
   "data": {
-    "published": false,
-    "accession": "GCA_903797595.2"
+    "published": true,
+    "accession": "GCA_903797595.2",
+    "objects": {
+      "raw.vcf.gz": "etag:81a42ba07c6da56c7a3046ebbbf1b21b-2444",
+      "raw.vcf.gz.tbi": "etag:638f2db2483627437c4267c987e1a99b",
+      "filtered.vcf.gz": "etag:f7975ea6337e0bf86f76fb7bcb517c84-3350",
+      "sample_sheet.csv": "etag:32c9e2f03780f2c1db9ef34c3159e4cf"
+    },
+    "bams": {
+      "count": 65,
+      "digest": "sha256:fb87f091e44b49cf8afca10e1c810ef12f7f0eb2f9cf98730938c549e8c41dac"
+    }
   },
   "findings": [
     {
-      "id": "G018",
+      "id": "G017",
       "severity": "warn",
       "subject": "birds/erithacus-rubecula",
-      "message": "no README.txt in the repo or on GenomeArk",
-      "detail": "nothing records which bioprojects this dataset draws on",
+      "message": "GenomeArk publishes a README.txt that is not in the repo",
+      "detail": "copy it into the species directory",
       "path": null,
       "line": null
     },
@@ -88,168 +98,6 @@
       "line": null
     },
     {
-      "id": "F001",
-      "severity": "skipped",
-      "subject": "birds/erithacus-rubecula",
-      "message": "skipped: every VCF contig exists in the declared assembly",
-      "detail": "needs vcf_header",
-      "path": null,
-      "line": null
-    },
-    {
-      "id": "F002",
-      "severity": "skipped",
-      "subject": "birds/erithacus-rubecula",
-      "message": "skipped: VCF contig lengths match the assembly",
-      "detail": "needs vcf_header",
-      "path": null,
-      "line": null
-    },
-    {
-      "id": "F003",
-      "severity": "skipped",
-      "subject": "birds/erithacus-rubecula",
-      "message": "skipped: contig names use one consistent naming scheme",
-      "detail": "needs vcf_header",
-      "path": null,
-      "line": null
-    },
-    {
-      "id": "F004",
-      "severity": "skipped",
-      "subject": "birds/erithacus-rubecula",
-      "message": "skipped: BAM @SQ matches the VCF contigs",
-      "detail": "needs vcf_header, bam_headers",
-      "path": null,
-      "line": null
-    },
-    {
-      "id": "F005",
-      "severity": "skipped",
-      "subject": "birds/erithacus-rubecula",
-      "message": "skipped: all BAMs share one @SQ list",
-      "detail": "needs bam_headers",
-      "path": null,
-      "line": null
-    },
-    {
-      "id": "F006",
-      "severity": "skipped",
-      "subject": "birds/erithacus-rubecula",
-      "message": "skipped: the BAM's bwa command line names reference.name",
-      "detail": "needs bam_headers",
-      "path": null,
-      "line": null
-    },
-    {
-      "id": "F008",
-      "severity": "skipped",
-      "subject": "birds/erithacus-rubecula",
-      "message": "skipped: qc/contig_map.tsv agrees with the VCF contigs",
-      "detail": "needs contig_map, vcf_header",
-      "path": null,
-      "line": null
-    },
-    {
-      "id": "F009",
-      "severity": "skipped",
-      "subject": "birds/erithacus-rubecula",
-      "message": "skipped: assembly sequences absent from the VCF",
-      "detail": "needs vcf_header",
-      "path": null,
-      "line": null
-    },
-    {
-      "id": "F011",
-      "severity": "skipped",
-      "subject": "birds/erithacus-rubecula",
-      "message": "skipped: no whole assembled molecule is absent from the VCF",
-      "detail": "needs vcf_header",
-      "path": null,
-      "line": null
-    },
-    {
-      "id": "G010",
-      "severity": "skipped",
-      "subject": "birds/erithacus-rubecula",
-      "message": "skipped: vcfs/raw.vcf.gz is present",
-      "detail": "needs s3",
-      "path": null,
-      "line": null
-    },
-    {
-      "id": "G011",
-      "severity": "skipped",
-      "subject": "birds/erithacus-rubecula",
-      "message": "skipped: the raw VCF has an index",
-      "detail": "needs s3",
-      "path": null,
-      "line": null
-    },
-    {
-      "id": "G012",
-      "severity": "skipped",
-      "subject": "birds/erithacus-rubecula",
-      "message": "skipped: bams/ is not empty",
-      "detail": "needs s3",
-      "path": null,
-      "line": null
-    },
-    {
-      "id": "G013",
-      "severity": "skipped",
-      "subject": "birds/erithacus-rubecula",
-      "message": "skipped: every BAM has an index",
-      "detail": "needs s3",
-      "path": null,
-      "line": null
-    },
-    {
-      "id": "G014",
-      "severity": "skipped",
-      "subject": "birds/erithacus-rubecula",
-      "message": "skipped: no zero-byte data objects",
-      "detail": "needs s3",
-      "path": null,
-      "line": null
-    },
-    {
-      "id": "G017",
-      "severity": "skipped",
-      "subject": "birds/erithacus-rubecula",
-      "message": "skipped: the repo and GenomeArk READMEs agree",
-      "detail": "needs s3",
-      "path": null,
-      "line": null
-    },
-    {
-      "id": "P001",
-      "severity": "skipped",
-      "subject": "birds/erithacus-rubecula",
-      "message": "skipped: variant_calling.ploidy matches the recorded --sample-ploidy",
-      "detail": "needs vcf_header",
-      "path": null,
-      "line": null
-    },
-    {
-      "id": "P002",
-      "severity": "skipped",
-      "subject": "birds/erithacus-rubecula",
-      "message": "skipped: gatk.het_prior matches the recorded --heterozygosity",
-      "detail": "needs vcf_header",
-      "path": null,
-      "line": null
-    },
-    {
-      "id": "P003",
-      "severity": "skipped",
-      "subject": "birds/erithacus-rubecula",
-      "message": "skipped: variant_calling.tool matches the caller recorded in the VCF",
-      "detail": "needs vcf_header",
-      "path": null,
-      "line": null
-    },
-    {
       "id": "R020",
       "severity": "skipped",
       "subject": "birds/erithacus-rubecula",
@@ -257,90 +105,29 @@
       "detail": "needs readme",
       "path": null,
       "line": null
-    },
-    {
-      "id": "S001",
-      "severity": "skipped",
-      "subject": "birds/erithacus-rubecula",
-      "message": "skipped: sheet samples == VCF samples",
-      "detail": "needs vcf_header",
-      "path": null,
-      "line": null
-    },
-    {
-      "id": "S002",
-      "severity": "skipped",
-      "subject": "birds/erithacus-rubecula",
-      "message": "skipped: sheet samples == published BAMs",
-      "detail": "needs s3",
-      "path": null,
-      "line": null
-    },
-    {
-      "id": "S003",
-      "severity": "skipped",
-      "subject": "birds/erithacus-rubecula",
-      "message": "skipped: VCF samples == published BAMs",
-      "detail": "needs vcf_header, s3",
-      "path": null,
-      "line": null
-    },
-    {
-      "id": "S004",
-      "severity": "skipped",
-      "subject": "birds/erithacus-rubecula",
-      "message": "skipped: each BAM's @RG SM matches its filename",
-      "detail": "needs bam_headers",
-      "path": null,
-      "line": null
-    },
-    {
-      "id": "S005",
-      "severity": "skipped",
-      "subject": "birds/erithacus-rubecula",
-      "message": "skipped: qc/individuals.samps.txt agrees with the VCF",
-      "detail": "needs qc_samples, vcf_header",
-      "path": null,
-      "line": null
-    },
-    {
-      "id": "S006",
-      "severity": "skipped",
-      "subject": "birds/erithacus-rubecula",
-      "message": "skipped: the published sample sheet matches the repo copy",
-      "detail": "needs s3_sheet",
-      "path": null,
-      "line": null
-    },
-    {
-      "id": "S007",
-      "severity": "skipped",
-      "subject": "birds/erithacus-rubecula",
-      "message": "skipped: @RG LB agrees with library_id where the sheet declares it",
-      "detail": "needs bam_headers",
-      "path": null,
-      "line": null
     }
   ],
   "status": {
     "subject": "birds/erithacus-rubecula",
-    "state": "absent",
-    "accession": null,
+    "state": "complete",
+    "accession": "GCA_903797595.2",
     "declared_accession": "GCA_903797595.2",
     "accession_differs": false,
-    "present": [],
-    "missing": [
-      "raw_vcf",
-      "raw_vcf_index",
+    "present": [
       "bams",
+      "callable_sites",
+      "filtered_vcf",
+      "published_readme",
       "qc",
-      "callable_sites"
+      "raw_vcf",
+      "raw_vcf_index"
     ],
+    "missing": [],
     "missing_optional": [],
     "counts": {
       "sheet_samples": 65,
-      "bams": 0,
-      "vcf_samples": null
+      "bams": 65,
+      "vcf_samples": 65
     }
   },
   "superseded": null,

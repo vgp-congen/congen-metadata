@@ -1,0 +1,128 @@
+{
+  "subject": "birds/sylvia-atricapilla",
+  "state": "FAIL",
+  "validated_at": "2026-11-02T18:03:37Z",
+  "tool_version": "0.4.0",
+  "catalog": "sha256:44f7010fb4de2e48c91122dfd97086699b1036f7038eda45349f6a6db2e58514",
+  "checks_run": [
+    "E001",
+    "E002",
+    "E003",
+    "F001",
+    "F002",
+    "F003",
+    "F004",
+    "F005",
+    "F006",
+    "F008",
+    "F009",
+    "F011",
+    "F020",
+    "F021",
+    "F022",
+    "F023",
+    "F024",
+    "G001",
+    "G010",
+    "G011",
+    "G012",
+    "G013",
+    "G014",
+    "G017",
+    "G018",
+    "P001",
+    "P002",
+    "P003",
+    "R001",
+    "R002",
+    "R003",
+    "R010",
+    "R013",
+    "R015",
+    "R016",
+    "R017",
+    "R020",
+    "S001",
+    "S002",
+    "S003",
+    "S004",
+    "S005",
+    "S006",
+    "S007"
+  ],
+  "checks_available": 44,
+  "inputs": {
+    "config.yaml": "sha256:f5f1ba89eedf249dfd85f773c0a645de1a4d4fbde6f8787fb5143a13ead84a52",
+    "sample_sheet.csv": "sha256:a7277b713912e9e65490f9d0c022518f1f538fe752ace667a99d4728a4dc6b2f",
+    "README.txt": "sha256:e847120404939049f9ce05828d7b343dd34ed5a692dbd90cf3ec9534556c5223"
+  },
+  "data": {
+    "published": true,
+    "accession": "GCA_009819655.1",
+    "objects": {
+      "raw.vcf.gz": "etag:62ce8d3eff556b1fe1d18a5e15d21596-5977",
+      "raw.vcf.gz.tbi": "etag:8e21e4285bea4b3eccd3819812d23316",
+      "filtered.vcf.gz": "etag:783513c80f6f272ae9cef2812c865ae1-8852",
+      "sample_sheet.csv": "etag:8760d8359ae22a3179f6bbeca00eac25"
+    },
+    "bams": {
+      "count": 262,
+      "digest": "sha256:e1a1d28988a7fdc542c5da356962cd86e4a9935aa1153c62781773f16146f7fa"
+    }
+  },
+  "findings": [
+    {
+      "id": "F021",
+      "severity": "error",
+      "subject": "birds/sylvia-atricapilla",
+      "message": "config declares GCF_009819655.1; the VGP accession is GCA_009819655.1",
+      "detail": "same assembly, non-canonical accession namespace; confirmed by NCBI paired_assembly",
+      "path": "species/birds/sylvia-atricapilla/config.yaml",
+      "line": null
+    },
+    {
+      "id": "E002",
+      "severity": "warn",
+      "subject": "birds/sylvia-atricapilla",
+      "message": "1 bioproject(s) contribute runs but are not in README.txt",
+      "detail": "PRJNA607895; README lists PRJEB65115, PRJEB66075, PRJNA545868, PRJNA579268, PRJNA616371",
+      "path": "species/birds/sylvia-atricapilla/README.txt",
+      "line": null
+    },
+    {
+      "id": "R020",
+      "severity": "warn",
+      "subject": "birds/sylvia-atricapilla",
+      "message": "README.txt says GCA_009819655.1, config says GCF_009819655.1",
+      "detail": null,
+      "path": "species/birds/sylvia-atricapilla/README.txt",
+      "line": null
+    }
+  ],
+  "status": {
+    "subject": "birds/sylvia-atricapilla",
+    "state": "complete",
+    "accession": "GCA_009819655.1",
+    "declared_accession": "GCF_009819655.1",
+    "accession_differs": true,
+    "present": [
+      "bams",
+      "callable_sites",
+      "filtered_vcf",
+      "published_readme",
+      "qc",
+      "raw_vcf",
+      "raw_vcf_index",
+      "repo_readme"
+    ],
+    "missing": [],
+    "missing_optional": [],
+    "counts": {
+      "sheet_samples": 262,
+      "bams": 262,
+      "vcf_samples": 262
+    }
+  },
+  "superseded": null,
+  "stale_reason": null
+}

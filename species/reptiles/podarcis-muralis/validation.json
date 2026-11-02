@@ -1,0 +1,110 @@
+{
+  "subject": "reptiles/podarcis-muralis",
+  "state": "PASS WITH WARNINGS",
+  "validated_at": "2026-11-02T18:03:37Z",
+  "tool_version": "0.4.0",
+  "catalog": "sha256:44f7010fb4de2e48c91122dfd97086699b1036f7038eda45349f6a6db2e58514",
+  "checks_run": [
+    "E001",
+    "E002",
+    "E003",
+    "F001",
+    "F002",
+    "F003",
+    "F004",
+    "F005",
+    "F006",
+    "F008",
+    "F009",
+    "F011",
+    "F020",
+    "F021",
+    "F022",
+    "F023",
+    "F024",
+    "G001",
+    "G010",
+    "G011",
+    "G012",
+    "G013",
+    "G014",
+    "G017",
+    "G018",
+    "P001",
+    "P002",
+    "P003",
+    "R001",
+    "R002",
+    "R003",
+    "R010",
+    "R013",
+    "R015",
+    "R016",
+    "R017",
+    "R020",
+    "S001",
+    "S002",
+    "S003",
+    "S004",
+    "S005",
+    "S006",
+    "S007"
+  ],
+  "checks_available": 44,
+  "inputs": {
+    "config.yaml": "sha256:6b554051137aea037d4617fe6a53e7bd2e718992c1e4a8202ac8254281ba593b",
+    "sample_sheet.csv": "sha256:c05eb02eab1f1e2ff36a8e0c5e74396ae3260d04df355bfbb6cc38fe6d38a194",
+    "README.txt": "sha256:27090f9d6544b2eeede847d1912cee1f0e1fcaccce421da31fb1f848a9dd52d1"
+  },
+  "data": {
+    "published": true,
+    "accession": "GCA_964188315.1",
+    "objects": {
+      "raw.vcf.gz": "etag:044a3db46b6669e4dd902d9e726a4398-5784",
+      "raw.vcf.gz.tbi": "etag:c526f2dd3547c6d8cbf69f326b0a04af",
+      "filtered.vcf.gz": "etag:24729649e7d2165956adbb0995328569-9104",
+      "sample_sheet.csv": "etag:8af5ff310a65334b7cf926cbf6acb7b9"
+    },
+    "bams": {
+      "count": 312,
+      "digest": "sha256:5cf83a83bbc4deb427b7992fdfb48bcbbae2db352e4600dec5f7ca970b9a3f04"
+    }
+  },
+  "findings": [
+    {
+      "id": "E002",
+      "severity": "warn",
+      "subject": "reptiles/podarcis-muralis",
+      "message": "3 bioproject(s) contribute runs but are not in README.txt",
+      "detail": "PRJNA1268171, PRJNA1284928, PRJNA662234; README lists PRJEB63068, PRJNA1008404, PRJNA515813, PRJNA715201",
+      "path": "species/reptiles/podarcis-muralis/README.txt",
+      "line": null
+    }
+  ],
+  "status": {
+    "subject": "reptiles/podarcis-muralis",
+    "state": "complete",
+    "accession": "GCA_964188315.1",
+    "declared_accession": "GCA_964188315.1",
+    "accession_differs": false,
+    "present": [
+      "bams",
+      "callable_sites",
+      "filtered_vcf",
+      "published_readme",
+      "qc",
+      "raw_vcf",
+      "raw_vcf_index",
+      "repo_readme"
+    ],
+    "missing": [],
+    "missing_optional": [],
+    "counts": {
+      "sheet_samples": 312,
+      "bams": 312,
+      "vcf_samples": 312
+    }
+  },
+  "superseded": null,
+  "stale_reason": null
+}
