@@ -1,0 +1,21 @@
+Species: Anser_cygnoides
+Accession number: GCA_040182565.1
+
+Samples included in this dataset come from the following NCBI bioproject(s).
+Please cite them when using this dataset:
+PRJNA1103430
+PRJNA1152750
+PRJNA183603
+PRJNA313495
+PRJNA554206
+PRJNA575114
+PRJNA589208
+PRJNA662026
+PRJNA671609
+PRJNA678815
+PRJNA736831
+PRJNA767757
+PRJNA813978
+PRJNA817006
+PRJNA868424
+PRJNA989585
