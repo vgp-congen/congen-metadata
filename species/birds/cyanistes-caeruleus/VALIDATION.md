@@ -1,25 +1,20 @@
 # Validation — Cyanistes caeruleus
 
-**PASS WITH WARNINGS** · 2026-11-02 · GCA_971803275.1
+**PASS** · 2026-11-12 · GCA_971803275.1
 
-Metadata agrees with the data published on GenomeArk, with points to note.
+Metadata agrees with the data published on GenomeArk.
 
 76 samples in the sheet · 76 BAMs · 76 samples in the VCF
-
-## Warnings
-
-- **[G017](../../../CHECKS.md#g017)** GenomeArk publishes a README.txt that is not in the repo
-  - copy it into the species directory
 
 ## What was checked
 
 - 44 of 44 checks
-- 3 skipped: needs readme
 
 ## Provenance
 
-- validated `2026-11-02T18:03:37Z` by congen-metadata-tools 0.4.0
+- validated `2026-11-12T23:31:43Z` by congen-metadata-tools 0.4.0
 - data: `GCA_971803275.1`
+- `README.txt` `sha256:3fa889eef335fca95e1a02529a64cf8a31c17d089609a8e12ce6e85d596acf53`
 - `config.yaml` `sha256:2a4adc7462ab44e2320864592d77f7cb23ac8cef4781c559ca48b58421e8c005`
 - `sample_sheet.csv` `sha256:e96660b0083ea1e232520c2a950fd2bac3945e976755026f0ff71e02049842df`
 

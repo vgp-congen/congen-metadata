@@ -1,0 +1,1113 @@
+{
+  "accession": "GCA_901001165.2",
+  "assembly": {
+    "assembly_level": "Chromosome",
+    "assembly_name": "fSalTru1.2",
+    "common_name": null,
+    "organism_name": "Salmo trutta",
+    "paired_accession": "GCF_901001165.2",
+    "tax_id": 8032
+  },
+  "cohort": {
+    "max_coverage": 39.0,
+    "mean_coverage": 19.072391,
+    "min_coverage": 9.0,
+    "n_sites": null
+  },
+  "declared_accession": "GCA_901001165.2",
+  "harvested_at": "2026-11-12T23:31:57Z",
+  "notes": [
+    "no raw.vcf.gz published, so no recorded provenance"
+  ],
+  "objects": {
+    "README.txt": {
+      "etag": "a582316072ba57f2da07fa44005b9dd2",
+      "size": 245
+    },
+    "bams/SAMEA10759721.bam": {
+      "etag": "b8be00482058fab6060560b39e98127f-1668",
+      "size": 13985931786
+    },
+    "bams/SAMEA10759721.bam.csi": {
+      "etag": "1ca90cfbe244c65ec934272d4c6ab44d",
+      "size": 3219837
+    },
+    "bams/SAMEA10759722.bam": {
+      "etag": "901c8ad9e0d76ed0a403168e5d1f2a9a-3180",
+      "size": 26674121351
+    },
+    "bams/SAMEA10759722.bam.csi": {
+      "etag": "45a17c63fec71bc3cee913eedf3cfc96",
+      "size": 3362637
+    },
+    "bams/SAMEA113577540.bam": {
+      "etag": "b8e64625fa915ff7ffe3ca4e77cb111f-2474",
+      "size": 20751585997
+    },
+    "bams/SAMEA113577540.bam.csi": {
+      "etag": "af450d7f2522604b27315378960ed399",
+      "size": 3330366
+    },
+    "bams/SAMEA113577541.bam": {
+      "etag": "ddd334e8bb4e2a574d83906d2c64724e-1342",
+      "size": 11250943900
+    },
+    "bams/SAMEA113577541.bam.csi": {
+      "etag": "250dd5f509ed3f1047524f3174692789",
+      "size": 2872804
+    },
+    "bams/SAMEA113577543.bam": {
+      "etag": "376f747ee838df1e532ea9bffa821b59-1529",
+      "size": 12823136437
+    },
+    "bams/SAMEA113577543.bam.csi": {
+      "etag": "c60bebcbbc4b2426374f5f703378b68a",
+      "size": 3180251
+    },
+    "bams/SAMEA113577544.bam": {
+      "etag": "3591581788ec1e4843493ad39be0d4dc-6325",
+      "size": 53051812976
+    },
+    "bams/SAMEA113577544.bam.csi": {
+      "etag": "620abdd36f21fdd8c3889c0dc29bae94",
+      "size": 3505757
+    },
+    "bams/SAMEA113577545.bam": {
+      "etag": "65c090fef78ef45a8be9f8f2b453fa19-2467",
+      "size": 20692309624
+    },
+    "bams/SAMEA113577545.bam.csi": {
+      "etag": "b62cf791e62ff3d6bebdf988c2e36270",
+      "size": 3326930
+    },
+    "bams/SAMEA113577546.bam": {
+      "etag": "1d889fc6e59ee01edb517a192870dab3-6869",
+      "size": 57616961923
+    },
+    "bams/SAMEA113577546.bam.csi": {
+      "etag": "0117d5accaafd9ac9b7ed71add6126f5",
+      "size": 3530913
+    },
+    "bams/SAMEA113577547.bam": {
+      "etag": "ab5061c0f3ea250fc7af465666190fb4-1301",
+      "size": 10909073169
+    },
+    "bams/SAMEA113577547.bam.csi": {
+      "etag": "969e6844eda94ae987dedfa11009ce36",
+      "size": 2618309
+    },
+    "bams/SAMEA113577548.bam": {
+      "etag": "00a4b281866f93509a78511cfc13683f-3467",
+      "size": 29082942087
+    },
+    "bams/SAMEA113577548.bam.csi": {
+      "etag": "21aab28856e4d17ec54d3d244509bb8d",
+      "size": 3355615
+    },
+    "bams/SAMEA113577549.bam": {
+      "etag": "a9afb8f6f4b69f795ec1423edce44758-1503",
+      "size": 12607297440
+    },
+    "bams/SAMEA113577549.bam.csi": {
+      "etag": "991737e1227f09e687a71c267cd22847",
+      "size": 3168128
+    },
+    "bams/SAMEA113577550.bam": {
+      "etag": "77d6a9b0d2d016d4eba2c69490841800-3806",
+      "size": 31921099914
+    },
+    "bams/SAMEA113577550.bam.csi": {
+      "etag": "a1083d847046f454a5c0be61d4f02833",
+      "size": 3367728
+    },
+    "bams/SAMEA113577552.bam": {
+      "etag": "f75b0455342eb0a224c56b22ead2cf28-6752",
+      "size": 56631594331
+    },
+    "bams/SAMEA113577552.bam.csi": {
+      "etag": "762f0f001eda5dfdf15df4757c802ca6",
+      "size": 3513623
+    },
+    "bams/SAMEA113577553.bam": {
+      "etag": "de154c353c36fc4881dd35460622ccf2-1490",
+      "size": 12493438011
+    },
+    "bams/SAMEA113577553.bam.csi": {
+      "etag": "a174890db050c26bbfd1f9b81f393069",
+      "size": 3148004
+    },
+    "bams/SAMEA113577554.bam": {
+      "etag": "8bec683c5750341ecb92f5ff78b7f540-6720",
+      "size": 56368049922
+    },
+    "bams/SAMEA113577554.bam.csi": {
+      "etag": "e3d8c21ce2891c78cbbcb6cbd3133e37",
+      "size": 3517844
+    },
+    "bams/SAMEA113577555.bam": {
+      "etag": "7d220378d38d45cea6a86b6c4dfa51e7-1639",
+      "size": 13748065738
+    },
+    "bams/SAMEA113577555.bam.csi": {
+      "etag": "ad8c4805d91e7dde67a22a8b26ba4ec0",
+      "size": 3208601
+    },
+    "bams/SAMEA113577556.bam": {
+      "etag": "d131011667ee15e30b5c7bc40d735b18-1253",
+      "size": 10507225922
+    },
+    "bams/SAMEA113577556.bam.csi": {
+      "etag": "80aea976144db5a25e30cd6f8121fe08",
+      "size": 2359092
+    },
+    "bams/SAMEA113577557.bam": {
+      "etag": "2d1db0bbf049cede99393bfa1f9b1696-1350",
+      "size": 11316901286
+    },
+    "bams/SAMEA113577557.bam.csi": {
+      "etag": "dac0332f6b1be2607e472e1028722663",
+      "size": 2925033
+    },
+    "bams/SAMEA113577560.bam": {
+      "etag": "785b1f2fb58090747f8730ace4f974ec-4259",
+      "size": 35724864932
+    },
+    "bams/SAMEA113577560.bam.csi": {
+      "etag": "89ea3760dc3fa2a1b5d4af257857a4e9",
+      "size": 3408345
+    },
+    "bams/SAMEA113577562.bam": {
+      "etag": "ba797f3dc56abb06b162b9101c5f8c43-4496",
+      "size": 37707704520
+    },
+    "bams/SAMEA113577562.bam.csi": {
+      "etag": "6674b06c6e342982196aa6f8011d162d",
+      "size": 3427330
+    },
+    "bams/SAMEA113577563.bam": {
+      "etag": "1b1e1ae9fd7d751066715e96ef130f77-1609",
+      "size": 13496755570
+    },
+    "bams/SAMEA113577563.bam.csi": {
+      "etag": "778a0247c0e4060fe7cc316e5b2589f6",
+      "size": 3219834
+    },
+    "bams/SAMEA113577564.bam": {
+      "etag": "a17c607c63a0e6e778c2b6b1f3a726e8-3351",
+      "size": 28103649984
+    },
+    "bams/SAMEA113577564.bam.csi": {
+      "etag": "585fb60da80a4009957284a970ea55ca",
+      "size": 3361887
+    },
+    "bams/SAMEA113577565.bam": {
+      "etag": "72bbb87ea8f9deddce49af779520f8e5-1307",
+      "size": 10956388917
+    },
+    "bams/SAMEA113577565.bam.csi": {
+      "etag": "2532db31017d81589e44b157bcd89dc3",
+      "size": 2663883
+    },
+    "bams/SAMEA113577566.bam": {
+      "etag": "4a9dfcf31c65c45d4baa6a4997381c22-3074",
+      "size": 25783906160
+    },
+    "bams/SAMEA113577566.bam.csi": {
+      "etag": "9fa1a8873f887e67b607eb9592ccc4ad",
+      "size": 3340927
+    },
+    "bams/SAMEA113577568.bam": {
+      "etag": "3f1a13039ae47d9e10cd79a2c7828530-6332",
+      "size": 53112479115
+    },
+    "bams/SAMEA113577568.bam.csi": {
+      "etag": "fb6f17929644fb246a629d84aed30ee7",
+      "size": 3495750
+    },
+    "bams/SAMEA113577569.bam": {
+      "etag": "21a78c901260e552b3ee0806fe5d4dee-1500",
+      "size": 12579058470
+    },
+    "bams/SAMEA113577569.bam.csi": {
+      "etag": "81683388fd25220043f1a01bea9bb6bb",
+      "size": 3162479
+    },
+    "bams/SAMEA113577570.bam": {
+      "etag": "653d0e8900c2a2906fe048eda52f1cb2-6759",
+      "size": 56697822201
+    },
+    "bams/SAMEA113577570.bam.csi": {
+      "etag": "9374bd8cf7f4aaa8f62efef85c0f678f",
+      "size": 3534735
+    },
+    "bams/SAMEA113577571.bam": {
+      "etag": "4168905fc261648710889f657a904695-1363",
+      "size": 11432574643
+    },
+    "bams/SAMEA113577571.bam.csi": {
+      "etag": "4f15efd91a4e10c0885b733a3a170ad6",
+      "size": 2932645
+    },
+    "bams/SAMEA113577572.bam": {
+      "etag": "e8541d0326608dcf6502b801cacd8453-1266",
+      "size": 10615249595
+    },
+    "bams/SAMEA113577572.bam.csi": {
+      "etag": "7a93cc3f7387700b4bd52cf052ede335",
+      "size": 2335068
+    },
+    "bams/SAMEA113577573.bam": {
+      "etag": "64f470e7f20881477f7c200dceb7f6f6-1415",
+      "size": 11868356159
+    },
+    "bams/SAMEA113577573.bam.csi": {
+      "etag": "d2e98b1ba5c4a7e4f6c22db28b4a31f3",
+      "size": 3029884
+    },
+    "bams/SAMEA113577574.bam": {
+      "etag": "7afa45b5e68689f8b67dce49ba4de536-1333",
+      "size": 11180521904
+    },
+    "bams/SAMEA113577574.bam.csi": {
+      "etag": "20a34b4d18b8d0f5436244260f5181e7",
+      "size": 2801546
+    },
+    "bams/SAMEA113577575.bam": {
+      "etag": "d1597c2c9fbcb5fae8d0f06f88b11a87-3126",
+      "size": 26220588399
+    },
+    "bams/SAMEA113577575.bam.csi": {
+      "etag": "2ec172b1127393489565fc9b3381a07a",
+      "size": 3383781
+    },
+    "bams/SAMEA113577577.bam": {
+      "etag": "d80b5d1e2055ea49a7609ef0dfc0c868-1537",
+      "size": 12886541691
+    },
+    "bams/SAMEA113577577.bam.csi": {
+      "etag": "3d09bc96f7b225312399db35e823f5c4",
+      "size": 3176301
+    },
+    "bams/SAMEA113577578.bam": {
+      "etag": "12f757094741b0d6c3996ba4ebfdc30e-1468",
+      "size": 12312267455
+    },
+    "bams/SAMEA113577578.bam.csi": {
+      "etag": "a49d82e1a14ac76f889dd4f02b6483ae",
+      "size": 3136300
+    },
+    "bams/SAMEA113577579.bam": {
+      "etag": "cf75a0f8711611974222e802c5bc44b2-1771",
+      "size": 14853028923
+    },
+    "bams/SAMEA113577579.bam.csi": {
+      "etag": "271d96db752936c6e631be47440089f3",
+      "size": 3242049
+    },
+    "bams/SAMEA113577580.bam": {
+      "etag": "a7ca161cd6575158f92855f898e655c4-1534",
+      "size": 12865823472
+    },
+    "bams/SAMEA113577580.bam.csi": {
+      "etag": "d20ca62c0709407a5774ede3a76c4321",
+      "size": 3103219
+    },
+    "bams/SAMEA113577581.bam": {
+      "etag": "4f02ec51b8ab09ec7df5b971a029e094-6387",
+      "size": 53577807924
+    },
+    "bams/SAMEA113577581.bam.csi": {
+      "etag": "744d518301b2a4406e30dfa54145dd66",
+      "size": 3500529
+    },
+    "bams/SAMEA113577582.bam": {
+      "etag": "67175ccd4a300d43442c8fd4f8e46257-7083",
+      "size": 59410554820
+    },
+    "bams/SAMEA113577582.bam.csi": {
+      "etag": "751b17aca56e71ef6b70db5a0f9d4fcc",
+      "size": 3531286
+    },
+    "bams/SAMEA113577583.bam": {
+      "etag": "a826dd90c61e00239849c64db2170f98-1335",
+      "size": 11194052644
+    },
+    "bams/SAMEA113577583.bam.csi": {
+      "etag": "1b6efbbae1cc848a6908e798f429b4aa",
+      "size": 2843298
+    },
+    "bams/SAMEA113577584.bam": {
+      "etag": "02ee6894200f3a6cec2c69192194951f-1573",
+      "size": 13193867012
+    },
+    "bams/SAMEA113577584.bam.csi": {
+      "etag": "43c6515d6d77a59ec20f3ecb3ed704c8",
+      "size": 3195189
+    },
+    "bams/SAMEA113577585.bam": {
+      "etag": "b14c254d950ffcaf932b7a66bbdb63b3-6607",
+      "size": 55421296033
+    },
+    "bams/SAMEA113577585.bam.csi": {
+      "etag": "36248b801c507225b1043cfb39a40c3b",
+      "size": 3516272
+    },
+    "bams/SAMEA113577586.bam": {
+      "etag": "8d1f3e070615e1fb88feb225532b5d14-4166",
+      "size": 34946617950
+    },
+    "bams/SAMEA113577586.bam.csi": {
+      "etag": "d7abd613e05f4869db37a563e802bd72",
+      "size": 3421939
+    },
+    "bams/SAMEA5041492.bam": {
+      "etag": "01b8594e69377dbd1205f84919380c66-8438",
+      "size": 70777285310
+    },
+    "bams/SAMEA5041492.bam.csi": {
+      "etag": "68f48a68e38d3135eaec19d78d0efc75",
+      "size": 3650553
+    },
+    "bams/SAMEA994732.bam": {
+      "etag": "d3a22159cb1450b8553ca1e89812cb81-5436",
+      "size": 45598753244
+    },
+    "bams/SAMEA994732.bam.csi": {
+      "etag": "2efb841939badb01ecebd57bac1e427a",
+      "size": 3638637
+    },
+    "bams/SAMN31703042.bam": {
+      "etag": "72ae763a8ecb9fae7b5068aeff1fd5e0-1808",
+      "size": 15159603576
+    },
+    "bams/SAMN31703042.bam.csi": {
+      "etag": "2d988b33eff3f254da53da964551b49a",
+      "size": 3209499
+    },
+    "bams/SAMN44088958.bam": {
+      "etag": "f7f6a2d3992b51f6169f2a6652d48f03-2086",
+      "size": 17492089825
+    },
+    "bams/SAMN44088958.bam.csi": {
+      "etag": "a7d6021f882ccef15d1878adf02a4d7d",
+      "size": 3311471
+    },
+    "callable_sites/callable_sites.bed": {
+      "etag": "de8c5b62c58691ec224cf47860b89520-3",
+      "size": 24673366
+    },
+    "callable_sites/coverage.bed": {
+      "etag": "daa4f00647b0540fcc4afa254235b4eb",
+      "size": 23509
+    },
+    "callable_sites/coverage_thresholds.tsv": {
+      "etag": "60f84cede1d08d57fa3d6841d0db23c7",
+      "size": 62
+    },
+    "callable_sites/mappability.bed": {
+      "etag": "775c7fdec2b1854baf960062529162ca-3",
+      "size": 24669234
+    },
+    "callable_sites/mappability.bedgraph": {
+      "etag": "19a8cccf9b62b1376794223f05ca5768-554",
+      "size": 4639615311
+    }
+  },
+  "opaque_subdirs": {
+    "callable_sites": [
+      "callable_loci.zarr",
+      "callable_sites",
+      "depths",
+      "depths.zarr",
+      "genmap_index"
+    ]
+  },
+  "prefix": "downstream_analyses/conservation_genomics/variant_calling/GCA_901001165.2",
+  "published": true,
+  "samples": {},
+  "schema": 1,
+  "sra": {
+    "ERR12138990": [
+      {
+        "bioproject": "PRJEB61943",
+        "biosample": "SAMEA113577560",
+        "run": "ERR12138990"
+      }
+    ],
+    "ERR12139001": [
+      {
+        "bioproject": "PRJEB61943",
+        "biosample": "SAMEA113577562",
+        "run": "ERR12139001"
+      }
+    ],
+    "ERR12139281": [
+      {
+        "bioproject": "PRJEB61943",
+        "biosample": "SAMEA113577564",
+        "run": "ERR12139281"
+      }
+    ],
+    "ERR12139316": [
+      {
+        "bioproject": "PRJEB61943",
+        "biosample": "SAMEA113577564",
+        "run": "ERR12139316"
+      }
+    ],
+    "ERR12141596": [
+      {
+        "bioproject": "PRJEB61943",
+        "biosample": "SAMEA113577566",
+        "run": "ERR12141596"
+      }
+    ],
+    "ERR12141708": [
+      {
+        "bioproject": "PRJEB61943",
+        "biosample": "SAMEA113577566",
+        "run": "ERR12141708"
+      }
+    ],
+    "ERR12141768": [
+      {
+        "bioproject": "PRJEB61943",
+        "biosample": "SAMEA113577544",
+        "run": "ERR12141768"
+      }
+    ],
+    "ERR12141774": [
+      {
+        "bioproject": "PRJEB61943",
+        "biosample": "SAMEA113577544",
+        "run": "ERR12141774"
+      }
+    ],
+    "ERR12144011": [
+      {
+        "bioproject": "PRJEB61943",
+        "biosample": "SAMEA113577546",
+        "run": "ERR12144011"
+      }
+    ],
+    "ERR12146334": [
+      {
+        "bioproject": "PRJEB61943",
+        "biosample": "SAMEA113577546",
+        "run": "ERR12146334"
+      }
+    ],
+    "ERR12146344": [
+      {
+        "bioproject": "PRJEB61943",
+        "biosample": "SAMEA113577548",
+        "run": "ERR12146344"
+      }
+    ],
+    "ERR12148428": [
+      {
+        "bioproject": "PRJEB61943",
+        "biosample": "SAMEA113577548",
+        "run": "ERR12148428"
+      }
+    ],
+    "ERR12160660": [
+      {
+        "bioproject": "PRJEB61943",
+        "biosample": "SAMEA113577550",
+        "run": "ERR12160660"
+      }
+    ],
+    "ERR12164084": [
+      {
+        "bioproject": "PRJEB61943",
+        "biosample": "SAMEA113577550",
+        "run": "ERR12164084"
+      }
+    ],
+    "ERR12164085": [
+      {
+        "bioproject": "PRJEB61943",
+        "biosample": "SAMEA113577552",
+        "run": "ERR12164085"
+      }
+    ],
+    "ERR12164213": [
+      {
+        "bioproject": "PRJEB61943",
+        "biosample": "SAMEA113577552",
+        "run": "ERR12164213"
+      }
+    ],
+    "ERR12167027": [
+      {
+        "bioproject": "PRJEB61943",
+        "biosample": "SAMEA113577554",
+        "run": "ERR12167027"
+      }
+    ],
+    "ERR12175502": [
+      {
+        "bioproject": "PRJEB61943",
+        "biosample": "SAMEA113577554",
+        "run": "ERR12175502"
+      }
+    ],
+    "ERR12186611": [
+      {
+        "bioproject": "PRJEB61943",
+        "biosample": "SAMEA113577581",
+        "run": "ERR12186611"
+      }
+    ],
+    "ERR12186750": [
+      {
+        "bioproject": "PRJEB61943",
+        "biosample": "SAMEA113577581",
+        "run": "ERR12186750"
+      }
+    ],
+    "ERR12186841": [
+      {
+        "bioproject": "PRJEB61943",
+        "biosample": "SAMEA113577562",
+        "run": "ERR12186841"
+      }
+    ],
+    "ERR12186873": [
+      {
+        "bioproject": "PRJEB61943",
+        "biosample": "SAMEA113577582",
+        "run": "ERR12186873"
+      }
+    ],
+    "ERR12187045": [
+      {
+        "bioproject": "PRJEB61943",
+        "biosample": "SAMEA113577582",
+        "run": "ERR12187045"
+      }
+    ],
+    "ERR12188108": [
+      {
+        "bioproject": "PRJEB61943",
+        "biosample": "SAMEA113577568",
+        "run": "ERR12188108"
+      }
+    ],
+    "ERR12253487": [
+      {
+        "bioproject": "PRJEB61943",
+        "biosample": "SAMEA113577570",
+        "run": "ERR12253487"
+      }
+    ],
+    "ERR12255612": [
+      {
+        "bioproject": "PRJEB61943",
+        "biosample": "SAMEA113577570",
+        "run": "ERR12255612"
+      }
+    ],
+    "ERR12255618": [
+      {
+        "bioproject": "PRJEB61943",
+        "biosample": "SAMEA113577585",
+        "run": "ERR12255618"
+      }
+    ],
+    "ERR12255741": [
+      {
+        "bioproject": "PRJEB61943",
+        "biosample": "SAMEA113577585",
+        "run": "ERR12255741"
+      }
+    ],
+    "ERR12258600": [
+      {
+        "bioproject": "PRJEB61943",
+        "biosample": "SAMEA113577586",
+        "run": "ERR12258600"
+      }
+    ],
+    "ERR12264632": [
+      {
+        "bioproject": "PRJEB61943",
+        "biosample": "SAMEA113577586",
+        "run": "ERR12264632"
+      }
+    ],
+    "ERR12305947": [
+      {
+        "bioproject": "PRJEB61943",
+        "biosample": "SAMEA113577568",
+        "run": "ERR12305947"
+      }
+    ],
+    "ERR12412607": [
+      {
+        "bioproject": "PRJEB61943",
+        "biosample": "SAMEA113577560",
+        "run": "ERR12412607"
+      }
+    ],
+    "ERR12652260": [
+      {
+        "bioproject": "PRJEB61943",
+        "biosample": "SAMEA113577565",
+        "run": "ERR12652260"
+      }
+    ],
+    "ERR12652722": [
+      {
+        "bioproject": "PRJEB61943",
+        "biosample": "SAMEA113577565",
+        "run": "ERR12652722"
+      }
+    ],
+    "ERR12652723": [
+      {
+        "bioproject": "PRJEB61943",
+        "biosample": "SAMEA113577541",
+        "run": "ERR12652723"
+      }
+    ],
+    "ERR12652724": [
+      {
+        "bioproject": "PRJEB61943",
+        "biosample": "SAMEA113577541",
+        "run": "ERR12652724"
+      }
+    ],
+    "ERR12652728": [
+      {
+        "bioproject": "PRJEB61943",
+        "biosample": "SAMEA113577574",
+        "run": "ERR12652728"
+      }
+    ],
+    "ERR12652729": [
+      {
+        "bioproject": "PRJEB61943",
+        "biosample": "SAMEA113577574",
+        "run": "ERR12652729"
+      }
+    ],
+    "ERR12652863": [
+      {
+        "bioproject": "PRJEB61943",
+        "biosample": "SAMEA113577549",
+        "run": "ERR12652863"
+      }
+    ],
+    "ERR12652864": [
+      {
+        "bioproject": "PRJEB61943",
+        "biosample": "SAMEA113577549",
+        "run": "ERR12652864"
+      }
+    ],
+    "ERR12652865": [
+      {
+        "bioproject": "PRJEB61943",
+        "biosample": "SAMEA113577578",
+        "run": "ERR12652865"
+      }
+    ],
+    "ERR12652866": [
+      {
+        "bioproject": "PRJEB61943",
+        "biosample": "SAMEA113577578",
+        "run": "ERR12652866"
+      }
+    ],
+    "ERR12652867": [
+      {
+        "bioproject": "PRJEB61943",
+        "biosample": "SAMEA113577584",
+        "run": "ERR12652867"
+      }
+    ],
+    "ERR12652868": [
+      {
+        "bioproject": "PRJEB61943",
+        "biosample": "SAMEA113577584",
+        "run": "ERR12652868"
+      }
+    ],
+    "ERR12652869": [
+      {
+        "bioproject": "PRJEB61943",
+        "biosample": "SAMEA113577569",
+        "run": "ERR12652869"
+      }
+    ],
+    "ERR12652870": [
+      {
+        "bioproject": "PRJEB61943",
+        "biosample": "SAMEA113577569",
+        "run": "ERR12652870"
+      }
+    ],
+    "ERR12652882": [
+      {
+        "bioproject": "PRJEB61943",
+        "biosample": "SAMEA113577557",
+        "run": "ERR12652882"
+      }
+    ],
+    "ERR12652883": [
+      {
+        "bioproject": "PRJEB61943",
+        "biosample": "SAMEA113577557",
+        "run": "ERR12652883"
+      }
+    ],
+    "ERR12658927": [
+      {
+        "bioproject": "PRJEB61943",
+        "biosample": "SAMEA113577553",
+        "run": "ERR12658927"
+      }
+    ],
+    "ERR12658928": [
+      {
+        "bioproject": "PRJEB61943",
+        "biosample": "SAMEA113577553",
+        "run": "ERR12658928"
+      }
+    ],
+    "ERR12658929": [
+      {
+        "bioproject": "PRJEB61943",
+        "biosample": "SAMEA113577580",
+        "run": "ERR12658929"
+      }
+    ],
+    "ERR12658930": [
+      {
+        "bioproject": "PRJEB61943",
+        "biosample": "SAMEA113577580",
+        "run": "ERR12658930"
+      }
+    ],
+    "ERR12658931": [
+      {
+        "bioproject": "PRJEB61943",
+        "biosample": "SAMEA113577583",
+        "run": "ERR12658931"
+      }
+    ],
+    "ERR12658932": [
+      {
+        "bioproject": "PRJEB61943",
+        "biosample": "SAMEA113577583",
+        "run": "ERR12658932"
+      }
+    ],
+    "ERR12658935": [
+      {
+        "bioproject": "PRJEB61943",
+        "biosample": "SAMEA113577579",
+        "run": "ERR12658935"
+      }
+    ],
+    "ERR12658936": [
+      {
+        "bioproject": "PRJEB61943",
+        "biosample": "SAMEA113577579",
+        "run": "ERR12658936"
+      }
+    ],
+    "ERR12658996": [
+      {
+        "bioproject": "PRJEB61943",
+        "biosample": "SAMEA113577556",
+        "run": "ERR12658996"
+      }
+    ],
+    "ERR12658997": [
+      {
+        "bioproject": "PRJEB61943",
+        "biosample": "SAMEA113577556",
+        "run": "ERR12658997"
+      }
+    ],
+    "ERR12658998": [
+      {
+        "bioproject": "PRJEB61943",
+        "biosample": "SAMEA113577555",
+        "run": "ERR12658998"
+      }
+    ],
+    "ERR12658999": [
+      {
+        "bioproject": "PRJEB61943",
+        "biosample": "SAMEA113577555",
+        "run": "ERR12658999"
+      }
+    ],
+    "ERR12659000": [
+      {
+        "bioproject": "PRJEB61943",
+        "biosample": "SAMEA113577563",
+        "run": "ERR12659000"
+      }
+    ],
+    "ERR12659001": [
+      {
+        "bioproject": "PRJEB61943",
+        "biosample": "SAMEA113577563",
+        "run": "ERR12659001"
+      }
+    ],
+    "ERR12659002": [
+      {
+        "bioproject": "PRJEB61943",
+        "biosample": "SAMEA113577573",
+        "run": "ERR12659002"
+      }
+    ],
+    "ERR12659003": [
+      {
+        "bioproject": "PRJEB61943",
+        "biosample": "SAMEA113577573",
+        "run": "ERR12659003"
+      }
+    ],
+    "ERR12659004": [
+      {
+        "bioproject": "PRJEB61943",
+        "biosample": "SAMEA113577547",
+        "run": "ERR12659004"
+      }
+    ],
+    "ERR12659005": [
+      {
+        "bioproject": "PRJEB61943",
+        "biosample": "SAMEA113577547",
+        "run": "ERR12659005"
+      }
+    ],
+    "ERR12659006": [
+      {
+        "bioproject": "PRJEB61943",
+        "biosample": "SAMEA113577577",
+        "run": "ERR12659006"
+      }
+    ],
+    "ERR12659007": [
+      {
+        "bioproject": "PRJEB61943",
+        "biosample": "SAMEA113577577",
+        "run": "ERR12659007"
+      }
+    ],
+    "ERR12659008": [
+      {
+        "bioproject": "PRJEB61943",
+        "biosample": "SAMEA113577543",
+        "run": "ERR12659008"
+      }
+    ],
+    "ERR12659009": [
+      {
+        "bioproject": "PRJEB61943",
+        "biosample": "SAMEA113577543",
+        "run": "ERR12659009"
+      }
+    ],
+    "ERR12659010": [
+      {
+        "bioproject": "PRJEB61943",
+        "biosample": "SAMEA113577575",
+        "run": "ERR12659010"
+      }
+    ],
+    "ERR12659011": [
+      {
+        "bioproject": "PRJEB61943",
+        "biosample": "SAMEA113577575",
+        "run": "ERR12659011"
+      }
+    ],
+    "ERR12659012": [
+      {
+        "bioproject": "PRJEB61943",
+        "biosample": "SAMEA113577575",
+        "run": "ERR12659012"
+      }
+    ],
+    "ERR12659014": [
+      {
+        "bioproject": "PRJEB61943",
+        "biosample": "SAMEA113577575",
+        "run": "ERR12659014"
+      }
+    ],
+    "ERR12659015": [
+      {
+        "bioproject": "PRJEB61943",
+        "biosample": "SAMEA113577571",
+        "run": "ERR12659015"
+      }
+    ],
+    "ERR12659016": [
+      {
+        "bioproject": "PRJEB61943",
+        "biosample": "SAMEA113577571",
+        "run": "ERR12659016"
+      }
+    ],
+    "ERR12659017": [
+      {
+        "bioproject": "PRJEB61943",
+        "biosample": "SAMEA113577540",
+        "run": "ERR12659017"
+      }
+    ],
+    "ERR12659018": [
+      {
+        "bioproject": "PRJEB61943",
+        "biosample": "SAMEA113577540",
+        "run": "ERR12659018"
+      }
+    ],
+    "ERR12659019": [
+      {
+        "bioproject": "PRJEB61943",
+        "biosample": "SAMEA113577540",
+        "run": "ERR12659019"
+      }
+    ],
+    "ERR12659020": [
+      {
+        "bioproject": "PRJEB61943",
+        "biosample": "SAMEA113577540",
+        "run": "ERR12659020"
+      }
+    ],
+    "ERR12659021": [
+      {
+        "bioproject": "PRJEB61943",
+        "biosample": "SAMEA113577572",
+        "run": "ERR12659021"
+      }
+    ],
+    "ERR12659022": [
+      {
+        "bioproject": "PRJEB61943",
+        "biosample": "SAMEA113577572",
+        "run": "ERR12659022"
+      }
+    ],
+    "ERR12659025": [
+      {
+        "bioproject": "PRJEB61943",
+        "biosample": "SAMEA113577545",
+        "run": "ERR12659025"
+      }
+    ],
+    "ERR12659026": [
+      {
+        "bioproject": "PRJEB61943",
+        "biosample": "SAMEA113577545",
+        "run": "ERR12659026"
+      }
+    ],
+    "ERR12659027": [
+      {
+        "bioproject": "PRJEB61943",
+        "biosample": "SAMEA113577545",
+        "run": "ERR12659027"
+      }
+    ],
+    "ERR12659028": [
+      {
+        "bioproject": "PRJEB61943",
+        "biosample": "SAMEA113577545",
+        "run": "ERR12659028"
+      }
+    ],
+    "ERR3316108": [
+      {
+        "bioproject": "PRJEB22206",
+        "biosample": "SAMEA994732",
+        "run": "ERR3316108"
+      }
+    ],
+    "ERR3316111": [
+      {
+        "bioproject": "PRJEB22206",
+        "biosample": "SAMEA994732",
+        "run": "ERR3316111"
+      }
+    ],
+    "ERR3316112": [
+      {
+        "bioproject": "PRJEB22206",
+        "biosample": "SAMEA994732",
+        "run": "ERR3316112"
+      }
+    ],
+    "ERR3655540": [
+      {
+        "bioproject": "PRJEB19273",
+        "biosample": "SAMEA5041492",
+        "run": "ERR3655540"
+      }
+    ],
+    "ERR7417878": [
+      {
+        "bioproject": "PRJEB48212",
+        "biosample": "SAMEA10759721",
+        "run": "ERR7417878"
+      }
+    ],
+    "ERR7625929": [
+      {
+        "bioproject": "PRJEB48212",
+        "biosample": "SAMEA10759722",
+        "run": "ERR7625929"
+      }
+    ],
+    "ERR7626213": [
+      {
+        "bioproject": "PRJEB48212",
+        "biosample": "SAMEA10759722",
+        "run": "ERR7626213"
+      }
+    ],
+    "ERR7681514": [
+      {
+        "bioproject": "PRJEB48212",
+        "biosample": "SAMEA10759722",
+        "run": "ERR7681514"
+      }
+    ],
+    "SRR25421130": [
+      {
+        "bioproject": "PRJNA898089",
+        "biosample": "SAMN31703042",
+        "run": "SRR25421130"
+      }
+    ],
+    "SRR31067087": [
+      {
+        "bioproject": "PRJNA1171601",
+        "biosample": "SAMN44088958",
+        "run": "SRR31067087"
+      }
+    ],
+    "SRR31067095": [
+      {
+        "bioproject": "PRJNA1171601",
+        "biosample": "SAMN44088958",
+        "run": "SRR31067095"
+      }
+    ]
+  },
+  "subject": "fishes/salmo-trutta",
+  "tool_version": "0.4.0",
+  "vcf": {}
+}

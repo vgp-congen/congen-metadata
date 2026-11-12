@@ -1,6 +1,6 @@
 # Validation — Anser cygnoides
 
-**PASS WITH WARNINGS** · 2026-11-02 · GCA_040182565.1
+**PASS WITH WARNINGS** · 2026-11-12 · GCA_040182565.1
 
 Metadata agrees with the data published on GenomeArk, with points to note.
 
@@ -8,18 +8,19 @@ Metadata agrees with the data published on GenomeArk, with points to note.
 
 ## Warnings
 
-- **[G017](../../../CHECKS.md#g017)** GenomeArk publishes a README.txt that is not in the repo
-  - copy it into the species directory
+- **[E002](../../../CHECKS.md#e002)** 5 bioproject(s) contribute runs but are not in README.txt
+  - PRJNA575503, PRJNA656093, PRJNA722049, PRJNA835238, PRJNA835242; README lists PRJNA1103430, PRJNA1152750, PRJNA183603, PRJNA313495, PRJNA554206 (+11 more)
+  - at `species/birds/anser-cygnoides/README.txt`
 
 ## What was checked
 
 - 44 of 44 checks
-- 3 skipped: needs readme
 
 ## Provenance
 
-- validated `2026-11-02T18:03:37Z` by congen-metadata-tools 0.4.0
+- validated `2026-11-12T23:31:43Z` by congen-metadata-tools 0.4.0
 - data: `GCA_040182565.1`
+- `README.txt` `sha256:2cb45bf0232ca0e38bb860318991ff1f2ca6eb924ca135a7f4eff46bd17d2247`
 - `config.yaml` `sha256:48c3aaba5bf29ac765f85ddcbb798c496ef27b0a5af60c37b3108565d64955c6`
 - `sample_sheet.csv` `sha256:cd468ee470909885c157183ee92c68c00f84390b810725dcbbdc70cb90c3878d`
 

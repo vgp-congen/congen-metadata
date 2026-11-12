@@ -1,0 +1,100 @@
+{
+  "subject": "mammals/megaptera-novaeangliae",
+  "state": "PASS",
+  "validated_at": "2026-11-12T23:31:43Z",
+  "tool_version": "0.4.0",
+  "catalog": "sha256:44f7010fb4de2e48c91122dfd97086699b1036f7038eda45349f6a6db2e58514",
+  "checks_run": [
+    "E001",
+    "E002",
+    "E003",
+    "F001",
+    "F002",
+    "F003",
+    "F004",
+    "F005",
+    "F006",
+    "F008",
+    "F009",
+    "F011",
+    "F020",
+    "F021",
+    "F022",
+    "F023",
+    "F024",
+    "G001",
+    "G010",
+    "G011",
+    "G012",
+    "G013",
+    "G014",
+    "G017",
+    "G018",
+    "P001",
+    "P002",
+    "P003",
+    "R001",
+    "R002",
+    "R003",
+    "R010",
+    "R013",
+    "R015",
+    "R016",
+    "R017",
+    "R020",
+    "S001",
+    "S002",
+    "S003",
+    "S004",
+    "S005",
+    "S006",
+    "S007"
+  ],
+  "checks_available": 44,
+  "inputs": {
+    "config.yaml": "sha256:6f1ac8e36fc37e568cc1a04e9b80be1c4f32fd5538dd5b4a633ac91a468ca5bb",
+    "sample_sheet.csv": "sha256:d7458a44f592dab33276a53e8215a318f90b5f7be0e0cfdfe3d06a9373c9e56d",
+    "README.txt": "sha256:6d27ceedad3ff3af9cdf0a955db9c7db9bd5298f9c640f3777decd603dd0393e"
+  },
+  "data": {
+    "published": true,
+    "accession": "GCA_041834305.1",
+    "objects": {
+      "raw.vcf.gz": "etag:56aac3810e315eedb0eb0e8a79dcd12f-3412",
+      "raw.vcf.gz.tbi": "etag:78242978fe9046c5b3447e3f255935e4",
+      "filtered.vcf.gz": "etag:1be4ad665d6a73652a860c13801cefbf-4973",
+      "sample_sheet.csv": "etag:f2c0abd499c18851f589a06a6459bd1e"
+    },
+    "bams": {
+      "count": 16,
+      "digest": "sha256:c51e049e8969e270ee08e696b467d7ab277b422a2ebc1ec0101be0875a08cdb9"
+    }
+  },
+  "findings": [],
+  "status": {
+    "subject": "mammals/megaptera-novaeangliae",
+    "state": "complete",
+    "accession": "GCA_041834305.1",
+    "declared_accession": "GCA_041834305.1",
+    "accession_differs": false,
+    "present": [
+      "bams",
+      "callable_sites",
+      "filtered_vcf",
+      "published_readme",
+      "qc",
+      "raw_vcf",
+      "raw_vcf_index",
+      "repo_readme"
+    ],
+    "missing": [],
+    "missing_optional": [],
+    "counts": {
+      "sheet_samples": 16,
+      "bams": 16,
+      "vcf_samples": 16
+    }
+  },
+  "superseded": null,
+  "stale_reason": null
+}

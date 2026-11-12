@@ -1,6 +1,6 @@
 # Validation — Petromyzon marinus
 
-**PASS WITH WARNINGS** · 2026-11-02 · GCA_048934315.1
+**PASS WITH WARNINGS** · 2026-11-12 · GCA_048934315.1
 
 Metadata agrees with the data published on GenomeArk, with points to note.
 
@@ -8,18 +8,19 @@ Metadata agrees with the data published on GenomeArk, with points to note.
 
 ## Warnings
 
-- **[G017](../../../CHECKS.md#g017)** GenomeArk publishes a README.txt that is not in the repo
-  - copy it into the species directory
+- **[E002](../../../CHECKS.md#e002)** 1 bioproject(s) contribute runs but are not in README.txt
+  - PRJNA720393; README lists PRJNA1024071, PRJNA385973, PRJNA420358, PRJNA779416
+  - at `species/fishes/petromyzon-marinus/README.txt`
 
 ## What was checked
 
 - 44 of 44 checks
-- 3 skipped: needs readme
 
 ## Provenance
 
-- validated `2026-11-02T18:03:37Z` by congen-metadata-tools 0.4.0
+- validated `2026-11-12T23:31:43Z` by congen-metadata-tools 0.4.0
 - data: `GCA_048934315.1`
+- `README.txt` `sha256:084f602f41b59fd033cc61e4a07389c6a1808185c1aa0869641f7abba3f9426f`
 - `config.yaml` `sha256:726f9366b9e6c4afd687e4503099d025d9d9be21a5903c451ab6ad04a4137759`
 - `sample_sheet.csv` `sha256:f21614b0cda1226b37b2e636fef6eeab6d3e07fb9951b10557de83b696d3c017`
 

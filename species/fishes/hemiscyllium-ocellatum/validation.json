@@ -1,7 +1,7 @@
 {
   "subject": "fishes/hemiscyllium-ocellatum",
-  "state": "PASS WITH WARNINGS",
-  "validated_at": "2026-11-02T18:03:37Z",
+  "state": "PASS",
+  "validated_at": "2026-11-12T23:31:43Z",
   "tool_version": "0.4.0",
   "catalog": "sha256:44f7010fb4de2e48c91122dfd97086699b1036f7038eda45349f6a6db2e58514",
   "checks_run": [
@@ -53,7 +53,8 @@
   "checks_available": 44,
   "inputs": {
     "config.yaml": "sha256:3ad2d25ea8d9455ff319ee449b14f0cdf94744d8cebb6fa1da841dc99ef6d9a1",
-    "sample_sheet.csv": "sha256:923100fef7472c9ef6d0c85e0a55d32901033b68f4d63d9b7ecee57197730ae3"
+    "sample_sheet.csv": "sha256:923100fef7472c9ef6d0c85e0a55d32901033b68f4d63d9b7ecee57197730ae3",
+    "README.txt": "sha256:730e9b47ca84ac3559a37df02fda775e90226c85b791807111b2d49e1ceb83b1"
   },
   "data": {
     "published": true,
@@ -69,44 +70,7 @@
       "digest": "sha256:2d87d237f1f7fdfbbef04b4439d80d6775af188afb6d430052f3aaf57a5000e5"
     }
   },
-  "findings": [
-    {
-      "id": "G017",
-      "severity": "warn",
-      "subject": "fishes/hemiscyllium-ocellatum",
-      "message": "GenomeArk publishes a README.txt that is not in the repo",
-      "detail": "copy it into the species directory",
-      "path": null,
-      "line": null
-    },
-    {
-      "id": "E002",
-      "severity": "skipped",
-      "subject": "fishes/hemiscyllium-ocellatum",
-      "message": "skipped: every run's bioproject is listed in README.txt",
-      "detail": "needs readme",
-      "path": null,
-      "line": null
-    },
-    {
-      "id": "E003",
-      "severity": "skipped",
-      "subject": "fishes/hemiscyllium-ocellatum",
-      "message": "skipped: every README.txt bioproject contributes runs",
-      "detail": "needs readme",
-      "path": null,
-      "line": null
-    },
-    {
-      "id": "R020",
-      "severity": "skipped",
-      "subject": "fishes/hemiscyllium-ocellatum",
-      "message": "skipped: README.txt accession matches the config",
-      "detail": "needs readme",
-      "path": null,
-      "line": null
-    }
-  ],
+  "findings": [],
   "status": {
     "subject": "fishes/hemiscyllium-ocellatum",
     "state": "complete",
@@ -120,7 +84,8 @@
       "published_readme",
       "qc",
       "raw_vcf",
-      "raw_vcf_index"
+      "raw_vcf_index",
+      "repo_readme"
     ],
     "missing": [],
     "missing_optional": [],

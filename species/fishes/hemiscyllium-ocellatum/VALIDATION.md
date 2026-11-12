@@ -1,25 +1,20 @@
 # Validation — Hemiscyllium ocellatum
 
-**PASS WITH WARNINGS** · 2026-11-02 · GCA_020745735.1
+**PASS** · 2026-11-12 · GCA_020745735.1
 
-Metadata agrees with the data published on GenomeArk, with points to note.
+Metadata agrees with the data published on GenomeArk.
 
 12 samples in the sheet · 12 BAMs · 12 samples in the VCF
-
-## Warnings
-
-- **[G017](../../../CHECKS.md#g017)** GenomeArk publishes a README.txt that is not in the repo
-  - copy it into the species directory
 
 ## What was checked
 
 - 44 of 44 checks
-- 3 skipped: needs readme
 
 ## Provenance
 
-- validated `2026-11-02T18:03:37Z` by congen-metadata-tools 0.4.0
+- validated `2026-11-12T23:31:43Z` by congen-metadata-tools 0.4.0
 - data: `GCA_020745735.1`
+- `README.txt` `sha256:730e9b47ca84ac3559a37df02fda775e90226c85b791807111b2d49e1ceb83b1`
 - `config.yaml` `sha256:3ad2d25ea8d9455ff319ee449b14f0cdf94744d8cebb6fa1da841dc99ef6d9a1`
 - `sample_sheet.csv` `sha256:923100fef7472c9ef6d0c85e0a55d32901033b68f4d63d9b7ecee57197730ae3`
 

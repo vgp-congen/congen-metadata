@@ -1,0 +1,110 @@
+{
+  "subject": "birds/gallus-gallus",
+  "state": "FAIL",
+  "validated_at": "2026-11-12T23:31:43Z",
+  "tool_version": "0.4.0",
+  "catalog": "sha256:44f7010fb4de2e48c91122dfd97086699b1036f7038eda45349f6a6db2e58514",
+  "checks_run": [
+    "E001",
+    "E002",
+    "E003",
+    "F001",
+    "F002",
+    "F003",
+    "F004",
+    "F005",
+    "F006",
+    "F008",
+    "F009",
+    "F011",
+    "F020",
+    "F021",
+    "F022",
+    "F023",
+    "F024",
+    "G001",
+    "G010",
+    "G011",
+    "G012",
+    "G013",
+    "G014",
+    "G017",
+    "G018",
+    "P001",
+    "P002",
+    "P003",
+    "R001",
+    "R002",
+    "R003",
+    "R010",
+    "R013",
+    "R015",
+    "R016",
+    "R017",
+    "R020",
+    "S001",
+    "S002",
+    "S003",
+    "S004",
+    "S005",
+    "S006",
+    "S007"
+  ],
+  "checks_available": 44,
+  "inputs": {
+    "config.yaml": "sha256:4e750a352d2c4a20ac8a15fd4626d3cbc4c69f01505a04224ab5298338901780",
+    "sample_sheet.csv": "sha256:199e3e5bb371aa25f148de1e50023e3ab9b4a2001d3aa2fc92e2d3b661117775",
+    "README.txt": "sha256:f3ceeab08cda834907465589c4e02ea47bfbe052a9e01d0f29cdb7253ee05cf2"
+  },
+  "data": {
+    "published": true,
+    "accession": "GCA_016700215.2",
+    "objects": {
+      "raw.vcf.gz": "etag:a6ee4cd8bae04b4a9c21f6af00b3c5c0-2783",
+      "raw.vcf.gz.tbi": "etag:f247bc055e027422d622262e1abf8210",
+      "sample_sheet.csv": "etag:2af00d74944a67e10c452ed440cfce42"
+    },
+    "bams": {
+      "count": 76,
+      "digest": "sha256:8a770f81043d3018081f7b9ed6f35d571270e1d2868e4a4a34840aca468a5b40"
+    }
+  },
+  "findings": [
+    {
+      "id": "G014",
+      "severity": "error",
+      "subject": "birds/gallus-gallus",
+      "message": "1 zero-byte object(s) in the data directories",
+      "detail": "bams/SAMN30802797.bam.csi",
+      "path": null,
+      "line": null
+    }
+  ],
+  "status": {
+    "subject": "birds/gallus-gallus",
+    "state": "complete",
+    "accession": "GCA_016700215.2",
+    "declared_accession": "GCA_016700215.2",
+    "accession_differs": false,
+    "present": [
+      "bams",
+      "callable_sites",
+      "published_readme",
+      "qc",
+      "raw_vcf",
+      "raw_vcf_index",
+      "repo_readme"
+    ],
+    "missing": [],
+    "missing_optional": [
+      "filtered_vcf"
+    ],
+    "counts": {
+      "sheet_samples": 76,
+      "bams": 76,
+      "vcf_samples": 76
+    }
+  },
+  "superseded": null,
+  "stale_reason": null
+}

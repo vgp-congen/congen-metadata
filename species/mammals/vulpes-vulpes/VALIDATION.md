@@ -1,25 +1,20 @@
 # Validation — Vulpes vulpes
 
-**PASS WITH WARNINGS** · 2026-11-02 · GCA_964106825.2
+**PASS** · 2026-11-12 · GCA_964106825.2
 
-Metadata agrees with the data published on GenomeArk, with points to note.
+Metadata agrees with the data published on GenomeArk.
 
 43 samples in the sheet · 43 BAMs · 43 samples in the VCF
-
-## Warnings
-
-- **[G017](../../../CHECKS.md#g017)** GenomeArk publishes a README.txt that is not in the repo
-  - copy it into the species directory
 
 ## What was checked
 
 - 44 of 44 checks
-- 3 skipped: needs readme
 
 ## Provenance
 
-- validated `2026-11-02T18:03:37Z` by congen-metadata-tools 0.4.0
+- validated `2026-11-12T23:31:43Z` by congen-metadata-tools 0.4.0
 - data: `GCA_964106825.2`
+- `README.txt` `sha256:fc8519dbc6c956d547c50f045c2939f443e0984abb409138af9880a79f48fcf9`
 - `config.yaml` `sha256:41dba000961a4e0a599109e052696d4a30832845234796011020edcf1265c272`
 - `sample_sheet.csv` `sha256:1abf1bcfeca97bc1d97a9a81c80ec4b2dc7438a374c902de0b31f96aba34c494`
 

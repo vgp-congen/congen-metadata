@@ -1,7 +1,7 @@
 {
   "subject": "fishes/petromyzon-marinus",
   "state": "PASS WITH WARNINGS",
-  "validated_at": "2026-11-02T18:03:37Z",
+  "validated_at": "2026-11-12T23:31:43Z",
   "tool_version": "0.4.0",
   "catalog": "sha256:44f7010fb4de2e48c91122dfd97086699b1036f7038eda45349f6a6db2e58514",
   "checks_run": [
@@ -53,7 +53,8 @@
   "checks_available": 44,
   "inputs": {
     "config.yaml": "sha256:726f9366b9e6c4afd687e4503099d025d9d9be21a5903c451ab6ad04a4137759",
-    "sample_sheet.csv": "sha256:f21614b0cda1226b37b2e636fef6eeab6d3e07fb9951b10557de83b696d3c017"
+    "sample_sheet.csv": "sha256:f21614b0cda1226b37b2e636fef6eeab6d3e07fb9951b10557de83b696d3c017",
+    "README.txt": "sha256:084f602f41b59fd033cc61e4a07389c6a1808185c1aa0869641f7abba3f9426f"
   },
   "data": {
     "published": true,
@@ -71,39 +72,12 @@
   },
   "findings": [
     {
-      "id": "G017",
+      "id": "E002",
       "severity": "warn",
       "subject": "fishes/petromyzon-marinus",
-      "message": "GenomeArk publishes a README.txt that is not in the repo",
-      "detail": "copy it into the species directory",
-      "path": null,
-      "line": null
-    },
-    {
-      "id": "E002",
-      "severity": "skipped",
-      "subject": "fishes/petromyzon-marinus",
-      "message": "skipped: every run's bioproject is listed in README.txt",
-      "detail": "needs readme",
-      "path": null,
-      "line": null
-    },
-    {
-      "id": "E003",
-      "severity": "skipped",
-      "subject": "fishes/petromyzon-marinus",
-      "message": "skipped: every README.txt bioproject contributes runs",
-      "detail": "needs readme",
-      "path": null,
-      "line": null
-    },
-    {
-      "id": "R020",
-      "severity": "skipped",
-      "subject": "fishes/petromyzon-marinus",
-      "message": "skipped: README.txt accession matches the config",
-      "detail": "needs readme",
-      "path": null,
+      "message": "1 bioproject(s) contribute runs but are not in README.txt",
+      "detail": "PRJNA720393; README lists PRJNA1024071, PRJNA385973, PRJNA420358, PRJNA779416",
+      "path": "species/fishes/petromyzon-marinus/README.txt",
       "line": null
     }
   ],
@@ -120,7 +94,8 @@
       "published_readme",
       "qc",
       "raw_vcf",
-      "raw_vcf_index"
+      "raw_vcf_index",
+      "repo_readme"
     ],
     "missing": [],
     "missing_optional": [],

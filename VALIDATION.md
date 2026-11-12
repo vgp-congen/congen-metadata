@@ -1,13 +1,18 @@
 # Validation status
 
-Most recent validation `2026-11-02T18:03:37Z` · congen-metadata-tools 0.4.0.
+Most recent validation `2026-11-12T23:31:43Z` · congen-metadata-tools 0.4.0.
 
 | State | Species |
 |---|---|
-| **FAIL** | 9 |
-| **PASS WITH WARNINGS** | 14 |
+| **FAIL** | 10 |
+| **PASS WITH WARNINGS** | 10 |
 | **PASS WITH NOTES** | 1 |
-| **PASS** | 77 |
+| **PENDING** | 1 |
+| **PASS** | 83 |
+
+## Corpus
+
+- **G020** GCA_902167405.1 (Gadus morhua) is published and in the VGP list, but has no species directory
 
 ## Species
 
@@ -17,7 +22,7 @@ Most recent validation `2026-11-02T18:03:37Z` · congen-metadata-tools 0.4.0.
 | [birds/acridotheres-tristis](species/birds/acridotheres-tristis/VALIDATION.md) | PASS | 2026-09-11 | — |
 | [birds/anser-albifrons](species/birds/anser-albifrons/VALIDATION.md) | FAIL | 2026-09-10 | 2 errors |
 | [birds/anser-anser](species/birds/anser-anser/VALIDATION.md) | PASS WITH NOTES | 2026-09-10 | 1 note |
-| [birds/anser-cygnoides](species/birds/anser-cygnoides/VALIDATION.md) | PASS WITH WARNINGS | 2026-11-02 | 1 warning |
+| [birds/anser-cygnoides](species/birds/anser-cygnoides/VALIDATION.md) | PASS WITH WARNINGS | 2026-11-12 | 1 warning |
 | [birds/anser-erythropus](species/birds/anser-erythropus/VALIDATION.md) | PASS | 2026-09-10 | — |
 | [birds/anser-fabalis](species/birds/anser-fabalis/VALIDATION.md) | PASS | 2026-10-28 | — |
 | [birds/apteryx-mantelli](species/birds/apteryx-mantelli/VALIDATION.md) | PASS | 2026-09-10 | — |
@@ -26,11 +31,12 @@ Most recent validation `2026-11-02T18:03:37Z` · congen-metadata-tools 0.4.0.
 | [birds/chlamydotis-macqueenii](species/birds/chlamydotis-macqueenii/VALIDATION.md) | PASS | 2026-09-10 | — |
 | [birds/columba-livia](species/birds/columba-livia/VALIDATION.md) | PASS | 2026-09-28 | — |
 | [birds/cuculus-canorus](species/birds/cuculus-canorus/VALIDATION.md) | PASS WITH WARNINGS | 2026-11-02 | 1 warning |
-| [birds/cyanistes-caeruleus](species/birds/cyanistes-caeruleus/VALIDATION.md) | PASS WITH WARNINGS | 2026-11-02 | 1 warning |
+| [birds/cyanistes-caeruleus](species/birds/cyanistes-caeruleus/VALIDATION.md) | PASS | 2026-11-12 | — |
 | [birds/dryobates-pubescens](species/birds/dryobates-pubescens/VALIDATION.md) | PASS WITH WARNINGS | 2026-09-10 | 2 warnings |
-| [birds/erithacus-rubecula](species/birds/erithacus-rubecula/VALIDATION.md) | PASS WITH WARNINGS | 2026-11-02 | 1 warning |
+| [birds/erithacus-rubecula](species/birds/erithacus-rubecula/VALIDATION.md) | PASS | 2026-11-12 | — |
 | [birds/falco-peregrinus](species/birds/falco-peregrinus/VALIDATION.md) | PASS | 2026-09-11 | — |
 | [birds/fringilla-coelebs](species/birds/fringilla-coelebs/VALIDATION.md) | PASS | 2026-09-10 | — |
+| [birds/gallus-gallus](species/birds/gallus-gallus/VALIDATION.md) | FAIL | 2026-11-12 | 1 error |
 | [birds/geothlypis-trichas](species/birds/geothlypis-trichas/VALIDATION.md) | PASS | 2026-09-10 | — |
 | [birds/grus-americana](species/birds/grus-americana/VALIDATION.md) | PASS | 2026-09-11 | — |
 | [birds/haemorhous-mexicanus](species/birds/haemorhous-mexicanus/VALIDATION.md) | PASS | 2026-09-10 | — |
@@ -59,17 +65,19 @@ Most recent validation `2026-11-02T18:03:37Z` · congen-metadata-tools 0.4.0.
 | [fishes/esox-lucius](species/fishes/esox-lucius/VALIDATION.md) | PASS | 2026-09-11 | — |
 | [fishes/gasterosteus-aculeatus](species/fishes/gasterosteus-aculeatus/VALIDATION.md) | PASS | 2026-09-10 | — |
 | [fishes/haplochromis-burtoni](species/fishes/haplochromis-burtoni/VALIDATION.md) | FAIL | 2026-09-28 | 1 error, 1 warning |
-| [fishes/hemiscyllium-ocellatum](species/fishes/hemiscyllium-ocellatum/VALIDATION.md) | PASS WITH WARNINGS | 2026-11-02 | 1 warning |
+| [fishes/hemiscyllium-ocellatum](species/fishes/hemiscyllium-ocellatum/VALIDATION.md) | PASS | 2026-11-12 | — |
 | [fishes/labrus-bergylta](species/fishes/labrus-bergylta/VALIDATION.md) | PASS | 2026-09-10 | — |
 | [fishes/lateolabrax-maculatus](species/fishes/lateolabrax-maculatus/VALIDATION.md) | PASS | 2026-09-10 | — |
 | [fishes/mastacembelus-armatus](species/fishes/mastacembelus-armatus/VALIDATION.md) | PASS | 2026-09-10 | — |
 | [fishes/micropterus-salmoides](species/fishes/micropterus-salmoides/VALIDATION.md) | PASS | 2026-09-10 | — |
-| [fishes/petromyzon-marinus](species/fishes/petromyzon-marinus/VALIDATION.md) | PASS WITH WARNINGS | 2026-11-02 | 1 warning |
+| [fishes/petromyzon-marinus](species/fishes/petromyzon-marinus/VALIDATION.md) | PASS WITH WARNINGS | 2026-11-12 | 1 warning |
 | [fishes/phoxinus-phoxinus](species/fishes/phoxinus-phoxinus/VALIDATION.md) | PASS | 2026-09-10 | — |
 | [fishes/platichthys-flesus](species/fishes/platichthys-flesus/VALIDATION.md) | PASS | 2026-09-10 | — |
 | [fishes/pleuronectes-platessa](species/fishes/pleuronectes-platessa/VALIDATION.md) | PASS | 2026-09-10 | — |
 | [fishes/pungitius-pungitius](species/fishes/pungitius-pungitius/VALIDATION.md) | PASS | 2026-09-10 | — |
 | [fishes/rhamphochromis-sp](species/fishes/rhamphochromis-sp/VALIDATION.md) | PASS | 2026-09-10 | — |
+| [fishes/salmo-trutta](species/fishes/salmo-trutta/VALIDATION.md) | PENDING | 2026-11-12 | 1 warning |
+| [fishes/salvelinus-alpinus](species/fishes/salvelinus-alpinus/VALIDATION.md) | PASS | 2026-11-12 | — |
 | [fishes/sardina-pilchardus](species/fishes/sardina-pilchardus/VALIDATION.md) | PASS | 2026-09-28 | — |
 | [fishes/scatophagus-argus](species/fishes/scatophagus-argus/VALIDATION.md) | PASS | 2026-09-10 | — |
 | [fishes/scophthalmus-maximus](species/fishes/scophthalmus-maximus/VALIDATION.md) | PASS | 2026-09-10 | — |
@@ -93,6 +101,7 @@ Most recent validation `2026-11-02T18:03:37Z` · congen-metadata-tools 0.4.0.
 | [mammals/hyperoodon-ampullatus](species/mammals/hyperoodon-ampullatus/VALIDATION.md) | PASS | 2026-09-10 | — |
 | [mammals/lemur-catta](species/mammals/lemur-catta/VALIDATION.md) | PASS | 2026-09-11 | — |
 | [mammals/lycaon-pictus](species/mammals/lycaon-pictus/VALIDATION.md) | PASS | 2026-09-10 | — |
+| [mammals/megaptera-novaeangliae](species/mammals/megaptera-novaeangliae/VALIDATION.md) | PASS | 2026-11-12 | — |
 | [mammals/monodon-monoceros](species/mammals/monodon-monoceros/VALIDATION.md) | PASS | 2026-09-28 | — |
 | [mammals/muntiacus-reevesi](species/mammals/muntiacus-reevesi/VALIDATION.md) | PASS | 2026-09-28 | — |
 | [mammals/mustela-erminea](species/mammals/mustela-erminea/VALIDATION.md) | PASS | 2026-09-10 | — |
@@ -109,7 +118,7 @@ Most recent validation `2026-11-02T18:03:37Z` · congen-metadata-tools 0.4.0.
 | [mammals/sminthopsis-crassicaudata](species/mammals/sminthopsis-crassicaudata/VALIDATION.md) | FAIL | 2026-11-02 | 1 error, 1 warning |
 | [mammals/sus-scrofa-domesticus](species/mammals/sus-scrofa-domesticus/VALIDATION.md) | PASS WITH WARNINGS | 2026-09-10 | 1 warning |
 | [mammals/tursiops-truncatus](species/mammals/tursiops-truncatus/VALIDATION.md) | PASS | 2026-09-28 | — |
-| [mammals/vulpes-vulpes](species/mammals/vulpes-vulpes/VALIDATION.md) | PASS WITH WARNINGS | 2026-11-02 | 1 warning |
+| [mammals/vulpes-vulpes](species/mammals/vulpes-vulpes/VALIDATION.md) | PASS | 2026-11-12 | — |
 | [reptiles/eublepharis-macularius](species/reptiles/eublepharis-macularius/VALIDATION.md) | PASS | 2026-09-11 | — |
 | [reptiles/podarcis-muralis](species/reptiles/podarcis-muralis/VALIDATION.md) | PASS WITH WARNINGS | 2026-11-02 | 1 warning |
 | [reptiles/podarcis-raffonei](species/reptiles/podarcis-raffonei/VALIDATION.md) | PASS | 2026-09-10 | — |

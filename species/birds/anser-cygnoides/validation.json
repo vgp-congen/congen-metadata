@@ -1,7 +1,7 @@
 {
   "subject": "birds/anser-cygnoides",
   "state": "PASS WITH WARNINGS",
-  "validated_at": "2026-11-02T18:03:37Z",
+  "validated_at": "2026-11-12T23:31:43Z",
   "tool_version": "0.4.0",
   "catalog": "sha256:44f7010fb4de2e48c91122dfd97086699b1036f7038eda45349f6a6db2e58514",
   "checks_run": [
@@ -53,7 +53,8 @@
   "checks_available": 44,
   "inputs": {
     "config.yaml": "sha256:48c3aaba5bf29ac765f85ddcbb798c496ef27b0a5af60c37b3108565d64955c6",
-    "sample_sheet.csv": "sha256:cd468ee470909885c157183ee92c68c00f84390b810725dcbbdc70cb90c3878d"
+    "sample_sheet.csv": "sha256:cd468ee470909885c157183ee92c68c00f84390b810725dcbbdc70cb90c3878d",
+    "README.txt": "sha256:2cb45bf0232ca0e38bb860318991ff1f2ca6eb924ca135a7f4eff46bd17d2247"
   },
   "data": {
     "published": true,
@@ -71,39 +72,12 @@
   },
   "findings": [
     {
-      "id": "G017",
+      "id": "E002",
       "severity": "warn",
       "subject": "birds/anser-cygnoides",
-      "message": "GenomeArk publishes a README.txt that is not in the repo",
-      "detail": "copy it into the species directory",
-      "path": null,
-      "line": null
-    },
-    {
-      "id": "E002",
-      "severity": "skipped",
-      "subject": "birds/anser-cygnoides",
-      "message": "skipped: every run's bioproject is listed in README.txt",
-      "detail": "needs readme",
-      "path": null,
-      "line": null
-    },
-    {
-      "id": "E003",
-      "severity": "skipped",
-      "subject": "birds/anser-cygnoides",
-      "message": "skipped: every README.txt bioproject contributes runs",
-      "detail": "needs readme",
-      "path": null,
-      "line": null
-    },
-    {
-      "id": "R020",
-      "severity": "skipped",
-      "subject": "birds/anser-cygnoides",
-      "message": "skipped: README.txt accession matches the config",
-      "detail": "needs readme",
-      "path": null,
+      "message": "5 bioproject(s) contribute runs but are not in README.txt",
+      "detail": "PRJNA575503, PRJNA656093, PRJNA722049, PRJNA835238, PRJNA835242; README lists PRJNA1103430, PRJNA1152750, PRJNA183603, PRJNA313495, PRJNA554206 (+11 more)",
+      "path": "species/birds/anser-cygnoides/README.txt",
       "line": null
     }
   ],
@@ -120,7 +94,8 @@
       "published_readme",
       "qc",
       "raw_vcf",
-      "raw_vcf_index"
+      "raw_vcf_index",
+      "repo_readme"
     ],
     "missing": [],
     "missing_optional": [],

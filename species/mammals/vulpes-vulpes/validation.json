@@ -1,7 +1,7 @@
 {
   "subject": "mammals/vulpes-vulpes",
-  "state": "PASS WITH WARNINGS",
-  "validated_at": "2026-11-02T18:03:37Z",
+  "state": "PASS",
+  "validated_at": "2026-11-12T23:31:43Z",
   "tool_version": "0.4.0",
   "catalog": "sha256:44f7010fb4de2e48c91122dfd97086699b1036f7038eda45349f6a6db2e58514",
   "checks_run": [
@@ -53,7 +53,8 @@
   "checks_available": 44,
   "inputs": {
     "config.yaml": "sha256:41dba000961a4e0a599109e052696d4a30832845234796011020edcf1265c272",
-    "sample_sheet.csv": "sha256:1abf1bcfeca97bc1d97a9a81c80ec4b2dc7438a374c902de0b31f96aba34c494"
+    "sample_sheet.csv": "sha256:1abf1bcfeca97bc1d97a9a81c80ec4b2dc7438a374c902de0b31f96aba34c494",
+    "README.txt": "sha256:fc8519dbc6c956d547c50f045c2939f443e0984abb409138af9880a79f48fcf9"
   },
   "data": {
     "published": true,
@@ -69,44 +70,7 @@
       "digest": "sha256:ce4dd7e4ddf0f01637e6bad771690e372679730904f8058c81069526808914b2"
     }
   },
-  "findings": [
-    {
-      "id": "G017",
-      "severity": "warn",
-      "subject": "mammals/vulpes-vulpes",
-      "message": "GenomeArk publishes a README.txt that is not in the repo",
-      "detail": "copy it into the species directory",
-      "path": null,
-      "line": null
-    },
-    {
-      "id": "E002",
-      "severity": "skipped",
-      "subject": "mammals/vulpes-vulpes",
-      "message": "skipped: every run's bioproject is listed in README.txt",
-      "detail": "needs readme",
-      "path": null,
-      "line": null
-    },
-    {
-      "id": "E003",
-      "severity": "skipped",
-      "subject": "mammals/vulpes-vulpes",
-      "message": "skipped: every README.txt bioproject contributes runs",
-      "detail": "needs readme",
-      "path": null,
-      "line": null
-    },
-    {
-      "id": "R020",
-      "severity": "skipped",
-      "subject": "mammals/vulpes-vulpes",
-      "message": "skipped: README.txt accession matches the config",
-      "detail": "needs readme",
-      "path": null,
-      "line": null
-    }
-  ],
+  "findings": [],
   "status": {
     "subject": "mammals/vulpes-vulpes",
     "state": "complete",
@@ -120,7 +84,8 @@
       "published_readme",
       "qc",
       "raw_vcf",
-      "raw_vcf_index"
+      "raw_vcf_index",
+      "repo_readme"
     ],
     "missing": [],
     "missing_optional": [],

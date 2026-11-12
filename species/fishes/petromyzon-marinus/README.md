@@ -4,11 +4,11 @@
 Population-genomic variant calls for 14 *Petromyzon marinus* samples ([NCBI taxon 7757](https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=7757)), produced by snpArcher against `GCA_048934315.1` and published on GenomeArk.
 
 > [!NOTE]
-> **PASS WITH WARNINGS** · validated 2026-11-02 · `GCA_048934315.1`
+> **PASS WITH WARNINGS** · validated 2026-11-12 · `GCA_048934315.1`
 >
 > Metadata agrees with the data published on GenomeArk, with 1 warning to note.
 >
-> **Provenance incomplete** — no reviewed list of contributing BioProjects exists for this species, so it cannot yet be cited. (`G017`)
+> **Provenance incorrect** — the recorded list of contributing BioProjects is known to be wrong, so it cannot be used for citation. (`E002`)
 >
 > See [References](#references).
 >
@@ -71,12 +71,12 @@ The callable-sites mask was built over depths 19–80× ([`coverage_thresholds.t
 
 ## References
 
-> [!WARNING]
+> [!CAUTION]
 > **This dataset cannot yet be cited.**
 >
-> No reviewed list of contributing BioProjects exists in this repository, so there is nothing here to credit the people who generated the reads. Do not publish analyses of this dataset until that list exists.
+> The recorded list of contributing BioProjects is known to be incorrect, so it is not reproduced here — a wrong citation list is worse than none, because it propagates into other people's papers. Do not publish analyses of this dataset until it is corrected.
 >
-> Reported by `G017` — see [`VALIDATION.md`](VALIDATION.md) for what that means and how to fix it.
+> Reported by `E002` — see [`VALIDATION.md`](VALIDATION.md) for what that means and how to fix it.
 
 ## Getting the data
 

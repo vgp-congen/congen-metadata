@@ -317,6 +317,19 @@ University of Manitoba · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/P
 - NOT YET REVIEWED
 - NO PUBLICATION FOUND
 
+## PRJNA1031558 — 58 samples · fishes/salvelinus-alpinus
+
+low-coverage Whole Genome Sequencing of Salvelinus alpinus
+Universite Laval · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1031558)
+
+<!-- considered: 10.1111/eva.70259 10.1111/mec.17772 10.1093/gbe/evad229 -->
+
+- NOT YET REVIEWED
+- ★ [10.1111/eva.70259](https://doi.org/10.1111/eva.70259) — Dallaire X et al. (2026) Conservation Units for Anadromous Arctic Char (&lt;i&gt;Salvelinus alpinus&lt;/i&gt;) in the Canadian Arctic Informed by Genetic Structure, Population Connectivity and Adaptive Genomic Variation
+- ★ [10.1111/mec.17772](https://doi.org/10.1111/mec.17772) — Dallaire X et al. (2025) Leveraging Whole Genomes, Mitochondrial DNA and Haploblocks to Decipher Complex Demographic Histories: An Example From a Broadly Admixed Arctic Fish
+- ★ [10.1093/gbe/evad229](https://doi.org/10.1093/gbe/evad229) — Dallaire X et al. (2023) Widespread Deviant Patterns of Heterozygosity in Whole-Genome Sequencing Due to Autopolyploidy, Repeated Elements, and Duplication
+- NO PUBLICATION FOUND
+
 ## PRJNA724031 — 57 samples · mammals/tursiops-truncatus
 
 Tursiops truncatus Raw sequence reads
@@ -446,6 +459,17 @@ University of Victoria · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/P
 - ★ [10.1093/g3journal/jkae183](https://doi.org/10.1093/g3journal/jkae183) — Johnson HA et al. (2024) Loss of genetic variation and ancestral sex determination system in North American northern pike characterized by whole-genome resequencing
 - NO PUBLICATION FOUND
 
+## PRJNA879287 — 45 samples · birds/gallus-gallus
+
+Historic samples reveal loss of wild genotype through domestic chicken introgression during the Anthropocene
+NUS · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA879287)
+
+<!-- considered: 10.1371/journal.pgen.1010551 -->
+
+- NOT YET REVIEWED
+- [10.1371/journal.pgen.1010551](https://doi.org/10.1371/journal.pgen.1010551) — Wu MY et al. (2023) Historic samples reveal loss of wild genotype through domestic chicken introgression during the Anthropocene
+- NO PUBLICATION FOUND
+
 ## PRJNA1255292 — 44 samples · fishes/haplochromis-burtoni
 
 Genome assemblies and family crosses to understand sex chromosomes in a lab population of Astatotilapia burtoni
@@ -474,6 +498,14 @@ BIOPOLIS/CIBIO-InBIO Research Center in Biodiversity and Genetic Resources · [B
 
 - NOT YET REVIEWED
 - [10.1016/j.isci.2025.112937](https://doi.org/10.1016/j.isci.2025.112937) — Marques CI et al. (2025) Physiological plasticity in zebra finch color varieties mitigates DNA damage under oxidative stress
+- NO PUBLICATION FOUND
+
+## PRJEB61943 — 40 samples · fishes/salmo-trutta
+
+Systematic monitoring of genetic diversity in wild brown trout
+Stockholm University · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJEB61943)
+
+- NOT YET REVIEWED
 - NO PUBLICATION FOUND
 
 ## PRJNA167554 — 38 samples · birds/columba-livia
@@ -687,6 +719,17 @@ CAFS · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA522329)
 - [10.1002/advs.202417251](https://doi.org/10.1002/advs.202417251) — Liu K et al. (2025) Patterns and Processes of Genomic Evolution Inferred From the Ten Smallest Vertebrate Genomes
 - NO PUBLICATION FOUND
 
+## PRJNA860083 — 26 samples · fishes/salvelinus-alpinus
+
+Signatures of selection in Nordic Arctic charr using WGS
+Swedish University of Agricurltural sciences · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA860083)
+
+<!-- considered: 10.1111/eva.13537 -->
+
+- NOT YET REVIEWED
+- [10.1111/eva.13537](https://doi.org/10.1111/eva.13537) — Pappas F et al. (2023) Whole-genome re-sequencing provides key genomic insights in farmed Arctic charr (<i>Salvelinus alpinus</i>) populations of anadromous and landlocked origin from Scandinavia
+- NO PUBLICATION FOUND
+
 ## PRJNA935977 — 25 samples · birds/sturnus-vulgaris
 
 Contrasting patterns of single nucleotide polymorphisms and structural variations across multiple invasions
@@ -776,6 +819,17 @@ Chongqing Academy of Animal Science · [BioProject](https://www.ncbi.nlm.nih.gov
 - NOT YET REVIEWED
 - NO PUBLICATION FOUND
 
+## PRJEB62707 — 22 samples · fishes/salvelinus-alpinus
+
+Conservation genomics of Arctic charr
+Division of Population Genetics · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJEB62707)
+
+<!-- considered: 10.1111/mec.17772 -->
+
+- NOT YET REVIEWED
+- [10.1111/mec.17772](https://doi.org/10.1111/mec.17772) — Dallaire X et al. (2025) Leveraging Whole Genomes, Mitochondrial DNA and Haploblocks to Decipher Complex Demographic Histories: An Example From a Broadly Admixed Arctic Fish
+- NO PUBLICATION FOUND
+
 ## PRJNA575503 — 22 samples · birds/anser-cygnoides
 
 Resequencing of 24 overfed Landes geese
@@ -850,6 +904,17 @@ University of Vienna · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJ
 
 - NOT YET REVIEWED
 - ★ [10.1186/s13059-021-02430-y](https://doi.org/10.1186/s13059-021-02430-y) — Xue L et al. (2021) Telomere-to-telomere assembly of a fish Y chromosome reveals the origin of a young sex chromosome pair
+- NO PUBLICATION FOUND
+
+## PRJNA803600 — 21 samples · fishes/salvelinus-alpinus
+
+Genome-wide methylation in Arctic charr
+Swedish University of Agricurltural sciences · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA803600)
+
+<!-- considered: 10.1038/s41437-025-00756-y -->
+
+- NOT YET REVIEWED
+- [10.1038/s41437-025-00756-y](https://doi.org/10.1038/s41437-025-00756-y) — Pappas F et al. (2025) Sperm DNA methylation landscape and its links to male fertility in a non-model teleost using EM-seq
 - NO PUBLICATION FOUND
 
 ## PRJNA914225 — 21 samples · mammals/neofelis-nebulosa
@@ -1071,6 +1136,21 @@ Instituto de Acuicultura Torre de la Sal · [BioProject](https://www.ncbi.nlm.ni
 - NOT YET REVIEWED
 - NO PUBLICATION FOUND
 
+## PRJNA552030 — 16 samples · birds/gallus-gallus
+
+Evolutionary History of the genus Gallus
+INRA · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA552030)
+
+<!-- considered: 10.1002/age.70168 10.1016/j.psj.2025.105844 10.1038/s41598-026-54932-z 10.1038/s41598-023-34520-1 10.1186/s40104-024-01006-7 -->
+
+- NOT YET REVIEWED
+- [10.1002/age.70168](https://doi.org/10.1002/age.70168) — Li J et al. (2026) The Mottling Phenotype in Chickens Shows Genetic Heterogeneity and Is Caused by Mutations at the EDNRB2 Locus
+- [10.1016/j.psj.2025.105844](https://doi.org/10.1016/j.psj.2025.105844) — Zhang B et al. (2025) Construction of SNP feature library for the identification of chicken breeds
+- [10.1038/s41598-026-54932-z](https://doi.org/10.1038/s41598-026-54932-z) — Gebru G et al. (2026) Low-pass whole-genome sequencing reveals genomic diversity and ecotype-specific adaptation in indigenous Tigrayan chickens
+- [10.1038/s41598-023-34520-1](https://doi.org/10.1038/s41598-023-34520-1) — Ishihara S (2023) Detection of long terminal repeat loci derived from endogenous retrovirus in junglefowl using whole-genome sequencing
+- [10.1186/s40104-024-01006-7](https://doi.org/10.1186/s40104-024-01006-7) — Zhao X et al. (2024) Significant genomic introgression from grey junglefowl (Gallus sonneratii) to domestic chickens (Gallus gallus domesticus)
+- NO PUBLICATION FOUND
+
 ## PRJEB58761 — 15 samples · birds/tetrao-urogallus
 
 Tetrao_urogallus_Popgen
@@ -1196,6 +1276,14 @@ European Bioinformatics Institute · [BioProject](https://www.ncbi.nlm.nih.gov/b
 - NOT YET REVIEWED
 - NO PUBLICATION FOUND
 
+## PRJNA1250286 — 12 samples · mammals/megaptera-novaeangliae
+
+Humpack whale demography
+University of Groningen · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1250286)
+
+- NOT YET REVIEWED
+- NO PUBLICATION FOUND
+
 ## PRJNA1264480 — 12 samples · birds/zosterops-lateralis
 
 Islands promote diversification of the silvereye species complex: a phylogenomic analysis of a great speciator
@@ -1291,6 +1379,14 @@ Ecological Genetics Research Unit · [BioProject](https://www.ncbi.nlm.nih.gov/b
 - NOT YET REVIEWED
 - ★ [10.1098/rspb.2022.0352](https://doi.org/10.1098/rspb.2022.0352) — Fraimout A et al. (2022) Age-dependent genetic architecture across ontogeny of body size in sticklebacks
 - ★ [10.1093/molbev/msab144](https://doi.org/10.1093/molbev/msab144) — Fang B et al. (2021) Population Structure Limits Parallel Evolution in Sticklebacks
+- NO PUBLICATION FOUND
+
+## PRJNA808978 — 11 samples · fishes/salvelinus-alpinus
+
+Population Genomics of Arctic Charr
+University of Glasgow · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA808978)
+
+- NOT YET REVIEWED
 - NO PUBLICATION FOUND
 
 ## PRJNA900175 — 11 samples · fishes/hemiscyllium-ocellatum
@@ -1662,6 +1758,17 @@ University of California, Los Angeles · [BioProject](https://www.ncbi.nlm.nih.g
 - [10.1186/s12915-026-02661-0](https://doi.org/10.1186/s12915-026-02661-0) — Hastings BT et al. (2026) Dissecting cancer in a non-mammalian model: genomic insights from lemon frost geckos
 - NO PUBLICATION FOUND
 
+## PRJNA946925 — 7 samples · fishes/salvelinus-alpinus
+
+Salvelinus alpinus breed:Arctic Superior Raw sequence reads
+Swedish University of Agricurltural sciences · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA946925)
+
+<!-- considered: 10.1186/s12864-023-09614-9 -->
+
+- NOT YET REVIEWED
+- [10.1186/s12864-023-09614-9](https://doi.org/10.1186/s12864-023-09614-9) — Kurta K et al. (2023) Seasonal and age-related changes in sperm quality of farmed arctic charr (Salvelinus alpinus)
+- NO PUBLICATION FOUND
+
 ## PRJNA1165315 — 6 samples · birds/sturnus-vulgaris
 
 Population genetics and invasion history of the European Starling across Aotearoa, New Zealand: whole genome resequencing of New Zealand starlings
@@ -1806,6 +1913,22 @@ Cold Spring Harbor Laboratory · [BioProject](https://www.ncbi.nlm.nih.gov/biopr
 
 Evolutionary history of Astyanax
 Universidad Nacional Autonoma de Mexico · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA899818)
+
+- NOT YET REVIEWED
+- NO PUBLICATION FOUND
+
+## PRJEB22206 — 4 samples · birds/aquila-chrysaetos · birds/erithacus-rubecula · fishes/salmo-trutta · mammals/arvicola-amphibius
+
+25_Genomes_for_25_Years_of_Genomics
+Wellcome Sanger Institute · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJEB22206)
+
+- NOT YET REVIEWED
+- NO PUBLICATION FOUND
+
+## PRJNA1018098 — 4 samples · mammals/balaenoptera-acutorostrata · mammals/balaenoptera-ricei · mammals/eubalaena-glacialis · mammals/megaptera-novaeangliae
+
+Highly amplified KRTAP hair genes have been repurposed as 'baleen genes' in filter-feeding mysticete whales
+University of California Riverside · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1018098)
 
 - NOT YET REVIEWED
 - NO PUBLICATION FOUND
@@ -1958,22 +2081,6 @@ Center for Applied Medical Research · [BioProject](https://www.ncbi.nlm.nih.gov
 - [10.1073/pnas.2400486121](https://doi.org/10.1073/pnas.2400486121) — Ullate-Agote A et al. (2024) The dynamic behavior of chromatophores marks the transition from bands to spots in leopard geckos
 - NO PUBLICATION FOUND
 
-## PRJEB22206 — 3 samples · birds/aquila-chrysaetos · birds/erithacus-rubecula · mammals/arvicola-amphibius
-
-25_Genomes_for_25_Years_of_Genomics
-Wellcome Sanger Institute · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJEB22206)
-
-- NOT YET REVIEWED
-- NO PUBLICATION FOUND
-
-## PRJNA1018098 — 3 samples · mammals/balaenoptera-acutorostrata · mammals/balaenoptera-ricei · mammals/eubalaena-glacialis
-
-Highly amplified KRTAP hair genes have been repurposed as 'baleen genes' in filter-feeding mysticete whales
-University of California Riverside · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1018098)
-
-- NOT YET REVIEWED
-- NO PUBLICATION FOUND
-
 ## PRJNA545868 — 3 samples · birds/grus-americana · birds/hirundo-rustica · birds/poecile-atricapillus
 
 Bird 10,000 Genomes (B10K) Project - Family phase
@@ -2021,6 +2128,19 @@ Nine-spined stickleback linkage map (parents)
 UNIVERSITY OF HELSINKI · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJEB39736)
 
 - NOT YET REVIEWED
+- NO PUBLICATION FOUND
+
+## PRJEB42301 — 3 samples · birds/gallus-gallus
+
+863 genomes reveal the origin and domestication of chicken
+Ludwig-Maximilians-Universitat Munich · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJEB42301)
+
+<!-- considered: 10.1186/s12864-025-12366-3 10.1016/j.psj.2025.105060 10.3390/ani16182836 -->
+
+- NOT YET REVIEWED
+- [10.1186/s12864-025-12366-3](https://doi.org/10.1186/s12864-025-12366-3) — Matsuda Y et al. (2025) Genomic origin and consequence of captive red junglefowl in zoological parks
+- [10.1016/j.psj.2025.105060](https://doi.org/10.1016/j.psj.2025.105060) — Matsuda Y et al. (2025) Population genomics elucidates the trajectory of chicken domestication from Asia to Japan
+- [10.3390/ani16182836](https://doi.org/10.3390/ani16182836) — Wang M et al. (2026) Selection Signatures from RAD-Seq Reveal Candidate Genomic Regions Potentially Underlying Immune and Adaptive Traits in Southwest Chinese Local Chickens
 - NO PUBLICATION FOUND
 
 ## PRJEB48921 — 3 samples · fishes/astatotilapia-calliptera
@@ -2077,6 +2197,14 @@ International Sheep Genomics Consortium · [BioProject](https://www.ncbi.nlm.nih
 - [10.3389/fgene.2023.1109490](https://doi.org/10.3389/fgene.2023.1109490) — Gaspar D et al. (2023) Genome-wide assessment of the population structure and genetic diversity of four Portuguese native sheep breeds
 - NO PUBLICATION FOUND
 
+## PRJNA267002 — 3 samples · birds/gallus-gallus
+
+Genome resequencing reveals the genetics underlying the Duplex comb phenotype in chicken
+Uppsala University · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA267002)
+
+- NOT YET REVIEWED
+- NO PUBLICATION FOUND
+
 ## PRJNA376394 — 3 samples · fishes/archocentrus-centrarchus
 
 quaddRAD protocol
@@ -2095,6 +2223,14 @@ Stanford University · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJN
 - NOT YET REVIEWED
 - ★ [10.1093/gigascience/giy124](https://doi.org/10.1093/gigascience/giy124) — Armstrong EE et al. (2019) Cost-effective assembly of the African wild dog (Lycaon pictus) genome using linked reads
 - [10.1038/s41598-019-44772-5](https://doi.org/10.1038/s41598-019-44772-5) — Chavez DE et al. (2019) Comparative genomics provides new insights into the remarkable adaptations of the African wild dog (Lycaon pictus)
+- NO PUBLICATION FOUND
+
+## PRJNA516628 — 3 samples · fishes/salvelinus-alpinus
+
+Whole genome resequencing of Nauyuk Lake and Tree River hybrids.
+University of Victoria · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA516628)
+
+- NOT YET REVIEWED
 - NO PUBLICATION FOUND
 
 ## PRJNA531381 — 3 samples · mammals/sus-scrofa-domesticus
@@ -2169,6 +2305,19 @@ Chongqing Academy of Animal Science · [BioProject](https://www.ncbi.nlm.nih.gov
 - ★ [10.1016/j.psj.2025.104842](https://doi.org/10.1016/j.psj.2025.104842) — Huang M et al. (2025) Goose multi-omics database: A comprehensive multi-omics database for goose genomics
 - NO PUBLICATION FOUND
 
+## PRJNA980845 — 3 samples · birds/gallus-gallus
+
+Gallus gallus Raw sequence reads
+China Agricultural University · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA980845)
+
+<!-- considered: 10.1016/j.psj.2024.104073 10.1186/s40168-025-02054-5 10.1186/s12864-024-10551-4 -->
+
+- NOT YET REVIEWED
+- ★ [10.1016/j.psj.2024.104073](https://doi.org/10.1016/j.psj.2024.104073) — Jin J et al. (2024) Calcium deposition in chicken eggshells: role of host genetics and gut microbiota
+- ★ [10.1186/s40168-025-02054-5](https://doi.org/10.1186/s40168-025-02054-5) — Lan F et al. (2025) Deciphering the coordinated roles of the host genome, duodenal mucosal genes, and microbiota in regulating complex traits in chickens
+- ★ [10.1186/s12864-024-10551-4](https://doi.org/10.1186/s12864-024-10551-4) — Li X et al. (2024) Runs of homozygosity and selection signature analyses reveal putative genomic regions for artificial selection in layer breeding
+- NO PUBLICATION FOUND
+
 ## PRJNA389516 — 2 samples · mammals/balaenoptera-musculus · mammals/eubalaena-glacialis
 
 Baleen whale resequencing
@@ -2192,6 +2341,19 @@ University of Copenhagen · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject
 - [10.1093/nargab/lqab071](https://doi.org/10.1093/nargab/lqab071) — Rachtman E et al. (2021) CONSULT: accurate contamination removal using locality-sensitive hashing
 - NO PUBLICATION FOUND
 
+## PRJEB15276 — 2 samples · birds/gallus-gallus
+
+Whole Genome Sequencing of Broiler Chicken
+THE ROSLIN INSTITUTE AND ROYAL (DICK) SCHOOL OF VETERINARY STUDIES · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJEB15276)
+
+<!-- considered: 10.1016/j.psj.2025.105844 10.1186/s12864-024-10291-5 10.1534/g3.116.035923 -->
+
+- NOT YET REVIEWED
+- ★ [10.1534/g3.116.035923](https://doi.org/10.1534/g3.116.035923) — Warren WC et al. (2017) A New Chicken Genome Assembly Provides Insight into Avian Genome Structure
+- [10.1016/j.psj.2025.105844](https://doi.org/10.1016/j.psj.2025.105844) — Zhang B et al. (2025) Construction of SNP feature library for the identification of chicken breeds
+- [10.1186/s12864-024-10291-5](https://doi.org/10.1186/s12864-024-10291-5) — Wu S et al. (2024) Artificial selection footprints in indigenous and commercial chicken genomes
+- NO PUBLICATION FOUND
+
 ## PRJEB31857 — 2 samples · mammals/capra-hircus
 
 This dataset includes a total of 266 whole genome sequencing data from goats (AGIN-USDA). It has been uploaded for the VarGoats Consortium (http://www.goatgenome.org/vargoats.html). To use this dataset please contact: Emily.Clark@roslin.ed.ac.uk or gwenola.tosser@inra.fr or Ben.Rosen@ARS.USDA.GOV or vargoats@inra.fr
@@ -2213,6 +2375,17 @@ EAWAG · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJEB47792)
 
 - NOT YET REVIEWED
 - ★ [10.1038/s41467-022-32181-8](https://doi.org/10.1038/s41467-022-32181-8) — De-Kayne R et al. (2022) Genomic architecture of adaptive radiation and hybridization in Alpine whitefish
+- NO PUBLICATION FOUND
+
+## PRJEB48212 — 2 samples · fishes/salmo-trutta
+
+Two genetically separate brown trout populations are studied following their release into an environment previously void of this species. We use a pooled sequencing approach to explore the genomic characteristics of the released stocks and populations established 30 years (4-5 generations) after the release in two lakes down-stream of the release site.
+Stockholm University · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJEB48212)
+
+<!-- considered: 10.1002/ece3.9050 -->
+
+- NOT YET REVIEWED
+- ★ [10.1002/ece3.9050](https://doi.org/10.1002/ece3.9050) — Kurland S et al. (2022) Genomic dynamics of brown trout populations released to a novel environment
 - NO PUBLICATION FOUND
 
 ## PRJEB49185 — 2 samples · fishes/gasterosteus-aculeatus
@@ -3100,6 +3273,17 @@ China Agricultural University · [BioProject](https://www.ncbi.nlm.nih.gov/biopr
 - NOT YET REVIEWED
 - NO PUBLICATION FOUND
 
+## PRJNA1171601 — 1 sample · fishes/salmo-trutta
+
+Yadong trout (Salmo trutta) Raw sequence reads
+Yellow Sea Fisheries Research Institute · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1171601)
+
+<!-- considered: 10.1038/s41597-025-04418-w -->
+
+- NOT YET REVIEWED
+- ★ [10.1038/s41597-025-04418-w](https://doi.org/10.1038/s41597-025-04418-w) — Li C et al. (2025) Near complete genome assembly of Yadong trout (Salmo trutta)
+- NO PUBLICATION FOUND
+
 ## PRJNA1186817 — 1 sample · mammals/ovis-aries
 
 whole genome sequencing
@@ -3627,6 +3811,21 @@ CIIMAR - Interdisciplinary Centre of Marine and Environmental Research · [BioPr
 - NOT YET REVIEWED
 - NO PUBLICATION FOUND
 
+## PRJNA482210 — 1 sample · birds/gallus-gallus
+
+Gallus gallus breed:indigenous chicken Genome sequencing and assembly
+Jiaying University · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA482210)
+
+<!-- considered: 10.1016/j.psj.2025.105844 10.1016/j.psj.2023.103343 10.3390/life13030793 10.1016/j.psj.2023.103376 10.1016/j.psj.2025.105377 -->
+
+- NOT YET REVIEWED
+- [10.1016/j.psj.2025.105844](https://doi.org/10.1016/j.psj.2025.105844) — Zhang B et al. (2025) Construction of SNP feature library for the identification of chicken breeds
+- [10.1016/j.psj.2023.103343](https://doi.org/10.1016/j.psj.2023.103343) — Liu C et al. (2024) Research Note: Development and application of specific molecular identity cards for "Yufen 1" H line chickens
+- [10.3390/life13030793](https://doi.org/10.3390/life13030793) — Liu C et al. (2023) Population Structure and Genetic Diversity Analysis of "Yufen 1" H Line Chickens Using Whole-Genome Resequencing
+- [10.1016/j.psj.2023.103376](https://doi.org/10.1016/j.psj.2023.103376) — Gu LH et al. (2024) Genomic insights into local adaptation and phenotypic diversity of Wenchang chickens
+- [10.1016/j.psj.2025.105377](https://doi.org/10.1016/j.psj.2025.105377) — Liu C et al. (2025) Whole-genome sequencing revealed genetic structure, patterns of selection and molecular identity card in "Yufen 1" D line chickens
+- NO PUBLICATION FOUND
+
 ## PRJNA488093 — 1 sample · mammals/lycaon-pictus
 
 African wild dog (Lycaon pictus) whole genome raw sequence reads.
@@ -3663,6 +3862,17 @@ University of Copenhagen · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject
 
 - NOT YET REVIEWED
 - ★ [10.1016/j.isci.2019.03.023](https://doi.org/10.1016/j.isci.2019.03.023) — Westbury MV et al. (2019) Narwhal Genome Reveals Long-Term Low Genetic Diversity despite Current Large Abundance Size
+- NO PUBLICATION FOUND
+
+## PRJNA509641 — 1 sample · mammals/megaptera-novaeangliae
+
+Megaptera novaeangliae isolate:ASU/GRON-1 Genome sequencing and assembly
+Arizona Cancer Evolution Center (ACE) · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA509641)
+
+<!-- considered: 10.1093/molbev/msz099 -->
+
+- NOT YET REVIEWED
+- [10.1093/molbev/msz099](https://doi.org/10.1093/molbev/msz099) — Tollis M et al. (2019) Return to the Sea, Get Huge, Beat Cancer: An Analysis of Cetacean Genomes Including an Assembly for the Humpback Whale (Megaptera novaeangliae)
 - NO PUBLICATION FOUND
 
 ## PRJNA514887 — 1 sample · fishes/esox-lucius
@@ -4032,12 +4242,42 @@ Yellow Sea fisheries Research Institution · [BioProject](https://www.ncbi.nlm.n
 - NOT YET REVIEWED
 - NO PUBLICATION FOUND
 
+## PRJNA800119 — 1 sample · birds/gallus-gallus
+
+Gallus gallus Raw sequence reads
+Chinese Academy of Agriculture Science · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA800119)
+
+<!-- considered: 10.1016/j.psj.2024.104585 10.3390/genes13122317 10.1186/s12864-024-10774-5 10.1016/j.psj.2026.107260 10.1016/j.jare.2022.07.005 -->
+
+- NOT YET REVIEWED
+- ★ [10.1016/j.jare.2022.07.005](https://doi.org/10.1016/j.jare.2022.07.005) — Shi S et al. (2023) Whole genome analyses reveal novel genes associated with chicken adaptation to tropical and frigid environments
+- [10.1016/j.psj.2024.104585](https://doi.org/10.1016/j.psj.2024.104585) — Wei F et al. (2025) Identification of Taihang-chicken-specific genetic markers using genome-wide SNPs and machine learning: BREED-SPECIFIC SNPS OF TAIHANG CHICKEN
+- [10.3390/genes13122317](https://doi.org/10.3390/genes13122317) — Shao D et al. (2022) Three-Dimensional Organization of Chicken Genome Provides Insights into Genetic Adaptation to Extreme Environments
+- [10.1186/s12864-024-10774-5](https://doi.org/10.1186/s12864-024-10774-5) — Chen C et al. (2024) Whole-genome resequencing reveals melanin deposition candidate genes of Luning chicken
+- [10.1016/j.psj.2026.107260](https://doi.org/10.1016/j.psj.2026.107260) — Wang S et al. (2026) Integrated three-dimensional genomic analysis reveals that dynamic changes in chromatin structure are associated with differences in egg production performance between White Leghorn and Wenchang chickens
+- NO PUBLICATION FOUND
+
 ## PRJNA801057 — 1 sample · mammals/capra-hircus
 
 Whole genome sequencing data from Iraq and Pakistan goats
 Northwest A&F University, Yangling, Shaanxi 712100, China · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA801057)
 
 - NOT YET REVIEWED
+- NO PUBLICATION FOUND
+
+## PRJNA805080 — 1 sample · birds/gallus-gallus
+
+Gallus gallus breed:Silkie Genome sequencing and assembly
+China Agricultural University · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA805080)
+
+<!-- considered: 10.1038/s42003-025-07826-1 10.1093/gbe/evag038 10.3389/fgene.2023.1180658 10.1038/s42003-023-05619-y 10.1159/000529376 -->
+
+- NOT YET REVIEWED
+- ★ [10.1038/s42003-025-07826-1](https://doi.org/10.1038/s42003-025-07826-1) — Zhao QS et al. (2025) Reply to: The genomic structure of complex chromosomal rearrangement at the Fm locus in black-bone Silkie chicken
+- ★ [10.1038/s42003-023-05619-y](https://doi.org/10.1038/s42003-023-05619-y) — Zhu F et al. (2023) A chromosome-level genome assembly for the Silkie chicken resolves complete sequences for key chicken metabolic, reproductive, and immunity genes
+- ★ [10.1159/000529376](https://doi.org/10.1159/000529376) — Smith J et al. (2022) Fourth Report on Chicken Genes and Chromosomes 2022
+- [10.1093/gbe/evag038](https://doi.org/10.1093/gbe/evag038) — Hron T et al. (2026) Decoding the Avian Missing Gene Mystery: Dot Chromosomes Unmask Extensive Gene Loss and Novel Genetic Instability
+- [10.3389/fgene.2023.1180658](https://doi.org/10.3389/fgene.2023.1180658) — Shinde SS et al. (2023) Decoding the fibromelanosis locus complex chromosomal rearrangement of black-bone chicken: genetic differentiation, selective sweeps and protein-coding changes in Kadaknath chicken
 - NO PUBLICATION FOUND
 
 ## PRJNA812859 — 1 sample · mammals/sminthopsis-crassicaudata
@@ -4119,6 +4359,14 @@ Aquatic Genome Models · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PR
 - [10.1038/ncomms6307](https://doi.org/10.1038/ncomms6307) — McGaugh SE et al. (2014) The cavefish genome reveals candidate genes for eye loss
 - NO PUBLICATION FOUND
 
+## PRJNA898089 — 1 sample · fishes/salmo-trutta
+
+Reference sequences for Australian freshwater fishes: Genome sequencing and assembly
+CSIRO Applied Genomics Initiative · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA898089)
+
+- NOT YET REVIEWED
+- NO PUBLICATION FOUND
+
 ## PRJNA902967 — 1 sample · fishes/platichthys-flesus
 
 Shot gun sequencing of genomes of Iberian freshwater fish species
@@ -4182,6 +4430,17 @@ Scatophagus argus
 Iridian Genomes · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA936574)
 
 - NOT YET REVIEWED
+- NO PUBLICATION FOUND
+
+## PRJNA940098 — 1 sample · birds/gallus-gallus
+
+Jinghong layer chicken genome sequencing
+Huazhong agricultural University · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA940098)
+
+<!-- considered: 10.1016/j.isci.2023.106426 -->
+
+- NOT YET REVIEWED
+- ★ [10.1016/j.isci.2023.106426](https://doi.org/10.1016/j.isci.2023.106426) — Chu J et al. (2023) The genomic characteristics affect phenotypic diversity from the perspective of genetic improvement of economic traits
 - NO PUBLICATION FOUND
 
 ## PRJNA941958 — 1 sample · mammals/capra-hircus
@@ -4306,7 +4565,10 @@ Albert Ludwig University Freiburg · [BioProject](https://www.ncbi.nlm.nih.gov/b
 Taeniopygia guttata (zebra finch) genome, bTaeGut8, sequence data
 Vertebrate Genomes Project · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1241434)
 
+<!-- considered: 10.1016/j.cell.2026.07.018 -->
+
 - NOT YET REVIEWED
+- [10.1016/j.cell.2026.07.018](https://doi.org/10.1016/j.cell.2026.07.018) — Formenti G et al. (2026) The complete genome of a songbird
 - NO PUBLICATION FOUND
 
 ## PRJNA1241435 — 0 samples
@@ -4314,7 +4576,10 @@ Vertebrate Genomes Project · [BioProject](https://www.ncbi.nlm.nih.gov/bioproje
 Taeniopygia guttata (zebra finch) genome, bTaeGut9, sequence data
 Vertebrate Genomes Project · [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1241435)
 
+<!-- considered: 10.1016/j.cell.2026.07.018 -->
+
 - NOT YET REVIEWED
+- [10.1016/j.cell.2026.07.018](https://doi.org/10.1016/j.cell.2026.07.018) — Formenti G et al. (2026) The complete genome of a songbird
 - NO PUBLICATION FOUND
 
 ## PRJNA909969 — 0 samples

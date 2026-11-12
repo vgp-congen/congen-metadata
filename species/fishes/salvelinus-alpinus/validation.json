@@ -1,0 +1,100 @@
+{
+  "subject": "fishes/salvelinus-alpinus",
+  "state": "PASS",
+  "validated_at": "2026-11-12T23:31:43Z",
+  "tool_version": "0.4.0",
+  "catalog": "sha256:44f7010fb4de2e48c91122dfd97086699b1036f7038eda45349f6a6db2e58514",
+  "checks_run": [
+    "E001",
+    "E002",
+    "E003",
+    "F001",
+    "F002",
+    "F003",
+    "F004",
+    "F005",
+    "F006",
+    "F008",
+    "F009",
+    "F011",
+    "F020",
+    "F021",
+    "F022",
+    "F023",
+    "F024",
+    "G001",
+    "G010",
+    "G011",
+    "G012",
+    "G013",
+    "G014",
+    "G017",
+    "G018",
+    "P001",
+    "P002",
+    "P003",
+    "R001",
+    "R002",
+    "R003",
+    "R010",
+    "R013",
+    "R015",
+    "R016",
+    "R017",
+    "R020",
+    "S001",
+    "S002",
+    "S003",
+    "S004",
+    "S005",
+    "S006",
+    "S007"
+  ],
+  "checks_available": 44,
+  "inputs": {
+    "config.yaml": "sha256:f0dbf735920329112ef6e8a896a5ca4b802cd4584c64e68c8de521194310e34c",
+    "sample_sheet.csv": "sha256:8b4a3e19bfcf1a21f2a996a9b177d26e6b2dc22b6fecea3ebab5352609c22dc6",
+    "README.txt": "sha256:2d79c7730415526f667daf75dceb0a1276080627d8fc788d03766eca5efe3511"
+  },
+  "data": {
+    "published": true,
+    "accession": "GCA_054100595.1",
+    "objects": {
+      "raw.vcf.gz": "etag:15dd6088546029d9a962bb4f8c2c8bd1-9181",
+      "raw.vcf.gz.tbi": "etag:01401340c8da93f7670fb8919eb9646a",
+      "sample_sheet.csv": "etag:d40361d1458642185c8fa9cc0a1995ba"
+    },
+    "bams": {
+      "count": 148,
+      "digest": "sha256:e002fc2a498b2b1ceb7d2b3b0123db920affbdfa6695089ad9ec9fc07ca0e3e5"
+    }
+  },
+  "findings": [],
+  "status": {
+    "subject": "fishes/salvelinus-alpinus",
+    "state": "complete",
+    "accession": "GCA_054100595.1",
+    "declared_accession": "GCA_054100595.1",
+    "accession_differs": false,
+    "present": [
+      "bams",
+      "callable_sites",
+      "published_readme",
+      "qc",
+      "raw_vcf",
+      "raw_vcf_index",
+      "repo_readme"
+    ],
+    "missing": [],
+    "missing_optional": [
+      "filtered_vcf"
+    ],
+    "counts": {
+      "sheet_samples": 148,
+      "bams": 148,
+      "vcf_samples": 148
+    }
+  },
+  "superseded": null,
+  "stale_reason": null
+}
